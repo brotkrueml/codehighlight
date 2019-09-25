@@ -18,5 +18,10 @@ tt_content.tx_codehighlight {
     10 {
       as = options
     }
+
+    20 = TYPO3\CMS\Frontend\DataProcessing\SiteProcessor
+    20 {
+      as = site
+    }
   }
 }
