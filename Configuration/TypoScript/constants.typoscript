@@ -1,0 +1,8 @@
+tt_content.tx_codehighlight {
+  # cat=codehighlight/file/p1; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:templateRootPath
+  templateRootPath =
+  # cat=codehighlight/file/p2; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:partialRootPath
+  partialRootPath =
+  # cat=codehighlight/file/p3; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:layoutRootPath
+  layoutRootPath =
+}

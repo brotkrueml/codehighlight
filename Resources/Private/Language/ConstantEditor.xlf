@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T15:21:20Z">
+		<body>
+			<trans-unit id="layoutRootPath">
+				<source><![CDATA[Path to template layouts (FE)]]></source>
+			</trans-unit>
+			<trans-unit id="partialRootPath">
+				<source><![CDATA[Path to template partials (FE)]]></source>
+			</trans-unit>
+			<trans-unit id="templateRootPath">
+				<source><![CDATA[Path to template root (FE)]]></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

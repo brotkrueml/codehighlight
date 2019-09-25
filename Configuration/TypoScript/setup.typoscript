@@ -1,0 +1,15 @@
+tt_content.tx_codehighlight = FLUIDTEMPLATE
+tt_content.tx_codehighlight {
+  templateRootPaths {
+    0 = EXT:codehighlight/Resources/Private/Templates/
+    10 = {$tt_content.tx_codehighlight.templateRootPath}
+  }
+  partialRootPaths {
+    10 = {$tt_content.tx_codehighlight.partialRootPath}
+  }
+  layoutRootPaths {
+    10 = {$tt_content.tx_codehighlight.layoutRootPath}
+  }
+
+  templateName = Highlight
+}
