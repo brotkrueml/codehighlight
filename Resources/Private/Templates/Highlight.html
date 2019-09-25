@@ -1,7 +1,11 @@
-<html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-    <link href="/typo3conf/ext/codehighlight/Resources/Public/Vendor/PrismJs/themes/prism.css" rel="stylesheet">
-    <script src="/typo3conf/ext/codehighlight/Resources/Public/Vendor/PrismJs/components/prism-core.min.js"></script>
-    <script src="/typo3conf/ext/codehighlight/Resources/Public/Vendor/PrismJs/plugins/autoloader/prism-autoloader.min.js"></script>
+<html
+    xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    xmlns:codeHighlight="https://typo3.org/ns/Brotkrueml/CodeHighlight/ViewHelpers"
+    data-namespace-typo3-fluid="true"
+>
+    <codeHighlight:asset.style path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/themes/prism.css"/>
+    <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/components/prism-core.min.js"/>
+    <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/autoloader/prism-autoloader.min.js"/>
 
     <f:if condition="{data.bodytext}">
         <pre><code class="language-{options.programmingLanguage}">{data.bodytext}</code></pre>

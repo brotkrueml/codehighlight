@@ -49,6 +49,16 @@ const copyThemes = () =>
     .pipe(gulp.dest(options.outputPath + 'themes/'))
 ;
 
+const adjustAutoloaderPlugin = (cb) => {
+  // If cache busting is activated (e.g. prism-autoloader.min.1234567890.js) the url of the loaded language files
+  // is not correct. So here is a dirty workaround.
+  let autoloader = fs.readFileSync(options.outputPath + 'plugins/autoloader/prism-autoloader.min.js', 'utf8');
+
+  autoloader = autoloader.replace('\\.(?:min\\.)js$/', '\\.(?:min\\.)(?:[0-9]+\\.)js$/');
+
+  fs.writeFile(options.outputPath + 'plugins/autoloader/prism-autoloader.min.js', autoloader, cb);
+};
+
 const generateComponentsList = () => {
   const files = fs.readdirSync(options.outputPath + 'components/');
 
@@ -75,5 +85,6 @@ exports.build = gulp.series(
     copyPlugins,
     copyThemes,
   ),
+  adjustAutoloaderPlugin,
   generateComponentsList,
 );

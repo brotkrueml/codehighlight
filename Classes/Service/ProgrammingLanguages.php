@@ -33,8 +33,8 @@ final class ProgrammingLanguages
         }
 
         \usort($config['items'], function (array $a, array $b): int {
-            $aci = str_replace('.', '', strtolower($a[0]));
-            $bci = str_replace('.', '', strtolower($b[0]));
+            $aci = \str_replace('.', '', \strtolower($a[0]));
+            $bci = \str_replace('.', '', \strtolower($b[0]));
 
             return $aci <=> $bci;
         });
@@ -43,7 +43,7 @@ final class ProgrammingLanguages
     private function getAvailableProgrammingLanguages(): array
     {
         $path = __DIR__ . '/../../Resources/Private/PHP/AvailableProgrammingLanguages.php';
-        if (file_exists($path)) {
+        if (\file_exists($path)) {
             return require $path;
         }
 
