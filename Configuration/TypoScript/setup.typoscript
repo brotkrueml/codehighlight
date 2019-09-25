@@ -12,4 +12,11 @@ tt_content.tx_codehighlight {
   }
 
   templateName = Highlight
+
+  dataProcessing {
+    10 = Brotkrueml\CodeHighlight\DataProcessing\FlexFormProcessor
+    10 {
+      as = options
+    }
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "prismjs": "^1.17"
+  },
+  "devDependencies": {
+    "del": "^5.1",
+    "gulp": "^4.0",
+    "gulp-concat": "^2.6",
+    "gulp-copy": "^4.0",
+    "gulp-nunjucks": "^5.0"
+  },
+  "scripts": {
+    "build": "gulp build"
+  }
+}

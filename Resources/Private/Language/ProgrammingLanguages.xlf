@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T19:34:08Z">
+		<body>
+			<trans-unit id="abap">
+				<source><![CDATA[ABAP]]></source>
+			</trans-unit>
+			<trans-unit id="abnf">
+				<source><![CDATA[Augmented Backus–Naur form]]></source>
+			</trans-unit>
+			<trans-unit id="actionscript">
+				<source><![CDATA[ActionScript]]></source>
+			</trans-unit>
+			<trans-unit id="ada">
+				<source><![CDATA[Ada]]></source>
+			</trans-unit>
+			<trans-unit id="apacheconf">
+				<source><![CDATA[Apache Configuration]]></source>
+			</trans-unit>
+			<trans-unit id="apl">
+				<source><![CDATA[APL]]></source>
+			</trans-unit>
+			<trans-unit id="applescript">
+				<source><![CDATA[AppleScript]]></source>
+			</trans-unit>
+			<trans-unit id="arduino">
+				<source><![CDATA[Arduino]]></source>
+			</trans-unit>
+			<trans-unit id="arff">
+				<source><![CDATA[ARFF]]></source>
+			</trans-unit>
+			<trans-unit id="asciidoc">
+				<source><![CDATA[AsciiDoc]]></source>
+			</trans-unit>
+			<trans-unit id="asm6502">
+				<source><![CDATA[6502 Assembly]]></source>
+			</trans-unit>
+			<trans-unit id="aspnet">
+				<source><![CDATA[ASP.NET (C#)]]></source>
+			</trans-unit>
+			<trans-unit id="autohotkey">
+				<source><![CDATA[AutoHotkey]]></source>
+			</trans-unit>
+			<trans-unit id="autoit">
+				<source><![CDATA[AutoIt]]></source>
+			</trans-unit>
+			<trans-unit id="bash">
+				<source><![CDATA[Bash + Shell]]></source>
+			</trans-unit>
+			<trans-unit id="basic">
+				<source><![CDATA[BASIC]]></source>
+			</trans-unit>
+			<trans-unit id="batch">
+				<source><![CDATA[Batch]]></source>
+			</trans-unit>
+			<trans-unit id="bison">
+				<source><![CDATA[Bison]]></source>
+			</trans-unit>
+			<trans-unit id="bnf">
+				<source><![CDATA[Backus–Naur form + Routing Backus–Naur form]]></source>
+			</trans-unit>
+			<trans-unit id="brainfuck">
+				<source><![CDATA[Brainfuck]]></source>
+			</trans-unit>
+			<trans-unit id="bro">
+				<source><![CDATA[Bro]]></source>
+			</trans-unit>
+			<trans-unit id="c">
+				<source><![CDATA[C]]></source>
+			</trans-unit>
+			<trans-unit id="cil">
+				<source><![CDATA[CIL]]></source>
+			</trans-unit>
+			<trans-unit id="clike">
+				<source><![CDATA[C-like]]></source>
+			</trans-unit>
+			<trans-unit id="clojure">
+				<source><![CDATA[Clojure]]></source>
+			</trans-unit>
+			<trans-unit id="cmake">
+				<source><![CDATA[CMake]]></source>
+			</trans-unit>
+			<trans-unit id="coffeescript">
+				<source><![CDATA[CoffeeScript]]></source>
+			</trans-unit>
+			<trans-unit id="cpp">
+				<source><![CDATA[C++]]></source>
+			</trans-unit>
+			<trans-unit id="crystal">
+				<source><![CDATA[Crystal]]></source>
+			</trans-unit>
+			<trans-unit id="csharp">
+				<source><![CDATA[C#]]></source>
+			</trans-unit>
+			<trans-unit id="csp">
+				<source><![CDATA[Content-Security-Policy]]></source>
+			</trans-unit>
+			<trans-unit id="css">
+				<source><![CDATA[CSS]]></source>
+			</trans-unit>
+			<trans-unit id="css-extras">
+				<source><![CDATA[CSS Extras]]></source>
+			</trans-unit>
+			<trans-unit id="d">
+				<source><![CDATA[D]]></source>
+			</trans-unit>
+			<trans-unit id="dart">
+				<source><![CDATA[Dart]]></source>
+			</trans-unit>
+			<trans-unit id="diff">
+				<source><![CDATA[Diff]]></source>
+			</trans-unit>
+			<trans-unit id="django">
+				<source><![CDATA[Django/Jinja2]]></source>
+			</trans-unit>
+			<trans-unit id="dns-zone-file">
+				<source><![CDATA[DNS zone file]]></source>
+			</trans-unit>
+			<trans-unit id="docker">
+				<source><![CDATA[Docker]]></source>
+			</trans-unit>
+			<trans-unit id="ebnf">
+				<source><![CDATA[Extended Backus–Naur form]]></source>
+			</trans-unit>
+			<trans-unit id="eiffel">
+				<source><![CDATA[Eiffel]]></source>
+			</trans-unit>
+			<trans-unit id="ejs">
+				<source><![CDATA[EJS]]></source>
+			</trans-unit>
+			<trans-unit id="elixir">
+				<source><![CDATA[Elixir]]></source>
+			</trans-unit>
+			<trans-unit id="elm">
+				<source><![CDATA[Elm]]></source>
+			</trans-unit>
+			<trans-unit id="erb">
+				<source><![CDATA[ERB]]></source>
+			</trans-unit>
+			<trans-unit id="erlang">
+				<source><![CDATA[Erlang]]></source>
+			</trans-unit>
+			<trans-unit id="flow">
+				<source><![CDATA[Flow]]></source>
+			</trans-unit>
+			<trans-unit id="fortran">
+				<source><![CDATA[Fortran]]></source>
+			</trans-unit>
+			<trans-unit id="fsharp">
+				<source><![CDATA[F#]]></source>
+			</trans-unit>
+			<trans-unit id="gcode">
+				<source><![CDATA[G-code]]></source>
+			</trans-unit>
+			<trans-unit id="gedcom">
+				<source><![CDATA[GEDCOM]]></source>
+			</trans-unit>
+			<trans-unit id="gherkin">
+				<source><![CDATA[Gherkin]]></source>
+			</trans-unit>
+			<trans-unit id="git">
+				<source><![CDATA[Git]]></source>
+			</trans-unit>
+			<trans-unit id="glsl">
+				<source><![CDATA[GLSL]]></source>
+			</trans-unit>
+			<trans-unit id="gml">
+				<source><![CDATA[GameMaker Language]]></source>
+			</trans-unit>
+			<trans-unit id="go">
+				<source><![CDATA[Go]]></source>
+			</trans-unit>
+			<trans-unit id="graphql">
+				<source><![CDATA[GraphQL]]></source>
+			</trans-unit>
+			<trans-unit id="groovy">
+				<source><![CDATA[Groovy]]></source>
+			</trans-unit>
+			<trans-unit id="haml">
+				<source><![CDATA[Haml]]></source>
+			</trans-unit>
+			<trans-unit id="handlebars">
+				<source><![CDATA[Handlebars]]></source>
+			</trans-unit>
+			<trans-unit id="haskell">
+				<source><![CDATA[Haskell]]></source>
+			</trans-unit>
+			<trans-unit id="haxe">
+				<source><![CDATA[Haxe]]></source>
+			</trans-unit>
+			<trans-unit id="hcl">
+				<source><![CDATA[HCL]]></source>
+			</trans-unit>
+			<trans-unit id="hpkp">
+				<source><![CDATA[HTTP Public-Key-Pins]]></source>
+			</trans-unit>
+			<trans-unit id="hsts">
+				<source><![CDATA[HTTP Strict-Transport-Security]]></source>
+			</trans-unit>
+			<trans-unit id="http">
+				<source><![CDATA[HTTP]]></source>
+			</trans-unit>
+			<trans-unit id="ichigojam">
+				<source><![CDATA[IchigoJam]]></source>
+			</trans-unit>
+			<trans-unit id="icon">
+				<source><![CDATA[Icon]]></source>
+			</trans-unit>
+			<trans-unit id="inform7">
+				<source><![CDATA[Inform 7]]></source>
+			</trans-unit>
+			<trans-unit id="ini">
+				<source><![CDATA[Ini]]></source>
+			</trans-unit>
+			<trans-unit id="io">
+				<source><![CDATA[Io]]></source>
+			</trans-unit>
+			<trans-unit id="j">
+				<source><![CDATA[J]]></source>
+			</trans-unit>
+			<trans-unit id="java">
+				<source><![CDATA[Java]]></source>
+			</trans-unit>
+			<trans-unit id="javadoc">
+				<source><![CDATA[JavaDoc]]></source>
+			</trans-unit>
+			<trans-unit id="javadoclike">
+				<source><![CDATA[JavaDoc-like]]></source>
+			</trans-unit>
+			<trans-unit id="javascript">
+				<source><![CDATA[JavaScript]]></source>
+			</trans-unit>
+			<trans-unit id="javastacktrace">
+				<source><![CDATA[Java stack trace]]></source>
+			</trans-unit>
+			<trans-unit id="jolie">
+				<source><![CDATA[Jolie]]></source>
+			</trans-unit>
+			<trans-unit id="jq">
+				<source><![CDATA[JQ]]></source>
+			</trans-unit>
+			<trans-unit id="js-extras">
+				<source><![CDATA[JS Extras]]></source>
+			</trans-unit>
+			<trans-unit id="js-templates">
+				<source><![CDATA[JS Templates]]></source>
+			</trans-unit>
+			<trans-unit id="jsdoc">
+				<source><![CDATA[JSDoc]]></source>
+			</trans-unit>
+			<trans-unit id="json">
+				<source><![CDATA[JSON]]></source>
+			</trans-unit>
+			<trans-unit id="json5">
+				<source><![CDATA[JSON5]]></source>
+			</trans-unit>
+			<trans-unit id="jsonp">
+				<source><![CDATA[JSONP]]></source>
+			</trans-unit>
+			<trans-unit id="jsx">
+				<source><![CDATA[React JSX]]></source>
+			</trans-unit>
+			<trans-unit id="julia">
+				<source><![CDATA[Julia]]></source>
+			</trans-unit>
+			<trans-unit id="keyman">
+				<source><![CDATA[Keyman]]></source>
+			</trans-unit>
+			<trans-unit id="kotlin">
+				<source><![CDATA[Kotlin]]></source>
+			</trans-unit>
+			<trans-unit id="latex">
+				<source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
+			</trans-unit>
+			<trans-unit id="less">
+				<source><![CDATA[Less]]></source>
+			</trans-unit>
+			<trans-unit id="lilypond">
+				<source><![CDATA[LilyPond]]></source>
+			</trans-unit>
+			<trans-unit id="liquid">
+				<source><![CDATA[Liquid]]></source>
+			</trans-unit>
+			<trans-unit id="lisp">
+				<source><![CDATA[Lisp]]></source>
+			</trans-unit>
+			<trans-unit id="livescript">
+				<source><![CDATA[LiveScript]]></source>
+			</trans-unit>
+			<trans-unit id="lolcode">
+				<source><![CDATA[LOLCODE]]></source>
+			</trans-unit>
+			<trans-unit id="lua">
+				<source><![CDATA[Lua]]></source>
+			</trans-unit>
+			<trans-unit id="makefile">
+				<source><![CDATA[Makefile]]></source>
+			</trans-unit>
+			<trans-unit id="markdown">
+				<source><![CDATA[Markdown]]></source>
+			</trans-unit>
+			<trans-unit id="markup-templating">
+				<source><![CDATA[Markup templating]]></source>
+			</trans-unit>
+			<trans-unit id="markup">
+				<source><![CDATA[Markup + HTML + XML + SVG + MathML]]></source>
+			</trans-unit>
+			<trans-unit id="matlab">
+				<source><![CDATA[MATLAB]]></source>
+			</trans-unit>
+			<trans-unit id="mel">
+				<source><![CDATA[MEL]]></source>
+			</trans-unit>
+			<trans-unit id="mizar">
+				<source><![CDATA[Mizar]]></source>
+			</trans-unit>
+			<trans-unit id="monkey">
+				<source><![CDATA[Monkey]]></source>
+			</trans-unit>
+			<trans-unit id="n1ql">
+				<source><![CDATA[N1QL]]></source>
+			</trans-unit>
+			<trans-unit id="n4js">
+				<source><![CDATA[N4JS]]></source>
+			</trans-unit>
+			<trans-unit id="nand2tetris-hdl">
+				<source><![CDATA[Nand To Tetris HDL]]></source>
+			</trans-unit>
+			<trans-unit id="nasm">
+				<source><![CDATA[NASM]]></source>
+			</trans-unit>
+			<trans-unit id="nginx">
+				<source><![CDATA[nginx]]></source>
+			</trans-unit>
+			<trans-unit id="nim">
+				<source><![CDATA[Nim]]></source>
+			</trans-unit>
+			<trans-unit id="nix">
+				<source><![CDATA[Nix]]></source>
+			</trans-unit>
+			<trans-unit id="nsis">
+				<source><![CDATA[NSIS]]></source>
+			</trans-unit>
+			<trans-unit id="objectivec">
+				<source><![CDATA[Objective-C]]></source>
+			</trans-unit>
+			<trans-unit id="ocaml">
+				<source><![CDATA[OCaml]]></source>
+			</trans-unit>
+			<trans-unit id="opencl">
+				<source><![CDATA[OpenCL]]></source>
+			</trans-unit>
+			<trans-unit id="oz">
+				<source><![CDATA[Oz]]></source>
+			</trans-unit>
+			<trans-unit id="parigp">
+				<source><![CDATA[PARI/GP]]></source>
+			</trans-unit>
+			<trans-unit id="parser">
+				<source><![CDATA[Parser]]></source>
+			</trans-unit>
+			<trans-unit id="pascal">
+				<source><![CDATA[Pascal + Object Pascal]]></source>
+			</trans-unit>
+			<trans-unit id="pascaligo">
+				<source><![CDATA[Pascaligo]]></source>
+			</trans-unit>
+			<trans-unit id="pcaxis">
+				<source><![CDATA[PC-Axis]]></source>
+			</trans-unit>
+			<trans-unit id="perl">
+				<source><![CDATA[Perl]]></source>
+			</trans-unit>
+			<trans-unit id="php">
+				<source><![CDATA[PHP]]></source>
+			</trans-unit>
+			<trans-unit id="php-extras">
+				<source><![CDATA[PHP Extrass]]></source>
+			</trans-unit>
+			<trans-unit id="phpdoc">
+				<source><![CDATA[PHPDoc]]></source>
+			</trans-unit>
+			<trans-unit id="plsql">
+				<source><![CDATA[PL/SQL]]></source>
+			</trans-unit>
+			<trans-unit id="powershell">
+				<source><![CDATA[PowerShell]]></source>
+			</trans-unit>
+			<trans-unit id="processing">
+				<source><![CDATA[Processing]]></source>
+			</trans-unit>
+			<trans-unit id="prolog">
+				<source><![CDATA[Prolog]]></source>
+			</trans-unit>
+			<trans-unit id="properties">
+				<source><![CDATA[.properties]]></source>
+			</trans-unit>
+			<trans-unit id="protobuf">
+				<source><![CDATA[Protocol Buffers]]></source>
+			</trans-unit>
+			<trans-unit id="pug">
+				<source><![CDATA[Pug]]></source>
+			</trans-unit>
+			<trans-unit id="puppet">
+				<source><![CDATA[Puppet]]></source>
+			</trans-unit>
+			<trans-unit id="pure">
+				<source><![CDATA[Pure]]></source>
+			</trans-unit>
+			<trans-unit id="python">
+				<source><![CDATA[Python]]></source>
+			</trans-unit>
+			<trans-unit id="q">
+				<source><![CDATA[Q (kdb+ database)]]></source>
+			</trans-unit>
+			<trans-unit id="qore">
+				<source><![CDATA[Qore]]></source>
+			</trans-unit>
+			<trans-unit id="r">
+				<source><![CDATA[R]]></source>
+			</trans-unit>
+			<trans-unit id="reason">
+				<source><![CDATA[Reason]]></source>
+			</trans-unit>
+			<trans-unit id="regex">
+				<source><![CDATA[Regex]]></source>
+			</trans-unit>
+			<trans-unit id="renpy">
+				<source><![CDATA[Ren'py]]></source>
+			</trans-unit>
+			<trans-unit id="rest">
+				<source><![CDATA[reST (reStructuredText)]]></source>
+			</trans-unit>
+			<trans-unit id="rip">
+				<source><![CDATA[Rip]]></source>
+			</trans-unit>
+			<trans-unit id="roboconf">
+				<source><![CDATA[Roboconf]]></source>
+			</trans-unit>
+			<trans-unit id="ruby">
+				<source><![CDATA[Ruby]]></source>
+			</trans-unit>
+			<trans-unit id="rust">
+				<source><![CDATA[Rust]]></source>
+			</trans-unit>
+			<trans-unit id="sas">
+				<source><![CDATA[SAS]]></source>
+			</trans-unit>
+			<trans-unit id="sass">
+				<source><![CDATA[Sass (Sass)]]></source>
+			</trans-unit>
+			<trans-unit id="scala">
+				<source><![CDATA[Scala]]></source>
+			</trans-unit>
+			<trans-unit id="scheme">
+				<source><![CDATA[Scheme]]></source>
+			</trans-unit>
+			<trans-unit id="scss">
+				<source><![CDATA[Sass (Scss)]]></source>
+			</trans-unit>
+			<trans-unit id="shell-session">
+				<source><![CDATA[Shell session]]></source>
+			</trans-unit>
+			<trans-unit id="smalltalk">
+				<source><![CDATA[Smalltalk]]></source>
+			</trans-unit>
+			<trans-unit id="smarty">
+				<source><![CDATA[Smarty]]></source>
+			</trans-unit>
+			<trans-unit id="soy">
+				<source><![CDATA[Soy (Closure Template)]]></source>
+			</trans-unit>
+			<trans-unit id="splunk-spl">
+				<source><![CDATA[Splunk SPL]]></source>
+			</trans-unit>
+			<trans-unit id="sql">
+				<source><![CDATA[SQL]]></source>
+			</trans-unit>
+			<trans-unit id="stylus">
+				<source><![CDATA[Stylus]]></source>
+			</trans-unit>
+			<trans-unit id="swift">
+				<source><![CDATA[Swift]]></source>
+			</trans-unit>
+			<trans-unit id="t4-cs">
+				<source><![CDATA[T4 Text Templates (C#)]]></source>
+			</trans-unit>
+			<trans-unit id="t4-templating">
+				<source><![CDATA[T4 templating]]></source>
+			</trans-unit>
+			<trans-unit id="t4-vb">
+				<source><![CDATA[T4 Text Templates (VB)]]></source>
+			</trans-unit>
+			<trans-unit id="tap">
+				<source><![CDATA[TAP]]></source>
+			</trans-unit>
+			<trans-unit id="tcl">
+				<source><![CDATA[Tcl]]></source>
+			</trans-unit>
+			<trans-unit id="textile">
+				<source><![CDATA[Textile]]></source>
+			</trans-unit>
+			<trans-unit id="toml">
+				<source><![CDATA[TOML]]></source>
+			</trans-unit>
+			<trans-unit id="tsx">
+				<source><![CDATA[React TSX]]></source>
+			</trans-unit>
+			<trans-unit id="tt2">
+				<source><![CDATA[Template Toolkit 2]]></source>
+			</trans-unit>
+			<trans-unit id="twig">
+				<source><![CDATA[Twig]]></source>
+			</trans-unit>
+			<trans-unit id="typescript">
+				<source><![CDATA[TypeScript]]></source>
+			</trans-unit>
+			<trans-unit id="vala">
+				<source><![CDATA[Vala]]></source>
+			</trans-unit>
+			<trans-unit id="vbnet">
+				<source><![CDATA[VB.Net]]></source>
+			</trans-unit>
+			<trans-unit id="velocity">
+				<source><![CDATA[Velocity]]></source>
+			</trans-unit>
+			<trans-unit id="verilog">
+				<source><![CDATA[Verilog]]></source>
+			</trans-unit>
+			<trans-unit id="vhdl">
+				<source><![CDATA[VHDL]]></source>
+			</trans-unit>
+			<trans-unit id="vim">
+				<source><![CDATA[vim]]></source>
+			</trans-unit>
+			<trans-unit id="visual-basic">
+				<source><![CDATA[Visual Basic]]></source>
+			</trans-unit>
+			<trans-unit id="wasm">
+				<source><![CDATA[WebAssembly]]></source>
+			</trans-unit>
+			<trans-unit id="wiki">
+				<source><![CDATA[Wiki markup]]></source>
+			</trans-unit>
+			<trans-unit id="xeora">
+				<source><![CDATA[Xeora + XeoraCube]]></source>
+			</trans-unit>
+			<trans-unit id="xojo">
+				<source><![CDATA[Xojo (REALbasic]]></source>
+			</trans-unit>
+			<trans-unit id="xquery">
+				<source><![CDATA[XQuery]]></source>
+			</trans-unit>
+			<trans-unit id="yaml">
+				<source><![CDATA[YAML]]></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

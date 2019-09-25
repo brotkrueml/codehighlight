@@ -17,10 +17,16 @@
 		"Code highlighting"
 	],
 	"require": {
-		"typo3/cms-core": "^9.5 || 10.0.*"
+		"typo3/cms-core": "^9.5 || 10.0.*",
+		"typo3/cms-frontend": "^9.5 || 10.0.*"
 	},
 	"suggest": {
 		"typo3/cms-t3editor": "^9.5 || 10.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brotkrueml\\CodeHighlight\\": "Classes/"
+		}
 	},
 	"config": {
 		"sort-packages": true,

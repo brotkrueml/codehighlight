@@ -1,24 +1,31 @@
 <?php
 defined('TYPO3_MODE') or die();
 
-(function ($extensionKey, $type) {
-    $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/Database.xlf:';
+(function ($extensionKey, $cType) {
+    $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/ContentElement.xlf:';
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
         [
-            $llPrefix . 'tt_content.CType.' . $type,
-            $type,
+            $llPrefix . 'CType.' . $cType,
+            $cType,
             'EXT:' . $extensionKey . '/Resources/Public/Icons/content-codehighlight.svg',
         ],
         'CType',
         $extensionKey
     );
 
+    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$cType] = 'pi_flexform';
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+        '*',
+        'FILE:EXT:' . $extensionKey . '/Configuration/FlexForms/CodeHighlight.xml',
+        $cType
+    );
+
     $tempTypes = [
-        $type => [
+        $cType => [
             'columnsOverrides' => [
                 'bodytext' => [
-                    'label' => $llPrefix . 'tt_content.bodytext',
+                    'label' => $llPrefix . 'bodytext',
                     'config' => [
                         'enableTabulator' => true,
                         'fixedFont' => true,
@@ -28,11 +35,15 @@ defined('TYPO3_MODE') or die();
                         ],
                     ],
                 ],
+                'pi_flexform' => [
+                    'label' => $llPrefix . 'pi_flexform',
+                ]
             ],
             'showitem' => '
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                 --palette--;;general,
                 bodytext,
+                pi_flexform,
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
                 --palette--;;language,
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
@@ -44,7 +55,7 @@ defined('TYPO3_MODE') or die();
     ];
 
     if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3editor')) {
-        $tempTypes[$type]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
+        $tempTypes[$cType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
     }
 
     $GLOBALS['TCA']['tt_content']['types'] += $tempTypes;

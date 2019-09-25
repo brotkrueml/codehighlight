@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T09:03:21Z">
+		<body>
+			<trans-unit id="CType.tx_codehighlight">
+				<source><![CDATA[Code Highlight]]></source>
+			</trans-unit>
+			<trans-unit id="bodytext">
+				<source><![CDATA[Code Snippet]]></source>
+			</trans-unit>
+			<trans-unit id="pi_flexform">
+				<source><![CDATA[Options]]></source>
+			</trans-unit>
+			<trans-unit id="programmingLanguage">
+				<source><![CDATA[Programming language]]></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

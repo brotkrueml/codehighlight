@@ -17,4 +17,7 @@ $EM_CONF[$_EXTKEY] = [
             't3editor' => '9.5.0-10.0.99',
         ],
     ],
+    'autoload' => [
+        'psr-4' => ['Brotkrueml\\CodeHighlight\\' => 'Classes']
+    ],
 ];

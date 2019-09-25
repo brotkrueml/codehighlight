@@ -1,0 +1,21 @@
+<T3DataStructure>
+    <meta type="array">
+        <langChildren>0</langChildren>
+        <langDisable>1</langDisable>
+    </meta>
+    <ROOT>
+        <type>array</type>
+        <el>
+            <programmingLanguage>
+                <TCEforms>
+                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage</label>
+                    <config>
+                        <type>select</type>
+                        <renderType>selectSingle</renderType>
+                        <itemsProcFunc>Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems</itemsProcFunc>
+                    </config>
+                </TCEforms>
+            </programmingLanguage>
+        </el>
+    </ROOT>
+</T3DataStructure>

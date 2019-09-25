@@ -1,0 +1,4 @@
+<?php
+return [
+{% for language in languages %}    '{{ language }}',
+{% endfor %}];
