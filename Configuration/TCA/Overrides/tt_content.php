@@ -36,13 +36,14 @@ defined('TYPO3_MODE') or die();
                     ],
                 ],
                 'pi_flexform' => [
-                    'label' => $llPrefix . 'pi_flexform',
+                    'label' => $llPrefix . 'options',
                 ]
             ],
             'showitem' => '
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                 --palette--;;general,
                 bodytext,
+                --div--;' . $llPrefix . 'options,
                 pi_flexform,
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
                 --palette--;;language,

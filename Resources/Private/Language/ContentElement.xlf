@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T09:03:21Z">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-26T13:12:56Z">
 		<body>
 			<trans-unit id="CType.tx_codehighlight">
 				<source><![CDATA[Code Highlight]]></source>
 			</trans-unit>
 			<trans-unit id="bodytext">
-				<source><![CDATA[Code Snippet]]></source>
+				<source><![CDATA[Code snippet]]></source>
 			</trans-unit>
-			<trans-unit id="pi_flexform">
+			<trans-unit id="lineNumbers">
+				<source><![CDATA[Line numbers]]></source>
+			</trans-unit>
+			<trans-unit id="options">
 				<source><![CDATA[Options]]></source>
 			</trans-unit>
 			<trans-unit id="programmingLanguage">
 				<source><![CDATA[Programming language]]></source>
+			</trans-unit>
+			<trans-unit id="showLineNumbers">
+				<source><![CDATA[Show line numbers]]></source>
+			</trans-unit>
+			<trans-unit id="startWithLineNumber">
+				<source><![CDATA[Start with line number]]></source>
 			</trans-unit>
 		</body>
 	</file>

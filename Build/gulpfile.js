@@ -13,6 +13,7 @@ const options = {
   outputPath: '../Resources/Public/Vendor/PrismJs/',
   availablePlugins: [
     'autoloader',
+    'line-numbers',
   ],
 };
 
@@ -35,6 +36,7 @@ const copyPlugins = () => {
   let pluginPaths = [];
   options.availablePlugins.forEach((plugin) => {
     pluginPaths.push(options.inputPath + 'plugins/' + plugin + '/*.min.js');
+    pluginPaths.push(options.inputPath + 'plugins/' + plugin + '/*.css');
   });
 
   return gulp

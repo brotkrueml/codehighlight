@@ -1,21 +1,72 @@
 <T3DataStructure>
     <meta type="array">
-        <langChildren>0</langChildren>
         <langDisable>1</langDisable>
     </meta>
-    <ROOT>
-        <type>array</type>
-        <el>
-            <programmingLanguage>
+    <sheets>
+        <sDEF>
+            <ROOT>
                 <TCEforms>
-                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage</label>
-                    <config>
-                        <type>select</type>
-                        <renderType>selectSingle</renderType>
-                        <itemsProcFunc>Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems</itemsProcFunc>
-                    </config>
+                    <sheetTitle>LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general</sheetTitle>
                 </TCEforms>
-            </programmingLanguage>
-        </el>
-    </ROOT>
+                <type>array</type>
+                <el>
+                    <programmingLanguage>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage
+                            </label>
+                            <config>
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <itemsProcFunc>
+                                    Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems
+                                </itemsProcFunc>
+                            </config>
+                        </TCEforms>
+                    </programmingLanguage>
+                </el>
+            </ROOT>
+        </sDEF>
+        <sLineNumbers>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>
+                        LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:lineNumbers
+                    </sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <showLineNumbers>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:showLineNumbers
+                            </label>
+                            <config>
+                                <type>check</type>
+                                <renderType>checkboxToggle</renderType>
+                                <items>
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0"/>
+                                        <numIndex index="1"/>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </showLineNumbers>
+                    <startWithLineNumber>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:startWithLineNumber
+                            </label>
+                            <config>
+                                <type>input</type>
+                                <size>10</size>
+                                <eval>num,trim</eval>
+                            </config>
+                        </TCEforms>
+                    </startWithLineNumber>
+                </el>
+            </ROOT>
+        </sLineNumbers>
+    </sheets>
 </T3DataStructure>

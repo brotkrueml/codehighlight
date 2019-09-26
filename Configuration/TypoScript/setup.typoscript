@@ -1,5 +1,7 @@
 tt_content.tx_codehighlight = FLUIDTEMPLATE
 tt_content.tx_codehighlight {
+  templateName = CodeHighlight
+
   templateRootPaths {
     0 = EXT:codehighlight/Resources/Private/Templates/
     10 = {$tt_content.tx_codehighlight.templateRootPath}
@@ -10,8 +12,6 @@ tt_content.tx_codehighlight {
   layoutRootPaths {
     10 = {$tt_content.tx_codehighlight.layoutRootPath}
   }
-
-  templateName = Highlight
 
   dataProcessing {
     10 = Brotkrueml\CodeHighlight\DataProcessing\FlexFormProcessor
