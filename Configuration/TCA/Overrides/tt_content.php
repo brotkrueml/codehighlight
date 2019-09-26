@@ -1,28 +1,28 @@
 <?php
 defined('TYPO3_MODE') or die();
 
-(function ($extensionKey, $cType) {
+(function ($extensionKey, $contentType) {
     $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/ContentElement.xlf:';
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
         [
-            $llPrefix . 'CType.' . $cType,
-            $cType,
+            $llPrefix . 'contentElement.title',
+            $contentType,
             'EXT:' . $extensionKey . '/Resources/Public/Icons/content-codehighlight.svg',
         ],
         'CType',
         $extensionKey
     );
 
-    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$cType] = 'pi_flexform';
+    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentType] = 'pi_flexform';
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
         '*',
         'FILE:EXT:' . $extensionKey . '/Configuration/FlexForms/CodeHighlight.xml',
-        $cType
+        $contentType
     );
 
     $tempTypes = [
-        $cType => [
+        $contentType => [
             'columnsOverrides' => [
                 'bodytext' => [
                     'label' => $llPrefix . 'bodytext',
@@ -56,7 +56,7 @@ defined('TYPO3_MODE') or die();
     ];
 
     if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3editor')) {
-        $tempTypes[$cType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
+        $tempTypes[$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
     }
 
     $GLOBALS['TCA']['tt_content']['types'] += $tempTypes;

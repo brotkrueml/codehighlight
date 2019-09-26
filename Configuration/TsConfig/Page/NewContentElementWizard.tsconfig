@@ -1,0 +1,14 @@
+mod.wizards.newContentElement.wizardItems {
+  special.elements {
+    tx_codehighlight {
+      iconIdentifier = content-codehighlight
+      title = LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:contentElement.title
+      description = LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:contentElement.description
+      tt_content_defValues {
+        CType = tx_codehighlight
+      }
+    }
+  }
+
+  special.show := addToList(tx_codehighlight)
+}

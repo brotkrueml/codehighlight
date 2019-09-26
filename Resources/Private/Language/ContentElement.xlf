@@ -2,8 +2,11 @@
 <xliff version="1.0">
 	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-26T13:12:56Z">
 		<body>
-			<trans-unit id="CType.tx_codehighlight">
+			<trans-unit id="contentElement.title">
 				<source><![CDATA[Code Highlight]]></source>
+			</trans-unit>
+			<trans-unit id="contentElement.description">
+				<source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
 			</trans-unit>
 			<trans-unit id="bodytext">
 				<source><![CDATA[Code snippet]]></source>
