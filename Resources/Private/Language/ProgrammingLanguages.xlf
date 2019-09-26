@@ -375,7 +375,7 @@
 				<source><![CDATA[PHP]]></source>
 			</trans-unit>
 			<trans-unit id="php-extras">
-				<source><![CDATA[PHP Extrass]]></source>
+				<source><![CDATA[PHP Extras]]></source>
 			</trans-unit>
 			<trans-unit id="phpdoc">
 				<source><![CDATA[PHPDoc]]></source>
