@@ -8,8 +8,11 @@
 			<trans-unit id="contentElement.description">
 				<source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
 			</trans-unit>
-			<trans-unit id="bodytext">
+			<trans-unit id="codeSnippet">
 				<source><![CDATA[Code snippet]]></source>
+			</trans-unit>
+			<trans-unit id="codeSnippet.notDefined">
+				<source><![CDATA[No code snippet defined!]]></source>
 			</trans-unit>
 			<trans-unit id="highlightLines">
 				<source><![CDATA[Highlight lines]]></source>
@@ -44,8 +47,8 @@
 			</trans-unit>
 			<trans-unit id="startWithLineNumber.description">
 				<source><![CDATA[
-				Line numbers at the beginning of the code lines is shown if "Show line numbers" is activated.
-				This number will also be used for "Highlight lines" as offset value.
+				Line numbers at the beginning of the code lines are shown if "Show line numbers" is activated.
+				The number will also be used for "Highlight lines" as offset value.
 				]]></source>
 			</trans-unit>
 		</body>

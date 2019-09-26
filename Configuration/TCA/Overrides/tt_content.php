@@ -25,7 +25,7 @@ defined('TYPO3_MODE') or die();
         $contentType => [
             'columnsOverrides' => [
                 'bodytext' => [
-                    'label' => $llPrefix . 'bodytext',
+                    'label' => $llPrefix . 'codeSnippet',
                     'config' => [
                         'enableTabulator' => true,
                         'fixedFont' => true,
