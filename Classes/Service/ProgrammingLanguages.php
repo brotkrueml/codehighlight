@@ -44,10 +44,18 @@ final class ProgrammingLanguages
     {
         $path = __DIR__ . '/../../Resources/Private/PHP/AvailableProgrammingLanguages.php';
         if (\file_exists($path)) {
-            return require $path;
+            $languages = require $path;
+
+            return \array_merge($languages, $this->getAliasesForMarkup());
         }
 
         return [];
+    }
+
+    private function getAliasesForMarkup(): array
+    {
+        // @see components/prism-markup.js
+        return ['html', 'mathml', 'svg', 'xml'];
     }
 
     private function getLanguageService(): LanguageService

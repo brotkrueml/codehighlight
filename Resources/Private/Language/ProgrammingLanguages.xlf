@@ -197,6 +197,9 @@
 			<trans-unit id="hsts">
 				<source><![CDATA[HTTP Strict-Transport-Security]]></source>
 			</trans-unit>
+			<trans-unit id="html">
+				<source><![CDATA[HTML]]></source>
+			</trans-unit>
 			<trans-unit id="http">
 				<source><![CDATA[HTTP]]></source>
 			</trans-unit>
@@ -299,11 +302,14 @@
 			<trans-unit id="markdown">
 				<source><![CDATA[Markdown]]></source>
 			</trans-unit>
+			<trans-unit id="markup">
+				<source><![CDATA[Markup]]></source>
+			</trans-unit>
 			<trans-unit id="markup-templating">
 				<source><![CDATA[Markup templating]]></source>
 			</trans-unit>
-			<trans-unit id="markup">
-				<source><![CDATA[Markup + HTML + XML + SVG + MathML]]></source>
+			<trans-unit id="mathml">
+				<source><![CDATA[MathML]]></source>
 			</trans-unit>
 			<trans-unit id="matlab">
 				<source><![CDATA[MATLAB]]></source>
@@ -479,6 +485,9 @@
 			<trans-unit id="stylus">
 				<source><![CDATA[Stylus]]></source>
 			</trans-unit>
+			<trans-unit id="svg">
+				<source><![CDATA[SVG]]></source>
+			</trans-unit>
 			<trans-unit id="swift">
 				<source><![CDATA[Swift]]></source>
 			</trans-unit>
@@ -544,6 +553,9 @@
 			</trans-unit>
 			<trans-unit id="xeora">
 				<source><![CDATA[Xeora + XeoraCube]]></source>
+			</trans-unit>
+			<trans-unit id="xml">
+				<source><![CDATA[XML]]></source>
 			</trans-unit>
 			<trans-unit id="xojo">
 				<source><![CDATA[Xojo (REALbasic]]></source>
