@@ -34,10 +34,9 @@ class SubtractViewHelper extends ViewHelper\AbstractViewHelper
             return $arguments['subtrahend'];
         }
 
-        $subtrahend = (int) $arguments['subtrahend'];
-        $minuend = (int) $arguments['minuend'];
+        $subtrahend = (int)$arguments['subtrahend'];
+        $minuend = (int)$arguments['minuend'];
 
         return $subtrahend - $minuend;
     }
-
 }
