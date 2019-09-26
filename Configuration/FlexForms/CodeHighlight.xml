@@ -13,7 +13,9 @@
                             <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage</label>
                             <config>
                                 <type>select</type>
-                                <renderType>selectSingle</renderType>
+                                <renderType>selectMultipleSideBySide</renderType>
+                                <enableMultiSelectFilterTextfield>1</enableMultiSelectFilterTextfield>
+                                <maxitems>1</maxitems>
                                 <itemsProcFunc>Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems</itemsProcFunc>
                             </config>
                         </TCEforms>
