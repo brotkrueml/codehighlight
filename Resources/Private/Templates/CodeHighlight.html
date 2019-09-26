@@ -27,7 +27,16 @@
         <f:if condition="{options.showLineNumbers} && {options.startWithLineNumber}">
             <f:variable name="preAttributes">{preAttributes} data-start="{options.startWithLineNumber}"</f:variable>
         </f:if>
+        <f:if condition="{options.highlightLines}">
+            <codeHighlight:asset.style path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/line-highlight/prism-line-highlight.css"/>
+            <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/line-highlight/prism-line-highlight.min.js"/>
+            <f:variable name="preAttributes">{preAttributes} data-line="{options.highlightLines}"</f:variable>
 
-        <pre{preAttributes -> f:format.raw()}><code class="language-{options.programmingLanguage}">{data.bodytext}</code></pre>
+            <f:if condition="{options.startWithLineNumber}">
+                <f:variable name="preAttributes">{preAttributes} data-line-offset="{codeHighlight:math.subtract(subtrahend: options.startWithLineNumber, minuend: 1)}"</f:variable>
+            </f:if>
+        </f:if>
+
+        <pre id="c{data.uid}"{preAttributes -> f:format.raw()}><code class="language-{options.programmingLanguage}">{data.bodytext}</code></pre>
     </f:if>
 </html>

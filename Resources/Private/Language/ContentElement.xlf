@@ -8,6 +8,19 @@
 			<trans-unit id="bodytext">
 				<source><![CDATA[Code snippet]]></source>
 			</trans-unit>
+			<trans-unit id="highlightLines">
+				<source><![CDATA[Highlight lines]]></source>
+			</trans-unit>
+			<trans-unit id="highlightLines.description">
+				<source><![CDATA[
+				You specify the lines to be highlighted in the following simple format:
+				A single number refers to the line with that number /
+				Ranges are denoted by two numbers, separated with a hyphen (-) /
+				Multiple line numbers or ranges are separated by commas /
+				Whitespace is allowed anywhere and will be stripped off /
+				Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)
+				]]></source>
+			</trans-unit>
 			<trans-unit id="lineNumbers">
 				<source><![CDATA[Line numbers]]></source>
 			</trans-unit>
@@ -20,8 +33,17 @@
 			<trans-unit id="showLineNumbers">
 				<source><![CDATA[Show line numbers]]></source>
 			</trans-unit>
+			<trans-unit id="showLineNumbers.description">
+				<source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
+			</trans-unit>
 			<trans-unit id="startWithLineNumber">
 				<source><![CDATA[Start with line number]]></source>
+			</trans-unit>
+			<trans-unit id="startWithLineNumber.description">
+				<source><![CDATA[
+				Line numbers at the beginning of the code lines is shown if "Show line numbers" is activated.
+				This number will also be used for "Highlight lines" as offset value.
+				]]></source>
 			</trans-unit>
 		</body>
 	</file>

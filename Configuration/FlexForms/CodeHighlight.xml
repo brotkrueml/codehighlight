@@ -5,22 +5,16 @@
     <sheets>
         <sDEF>
             <ROOT>
-                <TCEforms>
-                    <sheetTitle>LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general</sheetTitle>
-                </TCEforms>
+                <TCEforms><sheetTitle>LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general</sheetTitle></TCEforms>
                 <type>array</type>
                 <el>
                     <programmingLanguage>
                         <TCEforms>
-                            <label>
-                                LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage
-                            </label>
+                            <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage</label>
                             <config>
                                 <type>select</type>
                                 <renderType>selectSingle</renderType>
-                                <itemsProcFunc>
-                                    Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems
-                                </itemsProcFunc>
+                                <itemsProcFunc>Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems</itemsProcFunc>
                             </config>
                         </TCEforms>
                     </programmingLanguage>
@@ -30,17 +24,14 @@
         <sLineNumbers>
             <ROOT>
                 <TCEforms>
-                    <sheetTitle>
-                        LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:lineNumbers
-                    </sheetTitle>
+                    <sheetTitle>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:lineNumbers</sheetTitle>
                 </TCEforms>
                 <type>array</type>
                 <el>
                     <showLineNumbers>
                         <TCEforms>
-                            <label>
-                                LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:showLineNumbers
-                            </label>
+                            <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:showLineNumbers</label>
+                            <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:showLineNumbers.description</description>
                             <config>
                                 <type>check</type>
                                 <renderType>checkboxToggle</renderType>
@@ -55,9 +46,8 @@
                     </showLineNumbers>
                     <startWithLineNumber>
                         <TCEforms>
-                            <label>
-                                LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:startWithLineNumber
-                            </label>
+                            <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:startWithLineNumber</label>
+                            <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:startWithLineNumber.description</description>
                             <config>
                                 <type>input</type>
                                 <size>10</size>
@@ -65,6 +55,16 @@
                             </config>
                         </TCEforms>
                     </startWithLineNumber>
+                    <highlightLines>
+                        <TCEforms>
+                            <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:highlightLines</label>
+                            <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:highlightLines.description</description>
+                            <config>
+                                <type>input</type>
+                                <size>20</size>
+                            </config>
+                        </TCEforms>
+                    </highlightLines>
                 </el>
             </ROOT>
         </sLineNumbers>

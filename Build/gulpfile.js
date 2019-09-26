@@ -13,6 +13,7 @@ const options = {
   outputPath: '../Resources/Public/Vendor/PrismJs/',
   availablePlugins: [
     'autoloader',
+    'line-highlight',
     'line-numbers',
   ],
 };
