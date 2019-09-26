@@ -1,5 +1,8 @@
 # TYPO3 content element for highlighting code
 
+[![TYPO3](https://img.shields.io/badge/TYPO3-9%20LTS-orange.svg)](https://typo3.org/)
+[![Build Status](https://travis-ci.org/brotkrueml/codehighlight.svg?branch=master)](https://travis-ci.org/brotkrueml/codehighlight)
+
 ## Requirements
 
 The extension works with TYPO3 9 LTS and TYPO3 10.0.
@@ -8,7 +11,7 @@ For now, it's work in progress.
 
 ## Update of JavaScript libraries
 
-For syntax highlighting the [Prism](https://prismjs.com/) is used.
+For syntax highlighting [Prism](https://prismjs.com/) is used.
 This dependency is managed via yarn:
 
     cd Build
