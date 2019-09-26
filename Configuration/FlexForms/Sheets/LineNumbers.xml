@@ -1,0 +1,47 @@
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:lineNumbers</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <showLineNumbers>
+                <TCEforms>
+                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:showLineNumbers</label>
+                    <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:showLineNumbers.description</description>
+                    <config>
+                        <type>check</type>
+                        <renderType>checkboxToggle</renderType>
+                        <items>
+                            <numIndex index="0" type="array">
+                                <numIndex index="0"/>
+                                <numIndex index="1"/>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </showLineNumbers>
+            <startWithLineNumber>
+                <TCEforms>
+                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:startWithLineNumber</label>
+                    <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:startWithLineNumber.description</description>
+                    <config>
+                        <type>input</type>
+                        <size>10</size>
+                        <eval>num,trim</eval>
+                    </config>
+                </TCEforms>
+            </startWithLineNumber>
+            <highlightLines>
+                <TCEforms>
+                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:highlightLines</label>
+                    <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:highlightLines.description</description>
+                    <config>
+                        <type>input</type>
+                        <size>20</size>
+                    </config>
+                </TCEforms>
+            </highlightLines>
+        </el>
+    </ROOT>
+</T3DataStructure>

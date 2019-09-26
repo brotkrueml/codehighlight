@@ -17,7 +17,7 @@ defined('TYPO3_MODE') or die();
     $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentType] = 'pi_flexform';
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
         '*',
-        'FILE:EXT:' . $extensionKey . '/Configuration/FlexForms/CodeHighlight.xml',
+        'FILE:EXT:' . $extensionKey . '/Configuration/FlexForms/Options.xml',
         $contentType
     );
 

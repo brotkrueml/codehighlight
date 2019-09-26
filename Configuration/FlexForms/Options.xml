@@ -1,0 +1,10 @@
+<T3DataStructure>
+    <meta type="array">
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>EXT:codehighlight/Configuration/FlexForms/Sheets/General.xml</sDEF>
+        <sLineNumbes>EXT:codehighlight/Configuration/FlexForms/Sheets/LineNumbers.xml</sLineNumbes>
+        <sCommandLine>EXT:codehighlight/Configuration/FlexForms/Sheets/CommandLine.xml</sCommandLine>
+    </sheets>
+</T3DataStructure>

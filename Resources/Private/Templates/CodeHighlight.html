@@ -4,37 +4,66 @@
     data-namespace-typo3-fluid="true"
 >
     <f:if condition="{data.bodytext}">
-        <f:variable name="theme" value="EXT:codehighlight/Resources/Public/Vendor/PrismJs/themes/prism.css"/>
+        <f:variable name="prismJsPath" value="EXT:codehighlight/Resources/Public/Vendor/PrismJs"/>
+
+        <f:variable name="theme" value="{prismJsPath}/themes/prism.css"/>
         <f:if condition="{site.configuration.codehighlightTheme}">
             <f:variable name="theme" value="{site.configuration.codehighlightTheme}"/>
         </f:if>
 
         <codeHighlight:asset.style path="{theme}"/>
-        <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/components/prism-core.min.js"/>
-        <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/autoloader/prism-autoloader.min.js"/>
+        <codeHighlight:asset.script path="{prismJsPath}/components/prism-core.min.js"/>
+        <codeHighlight:asset.script path="{prismJsPath}/plugins/autoloader/prism-autoloader.min.js"/>
 
-        <f:variable name="preClasses" value=""/>
+        <f:variable name="preClasses"/>
+        <f:variable name="preAttributes"/>
+
         <f:if condition="{options.showLineNumbers}">
-            <codeHighlight:asset.style path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/line-numbers/prism-line-numbers.css"/>
-            <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/line-numbers/prism-line-numbers.min.js"/>
+            <codeHighlight:asset.style path="{prismJsPath}/plugins/line-numbers/prism-line-numbers.css"/>
+            <codeHighlight:asset.script path="{prismJsPath}/plugins/line-numbers/prism-line-numbers.min.js"/>
             <f:variable name="preClasses">{preClasses} line-numbers</f:variable>
         </f:if>
 
-        <f:variable name="preAttributes"/>
-        <f:if condition="{preClasses}">
-            <f:variable name="preAttributes">{preAttributes} class="{preClasses}"</f:variable>
-        </f:if>
         <f:if condition="{options.showLineNumbers} && {options.startWithLineNumber}">
             <f:variable name="preAttributes">{preAttributes} data-start="{options.startWithLineNumber}"</f:variable>
         </f:if>
+
         <f:if condition="{options.highlightLines}">
-            <codeHighlight:asset.style path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/line-highlight/prism-line-highlight.css"/>
-            <codeHighlight:asset.script path="EXT:codehighlight/Resources/Public/Vendor/PrismJs/plugins/line-highlight/prism-line-highlight.min.js"/>
+            <codeHighlight:asset.style path="{prismJsPath}/plugins/line-highlight/prism-line-highlight.css"/>
+            <codeHighlight:asset.script path="{prismJsPath}/plugins/line-highlight/prism-line-highlight.min.js"/>
             <f:variable name="preAttributes">{preAttributes} data-line="{options.highlightLines}"</f:variable>
 
             <f:if condition="{options.startWithLineNumber}">
                 <f:variable name="preAttributes">{preAttributes} data-line-offset="{codeHighlight:math.subtract(subtrahend: options.startWithLineNumber, minuend: 1)}"</f:variable>
             </f:if>
+        </f:if>
+
+        <f:if condition="{options.displayCommandLine}">
+            <codeHighlight:asset.style path="{prismJsPath}/plugins/command-line/prism-command-line.css"/>
+            <codeHighlight:asset.script path="{prismJsPath}/plugins/command-line/prism-command-line.min.js"/>
+            <f:variable name="preClasses">{preClasses} command-line</f:variable>
+
+            <f:if condition="{options.commandLineServerPrompt}">
+                <f:then>
+                    <f:variable name="preAttributes">{preAttributes} data-prompt="{options.commandLineServerPrompt}"</f:variable>
+                </f:then>
+                <f:else>
+                    <f:variable name="preAttributes">{preAttributes} data-user="{options.commandLineServerUser}"</f:variable>
+                    <f:variable name="preAttributes">{preAttributes} data-host="{options.commandLineServerHost}"</f:variable>
+                </f:else>
+            </f:if>
+
+            <f:if condition="{options.commandLineOutputLines}">
+                <f:variable name="preAttributes">{preAttributes} data-output="{options.commandLineOutputLines}"</f:variable>
+            </f:if>
+
+            <f:if condition="{options.commandLineOutputFilter}">
+                <f:variable name="preAttributes">{preAttributes} data-filter-output="{options.commandLineOutputFilter}"</f:variable>
+            </f:if>
+        </f:if>
+
+        <f:if condition="{preClasses}">
+            <f:variable name="preAttributes">{preAttributes} class="{preClasses}"</f:variable>
         </f:if>
 
         <pre id="c{data.uid}"{preAttributes -> f:format.raw()}><code class="language-{options.programmingLanguage}">{data.bodytext}</code></pre>
