@@ -102,7 +102,7 @@
 			</trans-unit>
 			<trans-unit id="startWithLineNumber.description">
 				<source><![CDATA[
-				Line numbers at the beginning of the code lines are shown if "Show line numbers" is activated.
+				Specify a line number with which the numbering is to begin.
 				The number will also be used for "Highlight lines" as offset value.
 				]]></source>
 			</trans-unit>
