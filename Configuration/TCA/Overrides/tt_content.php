@@ -60,4 +60,4 @@ defined('TYPO3_MODE') or die();
     }
 
     $GLOBALS['TCA']['tt_content']['types'] += $tempTypes;
-})('codehighlight', 'tx_codehighlight');
+})('codehighlight', 'tx_codehighlight_codesnippet');

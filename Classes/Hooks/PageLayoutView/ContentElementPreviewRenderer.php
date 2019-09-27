@@ -25,7 +25,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
 
     public function preProcess(PageLayoutView &$parentObject, &$drawItem, &$headerContent, &$itemContent, array &$row)
     {
-        if ($row['CType'] !== 'tx_codehighlight') {
+        if ($row['CType'] !== 'tx_codehighlight_codesnippet') {
             return;
         }
 

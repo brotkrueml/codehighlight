@@ -1,16 +1,16 @@
-tt_content.tx_codehighlight = FLUIDTEMPLATE
-tt_content.tx_codehighlight {
+tt_content.tx_codehighlight_codesnippet = FLUIDTEMPLATE
+tt_content.tx_codehighlight_codesnippet {
   templateName = CodeSnippet
 
   templateRootPaths {
     0 = EXT:codehighlight/Resources/Private/Templates/
-    10 = {$tt_content.tx_codehighlight.templateRootPath}
+    10 = {$tt_content.tx_codehighlight_codesnippet.templateRootPath}
   }
   partialRootPaths {
-    10 = {$tt_content.tx_codehighlight.partialRootPath}
+    10 = {$tt_content.tx_codehighlight_codesnippet.partialRootPath}
   }
   layoutRootPaths {
-    10 = {$tt_content.tx_codehighlight.layoutRootPath}
+    10 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
   }
 
   dataProcessing {
