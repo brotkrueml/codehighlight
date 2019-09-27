@@ -3,7 +3,7 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-26T13:12:56Z">
 		<body>
 			<trans-unit id="contentElement.title">
-				<source><![CDATA[Code Highlight]]></source>
+				<source><![CDATA[Code Snippet]]></source>
 			</trans-unit>
 			<trans-unit id="contentElement.description">
 				<source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
@@ -74,7 +74,7 @@
 			</trans-unit>
 			<trans-unit id="highlightLines.description">
 				<source><![CDATA[
-					You specify the lines to be highlighted in the following simple format:
+					You can specify the lines to be highlighted in the following simple format:
 					A single number refers to the line with that number /
 					Ranges are denoted by two numbers, separated with a hyphen (-) /
 					Multiple line numbers or ranges are separated by commas /
