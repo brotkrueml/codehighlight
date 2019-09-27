@@ -4,4 +4,5 @@
 /.php_cs export-ignore
 /.travis.yml export-ignore
 /Build/ export-ignore
+/Documentation/ export-ignore
 /README.md export-ignore
