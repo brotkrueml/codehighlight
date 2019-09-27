@@ -1,6 +1,6 @@
 tt_content.tx_codehighlight = FLUIDTEMPLATE
 tt_content.tx_codehighlight {
-  templateName = CodeHighlight
+  templateName = CodeSnippet
 
   templateRootPaths {
     0 = EXT:codehighlight/Resources/Private/Templates/
