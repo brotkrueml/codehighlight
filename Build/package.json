@@ -1,13 +1,16 @@
 {
+  "name": "codehighlight",
+  "license": "GPL-2.0+",
   "dependencies": {
-    "prismjs": "^1.17"
+    "prismjs": "^1.17.1"
   },
   "devDependencies": {
-    "del": "^5.1",
-    "gulp": "^4.0",
-    "gulp-concat": "^2.6",
-    "gulp-copy": "^4.0",
-    "gulp-nunjucks": "^5.0"
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-nunjucks": "^5.0.0"
   },
   "scripts": {
     "build": "gulp build"

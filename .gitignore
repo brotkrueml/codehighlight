@@ -3,4 +3,5 @@
 .php_cs.cache
 composer.lock
 node_modules
+yarn-error.log
 *GENERATED*

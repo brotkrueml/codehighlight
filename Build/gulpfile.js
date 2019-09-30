@@ -1,6 +1,7 @@
 const
-  gulp = require('gulp'),
+  {src, dest, series, parallel} = require('gulp'),
 
+  cleanCSS = require('gulp-clean-css'),
   concat = require('gulp-concat'),
   copy = require('gulp-copy'),
   del = require('del'),
@@ -19,6 +20,14 @@ const options = {
   ],
 };
 
+const getPluginPathsForFilePattern = (filePattern) => {
+  let pluginPaths = [];
+  options.availablePlugins.forEach((plugin) => {
+    pluginPaths.push(options.inputPath + 'plugins/' + plugin + '/' + filePattern);
+  });
+
+  return pluginPaths;
+};
 
 const cleanUp = () =>
   del([
@@ -29,28 +38,26 @@ const cleanUp = () =>
 ;
 
 const copyComponents = () =>
-  gulp
-    .src([options.inputPath + 'components/*.min.js'])
-    .pipe(gulp.dest(options.outputPath + 'components/'))
+  src([options.inputPath + 'components/*.min.js'])
+    .pipe(dest(options.outputPath + 'components/'))
 ;
 
-const copyPlugins = () => {
-  let pluginPaths = [];
-  options.availablePlugins.forEach((plugin) => {
-    pluginPaths.push(options.inputPath + 'plugins/' + plugin + '/*.min.js');
-    pluginPaths.push(options.inputPath + 'plugins/' + plugin + '/*.css');
-  });
-
-  return gulp
-    .src(pluginPaths)
+const copyPluginJavaScripts = () =>
+  src(getPluginPathsForFilePattern('*.min.js'))
     .pipe(copy(options.outputPath + 'plugins/', {prefix: 3}))
-    ;
-};
+;
+
+const copyPluginStyles = () =>
+  src(getPluginPathsForFilePattern('*.css'))
+    .pipe(copy(options.outputPath + 'plugins/', {prefix: 3}))
+    .pipe(cleanCSS())
+    .pipe(dest(options.outputPath + 'plugins/'))
+;
 
 const copyThemes = () =>
-  gulp
-    .src([options.inputPath + 'themes/*.css'])
-    .pipe(gulp.dest(options.outputPath + 'themes/'))
+  src([options.inputPath + 'themes/*.css'])
+    .pipe(cleanCSS())
+    .pipe(dest(options.outputPath + 'themes/'))
 ;
 
 const adjustAutoloaderPlugin = (cb) => {
@@ -75,18 +82,19 @@ const generateComponentsList = () => {
     }
   });
 
-  return gulp.src('Templates/AvailableProgrammingLanguages.php.template')
+  return src('Templates/AvailableProgrammingLanguages.php.template')
     .pipe(nunjucks.compile({languages: languages}))
     .pipe(concat('AvailableProgrammingLanguages.php'))
-    .pipe(gulp.dest('../Resources/Private/PHP/'))
+    .pipe(dest('../Resources/Private/PHP/'))
 };
 
 
-exports.build = gulp.series(
+exports.build = series(
   cleanUp,
-  gulp.parallel(
+  parallel(
     copyComponents,
-    copyPlugins,
+    copyPluginJavaScripts,
+    copyPluginStyles,
     copyThemes,
   ),
   adjustAutoloaderPlugin,
