@@ -43,3 +43,21 @@ To update the library to the recent version just call on the console:
 
 The copied artifacts can now be committed (along with the :file:`package.json` file to the repository. Don't forget to
 add new files to the commit and add these to the translation file :file:`Resources/Private/Language/ProgrammingLanguages.xlf`.
+
+
+Packaging of extension for TER
+==============================
+
+After setting the new version in the files
+
+- :file:`ext_emconf.php`
+- :file:`Documentation/Settings.cfg`
+
+and adjusted the :file:`CHANGELOG.md`, the packaging of the extension for the TYPO3 Extension Repository (TER)
+can be done with:
+
+.. code-block:: shell
+
+   composer extension-release
+
+This creates/updates a folder :file:`../extension-release/` in which all the necessary files are available.

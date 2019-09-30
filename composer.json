@@ -38,5 +38,25 @@
             "app-dir": ".Build",
             "web-dir": ".Build/web"
         }
+    },
+    "scripts": {
+        "extension-init": [
+            "rm -rf ../extension-release/*"
+        ],
+        "extension-copy": [
+            "mkdir -p ../extension-release",
+            "cp -ra * ../extension-release/"
+        ],
+        "extension-cleanup": [
+            "rm -f ../extension-release/composer.lock",
+            "rm -f ../extension-release/README.md",
+            "rm -rf ../extension-release/Build",
+            "rm -rf ../extension-release/Documentation*"
+        ],
+        "extension-release": [
+            "@extension-init",
+            "@extension-copy",
+            "@extension-cleanup"
+        ]
     }
 }
