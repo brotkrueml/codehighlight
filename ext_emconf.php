@@ -2,19 +2,19 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Code Highlight',
-    'description' => 'Code highlighter for various languages',
+    'description' => 'Code highlighter for various programming languages',
     'category' => 'fe',
-    'state' => 'alpha',
-    'clearCacheOnLoad' => 1,
+    'state' => 'stable',
+    'clearCacheOnLoad' => true,
     'author' => 'Chris Müller',
     'author_email' => 'typo3@krue.ml',
-    'version' => '0.1.0-dev',
+    'version' => '1.0.0-dev',
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.5-10.0.99',
+            'typo3' => '9.5.5-10.4.99',
         ],
         'suggests' => [
-            't3editor' => '9.5.5-10.0.99',
+            't3editor' => '9.5.5-10.4.99',
         ],
     ],
     'autoload' => [

@@ -5,9 +5,7 @@
 
 ## Requirements
 
-The extension works with TYPO3 9 LTS and TYPO3 10.0.
-
-For now, it's work in progress.
+The extension works with TYPO3 9 LTS and TYPO3 v10.
 
 ## Update of JavaScript libraries
 

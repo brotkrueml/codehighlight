@@ -71,4 +71,5 @@ Various programming languages can be chosen, also some formatting settings. The 
    Editor/Index
    Installation/Index
    Configuration/Index
+   Maintenance/Index
    Sitemap

@@ -1,43 +1,42 @@
 {
-	"name": "brotkrueml/codehighlight",
-	"type": "typo3-cms-extension",
-	"license": "GPL-2.0-or-later",
-	"description": "Code highlighter for various languages",
-	"authors": [
-		{
-			"name": "Chris Müller",
-			"email": "typo3@krue.ml",
-			"role": "Developer"
-		}
-	],
-	"keywords": [
-		"TYPO3 CMS",
-		"TYPO3 extension",
-		"Syntax highlighting",
-		"Code highlighting"
-	],
-	"require": {
-		"typo3/cms-backend": "^9.5.5 || 10.0.*",
-		"typo3/cms-core": "^9.5.5 || 10.0.*",
-		"typo3/cms-frontend": "^9.5.5 || 10.0.*"
-	},
-	"suggest": {
-		"typo3/cms-t3editor": "^9.5.5 || 10.0.*"
-	},
-	"autoload": {
-		"psr-4": {
-			"Brotkrueml\\CodeHighlight\\": "Classes/"
-		}
-	},
-	"config": {
-		"sort-packages": true,
-		"vendor-dir": ".Build/vendor",
-		"bin-dir": ".Build/bin"
-	},
-	"extra": {
-		"typo3/cms": {
-			"cms-package-dir": "{$vendor-dir}/typo3/cms",
-			"web-dir": ".Build/web"
-		}
-	}
+    "name": "brotkrueml/codehighlight",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "description": "Code highlighter for various programming languages",
+    "authors": [
+        {
+            "name": "Chris Müller",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "TYPO3 CMS",
+        "TYPO3 extension",
+        "Syntax highlighting",
+        "Code highlighting"
+    ],
+    "require": {
+        "typo3/cms-backend": "^9.5.5 || ^10.0",
+        "typo3/cms-core": "^9.5.5 || ^10.0",
+        "typo3/cms-frontend": "^9.5.5 || ^10.0"
+    },
+    "suggest": {
+        "typo3/cms-t3editor": "^9.5.5 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brotkrueml\\CodeHighlight\\": "Classes/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "app-dir": ".Build",
+            "web-dir": ".Build/web"
+        }
+    }
 }
