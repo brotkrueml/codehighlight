@@ -10,38 +10,36 @@ Maintenance
 This chapter is for developers who want to contribute and maintain the extension.
 
 
-.. _screenshots:
+.. _update-prism:
 
-Screenshots
-===========
+Prism Library
+=============
 
-PHP code snippet
-----------------
+For syntax highlighting `Prism <https://prismjs.com/>`__ is used. The JavaScript library and its dependencies are
+managed with :file:`yarn` and build with :file:`gulp`:
 
-Example output using the Coy theme for a PHP code snippet with line numbers and line highlighting:
+.. code-block:: shell
 
-.. figure:: ../Images/Introduction/example-php.png
-   :class: with-shadow
-   :alt: PHP code snippet with line numbers and line highlighting
+   cd Build
+   yarn install
+   yarn build
 
+The :file:`yarn build` command runs the according gulp task and copies the Prism components (aka languages), plugins
+and themes to the :file:`Resources/Public/Vendor/PrismJs/` folder. Also a PHP file
+:file:`Resources/Private/PHP/AvailableProgrammingLanguages.php` is generated with the available languages. It will
+be used for the select box of programming languages in the backend form. The option values are "translated" via the
+:file:`Resources/Private/Language/ProgrammingLanguages.xlf` file.
 
-Shell command
--------------
+Update
+------
 
-Example output using the Coy theme for a shell command with prompt:
+To update the library to the recent version just call on the console:
 
-.. figure:: ../Images/Introduction/example-shell.png
-   :class: with-shadow
-   :alt: Shell command with prompt
+.. code-block:: shell
 
+   cd Build
+   yarn upgrade prismjs
+   yarn build
 
-.. _release-management:
-
-Release Management
-==================
-
-This extension uses `semantic versioning <https://semver.org/>`__ which basically means for you, that
-
-- Bugfix updates (e.g. 1.0.0 => 1.0.1) just includes small bug fixes or security relevant stuff without breaking changes.
-- Minor updates (e.g. 1.0.0 => 1.1.0) includes new features and smaller tasks without breaking changes.
-- Major updates (e.g. 1.0.0 => 2.0.0) breaking changes which can be refactorings, features or bug fixes.
+The copied artifacts can now be committed (along with the :file:`package.json` file to the repository. Don't forget to
+add new files to the commit and add these to the translation file :file:`Resources/Private/Language/ProgrammingLanguages.xlf`.
