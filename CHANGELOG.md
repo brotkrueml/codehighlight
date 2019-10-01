@@ -6,12 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 
+## [1.0.0] - 2019-10-01
 
 ### Added
 
-- Content element for adding code snippet to a page
-- Syntax highlighting of code with Prism
+- Content element "Code Snippet"
+- Syntax highlighting with Prism
 
 [Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/brotkrueml/codehighlight/releases/tag/v1.0.0
