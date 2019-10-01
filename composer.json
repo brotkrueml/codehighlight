@@ -49,6 +49,7 @@
         ],
         "extension-cleanup": [
             "rm -f ../extension-release/composer.lock",
+            "rm -f ../extension-release/CHANGELOG.md",
             "rm -f ../extension-release/README.md",
             "rm -rf ../extension-release/Build",
             "rm -rf ../extension-release/Documentation*"
