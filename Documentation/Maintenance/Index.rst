@@ -10,7 +10,7 @@ Maintenance
 This chapter is for developers who want to contribute and maintain the extension.
 
 
-.. _update-prism:
+.. _maintenance-prism:
 
 Prism Library
 =============
@@ -30,6 +30,9 @@ and themes to the :file:`Resources/Public/Vendor/PrismJs/` folder. Also a PHP fi
 be used for the select box of programming languages in the backend form. The option values are "translated" via the
 :file:`Resources/Private/Language/ProgrammingLanguages.xlf` file.
 
+
+.. _maintenance-prism-update:
+
 Update
 ------
 
@@ -44,6 +47,17 @@ To update the library to the recent version just call on the console:
 The copied artifacts can now be committed (along with the :file:`package.json` file to the repository. Don't forget to
 add new files to the commit and add these to the translation file :file:`Resources/Private/Language/ProgrammingLanguages.xlf`.
 
+.. note::
+
+   Due to the variants JavaScript files can be integrated into the page (as configured, last modification timestamp is
+   embedded into the filename, :ref:`concatenated <t3tsref:setup-config-concatenatejs>`) the script
+   :file:`Build/node_modules/prismjs/plugins/autoloader/prism-autoloader.js` was patched: The variable
+   :js:`language_path` has to be set to :js:`/typo3conf/ext/codehighlight/Resources/Public/Prism/components/`.
+   When updating the Prism library, the patch under :file:`Build/patches/prismjs+1.xx.x.patch` has to be adjusted
+   eventually. The package `patch-package <https://github.com/ds300/patch-package#readme>`__ is used for that.
+
+
+.. _maintenance-packaging-extension:
 
 Packaging of extension for TER
 ==============================

@@ -65,3 +65,14 @@ Alternatively you can change the paths directly in TypoScript:
          10 = EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/
       }
    }
+
+
+.. _configuration-assets-embedding:
+
+Assets embedding
+================
+
+The required CSS and JavaScript files from the Prism library are embedded with the :php:`PageRenderer` methods
+:php:`addCssFile()` and :php:`addJsFooterFile()`. This means, that they adhere to the configuration setting
+:php:`$GLOBALS['TYPO3_CONF_VARS']['FE']['versionNumberInFilename']` and the TypoScript setting
+:ref:`config.concatenateJs <t3tsref:setup-config-concatenatejs>`.

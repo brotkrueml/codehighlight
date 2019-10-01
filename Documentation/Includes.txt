@@ -12,6 +12,8 @@
 .. role::   ts(typoscript)
    :class:  typoscript
 
+.. role::   js(code)
+
 .. role::   php(code)
 
 .. highlight:: php
