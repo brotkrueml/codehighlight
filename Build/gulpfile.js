@@ -3,15 +3,15 @@ const
 
   cleanCSS = require('gulp-clean-css'),
   concat = require('gulp-concat'),
-  copy = require('gulp-copy'),
   del = require('del'),
   fs = require('fs'),
-  nunjucks = require('gulp-nunjucks')
+  nunjucks = require('gulp-nunjucks'),
+  path = require('path')
 ;
 
 const options = {
   inputPath: 'node_modules/prismjs/',
-  outputPath: '../Resources/Public/Vendor/PrismJs/',
+  outputPath: '../Resources/Public/Prism/',
   availablePlugins: [
     'autoloader',
     'command-line',
@@ -22,8 +22,8 @@ const options = {
 
 const getPluginPathsForFilePattern = (filePattern) => {
   let pluginPaths = [];
-  options.availablePlugins.forEach((plugin) => {
-    pluginPaths.push(options.inputPath + 'plugins/' + plugin + '/' + filePattern);
+  options.availablePlugins.forEach((pluginName) => {
+    pluginPaths.push(options.inputPath + 'plugins/' + pluginName + '/' + filePattern);
   });
 
   return pluginPaths;
@@ -44,14 +44,13 @@ const copyComponents = () =>
 
 const copyPluginJavaScripts = () =>
   src(getPluginPathsForFilePattern('*.min.js'))
-    .pipe(copy(options.outputPath + 'plugins/', {prefix: 3}))
+    .pipe(dest((file) => options.outputPath + 'plugins/' + path.basename(file.base)))
 ;
 
 const copyPluginStyles = () =>
   src(getPluginPathsForFilePattern('*.css'))
-    .pipe(copy(options.outputPath + 'plugins/', {prefix: 3}))
     .pipe(cleanCSS())
-    .pipe(dest(options.outputPath + 'plugins/'))
+    .pipe(dest((file) => options.outputPath + 'plugins/' + path.basename(file.base)))
 ;
 
 const copyThemes = () =>

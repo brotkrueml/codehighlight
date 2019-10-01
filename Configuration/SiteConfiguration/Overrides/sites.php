@@ -2,7 +2,7 @@
 
 (function ($extensionKey) {
     $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/SiteConfiguration.xlf:';
-    $themePath = 'EXT:' . $extensionKey . '/Resources/Public/Vendor/PrismJs/themes/';
+    $themePath = 'EXT:' . $extensionKey . '/Resources/Public/Prism/themes/';
 
     $GLOBALS['SiteConfiguration']['site']['columns']['codehighlightTheme'] = [
         'label' => $llPrefix . 'codehighlightTheme',
