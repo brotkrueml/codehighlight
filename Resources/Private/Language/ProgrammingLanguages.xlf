@@ -2,244 +2,244 @@
 <xliff version="1.0">
 	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T19:34:08Z">
 		<body>
-			<trans-unit id="abap">
+			<trans-unit id="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
 			</trans-unit>
 			<trans-unit id="abnf">
 				<source><![CDATA[Augmented Backus–Naur form]]></source>
 			</trans-unit>
-			<trans-unit id="actionscript">
+			<trans-unit id="actionscript" translate="no">
 				<source><![CDATA[ActionScript]]></source>
 			</trans-unit>
-			<trans-unit id="ada">
+			<trans-unit id="ada" translate="no">
 				<source><![CDATA[Ada]]></source>
 			</trans-unit>
 			<trans-unit id="apacheconf">
 				<source><![CDATA[Apache Configuration]]></source>
 			</trans-unit>
-			<trans-unit id="apl">
+			<trans-unit id="apl" translate="no">
 				<source><![CDATA[APL]]></source>
 			</trans-unit>
-			<trans-unit id="applescript">
+			<trans-unit id="applescript" translate="no">
 				<source><![CDATA[AppleScript]]></source>
 			</trans-unit>
-			<trans-unit id="arduino">
+			<trans-unit id="arduino" translate="no">
 				<source><![CDATA[Arduino]]></source>
 			</trans-unit>
-			<trans-unit id="arff">
+			<trans-unit id="arff" translate="no">
 				<source><![CDATA[ARFF]]></source>
 			</trans-unit>
-			<trans-unit id="asciidoc">
+			<trans-unit id="asciidoc" translate="no">
 				<source><![CDATA[AsciiDoc]]></source>
 			</trans-unit>
 			<trans-unit id="asm6502">
 				<source><![CDATA[6502 Assembly]]></source>
 			</trans-unit>
-			<trans-unit id="aspnet">
+			<trans-unit id="aspnet" translate="no">
 				<source><![CDATA[ASP.NET (C#)]]></source>
 			</trans-unit>
-			<trans-unit id="autohotkey">
+			<trans-unit id="autohotkey" translate="no">
 				<source><![CDATA[AutoHotkey]]></source>
 			</trans-unit>
-			<trans-unit id="autoit">
+			<trans-unit id="autoit" translate="no">
 				<source><![CDATA[AutoIt]]></source>
 			</trans-unit>
-			<trans-unit id="bash">
+			<trans-unit id="bash" translate="no">
 				<source><![CDATA[Bash + Shell]]></source>
 			</trans-unit>
-			<trans-unit id="basic">
+			<trans-unit id="basic" translate="no">
 				<source><![CDATA[BASIC]]></source>
 			</trans-unit>
-			<trans-unit id="batch">
+			<trans-unit id="batch" translate="no">
 				<source><![CDATA[Batch]]></source>
 			</trans-unit>
-			<trans-unit id="bison">
+			<trans-unit id="bison" translate="no">
 				<source><![CDATA[Bison]]></source>
 			</trans-unit>
 			<trans-unit id="bnf">
 				<source><![CDATA[Backus–Naur form + Routing Backus–Naur form]]></source>
 			</trans-unit>
-			<trans-unit id="brainfuck">
+			<trans-unit id="brainfuck" translate="no">
 				<source><![CDATA[Brainfuck]]></source>
 			</trans-unit>
-			<trans-unit id="bro">
+			<trans-unit id="bro" translate="no">
 				<source><![CDATA[Bro]]></source>
 			</trans-unit>
-			<trans-unit id="c">
+			<trans-unit id="c" translate="no">
 				<source><![CDATA[C]]></source>
 			</trans-unit>
-			<trans-unit id="cil">
+			<trans-unit id="cil" translate="no">
 				<source><![CDATA[CIL]]></source>
 			</trans-unit>
 			<trans-unit id="clike">
 				<source><![CDATA[C-like]]></source>
 			</trans-unit>
-			<trans-unit id="clojure">
+			<trans-unit id="clojure" translate="no">
 				<source><![CDATA[Clojure]]></source>
 			</trans-unit>
-			<trans-unit id="cmake">
+			<trans-unit id="cmake" translate="no">
 				<source><![CDATA[CMake]]></source>
 			</trans-unit>
-			<trans-unit id="coffeescript">
+			<trans-unit id="coffeescript" translate="no">
 				<source><![CDATA[CoffeeScript]]></source>
 			</trans-unit>
-			<trans-unit id="cpp">
+			<trans-unit id="cpp" translate="no">
 				<source><![CDATA[C++]]></source>
 			</trans-unit>
-			<trans-unit id="crystal">
+			<trans-unit id="crystal" translate="no">
 				<source><![CDATA[Crystal]]></source>
 			</trans-unit>
-			<trans-unit id="csharp">
+			<trans-unit id="csharp" translate="no">
 				<source><![CDATA[C#]]></source>
 			</trans-unit>
-			<trans-unit id="csp">
+			<trans-unit id="csp" translate="no">
 				<source><![CDATA[Content-Security-Policy]]></source>
 			</trans-unit>
-			<trans-unit id="css">
+			<trans-unit id="css" translate="no">
 				<source><![CDATA[CSS]]></source>
 			</trans-unit>
 			<trans-unit id="css-extras">
 				<source><![CDATA[CSS Extras]]></source>
 			</trans-unit>
-			<trans-unit id="d">
+			<trans-unit id="d" translate="no">
 				<source><![CDATA[D]]></source>
 			</trans-unit>
-			<trans-unit id="dart">
+			<trans-unit id="dart" translate="no">
 				<source><![CDATA[Dart]]></source>
 			</trans-unit>
-			<trans-unit id="diff">
+			<trans-unit id="diff" translate="no">
 				<source><![CDATA[Diff]]></source>
 			</trans-unit>
-			<trans-unit id="django">
+			<trans-unit id="django" translate="no">
 				<source><![CDATA[Django/Jinja2]]></source>
 			</trans-unit>
 			<trans-unit id="dns-zone-file">
 				<source><![CDATA[DNS zone file]]></source>
 			</trans-unit>
-			<trans-unit id="docker">
+			<trans-unit id="docker" translate="no">
 				<source><![CDATA[Docker]]></source>
 			</trans-unit>
 			<trans-unit id="ebnf">
 				<source><![CDATA[Extended Backus–Naur form]]></source>
 			</trans-unit>
-			<trans-unit id="eiffel">
+			<trans-unit id="eiffel" translate="no">
 				<source><![CDATA[Eiffel]]></source>
 			</trans-unit>
-			<trans-unit id="ejs">
+			<trans-unit id="ejs"> translate="no"
 				<source><![CDATA[EJS]]></source>
 			</trans-unit>
-			<trans-unit id="elixir">
+			<trans-unit id="elixir" translate="no">
 				<source><![CDATA[Elixir]]></source>
 			</trans-unit>
-			<trans-unit id="elm">
+			<trans-unit id="elm" translate="no">
 				<source><![CDATA[Elm]]></source>
 			</trans-unit>
-			<trans-unit id="erb">
+			<trans-unit id="erb" translate="no">
 				<source><![CDATA[ERB]]></source>
 			</trans-unit>
-			<trans-unit id="erlang">
+			<trans-unit id="erlang" translate="no">
 				<source><![CDATA[Erlang]]></source>
 			</trans-unit>
-			<trans-unit id="flow">
+			<trans-unit id="flow" translate="no">
 				<source><![CDATA[Flow]]></source>
 			</trans-unit>
-			<trans-unit id="fortran">
+			<trans-unit id="fortran" translate="no">
 				<source><![CDATA[Fortran]]></source>
 			</trans-unit>
-			<trans-unit id="fsharp">
+			<trans-unit id="fsharp" translate="no">
 				<source><![CDATA[F#]]></source>
 			</trans-unit>
-			<trans-unit id="gcode">
+			<trans-unit id="gcode" translate="no">
 				<source><![CDATA[G-code]]></source>
 			</trans-unit>
-			<trans-unit id="gedcom">
+			<trans-unit id="gedcom" translate="no">
 				<source><![CDATA[GEDCOM]]></source>
 			</trans-unit>
-			<trans-unit id="gherkin">
+			<trans-unit id="gherkin" translate="no">
 				<source><![CDATA[Gherkin]]></source>
 			</trans-unit>
-			<trans-unit id="git">
+			<trans-unit id="git" translate="no">
 				<source><![CDATA[Git]]></source>
 			</trans-unit>
-			<trans-unit id="glsl">
+			<trans-unit id="glsl" translate="no">
 				<source><![CDATA[GLSL]]></source>
 			</trans-unit>
 			<trans-unit id="gml">
 				<source><![CDATA[GameMaker Language]]></source>
 			</trans-unit>
-			<trans-unit id="go">
+			<trans-unit id="go" translate="no">
 				<source><![CDATA[Go]]></source>
 			</trans-unit>
-			<trans-unit id="graphql">
+			<trans-unit id="graphql" translate="no">
 				<source><![CDATA[GraphQL]]></source>
 			</trans-unit>
-			<trans-unit id="groovy">
+			<trans-unit id="groovy" translate="no">
 				<source><![CDATA[Groovy]]></source>
 			</trans-unit>
-			<trans-unit id="haml">
+			<trans-unit id="haml" translate="no">
 				<source><![CDATA[Haml]]></source>
 			</trans-unit>
-			<trans-unit id="handlebars">
+			<trans-unit id="handlebars" translate="no">
 				<source><![CDATA[Handlebars]]></source>
 			</trans-unit>
-			<trans-unit id="haskell">
+			<trans-unit id="haskell" translate="no">
 				<source><![CDATA[Haskell]]></source>
 			</trans-unit>
-			<trans-unit id="haxe">
+			<trans-unit id="haxe" translate="no">
 				<source><![CDATA[Haxe]]></source>
 			</trans-unit>
-			<trans-unit id="hcl">
+			<trans-unit id="hcl" translate="no">
 				<source><![CDATA[HCL]]></source>
 			</trans-unit>
-			<trans-unit id="hpkp">
+			<trans-unit id="hpkp" translate="no">
 				<source><![CDATA[HTTP Public-Key-Pins]]></source>
 			</trans-unit>
-			<trans-unit id="hsts">
+			<trans-unit id="hsts" translate="no">
 				<source><![CDATA[HTTP Strict-Transport-Security]]></source>
 			</trans-unit>
-			<trans-unit id="html">
+			<trans-unit id="html" translate="no">
 				<source><![CDATA[HTML]]></source>
 			</trans-unit>
-			<trans-unit id="http">
+			<trans-unit id="http" translate="no">
 				<source><![CDATA[HTTP]]></source>
 			</trans-unit>
-			<trans-unit id="ichigojam">
+			<trans-unit id="ichigojam" translate="no">
 				<source><![CDATA[IchigoJam]]></source>
 			</trans-unit>
-			<trans-unit id="icon">
+			<trans-unit id="icon"> translate="no"
 				<source><![CDATA[Icon]]></source>
 			</trans-unit>
-			<trans-unit id="inform7">
+			<trans-unit id="inform7" translate="no">
 				<source><![CDATA[Inform 7]]></source>
 			</trans-unit>
-			<trans-unit id="ini">
+			<trans-unit id="ini" translate="no">
 				<source><![CDATA[Ini]]></source>
 			</trans-unit>
-			<trans-unit id="io">
+			<trans-unit id="io" translate="no">
 				<source><![CDATA[Io]]></source>
 			</trans-unit>
-			<trans-unit id="j">
+			<trans-unit id="j" translate="no">
 				<source><![CDATA[J]]></source>
 			</trans-unit>
-			<trans-unit id="java">
+			<trans-unit id="java" translate="no">
 				<source><![CDATA[Java]]></source>
 			</trans-unit>
-			<trans-unit id="javadoc">
+			<trans-unit id="javadoc" translate="no">
 				<source><![CDATA[JavaDoc]]></source>
 			</trans-unit>
-			<trans-unit id="javadoclike">
+			<trans-unit id="javadoclike" translate="no">
 				<source><![CDATA[JavaDoc-like]]></source>
 			</trans-unit>
-			<trans-unit id="javascript">
+			<trans-unit id="javascript" translate="no">
 				<source><![CDATA[JavaScript]]></source>
 			</trans-unit>
 			<trans-unit id="javastacktrace">
 				<source><![CDATA[Java stack trace]]></source>
 			</trans-unit>
-			<trans-unit id="jolie">
+			<trans-unit id="jolie" translate="no">
 				<source><![CDATA[Jolie]]></source>
 			</trans-unit>
-			<trans-unit id="jq">
+			<trans-unit id="jq" translate="no">
 				<source><![CDATA[JQ]]></source>
 			</trans-unit>
 			<trans-unit id="js-extras">
@@ -248,247 +248,247 @@
 			<trans-unit id="js-templates">
 				<source><![CDATA[JS Templates]]></source>
 			</trans-unit>
-			<trans-unit id="jsdoc">
+			<trans-unit id="jsdoc" translate="no">
 				<source><![CDATA[JSDoc]]></source>
 			</trans-unit>
-			<trans-unit id="json">
+			<trans-unit id="json" translate="no">
 				<source><![CDATA[JSON]]></source>
 			</trans-unit>
-			<trans-unit id="json5">
+			<trans-unit id="json5" translate="no">
 				<source><![CDATA[JSON5]]></source>
 			</trans-unit>
-			<trans-unit id="jsonp">
+			<trans-unit id="jsonp" translate="no">
 				<source><![CDATA[JSONP]]></source>
 			</trans-unit>
-			<trans-unit id="jsx">
+			<trans-unit id="jsx" translate="no">
 				<source><![CDATA[React JSX]]></source>
 			</trans-unit>
-			<trans-unit id="julia">
+			<trans-unit id="julia" translate="no">
 				<source><![CDATA[Julia]]></source>
 			</trans-unit>
-			<trans-unit id="keyman">
+			<trans-unit id="keyman" translate="no">
 				<source><![CDATA[Keyman]]></source>
 			</trans-unit>
-			<trans-unit id="kotlin">
+			<trans-unit id="kotlin" translate="no">
 				<source><![CDATA[Kotlin]]></source>
 			</trans-unit>
-			<trans-unit id="latex">
+			<trans-unit id="latex" translate="no">
 				<source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
 			</trans-unit>
-			<trans-unit id="less">
+			<trans-unit id="less" translate="no">
 				<source><![CDATA[Less]]></source>
 			</trans-unit>
-			<trans-unit id="lilypond">
+			<trans-unit id="lilypond" translate="no">
 				<source><![CDATA[LilyPond]]></source>
 			</trans-unit>
-			<trans-unit id="liquid">
+			<trans-unit id="liquid" translate="no">
 				<source><![CDATA[Liquid]]></source>
 			</trans-unit>
-			<trans-unit id="lisp">
+			<trans-unit id="lisp" translate="no">
 				<source><![CDATA[Lisp]]></source>
 			</trans-unit>
-			<trans-unit id="livescript">
+			<trans-unit id="livescript" translate="no">
 				<source><![CDATA[LiveScript]]></source>
 			</trans-unit>
-			<trans-unit id="lolcode">
+			<trans-unit id="lolcode" translate="no">
 				<source><![CDATA[LOLCODE]]></source>
 			</trans-unit>
-			<trans-unit id="lua">
+			<trans-unit id="lua" translate="no">
 				<source><![CDATA[Lua]]></source>
 			</trans-unit>
-			<trans-unit id="makefile">
+			<trans-unit id="makefile" translate="no">
 				<source><![CDATA[Makefile]]></source>
 			</trans-unit>
-			<trans-unit id="markdown">
+			<trans-unit id="markdown" translate="no">
 				<source><![CDATA[Markdown]]></source>
 			</trans-unit>
-			<trans-unit id="markup">
+			<trans-unit id="markup" translate="no">
 				<source><![CDATA[Markup]]></source>
 			</trans-unit>
 			<trans-unit id="markup-templating">
 				<source><![CDATA[Markup templating]]></source>
 			</trans-unit>
-			<trans-unit id="mathml">
+			<trans-unit id="mathml" translate="no">
 				<source><![CDATA[MathML]]></source>
 			</trans-unit>
-			<trans-unit id="matlab">
+			<trans-unit id="matlab" translate="no">
 				<source><![CDATA[MATLAB]]></source>
 			</trans-unit>
-			<trans-unit id="mel">
+			<trans-unit id="mel" translate="no">
 				<source><![CDATA[MEL]]></source>
 			</trans-unit>
-			<trans-unit id="mizar">
+			<trans-unit id="mizar" translate="no">
 				<source><![CDATA[Mizar]]></source>
 			</trans-unit>
-			<trans-unit id="monkey">
+			<trans-unit id="monkey" translate="no">
 				<source><![CDATA[Monkey]]></source>
 			</trans-unit>
-			<trans-unit id="n1ql">
+			<trans-unit id="n1ql" translate="no">
 				<source><![CDATA[N1QL]]></source>
 			</trans-unit>
-			<trans-unit id="n4js">
+			<trans-unit id="n4js" translate="no">
 				<source><![CDATA[N4JS]]></source>
 			</trans-unit>
 			<trans-unit id="nand2tetris-hdl">
 				<source><![CDATA[Nand To Tetris HDL]]></source>
 			</trans-unit>
-			<trans-unit id="nasm">
+			<trans-unit id="nasm" translate="no">
 				<source><![CDATA[NASM]]></source>
 			</trans-unit>
-			<trans-unit id="nginx">
+			<trans-unit id="nginx" translate="no">
 				<source><![CDATA[nginx]]></source>
 			</trans-unit>
-			<trans-unit id="nim">
+			<trans-unit id="nim" translate="no">
 				<source><![CDATA[Nim]]></source>
 			</trans-unit>
-			<trans-unit id="nix">
+			<trans-unit id="nix" translate="no">
 				<source><![CDATA[Nix]]></source>
 			</trans-unit>
-			<trans-unit id="nsis">
+			<trans-unit id="nsis" translate="no">
 				<source><![CDATA[NSIS]]></source>
 			</trans-unit>
-			<trans-unit id="objectivec">
+			<trans-unit id="objectivec" translate="no">
 				<source><![CDATA[Objective-C]]></source>
 			</trans-unit>
-			<trans-unit id="ocaml">
+			<trans-unit id="ocaml" translate="no">
 				<source><![CDATA[OCaml]]></source>
 			</trans-unit>
-			<trans-unit id="opencl">
+			<trans-unit id="opencl" translate="no">
 				<source><![CDATA[OpenCL]]></source>
 			</trans-unit>
-			<trans-unit id="oz">
+			<trans-unit id="oz" translate="no">
 				<source><![CDATA[Oz]]></source>
 			</trans-unit>
-			<trans-unit id="parigp">
+			<trans-unit id="parigp" translate="no">
 				<source><![CDATA[PARI/GP]]></source>
 			</trans-unit>
-			<trans-unit id="parser">
+			<trans-unit id="parser" translate="no">
 				<source><![CDATA[Parser]]></source>
 			</trans-unit>
-			<trans-unit id="pascal">
+			<trans-unit id="pascal" translate="no">
 				<source><![CDATA[Pascal + Object Pascal]]></source>
 			</trans-unit>
-			<trans-unit id="pascaligo">
+			<trans-unit id="pascaligo" translate="no">
 				<source><![CDATA[Pascaligo]]></source>
 			</trans-unit>
-			<trans-unit id="pcaxis">
+			<trans-unit id="pcaxis" translate="no">
 				<source><![CDATA[PC-Axis]]></source>
 			</trans-unit>
-			<trans-unit id="perl">
+			<trans-unit id="perl" translate="no">
 				<source><![CDATA[Perl]]></source>
 			</trans-unit>
-			<trans-unit id="php">
+			<trans-unit id="php" translate="no">
 				<source><![CDATA[PHP]]></source>
 			</trans-unit>
 			<trans-unit id="php-extras">
 				<source><![CDATA[PHP Extras]]></source>
 			</trans-unit>
-			<trans-unit id="phpdoc">
+			<trans-unit id="phpdoc" translate="no">
 				<source><![CDATA[PHPDoc]]></source>
 			</trans-unit>
-			<trans-unit id="plsql">
+			<trans-unit id="plsql" translate="no">
 				<source><![CDATA[PL/SQL]]></source>
 			</trans-unit>
-			<trans-unit id="powershell">
+			<trans-unit id="powershell" translate="no">
 				<source><![CDATA[PowerShell]]></source>
 			</trans-unit>
-			<trans-unit id="processing">
+			<trans-unit id="processing" translate="no">
 				<source><![CDATA[Processing]]></source>
 			</trans-unit>
-			<trans-unit id="prolog">
+			<trans-unit id="prolog" translate="no">
 				<source><![CDATA[Prolog]]></source>
 			</trans-unit>
-			<trans-unit id="properties">
+			<trans-unit id="properties" translate="no">
 				<source><![CDATA[.properties]]></source>
 			</trans-unit>
-			<trans-unit id="protobuf">
+			<trans-unit id="protobuf" translate="no">
 				<source><![CDATA[Protocol Buffers]]></source>
 			</trans-unit>
-			<trans-unit id="pug">
+			<trans-unit id="pug" translate="no">
 				<source><![CDATA[Pug]]></source>
 			</trans-unit>
-			<trans-unit id="puppet">
+			<trans-unit id="puppet" translate="no">
 				<source><![CDATA[Puppet]]></source>
 			</trans-unit>
-			<trans-unit id="pure">
+			<trans-unit id="pure" translate="no">
 				<source><![CDATA[Pure]]></source>
 			</trans-unit>
-			<trans-unit id="python">
+			<trans-unit id="python" translate="no">
 				<source><![CDATA[Python]]></source>
 			</trans-unit>
 			<trans-unit id="q">
 				<source><![CDATA[Q (kdb+ database)]]></source>
 			</trans-unit>
-			<trans-unit id="qore">
+			<trans-unit id="qore" translate="no">
 				<source><![CDATA[Qore]]></source>
 			</trans-unit>
-			<trans-unit id="r">
+			<trans-unit id="r" translate="no">
 				<source><![CDATA[R]]></source>
 			</trans-unit>
-			<trans-unit id="reason">
+			<trans-unit id="reason" translate="no">
 				<source><![CDATA[Reason]]></source>
 			</trans-unit>
-			<trans-unit id="regex">
+			<trans-unit id="regex" translate="no">
 				<source><![CDATA[Regex]]></source>
 			</trans-unit>
-			<trans-unit id="renpy">
+			<trans-unit id="renpy" translate="no">
 				<source><![CDATA[Ren'py]]></source>
 			</trans-unit>
-			<trans-unit id="rest">
+			<trans-unit id="rest" translate="no">
 				<source><![CDATA[reST (reStructuredText)]]></source>
 			</trans-unit>
-			<trans-unit id="rip">
+			<trans-unit id="rip" translate="no">
 				<source><![CDATA[Rip]]></source>
 			</trans-unit>
-			<trans-unit id="roboconf">
+			<trans-unit id="roboconf" translate="no">
 				<source><![CDATA[Roboconf]]></source>
 			</trans-unit>
-			<trans-unit id="ruby">
+			<trans-unit id="ruby" translate="no">
 				<source><![CDATA[Ruby]]></source>
 			</trans-unit>
-			<trans-unit id="rust">
+			<trans-unit id="rust" translate="no">
 				<source><![CDATA[Rust]]></source>
 			</trans-unit>
-			<trans-unit id="sas">
+			<trans-unit id="sas" translate="no">
 				<source><![CDATA[SAS]]></source>
 			</trans-unit>
-			<trans-unit id="sass">
+			<trans-unit id="sass" translate="no">
 				<source><![CDATA[Sass (Sass)]]></source>
 			</trans-unit>
-			<trans-unit id="scala">
+			<trans-unit id="scala" translate="no">
 				<source><![CDATA[Scala]]></source>
 			</trans-unit>
-			<trans-unit id="scheme">
+			<trans-unit id="scheme" translate="no">
 				<source><![CDATA[Scheme]]></source>
 			</trans-unit>
-			<trans-unit id="scss">
+			<trans-unit id="scss" translate="no">
 				<source><![CDATA[Sass (Scss)]]></source>
 			</trans-unit>
 			<trans-unit id="shell-session">
 				<source><![CDATA[Shell session]]></source>
 			</trans-unit>
-			<trans-unit id="smalltalk">
+			<trans-unit id="smalltalk" translate="no">
 				<source><![CDATA[Smalltalk]]></source>
 			</trans-unit>
-			<trans-unit id="smarty">
+			<trans-unit id="smarty" translate="no">
 				<source><![CDATA[Smarty]]></source>
 			</trans-unit>
 			<trans-unit id="soy">
 				<source><![CDATA[Soy (Closure Template)]]></source>
 			</trans-unit>
-			<trans-unit id="splunk-spl">
+			<trans-unit id="splunk-spl" translate="no">
 				<source><![CDATA[Splunk SPL]]></source>
 			</trans-unit>
-			<trans-unit id="sql">
+			<trans-unit id="sql" translate="no">
 				<source><![CDATA[SQL]]></source>
 			</trans-unit>
-			<trans-unit id="stylus">
+			<trans-unit id="stylus" translate="no">
 				<source><![CDATA[Stylus]]></source>
 			</trans-unit>
-			<trans-unit id="svg">
+			<trans-unit id="svg" translate="no">
 				<source><![CDATA[SVG]]></source>
 			</trans-unit>
-			<trans-unit id="swift">
+			<trans-unit id="swift" translate="no">
 				<source><![CDATA[Swift]]></source>
 			</trans-unit>
 			<trans-unit id="t4-cs">
@@ -500,70 +500,70 @@
 			<trans-unit id="t4-vb">
 				<source><![CDATA[T4 Text Templates (VB)]]></source>
 			</trans-unit>
-			<trans-unit id="tap">
+			<trans-unit id="tap" translate="no">
 				<source><![CDATA[TAP]]></source>
 			</trans-unit>
-			<trans-unit id="tcl">
+			<trans-unit id="tcl" translate="no">
 				<source><![CDATA[Tcl]]></source>
 			</trans-unit>
-			<trans-unit id="textile">
+			<trans-unit id="textile" translate="no">
 				<source><![CDATA[Textile]]></source>
 			</trans-unit>
-			<trans-unit id="toml">
+			<trans-unit id="toml" translate="no">
 				<source><![CDATA[TOML]]></source>
 			</trans-unit>
-			<trans-unit id="tsx">
+			<trans-unit id="tsx" translate="no">
 				<source><![CDATA[React TSX]]></source>
 			</trans-unit>
-			<trans-unit id="tt2">
+			<trans-unit id="tt2" translate="no">
 				<source><![CDATA[Template Toolkit 2]]></source>
 			</trans-unit>
-			<trans-unit id="twig">
+			<trans-unit id="twig" translate="no">
 				<source><![CDATA[Twig]]></source>
 			</trans-unit>
-			<trans-unit id="typescript">
+			<trans-unit id="typescript" translate="no">
 				<source><![CDATA[TypeScript]]></source>
 			</trans-unit>
-			<trans-unit id="vala">
+			<trans-unit id="vala" translate="no">
 				<source><![CDATA[Vala]]></source>
 			</trans-unit>
-			<trans-unit id="vbnet">
+			<trans-unit id="vbnet" translate="no">
 				<source><![CDATA[VB.Net]]></source>
 			</trans-unit>
-			<trans-unit id="velocity">
+			<trans-unit id="velocity" translate="no">
 				<source><![CDATA[Velocity]]></source>
 			</trans-unit>
-			<trans-unit id="verilog">
+			<trans-unit id="verilog" translate="no">
 				<source><![CDATA[Verilog]]></source>
 			</trans-unit>
-			<trans-unit id="vhdl">
+			<trans-unit id="vhdl" translate="no">
 				<source><![CDATA[VHDL]]></source>
 			</trans-unit>
-			<trans-unit id="vim">
+			<trans-unit id="vim" translate="no">
 				<source><![CDATA[vim]]></source>
 			</trans-unit>
-			<trans-unit id="visual-basic">
+			<trans-unit id="visual-basic" translate="no">
 				<source><![CDATA[Visual Basic]]></source>
 			</trans-unit>
-			<trans-unit id="wasm">
+			<trans-unit id="wasm" translate="no">
 				<source><![CDATA[WebAssembly]]></source>
 			</trans-unit>
 			<trans-unit id="wiki">
 				<source><![CDATA[Wiki markup]]></source>
 			</trans-unit>
-			<trans-unit id="xeora">
+			<trans-unit id="xeora" translate="no">
 				<source><![CDATA[Xeora + XeoraCube]]></source>
 			</trans-unit>
-			<trans-unit id="xml">
+			<trans-unit id="xml" translate="no">
 				<source><![CDATA[XML]]></source>
 			</trans-unit>
-			<trans-unit id="xojo">
+			<trans-unit id="xojo" translate="no">
 				<source><![CDATA[Xojo (REALbasic]]></source>
 			</trans-unit>
-			<trans-unit id="xquery">
+			<trans-unit id="xquery" translate="no">
 				<source><![CDATA[XQuery]]></source>
 			</trans-unit>
-			<trans-unit id="yaml">
+			<trans-unit id="yaml" translate="no">
 				<source><![CDATA[YAML]]></source>
 			</trans-unit>
 		</body>
