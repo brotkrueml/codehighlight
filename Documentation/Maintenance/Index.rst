@@ -10,15 +10,15 @@ Maintenance
 This chapter is for developers who want to contribute and maintain the extension.
 
 
-.. _maintenance-translation:
+.. _maintenance-translations:
 
-Translation
-===========
+Translations
+============
 
-The translation to other languages is done within the `Crowdin <https://crowdin.com/>`__ service. Please navigate to
-the `project home <https://crowdin.com/project/typo3-extension-codehighlight>`__. If the language is not available
-please drop me a :ref:`note <_start>` and I will create it.
-
+The translation to other languages is done within the `Crowdin <https://crowdin.com/>`__ service. It is appreciated
+to add missing or incomplete languages. Please navigate to the
+`project home <https://crowdin.com/project/typo3-extension-codehighlight>`__. If the language is not available
+please drop me a :ref:`note <start>` and I will create it.
 
 .. _maintenance-prism:
 
