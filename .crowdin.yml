@@ -1,4 +1,4 @@
-commit_message: "[L10N]: New translations %original_file_name% from Crowdin"
+commit_message: "[L10N]: New translations %original_file_name% from Crowdin [ci skip]"
 append_commit_message: false
 base_path: "/Resources/Private/Language/"
 files:

@@ -18,6 +18,9 @@ Code Highlight
 :Email:
    typo3 (at) krue (dot) ml
 
+:Slack:
+   chris on `typo3.slack.com <https://typo3.slack.com>`__
+
 :Twitter:
    `@brotkrueml <https://twitter.com/brotkrueml>`__
 
@@ -44,6 +47,7 @@ Various programming languages can be chosen, also some formatting settings. The 
 
    If you find an error or something is missing, please:
    `Report a Problem <https://github.com/brotkrueml/codehighlight/issues/new>`__
+   or click on "Edit me on Github" on the button on the top of the page.
 
 **Extension Manual**
 
