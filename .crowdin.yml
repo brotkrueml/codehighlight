@@ -1,8 +1,7 @@
 commit_message: '[L10N]: New translations %original_file_name% from Crowdin [ci skip]'
 append_commit_message: false
-base_path: /Resources/Private/Language
 files:
-  - source: '/*.xlf'
+  - source: '/Resources/Private/Language/*.xlf'
     ignore:
-      - '/%two_letters_code%.%original_file_name%'
-    translation: '/%two_letters_code%.%original_file_name%'
+      - '/Resources/Private/Language/%two_letters_code%.%original_file_name%'
+    translation: '/Resources/Private/Language/%two_letters_code%.%original_file_name%'
