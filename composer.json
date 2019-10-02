@@ -55,7 +55,7 @@
             "rm -rf ../extension-release/Documentation*"
         ],
         "extension-zip": [
-            "cd ../extension-release/; grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'rm -fv ../codehighlight-{version}.zip; zip -r ../codehighlight-{version}.zip *'"
+            "cd ../extension-release/; grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'rm -fv ../codehighlight_{version}.zip; zip -r ../codehighlight_{version}.zip *'"
         ],
         "extension-release": [
             "@extension-init",
