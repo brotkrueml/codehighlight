@@ -4,5 +4,5 @@ base_path: /Resources/Private/Language/
 files:
   - source: '*.xlf'
     ignore:
-      - '%two_letters_code%.%original_file_name%'
+      - '*.*.xlf'
     translation: '%two_letters_code%.%original_file_name%'
