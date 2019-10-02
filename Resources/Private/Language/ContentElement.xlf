@@ -1,111 +1,111 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2019-09-26T13:12:56Z">
-		<body>
-			<trans-unit id="contentElement.title">
-				<source><![CDATA[Code Snippet]]></source>
-			</trans-unit>
-			<trans-unit id="contentElement.description">
-				<source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
-			</trans-unit>
-			<trans-unit id="codeSnippet">
-				<source><![CDATA[Code snippet]]></source>
-			</trans-unit>
-			<trans-unit id="codeSnippet.notDefined">
-				<source><![CDATA[No code snippet defined!]]></source>
-			</trans-unit>
-			<trans-unit id="commandLine">
-				<source><![CDATA[Command line]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineOutputFilter">
-				<source><![CDATA[Filter output]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineOutputFilter.description">
-				<source><![CDATA[
-					Alternative for "Output lines": Specify a prefix for lines with output,
-					e.g., "(out)" will treat lines beginning with (out) as output and remove the prefix.
-				]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineOutputLines">
-				<source><![CDATA[Output lines]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineOutputLines.description">
-				<source><![CDATA[
-					You may specify the lines to be presented as output (no prompt and no highlighting) in the following simple format:
-					A single number refers to the line with that number /
-					Ranges are denoted by two numbers, separated with a hyphen (-) /
-					Multiple line numbers or ranges are separated by commas /
-					Whitespace is allowed anywhere and will be stripped off /
-					Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)
-				]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineServerHost">
-				<source><![CDATA[Host]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineServerHost.description">
-				<source><![CDATA[Specify the host for a server command line (like Linux). The default value is "localhost".]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineServerPrompt">
-				<source><![CDATA[Prompt]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineServerPrompt.description">
-				<source><![CDATA[
-					For any other command line, such as a Windows prompt, specify the entire prompt, e.g. "PS C:\Users\Chris>".
-					If this field is set, user and host are ignored
-				]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineServerUser">
-				<source><![CDATA[User]]></source>
-			</trans-unit>
-			<trans-unit id="commandLineServerUser.description">
-				<source><![CDATA[Specify the user for a server command line (like Linux). The default value is "user"]]></source>
-			</trans-unit>
-			<trans-unit id="displayCommandLine">
-				<source><![CDATA[Display command line]]></source>
-			</trans-unit>
-			<trans-unit id="displayCommandLine.description">
-				<source><![CDATA[
-					Display a command line with a prompt and, optionally, the output/response from the commands.
-					Important: If you activate this option, don't select a programming language or the prompts are not visible!
-				]]></source>
-			</trans-unit>
-			<trans-unit id="highlightLines">
-				<source><![CDATA[Highlight lines]]></source>
-			</trans-unit>
-			<trans-unit id="highlightLines.description">
-				<source><![CDATA[
-					You can specify the lines to be highlighted in the following simple format:
-					A single number refers to the line with that number /
-					Ranges are denoted by two numbers, separated with a hyphen (-) /
-					Multiple line numbers or ranges are separated by commas /
-					Whitespace is allowed anywhere and will be stripped off /
-					Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)
-				]]></source>
-			</trans-unit>
-			<trans-unit id="lineNumbers">
-				<source><![CDATA[Line numbers]]></source>
-			</trans-unit>
-			<trans-unit id="options">
-				<source><![CDATA[Options]]></source>
-			</trans-unit>
-			<trans-unit id="programmingLanguage">
-				<source><![CDATA[Programming language]]></source>
-			</trans-unit>
-			<trans-unit id="showLineNumbers">
-				<source><![CDATA[Show line numbers]]></source>
-			</trans-unit>
-			<trans-unit id="showLineNumbers.description">
-				<source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
-			</trans-unit>
-			<trans-unit id="startWithLineNumber">
-				<source><![CDATA[Start with line number]]></source>
-			</trans-unit>
-			<trans-unit id="startWithLineNumber.description">
-				<source><![CDATA[
-				Specify a line number with which the numbering is to begin.
-				The number will also be used for "Highlight lines" as offset value.
-				]]></source>
-			</trans-unit>
-		</body>
-	</file>
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-09-26T13:12:56Z">
+    <body>
+      <trans-unit id="contentElement.title">
+        <source><![CDATA[Code Snippet]]></source>
+      </trans-unit>
+      <trans-unit id="contentElement.description">
+        <source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
+      </trans-unit>
+      <trans-unit id="codeSnippet">
+        <source><![CDATA[Code snippet]]></source>
+      </trans-unit>
+      <trans-unit id="codeSnippet.notDefined">
+        <source><![CDATA[No code snippet defined!]]></source>
+      </trans-unit>
+      <trans-unit id="commandLine">
+        <source><![CDATA[Command line]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineOutputFilter">
+        <source><![CDATA[Filter output]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineOutputFilter.description">
+        <source><![CDATA[
+          Alternative for "Output lines": Specify a prefix for lines with output,
+          e.g., "(out)" will treat lines beginning with (out) as output and remove the prefix.
+        ]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineOutputLines">
+        <source><![CDATA[Output lines]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineOutputLines.description">
+        <source><![CDATA[
+          You may specify the lines to be presented as output (no prompt and no highlighting) in the following simple format:
+          A single number refers to the line with that number /
+          Ranges are denoted by two numbers, separated with a hyphen (-) /
+          Multiple line numbers or ranges are separated by commas /
+          Whitespace is allowed anywhere and will be stripped off /
+          Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)
+        ]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineServerHost">
+        <source><![CDATA[Host]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineServerHost.description">
+        <source><![CDATA[Specify the host for a server command line (like Linux). The default value is "localhost".]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineServerPrompt">
+        <source><![CDATA[Prompt]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineServerPrompt.description">
+        <source><![CDATA[
+          For any other command line, such as a Windows prompt, specify the entire prompt, e.g. "PS C:\Users\Chris>".
+          If this field is set, user and host are ignored
+        ]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineServerUser">
+        <source><![CDATA[User]]></source>
+      </trans-unit>
+      <trans-unit id="commandLineServerUser.description">
+        <source><![CDATA[Specify the user for a server command line (like Linux). The default value is "user"]]></source>
+      </trans-unit>
+      <trans-unit id="displayCommandLine">
+        <source><![CDATA[Display command line]]></source>
+      </trans-unit>
+      <trans-unit id="displayCommandLine.description">
+        <source><![CDATA[
+          Display a command line with a prompt and, optionally, the output/response from the commands.
+          Important: If you activate this option, don't select a programming language or the prompts are not visible!
+        ]]></source>
+      </trans-unit>
+      <trans-unit id="highlightLines">
+        <source><![CDATA[Highlight lines]]></source>
+      </trans-unit>
+      <trans-unit id="highlightLines.description">
+        <source><![CDATA[
+          You can specify the lines to be highlighted in the following simple format:
+          A single number refers to the line with that number /
+          Ranges are denoted by two numbers, separated with a hyphen (-) /
+          Multiple line numbers or ranges are separated by commas /
+          Whitespace is allowed anywhere and will be stripped off /
+          Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)
+        ]]></source>
+      </trans-unit>
+      <trans-unit id="lineNumbers">
+        <source><![CDATA[Line numbers]]></source>
+      </trans-unit>
+      <trans-unit id="options">
+        <source><![CDATA[Options]]></source>
+      </trans-unit>
+      <trans-unit id="programmingLanguage">
+        <source><![CDATA[Programming language]]></source>
+      </trans-unit>
+      <trans-unit id="showLineNumbers">
+        <source><![CDATA[Show line numbers]]></source>
+      </trans-unit>
+      <trans-unit id="showLineNumbers.description">
+        <source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
+      </trans-unit>
+      <trans-unit id="startWithLineNumber">
+        <source><![CDATA[Start with line number]]></source>
+      </trans-unit>
+      <trans-unit id="startWithLineNumber.description">
+        <source><![CDATA[
+        Specify a line number with which the numbering is to begin.
+        The number will also be used for "Highlight lines" as offset value.
+        ]]></source>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
