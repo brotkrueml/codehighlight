@@ -125,7 +125,7 @@
 			<trans-unit id="eiffel" translate="no">
 				<source><![CDATA[Eiffel]]></source>
 			</trans-unit>
-			<trans-unit id="ejs"> translate="no"
+			<trans-unit id="ejs" translate="no">
 				<source><![CDATA[EJS]]></source>
 			</trans-unit>
 			<trans-unit id="elixir" translate="no">
@@ -164,7 +164,7 @@
 			<trans-unit id="glsl" translate="no">
 				<source><![CDATA[GLSL]]></source>
 			</trans-unit>
-			<trans-unit id="gml">
+			<trans-unit id="gml" translate="no">
 				<source><![CDATA[GameMaker Language]]></source>
 			</trans-unit>
 			<trans-unit id="go" translate="no">
@@ -206,7 +206,7 @@
 			<trans-unit id="ichigojam" translate="no">
 				<source><![CDATA[IchigoJam]]></source>
 			</trans-unit>
-			<trans-unit id="icon"> translate="no"
+			<trans-unit id="icon" translate="no">
 				<source><![CDATA[Icon]]></source>
 			</trans-unit>
 			<trans-unit id="inform7" translate="no">
@@ -329,7 +329,7 @@
 			<trans-unit id="n4js" translate="no">
 				<source><![CDATA[N4JS]]></source>
 			</trans-unit>
-			<trans-unit id="nand2tetris-hdl">
+			<trans-unit id="nand2tetris-hdl" translate="no">
 				<source><![CDATA[Nand To Tetris HDL]]></source>
 			</trans-unit>
 			<trans-unit id="nasm" translate="no">
