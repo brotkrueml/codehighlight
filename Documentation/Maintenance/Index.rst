@@ -7,7 +7,7 @@
 Maintenance
 ===========
 
-This chapter is for developers who want to contribute and maintain the extension.
+Target group: **Contributers, Developers**
 
 
 .. _maintenance-translations:

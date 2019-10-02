@@ -46,8 +46,7 @@ Various programming languages can be chosen, also some formatting settings. The 
    It is maintained as part of this third party extension.
 
    If you find an error or something is missing, please:
-   `Report a Problem <https://github.com/brotkrueml/codehighlight/issues/new>`__
-   or click on "Edit me on Github" on the button on the top of the page.
+   `Report a Problem <https://github.com/brotkrueml/codehighlight/issues/new>`__.
 
 **Extension Manual**
 
@@ -57,8 +56,8 @@ Various programming languages can be chosen, also some formatting settings. The 
 
 **For Contributors**
 
-   You are welcome to help improve this guide. Just click on "Edit me on GitHub"
-   on the top right to submit your change request.
+   You are welcome to help improve this guide. Just click the "Edit me on GitHub" button on the top right to
+   submit your change request.
 
 
 **Sitemap:**
