@@ -3,5 +3,5 @@ append_commit_message: false
 files:
   - source: '/Resources/Private/Language/*.xlf'
     ignore:
-      - '/Resources/Private/Language/*.*.xlf'
+      - '/Resources/Private/Language/%two_letters_code%.%original_file_name%'
     translation: '/Resources/Private/Language/%two_letters_code%.%original_file_name%'
