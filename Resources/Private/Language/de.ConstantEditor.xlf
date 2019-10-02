@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T15:21:20Z" target-language="de">
+    <body>
+      <trans-unit id="layoutRootPath" approved="yes">
+        <source><![CDATA[Path to template layouts (FE)]]></source>
+        <target state="final"><![CDATA[Pfad zu Template-Layouts (FE)]]></target>
+      </trans-unit>
+      <trans-unit id="partialRootPath" approved="yes">
+        <source><![CDATA[Path to template partials (FE)]]></source>
+        <target state="final"><![CDATA[Pfad zu Template-Partials (FE)]]></target>
+      </trans-unit>
+      <trans-unit id="templateRootPath" approved="yes">
+        <source><![CDATA[Path to template root (FE)]]></source>
+        <target state="final"><![CDATA[Pfad zum Template-Root (FE)]]></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
