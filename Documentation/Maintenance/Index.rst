@@ -84,4 +84,5 @@ can be done with:
 
    composer extension-release
 
-This creates/updates a folder :file:`../extension-release/` in which all the necessary files are available.
+This creates/replaces a file :file:`../codehighlight_x.y.z.zip` which is ready for upload into TER. :file:`x.y.z` holds
+the recent version number.
