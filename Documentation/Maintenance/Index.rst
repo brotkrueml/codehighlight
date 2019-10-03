@@ -89,7 +89,7 @@ can be done with:
 
 .. code-block:: shell
 
-   composer extension-release
+   composer zip
 
-This creates/replaces a file :file:`../codehighlight_x.y.z.zip` which is ready for upload into TER. :file:`x.y.z` holds
+This creates/replaces a file :file:`../zip/codehighlight_x.y.z.zip` which is ready for upload to TER. :file:`x.y.z` holds
 the recent version number.
