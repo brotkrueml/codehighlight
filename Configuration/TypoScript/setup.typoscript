@@ -10,6 +10,7 @@ tt_content.tx_codehighlight_codesnippet {
     10 = {$tt_content.tx_codehighlight_codesnippet.partialRootPath}
   }
   layoutRootPaths {
+    0 = EXT:codehighlight/Resources/Private/Layouts/
     10 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
   }
 
@@ -22,6 +23,13 @@ tt_content.tx_codehighlight_codesnippet {
     20 = TYPO3\CMS\Frontend\DataProcessing\SiteProcessor
     20 {
       as = site
+    }
+  }
+
+  settings {
+    commandLine {
+      defaultServerHost = {$tt_content.tx_codehighlight_codesnippet.commandLine.defaultServerHost}
+      defaultServerUser = {$tt_content.tx_codehighlight_codesnippet.commandLine.defaultServerUser}
     }
   }
 }

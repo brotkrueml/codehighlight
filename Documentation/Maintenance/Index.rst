@@ -7,7 +7,7 @@
 Maintenance
 ===========
 
-Target group: **Contributers, Developers**
+Target group: **Contributors, Developers**
 
 
 .. _maintenance-translations:
@@ -19,6 +19,13 @@ The translation to other languages is done within the `Crowdin <https://crowdin.
 to add missing or incomplete languages. Please navigate to the
 `project home <https://crowdin.com/project/typo3-extension-codehighlight>`__. If the language is not available
 please drop me a :ref:`note <start>` and I will create it.
+
+.. note::
+
+   For now, the language files are integrated into a release of the extension. When the new
+   `translation structure <https://github.com/TYPO3-Initiatives/crowdin>`__ (based on the translations within Crowdin)
+   is in place, the language files (other than English) will be removed in favour of the new infrastructure.
+
 
 .. _maintenance-prism:
 
@@ -82,6 +89,7 @@ can be done with:
 
 .. code-block:: shell
 
-   composer extension-release
+   composer zip
 
-This creates/updates a folder :file:`../extension-release/` in which all the necessary files are available.
+This creates/replaces a file :file:`../zip/codehighlight_x.y.z.zip` which is ready for upload to TER. :file:`x.y.z` holds
+the recent version number.
