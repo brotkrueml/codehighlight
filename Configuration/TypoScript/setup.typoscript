@@ -10,6 +10,7 @@ tt_content.tx_codehighlight_codesnippet {
     10 = {$tt_content.tx_codehighlight_codesnippet.partialRootPath}
   }
   layoutRootPaths {
+    0 = EXT:codehighlight/Resources/Private/Layouts/
     10 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
   }
 
