@@ -25,4 +25,11 @@ tt_content.tx_codehighlight_codesnippet {
       as = site
     }
   }
+
+  settings {
+    commandLine {
+      defaultServerHost = {$tt_content.tx_codehighlight_codesnippet.commandLine.defaultServerHost}
+      defaultServerUser = {$tt_content.tx_codehighlight_codesnippet.commandLine.defaultServerUser}
+    }
+  }
 }

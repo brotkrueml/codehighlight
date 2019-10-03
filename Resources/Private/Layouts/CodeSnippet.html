@@ -47,8 +47,26 @@
                 <f:variable name="preAttributes">{preAttributes} data-prompt="{options.commandLineServerPrompt}"</f:variable>
             </f:then>
             <f:else>
-                <f:variable name="preAttributes">{preAttributes} data-user="{options.commandLineServerUser}"</f:variable>
-                <f:variable name="preAttributes">{preAttributes} data-host="{options.commandLineServerHost}"</f:variable>
+                <f:if condition="{options.commandLineServerUser}">
+                    <f:then>
+                        <f:variable name="preAttributes">{preAttributes} data-user="{options.commandLineServerUser}"</f:variable>
+                    </f:then>
+                    <f:else>
+                        <f:if condition="{settings.commandLine.defaultServerUser}">
+                            <f:variable name="preAttributes">{preAttributes} data-user="{settings.commandLine.defaultServerUser}"</f:variable>
+                        </f:if>
+                    </f:else>
+                </f:if>
+                <f:if condition="{options.commandLineServerHost}">
+                    <f:then>
+                        <f:variable name="preAttributes">{preAttributes} data-host="{options.commandLineServerHost}"</f:variable>
+                    </f:then>
+                    <f:else>
+                        <f:if condition="{settings.commandLine.defaultServerHost}">
+                            <f:variable name="preAttributes">{preAttributes} data-host="{settings.commandLine.defaultServerHost}"</f:variable>
+                        </f:if>
+                    </f:else>
+                </f:if>
             </f:else>
         </f:if>
 

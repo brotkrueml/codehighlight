@@ -10,6 +10,8 @@ Configuration
 Target group: **Developers, Integrators**
 
 
+.. _site-configuration:
+
 Site configuration
 ==================
 
@@ -31,14 +33,14 @@ use an own theme to customise the look of the code snippets.
 As the theme is assigned to a site, different sites can have different themes.
 
 
-.. _configuration-template:
+.. _constant-editor:
 
-Changing the template
-=====================
+Constant Editor
+===============
 
-The template for the frontend output is delivered in the extension under the path
-:file:`Resources/Private/Templates/CodeSnippet.html`. If you want to change it you can make a copy of it and adjust
-the Fluid root paths. This can be done in the Constant Editor of the Template module:
+Some constants can be defined in the :ref:`Constant Editor <t3tsref:typoscript-syntax-constant-editor>`.
+
+Select the category "Codehighlight" and make the adjustments.
 
 .. figure:: ../Images/Configuration/constant-editor.png
    :class: with-shadow
@@ -46,28 +48,90 @@ the Fluid root paths. This can be done in the Constant Editor of the Template mo
 
    Constant Editor
 
-Select the category "Codehighlight" and make the adjustments to the paths.
+Options
+-------
 
-Alternatively you can change the paths directly in TypoScript:
+If you regularly use the :ref:`command line options <editors-content-element-options-command-line>`, you may want to
+globally set the user and host for the command prompt. These are taken when no user or host is set in the options of
+the content element.
+
+Default user for the command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Defines the default user for the command line, if none is given in the options of the content element. If neither in
+the constant nor in the content element a user is given, ``user`` is used as last fallback.
+
+Alternatively you can change the setting directly in the TypoScript setup:
 
 .. code-block:: typoscript
 
    tt_content.tx_codehighlight_codesnippet {
-      templateRootPaths {
-         10 = EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/
-      }
-      partialRootPaths {
-         # Only needed if you want to use partials
-         10 = EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/
-      }
-      layoutRootPaths {
-         # Only needed if you want to use layouts
-         10 = EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/
-      }
+      settings.commandLine.defaultServerUser = chris
    }
 
 
-.. _configuration-assets-embedding:
+Default host for the command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Defines the default host for the command line, if none is given in the options of the content element. If neither in
+the constant nor in the content element a host is given, ``localhost`` is used as last fallback.
+
+Alternatively you can change the setting directly in the TypoScript setup:
+
+.. code-block:: typoscript
+
+   tt_content.tx_codehighlight_codesnippet {
+      settings.commandLine.defaultServerHost = earth
+   }
+
+
+Files
+-----
+
+If you want to change the layout or template of the content element or add a partial you can make a copy of then and
+adjust the Fluid root paths.
+
+Path to template root (FE)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enter the additional template root path, e.g. :file:`EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/`
+
+Alternatively you can change the setting directly in the TypoScript setup:
+
+.. code-block:: typoscript
+
+   tt_content.tx_codehighlight_codesnippet.templateRootPaths {
+      10 = EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/
+   }
+
+Path to template partials (FE)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enter the additional partial root path, e.g. :file:`EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/`
+
+Alternatively you can change the setting directly in the TypoScript setup:
+
+.. code-block:: typoscript
+
+   tt_content.tx_codehighlight_codesnippet.partialRootPaths {
+      10 = EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/
+   }
+
+Path to template layouts (FE)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Enter the additional layout root path, e.g. :file:`EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/`
+
+Alternatively you can change the setting directly in the TypoScript setup:
+
+.. code-block:: typoscript
+
+   tt_content.tx_codehighlight_codesnippet.layoutRootPaths {
+      10 = EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/
+   }
+
+
+.. _assets-embedding:
 
 Assets embedding
 ================

@@ -74,35 +74,27 @@ to point out something important. You can adjust these settings under the "Line 
    Options for showing and adjusting line numbers
 
 
-.. t3-field-list-table::
- :header-rows: 1
+:aspect:`Show line numbers`
 
- - :Field:
-         Field
-   :Description:
-         Description
- - :Field:
-         Show line numbers
-   :Description:
-         Activate this option to display line numbers at the beginning of the each code line.
- - :Field:
-         Start with line number
-   :Description:
-         Specify a line number with which the numbering is to begin.
-         The entered number will also be used for "Highlight lines" as offset value.
- - :Field:
-         Highlight lines
-   :Description:
-         You can specify the lines to be highlighted in the following simple format:
+Activate this option to display line numbers at the beginning of the each code line.
 
-         - A single number refers to the line with that number
-         - Ranges are denoted by two numbers, separated with a hyphen (-)
-         - Multiple line numbers or ranges are separated by commas
-         - Whitespace is allowed anywhere and will be stripped off
+:aspect:`Start with line number`
 
-         **Example:** ``1-2, 5, 9-20`` (Lines 1 through 2, line 5, lines 9 through 20)
+Specify a line number with which the numbering is to begin.
+The entered number will also be used for "Highlight lines" as offset value.
 
-         When using an offset in the field "Start with line number" the lines must be adjusted accordingly.
+:aspect:`Highlight lines`
+
+You can specify the lines to be highlighted in the following format:
+
+- A single number refers to the line with that number
+- Ranges are denoted by two numbers, separated with a hyphen (-)
+- Multiple line numbers or ranges are separated by commas
+- Whitespace is allowed anywhere and will be stripped off
+
+*Example:* ``1-2, 5, 9-20`` (Lines 1 through 2, line 5, lines 9 through 20)
+
+When using an offset in the field "Start with line number" the lines must be adjusted accordingly.
 
 
 .. _editors-content-element-options-command-line:
@@ -123,54 +115,48 @@ a code line.
 
    Options for a command line snippet
 
-.. t3-field-list-table::
- :header-rows: 1
 
- - :Field:
-         Field
-   :Description:
-         Description
- - :Field:
-         Display command line
-   :Description:
-         Display a command line with a prompt and, optionally, the output/response from the commands.
+:aspect:`Display command line`
 
-         **Important:** If you activate this option, don't select a programming language or the prompts are not visible!
- - :Field:
-         User
-   :Description:
-         Specify the user for a server command line (like Linux).
-         The resulting prompt displays a ``#`` for the root user and ``$`` for all other users.
+Display a command line with a prompt and, optionally, the output/response from the commands.
 
-         *Default value:* ``user``
- - :Field:
-         Host
-   :Description:
-         Specify the host for a server command line (like Linux).
+*Please note:* If you activate this option, don't select a programming language or the prompts are not visible!
 
-         *Default value:* ``localhost``
- - :Field:
-         Prompt
-   :Description:
-         For any other command line, such as a Windows prompt, specify the entire prompt, e.g. ``PS C:\Users\Chris>``.
-         If this field is set, the values in the fields "User" and "Host" are ignored.
- - :Field:
-         Output lines
-   :Description:
-         You may specify the lines to be presented as output (no prompt and no highlighting) in the following
-         simple format:
+:aspect:`User`
 
-         - A single number refers to the line with that number
-         - Ranges are denoted by two numbers, separated with a hyphen (-)
-         - Multiple line numbers or ranges are separated by commas
-         - Whitespace is allowed anywhere and will be stripped off
+Specify the user for a server command line (like Linux).
+The resulting prompt displays a ``#`` for the root user and ``$`` for all other users.
 
-         **Example:** ``1-2, 5, 9-20`` (Lines 1 through 2, line 5, lines 9 through 20)
- - :Field:
-         Filter output
-   :Description:
-         Alternative for "Output lines": Specify a prefix for lines with output, e.g., ``(out)`` will treat lines
-         beginning with (out) as output and remove the prefix.
+*Default value:* TypoScript setting
+:typoscript:`tt_content.tx_codehighlight_codesnippet.settings.commandLine.defaultServerUser` or ``user``
+
+:aspect:`Host`
+
+Specify the host for a server command line (like Linux).
+
+*Default value:* TypoScript setting
+:typoscript:`tt_content.tx_codehighlight_codesnippet.settings.commandLine.defaultServerHost` or ``localhost``
+
+:aspect:`Host`
+
+For any other command line, such as a Windows prompt, specify the entire prompt, e.g. ``PS C:\Users\Chris>``.
+If this field is set, the values in the fields "User" and "Host" are ignored.
+
+:aspect:`Output lines`
+
+You can specify the lines to be presented as output (no prompt and no highlighting) in the following format:
+
+- A single number refers to the line with that number
+- Ranges are denoted by two numbers, separated with a hyphen (-)
+- Multiple line numbers or ranges are separated by commas
+- Whitespace is allowed anywhere and will be stripped off
+
+*Example:* ``1-2, 5, 9-20`` (Lines 1 through 2, line 5, lines 9 through 20)
+
+:aspect:`Filter output`
+
+Alternative for "Output lines": Specify a prefix for lines with output, e.g., ``(out)`` will treat lines
+beginning with (out) as output and remove the prefix.
 
 You can see some examples for the rendering of the command line on the
 `plugin page <https://prismjs.com/plugins/command-line/>`__ of the Prism library.

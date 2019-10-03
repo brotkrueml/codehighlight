@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T15:21:20Z">
+  <file source-language="en" datatype="plaintext" original="messages" date="2019-10-03T22:00:27Z">
     <body>
+      <trans-unit id="commandLine.defaultServerHost">
+        <source><![CDATA[Default host for the command line: Defines the default host for the command line, if none is given in the content element]]></source>
+      </trans-unit>
+      <trans-unit id="commandLine.defaultServerUser">
+        <source><![CDATA[Default user for the command line: Defines the default user for the command line, if none is given in the content element]]></source>
+      </trans-unit>
       <trans-unit id="layoutRootPath">
         <source><![CDATA[Path to template layouts (FE)]]></source>
       </trans-unit>
       <trans-unit id="partialRootPath">
         <source><![CDATA[Path to template partials (FE)]]></source>
+      </trans-unit>
+      <trans-unit id="subcategory.options">
+        <source><![CDATA[Options]]></source>
       </trans-unit>
       <trans-unit id="templateRootPath">
         <source><![CDATA[Path to template root (FE)]]></source>
