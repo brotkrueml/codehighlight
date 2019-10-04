@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2019-09-25T23:10:53Z" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2019-09-25T23:10:53Z" target-language="de">
     <body>
-      <trans-unit id="codehighlightTheme" approved="yes">
+      <trans-unit id="codehighlightTheme" resname="codehighlightTheme" approved="yes">
         <source><![CDATA[CSS File for Theme]]></source>
         <target state="final"><![CDATA[CSS-Datei für Theme]]></target>
       </trans-unit>
-      <trans-unit id="codehighlightTheme.valuePicker.default" approved="yes">
+      <trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default" approved="yes">
         <source><![CDATA[Default]]></source>
         <target state="final"><![CDATA[Standard]]></target>
       </trans-unit>

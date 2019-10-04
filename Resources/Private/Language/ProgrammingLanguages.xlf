@@ -1,570 +1,758 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-09-25T19:34:08Z">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-09-25T19:34:08Z" target-language="de">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
+        <target state="needs-translation"><![CDATA[ABAP]]></target>
       </trans-unit>
-      <trans-unit id="abnf" resname="abnf">
+      <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Angereicherte Backus-Naur-Form]]></target>
       </trans-unit>
       <trans-unit id="actionscript" resname="actionscript" translate="no">
         <source><![CDATA[ActionScript]]></source>
+        <target state="needs-translation"><![CDATA[ActionScript]]></target>
       </trans-unit>
       <trans-unit id="ada" resname="ada" translate="no">
         <source><![CDATA[Ada]]></source>
+        <target state="needs-translation"><![CDATA[Ada]]></target>
       </trans-unit>
-      <trans-unit id="apacheconf" resname="apacheconf">
+      <trans-unit id="apacheconf" resname="apacheconf" approved="yes">
         <source><![CDATA[Apache Configuration]]></source>
+        <target state="final"><![CDATA[Apache-Konfiguration]]></target>
       </trans-unit>
       <trans-unit id="apl" resname="apl" translate="no">
         <source><![CDATA[APL]]></source>
+        <target state="needs-translation"><![CDATA[APL]]></target>
       </trans-unit>
       <trans-unit id="applescript" resname="applescript" translate="no">
         <source><![CDATA[AppleScript]]></source>
+        <target state="needs-translation"><![CDATA[AppleScript]]></target>
       </trans-unit>
       <trans-unit id="arduino" resname="arduino" translate="no">
         <source><![CDATA[Arduino]]></source>
+        <target state="needs-translation"><![CDATA[Arduino]]></target>
       </trans-unit>
       <trans-unit id="arff" resname="arff" translate="no">
         <source><![CDATA[ARFF]]></source>
+        <target state="needs-translation"><![CDATA[ARFF]]></target>
       </trans-unit>
       <trans-unit id="asciidoc" resname="asciidoc" translate="no">
         <source><![CDATA[AsciiDoc]]></source>
+        <target state="needs-translation"><![CDATA[AsciiDoc]]></target>
       </trans-unit>
-      <trans-unit id="asm6502" resname="asm6502">
+      <trans-unit id="asm6502" resname="asm6502" approved="yes">
         <source><![CDATA[6502 Assembly]]></source>
+        <target state="final"><![CDATA[6502-Assembler]]></target>
       </trans-unit>
       <trans-unit id="aspnet" resname="aspnet" translate="no">
         <source><![CDATA[ASP.NET (C#)]]></source>
+        <target state="needs-translation"><![CDATA[ASP.NET (C#)]]></target>
       </trans-unit>
       <trans-unit id="autohotkey" resname="autohotkey" translate="no">
         <source><![CDATA[AutoHotkey]]></source>
+        <target state="needs-translation"><![CDATA[AutoHotkey]]></target>
       </trans-unit>
       <trans-unit id="autoit" resname="autoit" translate="no">
         <source><![CDATA[AutoIt]]></source>
+        <target state="needs-translation"><![CDATA[AutoIt]]></target>
       </trans-unit>
       <trans-unit id="bash" resname="bash" translate="no">
         <source><![CDATA[Bash + Shell]]></source>
+        <target state="needs-translation"><![CDATA[Bash + Shell]]></target>
       </trans-unit>
       <trans-unit id="basic" resname="basic" translate="no">
         <source><![CDATA[BASIC]]></source>
+        <target state="needs-translation"><![CDATA[BASIC]]></target>
       </trans-unit>
       <trans-unit id="batch" resname="batch" translate="no">
         <source><![CDATA[Batch]]></source>
+        <target state="needs-translation"><![CDATA[Batch]]></target>
       </trans-unit>
       <trans-unit id="bison" resname="bison" translate="no">
         <source><![CDATA[Bison]]></source>
+        <target state="needs-translation"><![CDATA[Bison]]></target>
       </trans-unit>
-      <trans-unit id="bnf" resname="bnf">
+      <trans-unit id="bnf" resname="bnf" approved="yes">
         <source><![CDATA[Backus–Naur form + Routing Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Backus-Naur-Form + Routing-Backus-Naur-Form]]></target>
       </trans-unit>
       <trans-unit id="brainfuck" resname="brainfuck" translate="no">
         <source><![CDATA[Brainfuck]]></source>
+        <target state="needs-translation"><![CDATA[Brainfuck]]></target>
       </trans-unit>
       <trans-unit id="bro" resname="bro" translate="no">
         <source><![CDATA[Bro]]></source>
+        <target state="needs-translation"><![CDATA[Bro]]></target>
       </trans-unit>
       <trans-unit id="c" resname="c" translate="no">
         <source><![CDATA[C]]></source>
+        <target state="needs-translation"><![CDATA[C]]></target>
       </trans-unit>
       <trans-unit id="cil" resname="cil" translate="no">
         <source><![CDATA[CIL]]></source>
+        <target state="needs-translation"><![CDATA[CIL]]></target>
       </trans-unit>
-      <trans-unit id="clike" resname="clike">
+      <trans-unit id="clike" resname="clike" approved="yes">
         <source><![CDATA[C-like]]></source>
+        <target state="final"><![CDATA[C-ähnlich]]></target>
       </trans-unit>
       <trans-unit id="clojure" resname="clojure" translate="no">
         <source><![CDATA[Clojure]]></source>
+        <target state="needs-translation"><![CDATA[Clojure]]></target>
       </trans-unit>
       <trans-unit id="cmake" resname="cmake" translate="no">
         <source><![CDATA[CMake]]></source>
+        <target state="needs-translation"><![CDATA[CMake]]></target>
       </trans-unit>
       <trans-unit id="coffeescript" resname="coffeescript" translate="no">
         <source><![CDATA[CoffeeScript]]></source>
+        <target state="needs-translation"><![CDATA[CoffeeScript]]></target>
       </trans-unit>
       <trans-unit id="cpp" resname="cpp" translate="no">
         <source><![CDATA[C++]]></source>
+        <target state="needs-translation"><![CDATA[C++]]></target>
       </trans-unit>
       <trans-unit id="crystal" resname="crystal" translate="no">
         <source><![CDATA[Crystal]]></source>
+        <target state="needs-translation"><![CDATA[Crystal]]></target>
       </trans-unit>
       <trans-unit id="csharp" resname="csharp" translate="no">
         <source><![CDATA[C#]]></source>
+        <target state="needs-translation"><![CDATA[C#]]></target>
       </trans-unit>
       <trans-unit id="csp" resname="csp" translate="no">
         <source><![CDATA[Content-Security-Policy]]></source>
+        <target state="needs-translation"><![CDATA[Content-Security-Policy]]></target>
       </trans-unit>
       <trans-unit id="css" resname="css" translate="no">
         <source><![CDATA[CSS]]></source>
+        <target state="needs-translation"><![CDATA[CSS]]></target>
       </trans-unit>
-      <trans-unit id="css-extras" resname="css-extras">
+      <trans-unit id="css-extras" resname="css-extras" approved="yes">
         <source><![CDATA[CSS Extras]]></source>
+        <target state="final"><![CDATA[CSS-Extras]]></target>
       </trans-unit>
       <trans-unit id="d" resname="d" translate="no">
         <source><![CDATA[D]]></source>
+        <target state="needs-translation"><![CDATA[D]]></target>
       </trans-unit>
       <trans-unit id="dart" resname="dart" translate="no">
         <source><![CDATA[Dart]]></source>
+        <target state="needs-translation"><![CDATA[Dart]]></target>
       </trans-unit>
       <trans-unit id="diff" resname="diff" translate="no">
         <source><![CDATA[Diff]]></source>
+        <target state="needs-translation"><![CDATA[Diff]]></target>
       </trans-unit>
       <trans-unit id="django" resname="django" translate="no">
         <source><![CDATA[Django/Jinja2]]></source>
+        <target state="needs-translation"><![CDATA[Django/Jinja2]]></target>
       </trans-unit>
-      <trans-unit id="dns-zone-file" resname="dns-zone-file">
+      <trans-unit id="dns-zone-file" resname="dns-zone-file" approved="yes">
         <source><![CDATA[DNS zone file]]></source>
+        <target state="final"><![CDATA[DNS-Zonen-Datei]]></target>
       </trans-unit>
       <trans-unit id="docker" resname="docker" translate="no">
         <source><![CDATA[Docker]]></source>
+        <target state="needs-translation"><![CDATA[Docker]]></target>
       </trans-unit>
-      <trans-unit id="ebnf" resname="ebnf">
+      <trans-unit id="ebnf" resname="ebnf" approved="yes">
         <source><![CDATA[Extended Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Erweiterte Backus-Naur-Form]]></target>
       </trans-unit>
       <trans-unit id="eiffel" resname="eiffel" translate="no">
         <source><![CDATA[Eiffel]]></source>
+        <target state="needs-translation"><![CDATA[Eiffel]]></target>
       </trans-unit>
       <trans-unit id="ejs" resname="ejs" translate="no">
         <source><![CDATA[EJS]]></source>
+        <target state="needs-translation"><![CDATA[EJS]]></target>
       </trans-unit>
       <trans-unit id="elixir" resname="elixir" translate="no">
         <source><![CDATA[Elixir]]></source>
+        <target state="needs-translation"><![CDATA[Elixir]]></target>
       </trans-unit>
       <trans-unit id="elm" resname="elm" translate="no">
         <source><![CDATA[Elm]]></source>
+        <target state="needs-translation"><![CDATA[Elm]]></target>
       </trans-unit>
       <trans-unit id="erb" resname="erb" translate="no">
         <source><![CDATA[ERB]]></source>
+        <target state="needs-translation"><![CDATA[ERB]]></target>
       </trans-unit>
       <trans-unit id="erlang" resname="erlang" translate="no">
         <source><![CDATA[Erlang]]></source>
+        <target state="needs-translation"><![CDATA[Erlang]]></target>
       </trans-unit>
       <trans-unit id="flow" resname="flow" translate="no">
         <source><![CDATA[Flow]]></source>
+        <target state="needs-translation"><![CDATA[Flow]]></target>
       </trans-unit>
       <trans-unit id="fortran" resname="fortran" translate="no">
         <source><![CDATA[Fortran]]></source>
+        <target state="needs-translation"><![CDATA[Fortran]]></target>
       </trans-unit>
       <trans-unit id="fsharp" resname="fsharp" translate="no">
         <source><![CDATA[F#]]></source>
+        <target state="needs-translation"><![CDATA[F#]]></target>
       </trans-unit>
       <trans-unit id="gcode" resname="gcode" translate="no">
         <source><![CDATA[G-code]]></source>
+        <target state="needs-translation"><![CDATA[G-code]]></target>
       </trans-unit>
       <trans-unit id="gedcom" resname="gedcom" translate="no">
         <source><![CDATA[GEDCOM]]></source>
+        <target state="needs-translation"><![CDATA[GEDCOM]]></target>
       </trans-unit>
       <trans-unit id="gherkin" resname="gherkin" translate="no">
         <source><![CDATA[Gherkin]]></source>
+        <target state="needs-translation"><![CDATA[Gherkin]]></target>
       </trans-unit>
       <trans-unit id="git" resname="git" translate="no">
         <source><![CDATA[Git]]></source>
+        <target state="needs-translation"><![CDATA[Git]]></target>
       </trans-unit>
       <trans-unit id="glsl" resname="glsl" translate="no">
         <source><![CDATA[GLSL]]></source>
+        <target state="needs-translation"><![CDATA[GLSL]]></target>
       </trans-unit>
       <trans-unit id="gml" resname="gml" translate="no">
         <source><![CDATA[GameMaker Language]]></source>
+        <target state="needs-translation"><![CDATA[GameMaker Language]]></target>
       </trans-unit>
       <trans-unit id="go" resname="go" translate="no">
         <source><![CDATA[Go]]></source>
+        <target state="needs-translation"><![CDATA[Go]]></target>
       </trans-unit>
       <trans-unit id="graphql" resname="graphql" translate="no">
         <source><![CDATA[GraphQL]]></source>
+        <target state="needs-translation"><![CDATA[GraphQL]]></target>
       </trans-unit>
       <trans-unit id="groovy" resname="groovy" translate="no">
         <source><![CDATA[Groovy]]></source>
+        <target state="needs-translation"><![CDATA[Groovy]]></target>
       </trans-unit>
       <trans-unit id="haml" resname="haml" translate="no">
         <source><![CDATA[Haml]]></source>
+        <target state="needs-translation"><![CDATA[Haml]]></target>
       </trans-unit>
       <trans-unit id="handlebars" resname="handlebars" translate="no">
         <source><![CDATA[Handlebars]]></source>
+        <target state="needs-translation"><![CDATA[Handlebars]]></target>
       </trans-unit>
       <trans-unit id="haskell" resname="haskell" translate="no">
         <source><![CDATA[Haskell]]></source>
+        <target state="needs-translation"><![CDATA[Haskell]]></target>
       </trans-unit>
       <trans-unit id="haxe" resname="haxe" translate="no">
         <source><![CDATA[Haxe]]></source>
+        <target state="needs-translation"><![CDATA[Haxe]]></target>
       </trans-unit>
       <trans-unit id="hcl" resname="hcl" translate="no">
         <source><![CDATA[HCL]]></source>
+        <target state="needs-translation"><![CDATA[HCL]]></target>
       </trans-unit>
       <trans-unit id="hpkp" resname="hpkp" translate="no">
         <source><![CDATA[HTTP Public-Key-Pins]]></source>
+        <target state="needs-translation"><![CDATA[HTTP Public-Key-Pins]]></target>
       </trans-unit>
       <trans-unit id="hsts" resname="hsts" translate="no">
         <source><![CDATA[HTTP Strict-Transport-Security]]></source>
+        <target state="needs-translation"><![CDATA[HTTP Strict-Transport-Security]]></target>
       </trans-unit>
       <trans-unit id="html" resname="html" translate="no">
         <source><![CDATA[HTML]]></source>
+        <target state="needs-translation"><![CDATA[HTML]]></target>
       </trans-unit>
       <trans-unit id="http" resname="http" translate="no">
         <source><![CDATA[HTTP]]></source>
+        <target state="needs-translation"><![CDATA[HTTP]]></target>
       </trans-unit>
       <trans-unit id="ichigojam" resname="ichigojam" translate="no">
         <source><![CDATA[IchigoJam]]></source>
+        <target state="needs-translation"><![CDATA[IchigoJam]]></target>
       </trans-unit>
       <trans-unit id="icon" resname="icon" translate="no">
         <source><![CDATA[Icon]]></source>
+        <target state="needs-translation"><![CDATA[Icon]]></target>
       </trans-unit>
       <trans-unit id="inform7" resname="inform7" translate="no">
         <source><![CDATA[Inform 7]]></source>
+        <target state="needs-translation"><![CDATA[Inform 7]]></target>
       </trans-unit>
       <trans-unit id="ini" resname="ini" translate="no">
         <source><![CDATA[Ini]]></source>
+        <target state="needs-translation"><![CDATA[Ini]]></target>
       </trans-unit>
       <trans-unit id="io" resname="io" translate="no">
         <source><![CDATA[Io]]></source>
+        <target state="needs-translation"><![CDATA[Io]]></target>
       </trans-unit>
       <trans-unit id="j" resname="j" translate="no">
         <source><![CDATA[J]]></source>
+        <target state="needs-translation"><![CDATA[J]]></target>
       </trans-unit>
       <trans-unit id="java" resname="java" translate="no">
         <source><![CDATA[Java]]></source>
+        <target state="needs-translation"><![CDATA[Java]]></target>
       </trans-unit>
       <trans-unit id="javadoc" resname="javadoc" translate="no">
         <source><![CDATA[JavaDoc]]></source>
+        <target state="needs-translation"><![CDATA[JavaDoc]]></target>
       </trans-unit>
       <trans-unit id="javadoclike" resname="javadoclike" translate="no">
         <source><![CDATA[JavaDoc-like]]></source>
+        <target state="needs-translation"><![CDATA[JavaDoc-like]]></target>
       </trans-unit>
       <trans-unit id="javascript" resname="javascript" translate="no">
         <source><![CDATA[JavaScript]]></source>
+        <target state="needs-translation"><![CDATA[JavaScript]]></target>
       </trans-unit>
-      <trans-unit id="javastacktrace" resname="javastacktrace">
+      <trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
         <source><![CDATA[Java stack trace]]></source>
+        <target state="final"><![CDATA[Java-Stacktrace]]></target>
       </trans-unit>
       <trans-unit id="jolie" resname="jolie" translate="no">
         <source><![CDATA[Jolie]]></source>
+        <target state="needs-translation"><![CDATA[Jolie]]></target>
       </trans-unit>
       <trans-unit id="jq" resname="jq" translate="no">
         <source><![CDATA[JQ]]></source>
+        <target state="needs-translation"><![CDATA[JQ]]></target>
       </trans-unit>
-      <trans-unit id="js-extras" resname="js-extras">
+      <trans-unit id="js-extras" resname="js-extras" approved="yes">
         <source><![CDATA[JS Extras]]></source>
+        <target state="final"><![CDATA[JS-Extras]]></target>
       </trans-unit>
-      <trans-unit id="js-templates" resname="js-templates">
+      <trans-unit id="js-templates" resname="js-templates" approved="yes">
         <source><![CDATA[JS Templates]]></source>
+        <target state="final"><![CDATA[JS-Templates]]></target>
       </trans-unit>
       <trans-unit id="jsdoc" resname="jsdoc" translate="no">
         <source><![CDATA[JSDoc]]></source>
+        <target state="needs-translation"><![CDATA[JSDoc]]></target>
       </trans-unit>
       <trans-unit id="json" resname="json" translate="no">
         <source><![CDATA[JSON]]></source>
+        <target state="needs-translation"><![CDATA[JSON]]></target>
       </trans-unit>
       <trans-unit id="json5" resname="json5" translate="no">
         <source><![CDATA[JSON5]]></source>
+        <target state="needs-translation"><![CDATA[JSON5]]></target>
       </trans-unit>
       <trans-unit id="jsonp" resname="jsonp" translate="no">
         <source><![CDATA[JSONP]]></source>
+        <target state="needs-translation"><![CDATA[JSONP]]></target>
       </trans-unit>
       <trans-unit id="jsx" resname="jsx" translate="no">
         <source><![CDATA[React JSX]]></source>
+        <target state="needs-translation"><![CDATA[React JSX]]></target>
       </trans-unit>
       <trans-unit id="julia" resname="julia" translate="no">
         <source><![CDATA[Julia]]></source>
+        <target state="needs-translation"><![CDATA[Julia]]></target>
       </trans-unit>
       <trans-unit id="keyman" resname="keyman" translate="no">
         <source><![CDATA[Keyman]]></source>
+        <target state="needs-translation"><![CDATA[Keyman]]></target>
       </trans-unit>
       <trans-unit id="kotlin" resname="kotlin" translate="no">
         <source><![CDATA[Kotlin]]></source>
+        <target state="needs-translation"><![CDATA[Kotlin]]></target>
       </trans-unit>
       <trans-unit id="latex" resname="latex" translate="no">
         <source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
+        <target state="needs-translation"><![CDATA[LaTeX + TeX + ConTeXt]]></target>
       </trans-unit>
       <trans-unit id="less" resname="less" translate="no">
         <source><![CDATA[Less]]></source>
+        <target state="needs-translation"><![CDATA[Less]]></target>
       </trans-unit>
       <trans-unit id="lilypond" resname="lilypond" translate="no">
         <source><![CDATA[LilyPond]]></source>
+        <target state="needs-translation"><![CDATA[LilyPond]]></target>
       </trans-unit>
       <trans-unit id="liquid" resname="liquid" translate="no">
         <source><![CDATA[Liquid]]></source>
+        <target state="needs-translation"><![CDATA[Liquid]]></target>
       </trans-unit>
       <trans-unit id="lisp" resname="lisp" translate="no">
         <source><![CDATA[Lisp]]></source>
+        <target state="needs-translation"><![CDATA[Lisp]]></target>
       </trans-unit>
       <trans-unit id="livescript" resname="livescript" translate="no">
         <source><![CDATA[LiveScript]]></source>
+        <target state="needs-translation"><![CDATA[LiveScript]]></target>
       </trans-unit>
       <trans-unit id="lolcode" resname="lolcode" translate="no">
         <source><![CDATA[LOLCODE]]></source>
+        <target state="needs-translation"><![CDATA[LOLCODE]]></target>
       </trans-unit>
       <trans-unit id="lua" resname="lua" translate="no">
         <source><![CDATA[Lua]]></source>
+        <target state="needs-translation"><![CDATA[Lua]]></target>
       </trans-unit>
       <trans-unit id="makefile" resname="makefile" translate="no">
         <source><![CDATA[Makefile]]></source>
+        <target state="needs-translation"><![CDATA[Makefile]]></target>
       </trans-unit>
       <trans-unit id="markdown" resname="markdown" translate="no">
         <source><![CDATA[Markdown]]></source>
+        <target state="needs-translation"><![CDATA[Markdown]]></target>
       </trans-unit>
       <trans-unit id="markup" resname="markup" translate="no">
         <source><![CDATA[Markup]]></source>
+        <target state="needs-translation"><![CDATA[Markup]]></target>
       </trans-unit>
-      <trans-unit id="markup-templating" resname="markup-templating">
+      <trans-unit id="markup-templating" resname="markup-templating" approved="yes">
         <source><![CDATA[Markup templating]]></source>
+        <target state="final"><![CDATA[Markup-Templating]]></target>
       </trans-unit>
       <trans-unit id="mathml" resname="mathml" translate="no">
         <source><![CDATA[MathML]]></source>
+        <target state="needs-translation"><![CDATA[MathML]]></target>
       </trans-unit>
       <trans-unit id="matlab" resname="matlab" translate="no">
         <source><![CDATA[MATLAB]]></source>
+        <target state="needs-translation"><![CDATA[MATLAB]]></target>
       </trans-unit>
       <trans-unit id="mel" resname="mel" translate="no">
         <source><![CDATA[MEL]]></source>
+        <target state="needs-translation"><![CDATA[MEL]]></target>
       </trans-unit>
       <trans-unit id="mizar" resname="mizar" translate="no">
         <source><![CDATA[Mizar]]></source>
+        <target state="needs-translation"><![CDATA[Mizar]]></target>
       </trans-unit>
       <trans-unit id="monkey" resname="monkey" translate="no">
         <source><![CDATA[Monkey]]></source>
+        <target state="needs-translation"><![CDATA[Monkey]]></target>
       </trans-unit>
       <trans-unit id="n1ql" resname="n1ql" translate="no">
         <source><![CDATA[N1QL]]></source>
+        <target state="needs-translation"><![CDATA[N1QL]]></target>
       </trans-unit>
       <trans-unit id="n4js" resname="n4js" translate="no">
         <source><![CDATA[N4JS]]></source>
+        <target state="needs-translation"><![CDATA[N4JS]]></target>
       </trans-unit>
       <trans-unit id="nand2tetris-hdl" resname="nand2tetris-hdl" translate="no">
         <source><![CDATA[Nand To Tetris HDL]]></source>
+        <target state="needs-translation"><![CDATA[Nand To Tetris HDL]]></target>
       </trans-unit>
       <trans-unit id="nasm" resname="nasm" translate="no">
         <source><![CDATA[NASM]]></source>
+        <target state="needs-translation"><![CDATA[NASM]]></target>
       </trans-unit>
       <trans-unit id="nginx" resname="nginx" translate="no">
         <source><![CDATA[nginx]]></source>
+        <target state="needs-translation"><![CDATA[nginx]]></target>
       </trans-unit>
       <trans-unit id="nim" resname="nim" translate="no">
         <source><![CDATA[Nim]]></source>
+        <target state="needs-translation"><![CDATA[Nim]]></target>
       </trans-unit>
       <trans-unit id="nix" resname="nix" translate="no">
         <source><![CDATA[Nix]]></source>
+        <target state="needs-translation"><![CDATA[Nix]]></target>
       </trans-unit>
       <trans-unit id="nsis" resname="nsis" translate="no">
         <source><![CDATA[NSIS]]></source>
+        <target state="needs-translation"><![CDATA[NSIS]]></target>
       </trans-unit>
       <trans-unit id="objectivec" resname="objectivec" translate="no">
         <source><![CDATA[Objective-C]]></source>
+        <target state="needs-translation"><![CDATA[Objective-C]]></target>
       </trans-unit>
       <trans-unit id="ocaml" resname="ocaml" translate="no">
         <source><![CDATA[OCaml]]></source>
+        <target state="needs-translation"><![CDATA[OCaml]]></target>
       </trans-unit>
       <trans-unit id="opencl" resname="opencl" translate="no">
         <source><![CDATA[OpenCL]]></source>
+        <target state="needs-translation"><![CDATA[OpenCL]]></target>
       </trans-unit>
       <trans-unit id="oz" resname="oz" translate="no">
         <source><![CDATA[Oz]]></source>
+        <target state="needs-translation"><![CDATA[Oz]]></target>
       </trans-unit>
       <trans-unit id="parigp" resname="parigp" translate="no">
         <source><![CDATA[PARI/GP]]></source>
+        <target state="needs-translation"><![CDATA[PARI/GP]]></target>
       </trans-unit>
       <trans-unit id="parser" resname="parser" translate="no">
         <source><![CDATA[Parser]]></source>
+        <target state="needs-translation"><![CDATA[Parser]]></target>
       </trans-unit>
       <trans-unit id="pascal" resname="pascal" translate="no">
         <source><![CDATA[Pascal + Object Pascal]]></source>
+        <target state="needs-translation"><![CDATA[Pascal + Object Pascal]]></target>
       </trans-unit>
       <trans-unit id="pascaligo" resname="pascaligo" translate="no">
         <source><![CDATA[Pascaligo]]></source>
+        <target state="needs-translation"><![CDATA[Pascaligo]]></target>
       </trans-unit>
       <trans-unit id="pcaxis" resname="pcaxis" translate="no">
         <source><![CDATA[PC-Axis]]></source>
+        <target state="needs-translation"><![CDATA[PC-Axis]]></target>
       </trans-unit>
       <trans-unit id="perl" resname="perl" translate="no">
         <source><![CDATA[Perl]]></source>
+        <target state="needs-translation"><![CDATA[Perl]]></target>
       </trans-unit>
       <trans-unit id="php" resname="php" translate="no">
         <source><![CDATA[PHP]]></source>
+        <target state="needs-translation"><![CDATA[PHP]]></target>
       </trans-unit>
-      <trans-unit id="php-extras" resname="php-extras">
+      <trans-unit id="php-extras" resname="php-extras" approved="yes">
         <source><![CDATA[PHP Extras]]></source>
+        <target state="final"><![CDATA[PHP-Extras]]></target>
       </trans-unit>
       <trans-unit id="phpdoc" resname="phpdoc" translate="no">
         <source><![CDATA[PHPDoc]]></source>
+        <target state="needs-translation"><![CDATA[PHPDoc]]></target>
       </trans-unit>
       <trans-unit id="plsql" resname="plsql" translate="no">
         <source><![CDATA[PL/SQL]]></source>
+        <target state="needs-translation"><![CDATA[PL/SQL]]></target>
       </trans-unit>
       <trans-unit id="powershell" resname="powershell" translate="no">
         <source><![CDATA[PowerShell]]></source>
+        <target state="needs-translation"><![CDATA[PowerShell]]></target>
       </trans-unit>
       <trans-unit id="processing" resname="processing" translate="no">
         <source><![CDATA[Processing]]></source>
+        <target state="needs-translation"><![CDATA[Processing]]></target>
       </trans-unit>
       <trans-unit id="prolog" resname="prolog" translate="no">
         <source><![CDATA[Prolog]]></source>
+        <target state="needs-translation"><![CDATA[Prolog]]></target>
       </trans-unit>
       <trans-unit id="properties" resname="properties" translate="no">
         <source><![CDATA[.properties]]></source>
+        <target state="needs-translation"><![CDATA[.properties]]></target>
       </trans-unit>
       <trans-unit id="protobuf" resname="protobuf" translate="no">
         <source><![CDATA[Protocol Buffers]]></source>
+        <target state="needs-translation"><![CDATA[Protocol Buffers]]></target>
       </trans-unit>
       <trans-unit id="pug" resname="pug" translate="no">
         <source><![CDATA[Pug]]></source>
+        <target state="needs-translation"><![CDATA[Pug]]></target>
       </trans-unit>
       <trans-unit id="puppet" resname="puppet" translate="no">
         <source><![CDATA[Puppet]]></source>
+        <target state="needs-translation"><![CDATA[Puppet]]></target>
       </trans-unit>
       <trans-unit id="pure" resname="pure" translate="no">
         <source><![CDATA[Pure]]></source>
+        <target state="needs-translation"><![CDATA[Pure]]></target>
       </trans-unit>
       <trans-unit id="python" resname="python" translate="no">
         <source><![CDATA[Python]]></source>
+        <target state="needs-translation"><![CDATA[Python]]></target>
       </trans-unit>
-      <trans-unit id="q" resname="q">
+      <trans-unit id="q" resname="q" approved="yes">
         <source><![CDATA[Q (kdb+ database)]]></source>
+        <target state="final"><![CDATA[Q (kdb+-Datenbank)]]></target>
       </trans-unit>
       <trans-unit id="qore" resname="qore" translate="no">
         <source><![CDATA[Qore]]></source>
+        <target state="needs-translation"><![CDATA[Qore]]></target>
       </trans-unit>
       <trans-unit id="r" resname="r" translate="no">
         <source><![CDATA[R]]></source>
+        <target state="needs-translation"><![CDATA[R]]></target>
       </trans-unit>
       <trans-unit id="reason" resname="reason" translate="no">
         <source><![CDATA[Reason]]></source>
+        <target state="needs-translation"><![CDATA[Reason]]></target>
       </trans-unit>
       <trans-unit id="regex" resname="regex" translate="no">
         <source><![CDATA[Regex]]></source>
+        <target state="needs-translation"><![CDATA[Regex]]></target>
       </trans-unit>
       <trans-unit id="renpy" resname="renpy" translate="no">
         <source><![CDATA[Ren'py]]></source>
+        <target state="needs-translation"><![CDATA[Ren'py]]></target>
       </trans-unit>
       <trans-unit id="rest" resname="rest" translate="no">
         <source><![CDATA[reST (reStructuredText)]]></source>
+        <target state="needs-translation"><![CDATA[reST (reStructuredText)]]></target>
       </trans-unit>
       <trans-unit id="rip" resname="rip" translate="no">
         <source><![CDATA[Rip]]></source>
+        <target state="needs-translation"><![CDATA[Rip]]></target>
       </trans-unit>
       <trans-unit id="roboconf" resname="roboconf" translate="no">
         <source><![CDATA[Roboconf]]></source>
+        <target state="needs-translation"><![CDATA[Roboconf]]></target>
       </trans-unit>
       <trans-unit id="ruby" resname="ruby" translate="no">
         <source><![CDATA[Ruby]]></source>
+        <target state="needs-translation"><![CDATA[Ruby]]></target>
       </trans-unit>
       <trans-unit id="rust" resname="rust" translate="no">
         <source><![CDATA[Rust]]></source>
+        <target state="needs-translation"><![CDATA[Rust]]></target>
       </trans-unit>
       <trans-unit id="sas" resname="sas" translate="no">
         <source><![CDATA[SAS]]></source>
+        <target state="needs-translation"><![CDATA[SAS]]></target>
       </trans-unit>
       <trans-unit id="sass" resname="sass" translate="no">
         <source><![CDATA[Sass (Sass)]]></source>
+        <target state="needs-translation"><![CDATA[Sass (Sass)]]></target>
       </trans-unit>
       <trans-unit id="scala" resname="scala" translate="no">
         <source><![CDATA[Scala]]></source>
+        <target state="needs-translation"><![CDATA[Scala]]></target>
       </trans-unit>
       <trans-unit id="scheme" resname="scheme" translate="no">
         <source><![CDATA[Scheme]]></source>
+        <target state="needs-translation"><![CDATA[Scheme]]></target>
       </trans-unit>
       <trans-unit id="scss" resname="scss" translate="no">
         <source><![CDATA[Sass (Scss)]]></source>
+        <target state="needs-translation"><![CDATA[Sass (Scss)]]></target>
       </trans-unit>
-      <trans-unit id="shell-session" resname="shell-session">
+      <trans-unit id="shell-session" resname="shell-session" approved="yes">
         <source><![CDATA[Shell session]]></source>
+        <target state="final"><![CDATA[Shell-Sitzung]]></target>
       </trans-unit>
       <trans-unit id="smalltalk" resname="smalltalk" translate="no">
         <source><![CDATA[Smalltalk]]></source>
+        <target state="needs-translation"><![CDATA[Smalltalk]]></target>
       </trans-unit>
       <trans-unit id="smarty" resname="smarty" translate="no">
         <source><![CDATA[Smarty]]></source>
+        <target state="needs-translation"><![CDATA[Smarty]]></target>
       </trans-unit>
-      <trans-unit id="soy" resname="soy">
+      <trans-unit id="soy" resname="soy" approved="yes">
         <source><![CDATA[Soy (Closure Template)]]></source>
+        <target state="final"><![CDATA[Soy (Closure-Template)]]></target>
       </trans-unit>
       <trans-unit id="splunk-spl" resname="splunk-spl" translate="no">
         <source><![CDATA[Splunk SPL]]></source>
+        <target state="needs-translation"><![CDATA[Splunk SPL]]></target>
       </trans-unit>
       <trans-unit id="sql" resname="sql" translate="no">
         <source><![CDATA[SQL]]></source>
+        <target state="needs-translation"><![CDATA[SQL]]></target>
       </trans-unit>
       <trans-unit id="stylus" resname="stylus" translate="no">
         <source><![CDATA[Stylus]]></source>
+        <target state="needs-translation"><![CDATA[Stylus]]></target>
       </trans-unit>
       <trans-unit id="svg" resname="svg" translate="no">
         <source><![CDATA[SVG]]></source>
+        <target state="needs-translation"><![CDATA[SVG]]></target>
       </trans-unit>
       <trans-unit id="swift" resname="swift" translate="no">
         <source><![CDATA[Swift]]></source>
+        <target state="needs-translation"><![CDATA[Swift]]></target>
       </trans-unit>
-      <trans-unit id="t4-cs" resname="t4-cs">
+      <trans-unit id="t4-cs" resname="t4-cs" approved="yes">
         <source><![CDATA[T4 Text Templates (C#)]]></source>
+        <target state="final"><![CDATA[T4-Text-Templates (C#)]]></target>
       </trans-unit>
-      <trans-unit id="t4-templating" resname="t4-templating">
+      <trans-unit id="t4-templating" resname="t4-templating" approved="yes">
         <source><![CDATA[T4 templating]]></source>
+        <target state="final"><![CDATA[T4-Templating]]></target>
       </trans-unit>
-      <trans-unit id="t4-vb" resname="t4-vb">
+      <trans-unit id="t4-vb" resname="t4-vb" approved="yes">
         <source><![CDATA[T4 Text Templates (VB)]]></source>
+        <target state="final"><![CDATA[T4-Text-Templates (VB)]]></target>
       </trans-unit>
       <trans-unit id="tap" resname="tap" translate="no">
         <source><![CDATA[TAP]]></source>
+        <target state="needs-translation"><![CDATA[TAP]]></target>
       </trans-unit>
       <trans-unit id="tcl" resname="tcl" translate="no">
         <source><![CDATA[Tcl]]></source>
+        <target state="needs-translation"><![CDATA[Tcl]]></target>
       </trans-unit>
       <trans-unit id="textile" resname="textile" translate="no">
         <source><![CDATA[Textile]]></source>
+        <target state="needs-translation"><![CDATA[Textile]]></target>
       </trans-unit>
       <trans-unit id="toml" resname="toml" translate="no">
         <source><![CDATA[TOML]]></source>
+        <target state="needs-translation"><![CDATA[TOML]]></target>
       </trans-unit>
       <trans-unit id="tsx" resname="tsx" translate="no">
         <source><![CDATA[React TSX]]></source>
+        <target state="needs-translation"><![CDATA[React TSX]]></target>
       </trans-unit>
       <trans-unit id="tt2" resname="tt2" translate="no">
         <source><![CDATA[Template Toolkit 2]]></source>
+        <target state="needs-translation"><![CDATA[Template Toolkit 2]]></target>
       </trans-unit>
       <trans-unit id="twig" resname="twig" translate="no">
         <source><![CDATA[Twig]]></source>
+        <target state="needs-translation"><![CDATA[Twig]]></target>
       </trans-unit>
       <trans-unit id="typescript" resname="typescript" translate="no">
         <source><![CDATA[TypeScript]]></source>
+        <target state="needs-translation"><![CDATA[TypeScript]]></target>
       </trans-unit>
       <trans-unit id="vala" resname="vala" translate="no">
         <source><![CDATA[Vala]]></source>
+        <target state="needs-translation"><![CDATA[Vala]]></target>
       </trans-unit>
       <trans-unit id="vbnet" resname="vbnet" translate="no">
         <source><![CDATA[VB.Net]]></source>
+        <target state="needs-translation"><![CDATA[VB.Net]]></target>
       </trans-unit>
       <trans-unit id="velocity" resname="velocity" translate="no">
         <source><![CDATA[Velocity]]></source>
+        <target state="needs-translation"><![CDATA[Velocity]]></target>
       </trans-unit>
       <trans-unit id="verilog" resname="verilog" translate="no">
         <source><![CDATA[Verilog]]></source>
+        <target state="needs-translation"><![CDATA[Verilog]]></target>
       </trans-unit>
       <trans-unit id="vhdl" resname="vhdl" translate="no">
         <source><![CDATA[VHDL]]></source>
+        <target state="needs-translation"><![CDATA[VHDL]]></target>
       </trans-unit>
       <trans-unit id="vim" resname="vim" translate="no">
         <source><![CDATA[vim]]></source>
+        <target state="needs-translation"><![CDATA[vim]]></target>
       </trans-unit>
       <trans-unit id="visual-basic" resname="visual-basic" translate="no">
         <source><![CDATA[Visual Basic]]></source>
+        <target state="needs-translation"><![CDATA[Visual Basic]]></target>
       </trans-unit>
       <trans-unit id="wasm" resname="wasm" translate="no">
         <source><![CDATA[WebAssembly]]></source>
+        <target state="needs-translation"><![CDATA[WebAssembly]]></target>
       </trans-unit>
-      <trans-unit id="wiki" resname="wiki">
+      <trans-unit id="wiki" resname="wiki" approved="yes">
         <source><![CDATA[Wiki markup]]></source>
+        <target state="final"><![CDATA[Wiki-Markup]]></target>
       </trans-unit>
       <trans-unit id="xeora" resname="xeora" translate="no">
         <source><![CDATA[Xeora + XeoraCube]]></source>
+        <target state="needs-translation"><![CDATA[Xeora + XeoraCube]]></target>
       </trans-unit>
       <trans-unit id="xml" resname="xml" translate="no">
         <source><![CDATA[XML]]></source>
+        <target state="needs-translation"><![CDATA[XML]]></target>
       </trans-unit>
       <trans-unit id="xojo" resname="xojo" translate="no">
         <source><![CDATA[Xojo (REALbasic]]></source>
+        <target state="needs-translation"><![CDATA[Xojo (REALbasic]]></target>
       </trans-unit>
       <trans-unit id="xquery" resname="xquery" translate="no">
         <source><![CDATA[XQuery]]></source>
+        <target state="needs-translation"><![CDATA[XQuery]]></target>
       </trans-unit>
       <trans-unit id="yaml" resname="yaml" translate="no">
         <source><![CDATA[YAML]]></source>
+        <target state="needs-translation"><![CDATA[YAML]]></target>
       </trans-unit>
     </body>
   </file>
