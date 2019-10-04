@@ -33,7 +33,7 @@
         <source><![CDATA[Host]]></source>
       </trans-unit>
       <trans-unit id="commandLineServerHost.description" resname="commandLineServerHost.description">
-        <source><![CDATA[Specify the host for a server command line (like Linux). The default value is "localhost".]]></source>
+        <source><![CDATA[Specify the host for a server command line (like Linux).]]></source>
       </trans-unit>
       <trans-unit id="commandLineServerPrompt" resname="commandLineServerPrompt">
         <source><![CDATA[Prompt]]></source>
@@ -45,7 +45,7 @@
         <source><![CDATA[User]]></source>
       </trans-unit>
       <trans-unit id="commandLineServerUser.description" resname="commandLineServerUser.description">
-        <source><![CDATA[Specify the user for a server command line (like Linux). The default value is "user"]]></source>
+        <source><![CDATA[Specify the user for a server command line (like Linux).]]></source>
       </trans-unit>
       <trans-unit id="displayCommandLine" resname="displayCommandLine">
         <source><![CDATA[Display command line]]></source>
