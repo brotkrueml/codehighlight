@@ -76,17 +76,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
 
     private function getValueFromFlexform(string $key, string $sheet = 'sDEF'): ?string
     {
-        $flexForm = $this->flexFormData;
-
-        if (isset($flexForm['data'])) {
-            $flexForm = $flexForm['data'];
-
-            if (isset($flexForm[$sheet]['lDEF'][$key]['vDEF'])) {
-                return $flexForm[$sheet]['lDEF'][$key]['vDEF'];
-            }
-        }
-
-        return null;
+        return $this->flexFormData['data'][$sheet]['lDEF'][$key]['vDEF'] ?? null;
     }
 
     private function renderText(string $input): string
