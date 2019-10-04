@@ -2,10 +2,10 @@
 <xliff version="1.0">
   <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2019-09-25T23:10:53Z">
     <body>
-      <trans-unit id="codehighlightTheme">
+      <trans-unit id="codehighlightTheme" resname="codehighlightTheme">
         <source><![CDATA[CSS File for Theme]]></source>
       </trans-unit>
-      <trans-unit id="codehighlightTheme.valuePicker.default">
+      <trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default">
         <source><![CDATA[Default]]></source>
       </trans-unit>
     </body>
