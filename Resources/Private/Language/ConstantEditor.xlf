@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2019-10-03T22:00:27Z">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-03T22:00:27Z">
     <body>
       <trans-unit id="commandLine.defaultServerHost">
         <source><![CDATA[Default host for the command line: Defines the default host for the command line, if none is given in the content element]]></source>
