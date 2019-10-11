@@ -164,7 +164,13 @@ You can see some examples for the rendering of the command line on the
 
 .. _editors-content-element-access:
 
+Appearance
+----------
+
+The *Appearance* tab gives the possibility to select a layout or show the content element in section menus, like in
+other content elements.
+
 Access
 ------
 
-On the access tab you'll find the default fields, like "Visibility of content element" or the publish dates.
+On the *Access* tab you'll find the default fields, like *Visibility of content element* or the publish dates.
