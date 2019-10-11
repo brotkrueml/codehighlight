@@ -96,6 +96,21 @@ You can specify the lines to be highlighted in the following format:
 
 When using an offset in the field "Start with line number" the lines must be adjusted accordingly.
 
+.. _editor-url-hash:
+
+.. tip::
+
+   When using the *Highlight lines* feature or the configuration option :ref:`Usage of a URL hash <configuration-url-hash>`
+   is activated you can link to a specific line number by using the following as a URL hash:
+   ``#codesnippet{uid}.{lines}``. ``{uid}`` is the id of the content element and ``{lines}`` is one or more lines or
+   line ranges that follow the format outlined above.
+
+   *Examples:*
+
+   - ``#codesnippet14.3`` for highlighting line 3 of content element with id 14
+   - ``#codesnippet8.5-6`` for highlighting lines 5-6 of content element with id 8
+   - ``#codesnippet23.5-6,12-14`` for highlighting lines 5-6 and 12-14 of content element with id 23
+
 
 .. _editors-content-element-options-command-line:
 

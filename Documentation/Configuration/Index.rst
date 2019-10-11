@@ -12,25 +12,41 @@ Target group: **Developers, Integrators**
 
 .. _site-configuration:
 
-Site configuration
+Site Configuration
 ==================
 
-A theme can be selected for a web site in the site configuration. Select a site under *Site Management* > *Sites*
-and switch to the tab "Code Highlight":
+Some site-wide configurations can be made in the Site Configuration. Select a site under *Site Management* > *Sites*
+and switch to the tab "Code Highlight".
 
 .. figure:: ../Images/Configuration/site-configuration.png
    :class: with-shadow
-   :alt: Selecting a theme in the Site Configuration
+   :alt: Site Configuration
 
-   Selecting a theme in the Site Configuration
+   Site Configuration
 
-In the value picker you have the choice between several themes. As the extension uses `Prism <https://prismjs.com/>`__ for the code
-highlighting you can have a look at there website to see the differences between the themes.
+
+.. _configuration-theme:
+
+CSS File for Theme
+------------------
+
+In the value picker you have the choice between several themes for using on a website. As the extension uses
+`Prism <https://prismjs.com/>`__ for the code highlighting you can have a look at their website to see the differences
+between the themes.
 
 When selecting a theme, the path to the according CSS file is stored in the site configuration. So you can also
 use an own theme to customise the look of the code snippets.
 
 As the theme is assigned to a site, different sites can have different themes.
+
+
+.. _configuration-url-hash:
+
+Usage of a URL hash
+-------------------
+
+If the option is activated, the usage of a URL hash (like ``#codesnippet8.5-6``) for highlighting code and as anchor
+is available. You can find more information in the :ref:`chapter for editors <editor-url-hash>`.
 
 
 .. _constant-editor:

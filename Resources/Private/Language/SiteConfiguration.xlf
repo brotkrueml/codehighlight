@@ -5,6 +5,12 @@
       <trans-unit id="codehighlightTheme" resname="codehighlightTheme">
         <source><![CDATA[CSS File for Theme]]></source>
       </trans-unit>
+      <trans-unit id="codehighlightUseUrlHash" resname="codehighlightUseUrlHash">
+        <source><![CDATA[Usage of a URL hash]]></source>
+      </trans-unit>
+      <trans-unit id="codehighlightUseUrlHash.description" resname="codehighlightUseUrlHash.description">
+        <source><![CDATA[If activated the usage of a URL hash (like #codesnippet8.5-6) for highlighting code and as anchor is available.]]></source>
+      </trans-unit>
       <trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default">
         <source><![CDATA[Default]]></source>
       </trans-unit>

@@ -31,10 +31,13 @@
             <f:variable name="preAttributes">{preAttributes} data-start="{options.startWithLineNumber}"</f:variable>
         </f:if>
 
-        <f:if condition="{options.highlightLines}">
+        <f:if condition="{options.highlightLines} || {site.configuration.codehighlightUseUrlHash}">
             <codeHighlight:asset.style path="{prismPath}/plugins/line-highlight/prism-line-highlight.css"/>
             <codeHighlight:asset.script path="{prismPath}/plugins/line-highlight/prism-line-highlight.min.js"/>
-            <f:variable name="preAttributes">{preAttributes} data-line="{options.highlightLines}"</f:variable>
+
+            <f:if condition="{options.highlightLines}">
+                <f:variable name="preAttributes">{preAttributes} data-line="{options.highlightLines}"</f:variable>
+            </f:if>
 
             <f:if condition="{options.startWithLineNumber}">
                 <f:variable name="preAttributes">{preAttributes} data-line-offset="{codeHighlight:math.subtract(subtrahend: options.startWithLineNumber, minuend: 1)}"</f:variable>
@@ -87,7 +90,7 @@
             <f:variable name="preAttributes">{preAttributes} class="{preClasses}"</f:variable>
         </f:if>
 
-        <pre{preAttributes -> f:format.raw()}><code class="language-{options.programmingLanguage}">{data.bodytext}</code></pre>
+        <pre id="codesnippet{data.uid}"{preAttributes -> f:format.raw()}><code class="language-{options.programmingLanguage}">{data.bodytext}</code></pre>
     </f:if>
 </f:section>
 </html>

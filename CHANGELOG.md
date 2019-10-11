@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Setting for default user and host in command line (#2)
 - Activate heading and appearance tab in content element (#3)
+- Using URL hash to highlight lines and jump to them (#4)
 
 ## [1.0.1] - 2019-10-03
 
