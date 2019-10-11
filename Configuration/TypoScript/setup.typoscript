@@ -7,10 +7,11 @@ tt_content.tx_codehighlight_codesnippet {
     10 = {$tt_content.tx_codehighlight_codesnippet.templateRootPath}
   }
   partialRootPaths {
+    0 = EXT:fluid_styled_content/Resources/Private/Partials/
     10 = {$tt_content.tx_codehighlight_codesnippet.partialRootPath}
   }
   layoutRootPaths {
-    0 = EXT:codehighlight/Resources/Private/Layouts/
+    0 = EXT:fluid_styled_content/Resources/Private/Layouts/
     10 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
   }
 
