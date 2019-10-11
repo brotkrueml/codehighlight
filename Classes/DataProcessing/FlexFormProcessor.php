@@ -30,6 +30,14 @@ use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
  */
 class FlexFormProcessor implements DataProcessorInterface
 {
+    /** @var FlexFormService */
+    private $flexFormService;
+
+    public function __construct(FlexFormService $flexFormService = null)
+    {
+        $this->flexFormService = $flexFormService ?? GeneralUtility::makeInstance(FlexFormService::class);
+    }
+
     public function process(
         ContentObjectRenderer $contentObjectRenderer,
         array $contentObjectConfiguration,
@@ -43,8 +51,7 @@ class FlexFormProcessor implements DataProcessorInterface
         $targetVariableName = $contentObjectRenderer->stdWrapValue('as', $processorConfiguration, 'flexform');
         $fieldName = $contentObjectRenderer->stdWrapValue('fieldName', $processorConfiguration, 'pi_flexform');
 
-        $flexFormService = GeneralUtility::makeInstance(FlexFormService::class);
-        $processedData[$targetVariableName] = $flexFormService->convertFlexFormContentToArray($contentObjectRenderer->data[$fieldName]);
+        $processedData[$targetVariableName] = $this->flexFormService->convertFlexFormContentToArray($contentObjectRenderer->data[$fieldName]);
 
         return $processedData;
     }

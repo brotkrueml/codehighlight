@@ -23,6 +23,13 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
     private $flexFormData;
     private $row;
 
+    private $languageService;
+
+    public function __construct(LanguageService $languageService = null)
+    {
+        $this->languageService = $languageService ?? $GLOBALS['LANG'];
+    }
+
     public function preProcess(PageLayoutView &$parentObject, &$drawItem, &$headerContent, &$itemContent, array &$row)
     {
         if ($row['CType'] !== 'tx_codehighlight_codesnippet') {
@@ -45,7 +52,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
             $content .= '<pre><code>' . $this->renderText($this->row['bodytext']) . '</code></pre>';
         } else {
             $content .= $this->generateWarning(
-                $this->getLanguageService()->sL(static::LL_PREFIX_CE . 'codeSnippet.notDefined')
+                $this->languageService->sL(static::LL_PREFIX_CE . 'codeSnippet.notDefined')
             );
         }
 
@@ -54,14 +61,12 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
 
     private function getHeader(): string
     {
-        $languageService = $this->getLanguageService();
-
-        $header = $languageService->sL(static::LL_PREFIX_CE . 'contentElement.title');
+        $header = $this->languageService->sL(static::LL_PREFIX_CE . 'contentElement.title');
 
         $language = $this->getValueFromFlexform('programmingLanguage');
 
         if ($language) {
-            $language = $languageService->sL(static::LL_PREFIX_LANG . $language) ?: $language;
+            $language = $this->languageService->sL(static::LL_PREFIX_LANG . $language) ?: $language;
 
             $header .= ' (' . $language . ')';
         }
@@ -84,10 +89,5 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
         $input = GeneralUtility::fixed_lgd_cs($input, 1500);
 
         return htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8', false);
-    }
-
-    private function getLanguageService(): LanguageService
-    {
-        return $GLOBALS['LANG'];
     }
 }

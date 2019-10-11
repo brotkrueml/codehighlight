@@ -16,6 +16,13 @@ final class ProgrammingLanguages
 {
     private const LL_PREFIX = 'LLL:EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf:';
 
+    private $languageService;
+
+    public function __construct(LanguageService $languageService = null)
+    {
+        $this->languageService = $languageService ?? $GLOBALS['LANG'];
+    }
+
     public function getTcaItems(array &$config): void
     {
         $config['items'] = [
@@ -23,11 +30,10 @@ final class ProgrammingLanguages
         ];
 
         $availableLanguages = $this->getAvailableProgrammingLanguages();
-        $languageService = $this->getLanguageService();
 
         foreach ($availableLanguages as $language) {
             $config['items'][] = [
-                $languageService->sL(static::LL_PREFIX . $language) ?: $language,
+                $this->languageService->sL(static::LL_PREFIX . $language) ?: $language,
                 $language
             ];
         }
@@ -56,10 +62,5 @@ final class ProgrammingLanguages
     {
         // @see components/prism-markup.js
         return ['html', 'mathml', 'svg', 'xml'];
-    }
-
-    private function getLanguageService(): LanguageService
-    {
-        return $GLOBALS['LANG'];
     }
 }
