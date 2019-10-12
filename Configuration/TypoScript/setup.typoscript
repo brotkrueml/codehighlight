@@ -1,4 +1,4 @@
-tt_content.tx_codehighlight_codesnippet = FLUIDTEMPLATE
+tt_content.tx_codehighlight_codesnippet =< lib.contentElement
 tt_content.tx_codehighlight_codesnippet {
   templateName = CodeSnippet
 
