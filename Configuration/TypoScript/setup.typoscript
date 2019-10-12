@@ -3,16 +3,16 @@ tt_content.tx_codehighlight_codesnippet {
   templateName = CodeSnippet
 
   templateRootPaths {
-    0 = EXT:codehighlight/Resources/Private/Templates/
-    10 = {$tt_content.tx_codehighlight_codesnippet.templateRootPath}
+    10 = EXT:codehighlight/Resources/Private/Templates/
+    20 = {$tt_content.tx_codehighlight_codesnippet.templateRootPath}
   }
   partialRootPaths {
-    0 = EXT:fluid_styled_content/Resources/Private/Partials/
-    10 = {$tt_content.tx_codehighlight_codesnippet.partialRootPath}
+    10 = EXT:fluid_styled_content/Resources/Private/Partials/
+    20 = {$tt_content.tx_codehighlight_codesnippet.partialRootPath}
   }
   layoutRootPaths {
-    0 = EXT:fluid_styled_content/Resources/Private/Layouts/
-    10 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
+    10 = EXT:fluid_styled_content/Resources/Private/Layouts/
+    20 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
   }
 
   dataProcessing {
