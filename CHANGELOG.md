@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2019-10-13
+
+### Fixed
+
+- Use reference to lib.contentElement instead of assigning FLUIDTEMPLATE (#5)
+
 ## [1.1.0] - 2019-10-11
 
 ### Added
@@ -27,7 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Content element "Code Snippet"
 - Syntax highlighting with Prism
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v1.1.0...HEAD
-[1.0.1]: https://github.com/brotkrueml/codehighlight/compare/v1.0.1...v1.1.0
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/brotkrueml/codehighlight/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/brotkrueml/codehighlight/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/brotkrueml/codehighlight/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/brotkrueml/codehighlight/releases/tag/v1.0.0
