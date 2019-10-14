@@ -27,6 +27,8 @@ use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
  * }
  *
  * whereas "flexform" can be used as a variable {flexform} inside Fluid to fetch values.
+ *
+ * @internal
  */
 class FlexFormProcessor implements DataProcessorInterface
 {

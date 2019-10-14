@@ -13,6 +13,9 @@ namespace Brotkrueml\CodeHighlight\ViewHelpers\Math;
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
 use TYPO3Fluid\Fluid\Core\ViewHelper;
 
+/**
+ * @internal
+ */
 class SubtractViewHelper extends ViewHelper\AbstractViewHelper
 {
     public function initializeArguments(): void

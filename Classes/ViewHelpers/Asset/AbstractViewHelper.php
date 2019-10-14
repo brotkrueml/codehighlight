@@ -14,6 +14,9 @@ use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3Fluid\Fluid\Core\ViewHelper;
 
+/**
+ * @internal
+ */
 abstract class AbstractViewHelper extends ViewHelper\AbstractViewHelper
 {
     public function initializeArguments(): void

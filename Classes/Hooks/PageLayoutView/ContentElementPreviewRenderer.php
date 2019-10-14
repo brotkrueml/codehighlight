@@ -15,6 +15,9 @@ use TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInterface;
 use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
+/**
+ * @internal
+ */
 final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookInterface
 {
     private const LL_PREFIX_CE = 'LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:';

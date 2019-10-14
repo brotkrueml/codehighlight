@@ -12,6 +12,9 @@ namespace Brotkrueml\CodeHighlight\Service;
 
 use TYPO3\CMS\Core\Localization\LanguageService;
 
+/**
+ * @internal
+ */
 final class ProgrammingLanguages
 {
     private const LL_PREFIX = 'LLL:EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf:';

@@ -12,6 +12,9 @@ namespace Brotkrueml\CodeHighlight\ViewHelpers\Asset;
 
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
 
+/**
+ * @internal
+ */
 class StyleViewHelper extends AbstractViewHelper
 {
     public static function renderStatic(
