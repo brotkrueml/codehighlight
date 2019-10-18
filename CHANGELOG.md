@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Move asset handling and HTML code generation from template to view helper (#8)
+
 ## [1.1.1] - 2019-10-13
 
 ### Fixed

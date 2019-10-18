@@ -22,6 +22,9 @@
         "typo3/cms-fluid-styled-content": "^9.5.5 || ^10.0",
         "typo3/cms-frontend": "^9.5.5 || ^10.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
     "suggest": {
         "typo3/cms-t3editor": "^9.5.5 || ^10.0"
     },
