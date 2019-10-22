@@ -42,11 +42,29 @@ As the theme is assigned to a site, different sites can have different themes.
 
 .. _configuration-url-hash:
 
-Usage of a URL hash
+Usage of a URL Hash
 -------------------
 
 If the option is activated, the usage of a URL hash (like ``#codesnippet8.5-6``) for highlighting code and as anchor
 is available. You can find more information in the :ref:`chapter for editors <editor-url-hash>`.
+
+
+.. _configuration-command-line-default-host:
+
+Command Line: Default Host
+--------------------------
+
+Defines the default host for the command line, if none is given in the options of the content element. If a value is
+neither in the configuration nor in the content element given, ``localhost`` is used as last fallback.
+
+
+.. _configuration-command-line-default-user:
+
+Command line: Default User
+--------------------------
+
+Defines the default user for the command line, if none is given in the options of the content element. If a value is
+neither in the configuration nor in the content element given, ``user`` is used as last fallback.
 
 
 .. _constant-editor:
@@ -63,42 +81,6 @@ Select the category "Codehighlight" and make the adjustments.
    :alt: Constant Editor
 
    Constant Editor
-
-Options
--------
-
-If you regularly use the :ref:`command line options <editors-content-element-options-command-line>`, you may want to
-globally set the user and host for the command prompt. These are taken when no user or host is set in the options of
-the content element.
-
-Default user for the command line
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Defines the default user for the command line, if none is given in the options of the content element. If neither in
-the constant nor in the content element a user is given, ``user`` is used as last fallback.
-
-Alternatively you can change the setting directly in the TypoScript setup:
-
-.. code-block:: typoscript
-
-   tt_content.tx_codehighlight_codesnippet {
-      settings.commandLine.defaultServerUser = chris
-   }
-
-
-Default host for the command line
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Defines the default host for the command line, if none is given in the options of the content element. If neither in
-the constant nor in the content element a host is given, ``localhost`` is used as last fallback.
-
-Alternatively you can change the setting directly in the TypoScript setup:
-
-.. code-block:: typoscript
-
-   tt_content.tx_codehighlight_codesnippet {
-      settings.commandLine.defaultServerHost = earth
-   }
 
 
 Files

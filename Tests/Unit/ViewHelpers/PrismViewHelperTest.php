@@ -38,12 +38,11 @@ class PrismViewHelperTest extends TestCase
             ->getMock();
 
         $subject
-            ->expects($this->exactly(5))
+            ->expects($this->exactly(4))
             ->method('registerArgument')
             ->withConsecutive(
                 ['configuration', 'array', $this->anything(), false, []],
                 ['options', 'array', $this->anything(), false, []],
-                ['settings', 'array', $this->anything(), false, []],
                 ['id', 'string', $this->anything(), false, ''],
                 ['snippet', 'string', $this->anything(), false, '']
             );
@@ -181,13 +180,11 @@ class PrismViewHelperTest extends TestCase
 
         yield 'With activated command line and defaultServerUser' => [
             [
+                'configuration' => [
+                    'codehighlightCommandLineDefaultUser' => 'defaultChris',
+                ],
                 'options' => [
                     'displayCommandLine' => '1',
-                ],
-                'settings' => [
-                    'commandLine' => [
-                        'defaultServerUser' => 'defaultChris',
-                    ],
                 ],
                 'snippet' => 'some code snippet',
             ],
@@ -196,14 +193,12 @@ class PrismViewHelperTest extends TestCase
 
         yield 'With activated command line and commandLineServerUser/defaultServerUser' => [
             [
+                'configuration' => [
+                    'codehighlightCommandLineDefaultUser' => 'defaultChris',
+                ],
                 'options' => [
                     'displayCommandLine' => '1',
                     'commandLineServerUser' => 'chris',
-                ],
-                'settings' => [
-                    'commandLine' => [
-                        'defaultServerUser' => 'defaultChris',
-                    ],
                 ],
                 'snippet' => 'some code snippet',
             ],
@@ -212,13 +207,11 @@ class PrismViewHelperTest extends TestCase
 
         yield 'With activated command line and defaultServerHost' => [
             [
+                'configuration' => [
+                    'codehighlightCommandLineDefaultHost' => 'defaultEarth',
+                ],
                 'options' => [
                     'displayCommandLine' => '1',
-                ],
-                'settings' => [
-                    'commandLine' => [
-                        'defaultServerHost' => 'defaultEarth',
-                    ],
                 ],
                 'snippet' => 'some code snippet',
             ],
@@ -227,14 +220,12 @@ class PrismViewHelperTest extends TestCase
 
         yield 'With activated command line and commandLineServerHost/defaultServerHost' => [
             [
+                'configuration' => [
+                    'codehighlightCommandLineDefaultHost' => 'defaultEarth',
+                ],
                 'options' => [
                     'displayCommandLine' => '1',
                     'commandLineServerHost' => 'earth',
-                ],
-                'settings' => [
-                    'commandLine' => [
-                        'defaultServerHost' => 'defaultEarth',
-                    ],
                 ],
                 'snippet' => 'some code snippet',
             ],
@@ -349,14 +340,12 @@ class PrismViewHelperTest extends TestCase
 
         yield 'Special characters in attribute values are masked 3' => [
             [
+                'configuration' => [
+                    'codehighlightCommandLineDefaultHost' => '>"host"<',
+                    'codehighlightCommandLineDefaultUser' => '>"chris"<',
+                ],
                 'options' => [
                     'displayCommandLine' => '1',
-                ],
-                'settings' => [
-                    'commandLine' => [
-                        'defaultServerUser' => '>"chris"<',
-                        'defaultServerHost' => '>"host"<',
-                    ],
                 ],
                 'snippet' => 'some code snippet',
             ],

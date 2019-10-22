@@ -40,7 +40,6 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     private static $configuration;
     private static $options;
-    private static $settings;
     private static $id;
     private static $snippet;
 
@@ -52,7 +51,6 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
     {
         $this->registerArgument('configuration', 'array', 'Configuration (from site configuration)', false, []);
         $this->registerArgument('options', 'array', 'Options (from flexform)', false, []);
-        $this->registerArgument('settings', 'array', 'Settings (from TypoScript FLUIDTEMPLATE)', false, []);
         $this->registerArgument('id', 'string', 'id attribute of the surrounding tag', false, '');
         $this->registerArgument('snippet', 'string', 'Code snippet', false, '');
     }
@@ -66,7 +64,6 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
         static::$configuration = $arguments['configuration'] ?? [];
         static::$options = $arguments['options'] ?? [];
-        static::$settings = $arguments['settings'] ?? [];
         static::$id = $arguments['id'] ?? '';
         static::$snippet = $arguments['snippet'] ?? '';
 
@@ -150,14 +147,14 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
         if (static::$options['commandLineServerUser'] ?? false) {
             static::addToPreAttributes('user', static::$options['commandLineServerUser']);
-        } elseif (static::$settings['commandLine']['defaultServerUser'] ?? false) {
-            static::addToPreAttributes('user', static::$settings['commandLine']['defaultServerUser']);
+        } elseif (static::$configuration['codehighlightCommandLineDefaultUser'] ?? false) {
+            static::addToPreAttributes('user', static::$configuration['codehighlightCommandLineDefaultUser']);
         }
 
         if (static::$options['commandLineServerHost'] ?? false) {
             static::addToPreAttributes('host', static::$options['commandLineServerHost']);
-        } elseif (static::$settings['commandLine']['defaultServerHost'] ?? false) {
-            static::addToPreAttributes('host', static::$settings['commandLine']['defaultServerHost']);
+        } elseif (static::$configuration['codehighlightCommandLineDefaultHost'] ?? false) {
+            static::addToPreAttributes('host', static::$configuration['codehighlightCommandLineDefaultHost']);
         }
     }
 

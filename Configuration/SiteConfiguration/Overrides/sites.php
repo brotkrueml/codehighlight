@@ -38,12 +38,33 @@
                 ],
             ],
         ],
+        'codehighlightCommandLineDefaultHost' => [
+            'label' => $llPrefix . 'codehighlightCommandLineDefaultHost',
+            'config' => [
+                'type' => 'input',
+                'eval' => 'trim',
+            ],
+        ],
+        'codehighlightCommandLineDefaultUser' => [
+            'label' => $llPrefix . 'codehighlightCommandLineDefaultUser',
+            'config' => [
+                'type' => 'input',
+                'eval' => 'trim',
+            ],
+        ],
     ];
 
     $GLOBALS['SiteConfiguration']['site']['types']['0']['showitem'] .= '
         ,
         --div--;Code Highlight,
             codehighlightTheme,
-            codehighlightUseUrlHash
+            codehighlightUseUrlHash,
+            --palette--;' . $llPrefix . 'codehighlightCommandLine;codehighlightCommandLine,
     ';
+
+    $GLOBALS['SiteConfiguration']['site']['palettes'] += [
+        'codehighlightCommandLine' => [
+            'showitem' => 'codehighlightCommandLineDefaultHost,codehighlightCommandLineDefaultUser',
+        ],
+    ];
 })('codehighlight');

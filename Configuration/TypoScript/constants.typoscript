@@ -1,5 +1,3 @@
-# customsubcategory=options=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:subcategory.options
-
 tt_content.tx_codehighlight_codesnippet {
   # cat=codehighlight/file/p1; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:templateRootPath
   templateRootPath =
@@ -7,9 +5,4 @@ tt_content.tx_codehighlight_codesnippet {
   partialRootPath =
   # cat=codehighlight/file/p3; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:layoutRootPath
   layoutRootPath =
-
-  # cat=codehighlight/options/cl1; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:commandLine.defaultServerUser
-  commandLine.defaultServerUser =
-  # cat=codehighlight/options/cl2; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:commandLine.defaultServerHost
-  commandLine.defaultServerHost =
 }
