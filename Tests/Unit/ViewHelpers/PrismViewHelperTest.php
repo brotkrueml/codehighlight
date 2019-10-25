@@ -18,7 +18,7 @@ class PrismViewHelperTest extends TestCase
     /** @var PrismViewHelper */
     private $subject;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         $this->renderingContextMock = $this->createMock(RenderingContext::class);
         $this->pageRendererMock = $this->createMock(PageRenderer::class);
@@ -38,13 +38,13 @@ class PrismViewHelperTest extends TestCase
             ->getMock();
 
         $subject
-            ->expects($this->exactly(4))
+            ->expects(self::exactly(4))
             ->method('registerArgument')
             ->withConsecutive(
-                ['configuration', 'array', $this->anything(), false, []],
-                ['options', 'array', $this->anything(), false, []],
-                ['id', 'string', $this->anything(), false, ''],
-                ['snippet', 'string', $this->anything(), false, '']
+                ['configuration', 'array', self::anything(), false, []],
+                ['options', 'array', self::anything(), false, []],
+                ['id', 'string', self::anything(), false, ''],
+                ['snippet', 'string', self::anything(), false, '']
             );
 
         $subject->initializeArguments();
@@ -65,7 +65,7 @@ class PrismViewHelperTest extends TestCase
             $this->renderingContextMock
         );
 
-        $this->assertSame($expected, $actual);
+        self::assertSame($expected, $actual);
     }
 
     public function dataProviderForArgumentsReturningResultSets(): iterable
@@ -366,11 +366,11 @@ class PrismViewHelperTest extends TestCase
     public function noAssetsAreAddedWhenSnippetIsEmpty(): void
     {
         $this->pageRendererMock
-            ->expects($this->never())
+            ->expects(self::never())
             ->method('addCssFile');
 
         $this->pageRendererMock
-            ->expects($this->never())
+            ->expects(self::never())
             ->method('addJsFooterFile');
 
         $this->subject->renderStatic(
@@ -387,7 +387,7 @@ class PrismViewHelperTest extends TestCase
     public function themeFileIsAddedCorrectlyWhenNoThemeIsGiven(): void
     {
         $this->pageRendererMock
-            ->expects($this->once())
+            ->expects(self::once())
             ->method('addCssFile')
             ->with($this->buildAssetPath('themes/prism.css'));
 
@@ -412,7 +412,7 @@ class PrismViewHelperTest extends TestCase
     public function themeFileIsAddedCorrectlyWhenConcreteThemeIsGiven(): void
     {
         $this->pageRendererMock
-            ->expects($this->once())
+            ->expects(self::once())
             ->method('addCssFile')
             ->with('/some-theme.css');
 
@@ -435,7 +435,7 @@ class PrismViewHelperTest extends TestCase
     public function mainAssetScriptsAreAddedCorrectly(): void
     {
         $this->pageRendererMock
-            ->expects($this->exactly(2))
+            ->expects(self::exactly(2))
             ->method('addJsFooterFile')
             ->withConsecutive(
                 [$this->buildAssetPath('components/prism-core.min.js')],
@@ -462,19 +462,19 @@ class PrismViewHelperTest extends TestCase
     public function lineNumberAssetsAreAddedCorrectly(array $arguments, string $addedCss, string $addedJs): void
     {
         $this->pageRendererMock
-            ->expects($this->exactly(2))
+            ->expects(self::exactly(2))
             ->method('addCssFile')
             ->withConsecutive(
-                [$this->anything()],
+                [self::anything()],
                 [$addedCss]
             );
 
         $this->pageRendererMock
-            ->expects($this->exactly(3))
+            ->expects(self::exactly(3))
             ->method('addJsFooterFile')
             ->withConsecutive(
-                [$this->anything()],
-                [$this->anything()],
+                [self::anything()],
+                [self::anything()],
                 [$addedJs]
             );
 
