@@ -67,19 +67,28 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
         $header = $this->languageService->sL(static::LL_PREFIX_CE . 'contentElement.title');
 
         $language = $this->getValueFromFlexform('programmingLanguage');
+        $filename = $this->getValueFromFlexform('filename');
+
+        $additionalHeaderInfo = [];
 
         if ($language) {
-            $language = $this->languageService->sL(static::LL_PREFIX_LANG . $language) ?: $language;
-
-            $header .= ' (' . $language . ')';
+            $additionalHeaderInfo[] = $this->languageService->sL(static::LL_PREFIX_LANG . $language) ?: $language;
         }
 
-        return '<strong>' . $header . '</strong>';
+        if ($filename) {
+            $additionalHeaderInfo[] = $filename;
+        }
+
+        if ($additionalHeaderInfo) {
+            $header .= ' (' . \implode(', ', $additionalHeaderInfo) . ')';
+        }
+
+        return '<strong>' . \htmlspecialchars($header) . '</strong>';
     }
 
     private function generateWarning(string $text): string
     {
-        return '<br><br><div class="alert alert-warning">' . htmlspecialchars($text) . '</div>';
+        return '<br><br><div class="alert alert-warning">' . \htmlspecialchars($text) . '</div>';
     }
 
     private function getValueFromFlexform(string $key, string $sheet = 'sDEF'): ?string
@@ -91,6 +100,6 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
     {
         $input = GeneralUtility::fixed_lgd_cs($input, 1500);
 
-        return htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8', false);
+        return \htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8', false);
     }
 }
