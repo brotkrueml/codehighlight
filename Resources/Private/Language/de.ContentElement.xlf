@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2019-09-26T13:12:56Z" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2019-10-26T19:43:03Z" target-language="de">
     <body>
       <trans-unit id="contentElement.title" resname="contentElement.title" approved="yes">
         <source><![CDATA[Code Snippet]]></source>
