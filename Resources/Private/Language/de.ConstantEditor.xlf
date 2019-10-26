@@ -2,6 +2,10 @@
 <xliff version="1.0">
   <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z" target-language="de">
     <body>
+      <trans-unit id="cssFile" resname="layoutRootPath" approved="yes">
+        <source><![CDATA[CSS File]]></source>
+        <target state="final"><![CDATA[CSS-Datei]]></target>
+      </trans-unit>
       <trans-unit id="layoutRootPath" resname="layoutRootPath" approved="yes">
         <source><![CDATA[Path to template layouts (FE)]]></source>
         <target state="final"><![CDATA[Pfad zu Template-Layouts (FE)]]></target>
