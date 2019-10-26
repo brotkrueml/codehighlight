@@ -66,6 +66,10 @@
         <source><![CDATA[Display command line]]></source>
         <target state="final"><![CDATA[Befehlszeile anzeigen]]></target>
       </trans-unit>
+      <trans-unit id="filename" resname="filename" approved="yes">
+        <source><![CDATA[Filename]]></source>
+        <target state="final"><![CDATA[Dateiname]]></target>
+      </trans-unit>
       <trans-unit id="displayCommandLine.description" resname="displayCommandLine.description" approved="yes">
         <source><![CDATA[Display a command line with a prompt and, optionally, the output/response from the commands. Important: If you activate this option, don't select a programming language or the prompts are not visible!]]></source>
         <target state="final"><![CDATA[Zeigt eine Befehlszeile mit einer Eingabeaufforderung und optional die Ausgabe/Antwort aus den Befehlen. Wichtig: Wenn diese Option aktiviert wird, keine Programmiersprache auswählen oder die Eingabeaufforderungen sind nicht sichtbar!]]></target>
