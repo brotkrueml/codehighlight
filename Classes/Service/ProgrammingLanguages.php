@@ -55,15 +55,26 @@ final class ProgrammingLanguages
         if (\file_exists($path)) {
             $languages = require $path;
 
-            return \array_merge($languages, $this->getAliasesForMarkup());
+            return \array_merge($languages, $this->getAliases());
         }
 
         return [];
     }
 
-    private function getAliasesForMarkup(): array
+    private function getAliases(): array
     {
-        // @see components/prism-markup.js
-        return ['html', 'mathml', 'svg', 'xml'];
+        return [
+            // @see components/prism-bash.js
+            'shell',
+
+            // @see components/prism-bnf.js
+            'rbnf',
+
+            // @see components/prism-markup.js
+            'html',
+            'mathml',
+            'svg',
+            'xml',
+        ];
     }
 }
