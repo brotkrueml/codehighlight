@@ -15,6 +15,15 @@
                     </config>
                 </TCEforms>
             </programmingLanguage>
+            <filename>
+                <TCEforms>
+                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:filename</label>
+                    <config>
+                        <type>input</type>
+                        <eval>trim</eval>
+                    </config>
+                </TCEforms>
+            </filename>
         </el>
     </ROOT>
 </T3DataStructure>

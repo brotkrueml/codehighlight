@@ -1,0 +1,15 @@
+/* Default styles for codehighlight extension */
+
+.codehighlight-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.codehighlight-container pre[class*=language-] {
+    margin-bottom: .3em;
+}
+
+.codehighlight-caption {
+    font-size: 80%;
+    text-align: center;
+}

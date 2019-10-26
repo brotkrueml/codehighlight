@@ -6,6 +6,21 @@
 <f:layout name="Default" />
 
 <f:section name="Main">
+    <f:if condition="{options.filename}">
+        <f:then>
+            <codeHighlight:css path="{settings.cssFile}"/>
+            <figure class="codehighlight-container">
+                <f:render section="CodeSnippet" arguments="{_all}"/>
+                <figcaption class="codehighlight-caption">{options.filename}</figcaption>
+            </figure>
+        </f:then>
+        <f:else>
+            <f:render section="CodeSnippet" arguments="{_all}"/>
+        </f:else>
+    </f:if>
+</f:section>
+
+<f:section name="CodeSnippet">
     <codeHighlight:prism
         configuration="{site.configuration}"
         options="{options}"

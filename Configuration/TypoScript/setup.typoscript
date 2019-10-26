@@ -26,4 +26,8 @@ tt_content.tx_codehighlight_codesnippet {
       as = site
     }
   }
+
+  settings {
+    cssFile = {$tt_content.tx_codehighlight_codesnippet.cssFile}
+  }
 }

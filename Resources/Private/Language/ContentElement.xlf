@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2019-09-26T13:12:56Z">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2019-10-26T19:43:03Z">
     <body>
       <trans-unit id="contentElement.title" resname="contentElement.title">
         <source><![CDATA[Code Snippet]]></source>
@@ -49,6 +49,9 @@
       </trans-unit>
       <trans-unit id="displayCommandLine" resname="displayCommandLine">
         <source><![CDATA[Display command line]]></source>
+      </trans-unit>
+      <trans-unit id="filename" resname="filename">
+        <source><![CDATA[Filename]]></source>
       </trans-unit>
       <trans-unit id="displayCommandLine.description" resname="displayCommandLine.description">
         <source><![CDATA[Display a command line with a prompt and, optionally, the output/response from the commands. Important: If you activate this option, don't select a programming language or the prompts are not visible!]]></source>

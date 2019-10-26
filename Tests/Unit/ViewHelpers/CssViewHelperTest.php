@@ -1,0 +1,84 @@
+<?php
+declare(strict_types = 1);
+
+namespace Brotkrueml\CodeHighlight\Tests\Unit\ViewHelpers;
+
+use Brotkrueml\CodeHighlight\ViewHelpers\CssViewHelper;
+use PHPUnit\Framework\MockObject\MockObject;
+use PHPUnit\Framework\TestCase;
+use TYPO3\CMS\Core\Page\PageRenderer;
+use TYPO3Fluid\Fluid\Core\Rendering\RenderingContext;
+
+class CssViewHelperTest extends TestCase
+{
+    /** @var MockObject|RenderingContext */
+    private $renderingContextMock;
+
+    /** @var MockObject|PageRenderer */
+    private $pageRendererMock;
+
+    /** @var CssViewHelper */
+    private $subject;
+
+    protected function setUp(): void
+    {
+        $this->renderingContextMock = $this->createMock(RenderingContext::class);
+        $this->pageRendererMock = $this->createMock(PageRenderer::class);
+        $this->subject = new CssViewHelper();
+        $this->subject->setPageRenderer($this->pageRendererMock);
+    }
+
+    /**
+     * @test
+     */
+    public function argumentsAreRegisteredCorrectly(): void
+    {
+        /** @var MockObject|CssViewHelper $subject */
+        $subject = $this->getMockBuilder(CssViewHelper::class)
+            ->disableOriginalConstructor()
+            ->onlyMethods(['registerArgument'])
+            ->getMock();
+
+        $subject
+            ->expects(self::once())
+            ->method('registerArgument')
+            ->with('path', 'string', self::anything(), true);
+
+        $subject->initializeArguments();
+    }
+
+    /**
+     * @test
+     */
+    public function givenEmptyPathDoesNothing(): void
+    {
+        $this->pageRendererMock
+            ->expects(self::never())
+            ->method('addCssFile');
+
+        $this->subject->renderStatic(
+            ['path' => ''],
+            function () {
+            },
+            $this->renderingContextMock
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function givenPathAddsCssFileCorrectly(): void
+    {
+        $this->pageRendererMock
+            ->expects(self::once())
+            ->method('addCssFile')
+            ->with('some_styles.css');
+
+        $this->subject->renderStatic(
+            ['path' => 'some_styles.css'],
+            function () {
+            },
+            $this->renderingContextMock
+        );
+    }
+}

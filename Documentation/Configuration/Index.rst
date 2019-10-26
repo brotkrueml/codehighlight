@@ -15,8 +15,8 @@ Target group: **Developers, Integrators**
 Site Configuration
 ==================
 
-Some site-wide configurations can be made in the Site Configuration. Select a site under *Site Management* > *Sites*
-and switch to the tab "Code Highlight".
+Some site-wide configurations can be made in the Site Configuration. Select a
+site under *Site Management* > *Sites* and switch to the tab "Code Highlight".
 
 .. figure:: ../Images/Configuration/site-configuration.png
    :class: with-shadow
@@ -30,8 +30,9 @@ and switch to the tab "Code Highlight".
 CSS File for Theme
 ------------------
 
-In the value picker you have the choice between several themes for using on a website. As the extension uses
-`Prism <https://prismjs.com/>`__ for the code highlighting you can have a look at their website to see the differences
+In the value picker you have the choice between several themes for using on a
+website. As the extension uses `Prism <https://prismjs.com/>`__ for the code
+highlighting you can have a look at their website to see the differences
 between the themes.
 
 When selecting a theme, the path to the according CSS file is stored in the site configuration. So you can also
@@ -45,8 +46,9 @@ As the theme is assigned to a site, different sites can have different themes.
 Usage of a URL Hash
 -------------------
 
-If the option is activated, the usage of a URL hash (like ``#codesnippet8.5-6``) for highlighting code and as anchor
-is available. You can find more information in the :ref:`chapter for editors <editor-url-hash>`.
+If the option is activated, the usage of a URL hash (like ``#codesnippet8.5-6``)
+for highlighting code and as anchor is available. You can find more information
+in the :ref:`chapter for editors <editor-url-hash>`.
 
 
 .. _configuration-command-line-default-host:
@@ -54,8 +56,9 @@ is available. You can find more information in the :ref:`chapter for editors <ed
 Command Line: Default Host
 --------------------------
 
-Defines the default host for the command line, if none is given in the options of the content element. If a value is
-neither in the configuration nor in the content element given, ``localhost`` is used as last fallback.
+Defines the default host for the command line, if none is given in the options
+of the content element. If a value is neither in the configuration nor in the
+content element given, ``localhost`` is used as last fallback.
 
 
 .. _configuration-command-line-default-user:
@@ -63,8 +66,9 @@ neither in the configuration nor in the content element given, ``localhost`` is 
 Command line: Default User
 --------------------------
 
-Defines the default user for the command line, if none is given in the options of the content element. If a value is
-neither in the configuration nor in the content element given, ``user`` is used as last fallback.
+Defines the default user for the command line, if none is given in the options
+of the content element. If a value is neither in the configuration nor in the
+content element given, ``user`` is used as last fallback.
 
 
 .. _constant-editor:
@@ -72,7 +76,8 @@ neither in the configuration nor in the content element given, ``user`` is used 
 Constant Editor
 ===============
 
-Some constants can be defined in the :ref:`Constant Editor <t3tsref:typoscript-syntax-constant-editor>`.
+Some constants can be defined in the
+:ref:`Constant Editor <t3tsref:typoscript-syntax-constant-editor>`.
 
 Select the category "Codehighlight" and make the adjustments.
 
@@ -86,13 +91,14 @@ Select the category "Codehighlight" and make the adjustments.
 Files
 -----
 
-If you want to change the layout or template of the content element or add a partial you can make a copy of then and
-adjust the Fluid root paths.
+If you want to change the layout or template of the content element or add a
+partial you can make a copy of then and adjust the Fluid root paths.
 
 Path to template root (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enter the additional template root path, e.g. :file:`EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/`
+Enter the additional template root path, e.g.
+:file:`EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/`.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
@@ -105,7 +111,8 @@ Alternatively you can change the setting directly in the TypoScript setup:
 Path to template partials (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enter the additional partial root path, e.g. :file:`EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/`
+Enter the additional partial root path, e.g.
+:file:`EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/`.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
@@ -118,7 +125,8 @@ Alternatively you can change the setting directly in the TypoScript setup:
 Path to template layouts (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enter the additional layout root path, e.g. :file:`EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/`
+Enter the additional layout root path, e.g.
+:file:`EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/`.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
@@ -128,13 +136,30 @@ Alternatively you can change the setting directly in the TypoScript setup:
       10 = EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/
    }
 
+CSS File
+~~~~~~~~
+
+The extension comes with a default CSS file. If you don't want to include it
+or want to use an own CSS file you can empty the field or change the path.
+
+Alternatively you can change the setting directly in the TypoScript setup:
+
+.. code-block:: typoscript
+
+   tt_content.tx_codehighlight_codesnippet.layoutRootPaths {
+      settings.cssFile = EXT:your_sitepackage/Resources/Public/Css/codehighlight.css
+   }
+
 
 .. _assets-embedding:
 
 Assets embedding
 ================
 
-The required CSS and JavaScript files from the Prism library are embedded with the :php:`PageRenderer` methods
-:php:`addCssFile()` and :php:`addJsFooterFile()`. This means, that they adhere to the configuration setting
-:php:`$GLOBALS['TYPO3_CONF_VARS']['FE']['versionNumberInFilename']` and the TypoScript setting
-:ref:`config.concatenateJs <t3tsref:setup-config-concatenatejs>`.
+The required CSS and JavaScript files from the Prism library and the extension's
+CSS file are embedded with the :php:`PageRenderer` methods :php:`addCssFile()`
+and :php:`addJsFooterFile()`. This means, that they adhere to the configuration
+setting :php:`$GLOBALS['TYPO3_CONF_VARS']['FE']['versionNumberInFilename']`
+and the TypoScript settings
+:ref:`config.concatenateJs <t3tsref:setup-config-concatenatejs>` and
+:ref:`config.concatenateCss <t3tsref:setup-config-concatenatecss>`.
