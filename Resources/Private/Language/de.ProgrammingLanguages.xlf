@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-09-25T19:34:08Z" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-10-26T22:41:13Z" target-language="de">
     <body>
       <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
@@ -13,10 +13,6 @@
       <trans-unit id="asm6502" resname="asm6502" approved="yes">
         <source><![CDATA[6502 Assembly]]></source>
         <target state="final"><![CDATA[6502-Assembler]]></target>
-      </trans-unit>
-      <trans-unit id="bnf" resname="bnf" approved="yes">
-        <source><![CDATA[Backus–Naur form + Routing Backus–Naur form]]></source>
-        <target state="final"><![CDATA[Backus-Naur-Form + Routing-Backus-Naur-Form]]></target>
       </trans-unit>
       <trans-unit id="clike" resname="clike" approved="yes">
         <source><![CDATA[C-like]]></source>
