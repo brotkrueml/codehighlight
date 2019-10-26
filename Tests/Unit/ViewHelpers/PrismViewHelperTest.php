@@ -1,6 +1,8 @@
 <?php
 declare(strict_types = 1);
 
+namespace Brotkrueml\CodeHighlight\Tests\Unit\ViewHelpers;
+
 use Brotkrueml\CodeHighlight\ViewHelpers\PrismViewHelper;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
