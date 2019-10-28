@@ -14,6 +14,10 @@
         <source><![CDATA[6502 Assembly]]></source>
         <target state="final"><![CDATA[6502-Assembler]]></target>
       </trans-unit>
+      <trans-unit id="bnf" resname="bnf" approved="yes">
+        <source><![CDATA[Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Backus-Naur-Form]]></target>
+      </trans-unit>
       <trans-unit id="clike" resname="clike" approved="yes">
         <source><![CDATA[C-like]]></source>
         <target state="final"><![CDATA[C-ähnlich]]></target>
@@ -53,6 +57,10 @@
       <trans-unit id="q" resname="q" approved="yes">
         <source><![CDATA[Q (kdb+ database)]]></source>
         <target state="final"><![CDATA[Q (kdb+-Datenbank)]]></target>
+      </trans-unit>
+      <trans-unit id="rbnf" resname="rbnf" approved="yes">
+        <source><![CDATA[Routing Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Routing-Backus-Naur-Form]]></target>
       </trans-unit>
       <trans-unit id="shell-session" resname="shell-session" approved="yes">
         <source><![CDATA[Shell session]]></source>
