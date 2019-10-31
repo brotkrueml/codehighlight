@@ -35,11 +35,18 @@ website. As the extension uses `Prism <https://prismjs.com/>`__ for the code
 highlighting you can have a look at their website to see the differences
 between the themes.
 
-When selecting a theme, the path to the according CSS file is stored in the site configuration. So you can also
-use an own theme to customise the look of the code snippets.
+When selecting a theme, the path to the according CSS file is stored in the site
+configuration. You can also use an own theme to customise the look of the
+code snippets.
 
 As the theme is assigned to a site, different sites can have different themes.
 
+.. tip::
+
+   If you don't like the shipped themes you find many more in a separate
+   `GitHub repository <https://github.com/PrismJS/prism-themes>`__. Just
+   download the desired theme, save it to your site package extension and
+   type the path to the file into the site configuration field.
 
 .. _configuration-url-hash:
 
