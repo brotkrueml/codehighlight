@@ -1,7 +1,7 @@
 <?php
 defined('TYPO3_MODE') or die();
 
-(function($extensionKey) {
+(function($extensionKey = 'codehighlight') {
     $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
         \TYPO3\CMS\Core\Imaging\IconRegistry::class
     );
@@ -18,4 +18,4 @@ defined('TYPO3_MODE') or die();
 
     $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['cms/layout/class.tx_cms_layout.php']['tt_content_drawItem']['codehighlight'] =
         \Brotkrueml\CodeHighlight\Hooks\PageLayoutView\ContentElementPreviewRenderer::class;
-})('codehighlight');
+})();
