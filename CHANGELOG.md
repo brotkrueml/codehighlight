@@ -6,9 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2019-11-07
+
+### Added
+
+- Possibility to display filename for snippet (#10)
+
 ### Changed
 
 - Move asset handling and HTML code generation from template to view helper (#8)
+- Move command line TypoScript settings to site configuration (#9)
+- Separate shell and bash, bnf and rbnf in the list of available languages
 
 ## [1.1.1] - 2019-10-13
 
@@ -37,7 +45,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Content element "Code Snippet"
 - Syntax highlighting with Prism
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/brotkrueml/codehighlight/compare/v1.1.1...v2.0.0
 [1.1.1]: https://github.com/brotkrueml/codehighlight/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/brotkrueml/codehighlight/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/brotkrueml/codehighlight/compare/v1.0.0...v1.0.1
