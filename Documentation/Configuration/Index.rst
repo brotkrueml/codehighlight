@@ -158,6 +158,12 @@ Alternatively you can change the setting directly in the TypoScript setup:
       settings.cssFile = EXT:your_sitepackage/Resources/Public/Css/codehighlight.css
    }
 
+.. note::
+
+   Do not mix up this CSS file with the CSS file for the design. This CSS file
+   is responsible for the representation outside the code section. Currently
+   there are styles for displaying the filename of a snippet.
+
 
 .. _assets-embedding:
 
