@@ -1,5 +1,6 @@
 .. include:: ../Includes.txt
 
+.. highlight:: shell
 
 .. _maintenance:
 
@@ -40,7 +41,7 @@ For syntax highlighting `Prism <https://prismjs.com/>`__ is used. The JavaScript
 library and its dependencies are managed with :file:`yarn` and build with
 :file:`gulp`:
 
-.. code-block:: shell
+::
 
    cd Build
    yarn install
@@ -62,7 +63,7 @@ Update
 
 To update the library to the recent version just call on the console:
 
-.. code-block:: shell
+::
 
    cd Build
    yarn upgrade prismjs
@@ -100,7 +101,7 @@ Set the new version in the files
 adjust the :file:`CHANGELOG.md` and tag the release. The packaging of the
 extension for the TYPO3 Extension Repository (TER) can be done with:
 
-.. code-block:: shell
+::
 
    composer zip
 

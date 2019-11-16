@@ -110,7 +110,7 @@ Enter the additional template root path, e.g.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
-.. code-block:: typoscript
+::
 
    tt_content.tx_codehighlight_codesnippet.templateRootPaths {
       10 = EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/
@@ -124,7 +124,7 @@ Enter the additional partial root path, e.g.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
-.. code-block:: typoscript
+::
 
    tt_content.tx_codehighlight_codesnippet.partialRootPaths {
       10 = EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/
@@ -138,7 +138,7 @@ Enter the additional layout root path, e.g.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
-.. code-block:: typoscript
+::
 
    tt_content.tx_codehighlight_codesnippet.layoutRootPaths {
       10 = EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/
@@ -152,7 +152,7 @@ or want to use an own CSS file you can empty the field or change the path.
 
 Alternatively you can change the setting directly in the TypoScript setup:
 
-.. code-block:: typoscript
+::
 
    tt_content.tx_codehighlight_codesnippet.layoutRootPaths {
       settings.cssFile = EXT:your_sitepackage/Resources/Public/Css/codehighlight.css
