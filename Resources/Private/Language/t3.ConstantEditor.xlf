@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z" target-language="t3">
+    <body>
+      <trans-unit id="cssFile" resname="layoutRootPath">
+        <source><![CDATA[CSS File]]></source>
+        <target><![CDATA[crwdns67280:0crwdne67280:0]]></target>
+      </trans-unit>
+      <trans-unit id="layoutRootPath" resname="layoutRootPath">
+        <source><![CDATA[Path to template layouts (FE)]]></source>
+        <target><![CDATA[crwdns49464:0crwdne49464:0]]></target>
+      </trans-unit>
+      <trans-unit id="partialRootPath" resname="partialRootPath">
+        <source><![CDATA[Path to template partials (FE)]]></source>
+        <target><![CDATA[crwdns49466:0crwdne49466:0]]></target>
+      </trans-unit>
+      <trans-unit id="templateRootPath" resname="templateRootPath">
+        <source><![CDATA[Path to template root (FE)]]></source>
+        <target><![CDATA[crwdns49470:0crwdne49470:0]]></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
