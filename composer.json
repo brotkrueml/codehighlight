@@ -23,6 +23,7 @@
         "typo3/cms-frontend": "^9.5.5 || ^10.0"
     },
     "require-dev": {
+        "php-coveralls/php-coveralls": "^2.2",
         "phpunit/phpunit": "^8.4"
     },
     "suggest": {
