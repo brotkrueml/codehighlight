@@ -1,11 +1,12 @@
 <phpunit
-     convertErrorsToExceptions="true"
-     convertNoticesToExceptions="true"
-     convertWarningsToExceptions="true"
-     stopOnFailure="false"
+    beStrictAboutOutputDuringTests="true"
+    beStrictAboutTodoAnnotatedTests="true"
+    failOnRisky="true"
+    failOnWarning="true"
+    testdox="true"
 >
-<testsuites>
-        <testsuite name="Unit tests">
+    <testsuites>
+        <testsuite name="unit">
             <directory>Unit/</directory>
         </testsuite>
     </testsuites>
@@ -14,4 +15,8 @@
             <directory>../Classes/</directory>
         </whitelist>
     </filter>
+    <logging>
+        <log type="coverage-clover" target="../.Build/logs/clover.xml"/>
+        <log type="junit" target="../.Build/logs/phpunit.xml"/>
+    </logging>
 </phpunit>

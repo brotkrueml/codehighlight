@@ -58,7 +58,7 @@ class PrismViewHelperTest extends TestCase
      * @param array $arguments
      * @param string $expected
      */
-    public function withArgumentResultSetIsReturnedCorrectly(array $arguments, string $expected): void
+    public function argumentResultSetIsReturnedCorrectly(array $arguments, string $expected): void
     {
         $actual = $this->subject->renderStatic(
             $arguments,
