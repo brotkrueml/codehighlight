@@ -30,9 +30,6 @@ defined('TYPO3_MODE') or die();
                         'enableTabulator' => true,
                         'fixedFont' => true,
                         'wrap' => 'off',
-                        'behaviour' => [
-                            'allowLanguageSynchronization' => true,
-                        ],
                     ],
                 ],
                 'pi_flexform' => [
