@@ -1,7 +1,7 @@
 <?php
 defined('TYPO3_MODE') or die();
 
-(function ($extensionKey, $contentType) {
+(function ($extensionKey='codehighlight', $contentType='tx_codehighlight_codesnippet') {
     $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/ContentElement.xlf:';
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
@@ -61,4 +61,4 @@ defined('TYPO3_MODE') or die();
     }
 
     $GLOBALS['TCA']['tt_content']['types'] += $tempTypes;
-})('codehighlight', 'tx_codehighlight_codesnippet');
+})();
