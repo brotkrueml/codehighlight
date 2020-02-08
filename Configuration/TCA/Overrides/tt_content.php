@@ -61,4 +61,6 @@ defined('TYPO3_MODE') or die();
     }
 
     $GLOBALS['TCA']['tt_content']['types'] += $tempTypes;
+
+    $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'content-codehighlight';
 })();
