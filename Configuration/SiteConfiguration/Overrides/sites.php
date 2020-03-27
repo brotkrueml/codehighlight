@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * This file is part of the "codehighlight" extension for TYPO3 CMS.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ */
+
 (function ($extensionKey) {
     $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/SiteConfiguration.xlf:';
     $themePath = 'EXT:' . $extensionKey . '/Resources/Public/Prism/themes/';

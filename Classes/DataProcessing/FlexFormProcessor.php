@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Brotkrueml\CodeHighlight\DataProcessing;
-
 /*
  * This file is part of the "codehighlight" extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
  */
+
+namespace Brotkrueml\CodeHighlight\DataProcessing;
 
 use TYPO3\CMS\Core\Service\FlexFormService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
