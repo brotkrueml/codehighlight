@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-10-26T22:41:13Z">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-03-27T17:48:26Z">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -14,6 +14,9 @@
       <trans-unit id="ada" resname="ada" translate="no">
         <source><![CDATA[Ada]]></source>
       </trans-unit>
+      <trans-unit id="antlr4" resname="antlr4" translate="no">
+        <source><![CDATA[ANTLR4]]></source>
+      </trans-unit>
       <trans-unit id="apacheconf" resname="apacheconf">
         <source><![CDATA[Apache Configuration]]></source>
       </trans-unit>
@@ -22,6 +25,9 @@
       </trans-unit>
       <trans-unit id="applescript" resname="applescript" translate="no">
         <source><![CDATA[AppleScript]]></source>
+      </trans-unit>
+      <trans-unit id="aql" resname="aql" translate="no">
+        <source><![CDATA[AQL]]></source>
       </trans-unit>
       <trans-unit id="arduino" resname="arduino" translate="no">
         <source><![CDATA[Arduino]]></source>
@@ -53,6 +59,9 @@
       <trans-unit id="batch" resname="batch" translate="no">
         <source><![CDATA[Batch]]></source>
       </trans-unit>
+      <trans-unit id="bbcode" resname="bbcode" translate="no">
+        <source><![CDATA[BBcode + Shortcode]]></source>
+      </trans-unit>
       <trans-unit id="bison" resname="bison" translate="no">
         <source><![CDATA[Bison]]></source>
       </trans-unit>
@@ -61,6 +70,9 @@
       </trans-unit>
       <trans-unit id="brainfuck" resname="brainfuck" translate="no">
         <source><![CDATA[Brainfuck]]></source>
+      </trans-unit>
+      <trans-unit id="brightscript" resname="brightscript" translate="no">
+        <source><![CDATA[BrightScript]]></source>
       </trans-unit>
       <trans-unit id="bro" resname="bro" translate="no">
         <source><![CDATA[Bro]]></source>
@@ -140,6 +152,12 @@
       <trans-unit id="erlang" resname="erlang" translate="no">
         <source><![CDATA[Erlang]]></source>
       </trans-unit>
+      <trans-unit id="etlua" resname="etlua" translate="no">
+        <source><![CDATA[Embedded Lua templating]]></source>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules">
+        <source><![CDATA[Firestore security rules]]></source>
+      </trans-unit>
       <trans-unit id="flow" resname="flow" translate="no">
         <source><![CDATA[Flow]]></source>
       </trans-unit>
@@ -149,8 +167,14 @@
       <trans-unit id="fsharp" resname="fsharp" translate="no">
         <source><![CDATA[F#]]></source>
       </trans-unit>
+      <trans-unit id="ftl" resname="ftl">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+      </trans-unit>
       <trans-unit id="gcode" resname="gcode" translate="no">
         <source><![CDATA[G-code]]></source>
+      </trans-unit>
+      <trans-unit id="gdscript" resname="gdscript" translate="no">
+        <source><![CDATA[GDScript]]></source>
       </trans-unit>
       <trans-unit id="gedcom" resname="gedcom" translate="no">
         <source><![CDATA[GEDCOM]]></source>
@@ -275,6 +299,9 @@
       <trans-unit id="latex" resname="latex" translate="no">
         <source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
       </trans-unit>
+      <trans-unit id="latte" resname="latte" translate="no">
+        <source><![CDATA[Latte]]></source>
+      </trans-unit>
       <trans-unit id="less" resname="less" translate="no">
         <source><![CDATA[Less]]></source>
       </trans-unit>
@@ -323,6 +350,9 @@
       <trans-unit id="monkey" resname="monkey" translate="no">
         <source><![CDATA[Monkey]]></source>
       </trans-unit>
+      <trans-unit id="moonscript" resname="moonscript" translate="no">
+        <source><![CDATA[MoonScript]]></source>
+      </trans-unit>
       <trans-unit id="n1ql" resname="n1ql" translate="no">
         <source><![CDATA[N1QL]]></source>
       </trans-unit>
@@ -334,6 +364,9 @@
       </trans-unit>
       <trans-unit id="nasm" resname="nasm" translate="no">
         <source><![CDATA[NASM]]></source>
+      </trans-unit>
+      <trans-unit id="neon" resname="neon" translate="no">
+        <source><![CDATA[NEON]]></source>
       </trans-unit>
       <trans-unit id="nginx" resname="nginx" translate="no">
         <source><![CDATA[nginx]]></source>
@@ -419,6 +452,9 @@
       <trans-unit id="q" resname="q">
         <source><![CDATA[Q (kdb+ database)]]></source>
       </trans-unit>
+      <trans-unit id="qml" resname="qml">
+        <source><![CDATA[QML]]></source>
+      </trans-unit>
       <trans-unit id="qore" resname="qore" translate="no">
         <source><![CDATA[Qore]]></source>
       </trans-unit>
@@ -445,6 +481,9 @@
       </trans-unit>
       <trans-unit id="roboconf" resname="roboconf" translate="no">
         <source><![CDATA[Roboconf]]></source>
+      </trans-unit>
+      <trans-unit id="robotframework" resname="robotframework" translate="no">
+        <source><![CDATA[Robot Framework]]></source>
       </trans-unit>
       <trans-unit id="ruby" resname="ruby" translate="no">
         <source><![CDATA[Ruby]]></source>
@@ -479,11 +518,20 @@
       <trans-unit id="smarty" resname="smarty" translate="no">
         <source><![CDATA[Smarty]]></source>
       </trans-unit>
+      <trans-unit id="solidity" resname="solidity" translate="no">
+        <source><![CDATA[Solidity (Ethereum)]]></source>
+      </trans-unit>
       <trans-unit id="soy" resname="soy">
         <source><![CDATA[Soy (Closure Template)]]></source>
       </trans-unit>
+      <trans-unit id="sparql" resname="sparql" translate="no">
+        <source><![CDATA[SPARQL]]></source>
+      </trans-unit>
       <trans-unit id="splunk-spl" resname="splunk-spl" translate="no">
         <source><![CDATA[Splunk SPL]]></source>
+      </trans-unit>
+      <trans-unit id="sqf" resname="sqf" translate="no">
+        <source><![CDATA[SQF: Status Quo Function (Arma 3)]]></source>
       </trans-unit>
       <trans-unit id="sql" resname="sql" translate="no">
         <source><![CDATA[SQL]]></source>
@@ -523,6 +571,9 @@
       </trans-unit>
       <trans-unit id="tt2" resname="tt2" translate="no">
         <source><![CDATA[Template Toolkit 2]]></source>
+      </trans-unit>
+      <trans-unit id="turtle" resname="turtle" translate="no">
+        <source><![CDATA[Turtle + TriG]]></source>
       </trans-unit>
       <trans-unit id="twig" resname="twig" translate="no">
         <source><![CDATA[Twig]]></source>
@@ -571,6 +622,9 @@
       </trans-unit>
       <trans-unit id="yaml" resname="yaml" translate="no">
         <source><![CDATA[YAML]]></source>
+      </trans-unit>
+      <trans-unit id="zig" resname="zig" translate="no">
+        <source><![CDATA[Zig]]></source>
       </trans-unit>
     </body>
   </file>
