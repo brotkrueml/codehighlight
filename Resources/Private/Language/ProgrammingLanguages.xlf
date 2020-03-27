@@ -452,7 +452,7 @@
       <trans-unit id="q" resname="q">
         <source><![CDATA[Q (kdb+ database)]]></source>
       </trans-unit>
-      <trans-unit id="qml" resname="qml">
+      <trans-unit id="qml" resname="qml" translate="no">
         <source><![CDATA[QML]]></source>
       </trans-unit>
       <trans-unit id="qore" resname="qore" translate="no">
