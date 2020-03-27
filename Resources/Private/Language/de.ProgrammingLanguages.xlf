@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-10-26T22:41:13Z" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-03-27T17:48:26Z" target-language="de">
     <body>
       <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
@@ -33,6 +33,14 @@
       <trans-unit id="ebnf" resname="ebnf" approved="yes">
         <source><![CDATA[Extended Backus–Naur form]]></source>
         <target state="final"><![CDATA[Erweiterte Backus-Naur-Form]]></target>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules" approved="yes">
+        <source><![CDATA[Firestore security rules]]></source>
+        <target state="final"><![CDATA[Firestore Sicherheitsregeln]]></target>
+      </trans-unit>
+      <trans-unit id="ftl" resname="ftl" approved="yes">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+        <target state="final"><![CDATA[FreeMarker Template-Sprache]]></target>
       </trans-unit>
       <trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
         <source><![CDATA[Java stack trace]]></source>
