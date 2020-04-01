@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2019-09-25T23:10:53Z" target-language="da">
+    <body>
+      <trans-unit id="codehighlightCommandLine" resname="codehighlightCommandLine" approved="yes">
+        <source><![CDATA[Command Line]]></source>
+        <target state="final"><![CDATA[Kommandolinje]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightCommandLineDefaultHost" resname="codehighlightCommandLineDefaultHost" approved="yes">
+        <source><![CDATA[Default Host]]></source>
+        <target state="final"><![CDATA[Standard host]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightCommandLineDefaultUser" resname="codehighlightCommandLineDefaultUser" approved="yes">
+        <source><![CDATA[Default User]]></source>
+        <target state="final"><![CDATA[Standard bruger]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightTheme" resname="codehighlightTheme" approved="yes">
+        <source><![CDATA[CSS File for Theme]]></source>
+        <target state="final"><![CDATA[CSS fil for tema]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default" approved="yes">
+        <source><![CDATA[Default]]></source>
+        <target state="final"><![CDATA[Standard]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightUseUrlHash" resname="codehighlightUseUrlHash" approved="yes">
+        <source><![CDATA[Usage of a URL Hash]]></source>
+        <target state="final"><![CDATA[Brug af en URL Hash]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightUseUrlHash.description" resname="codehighlightUseUrlHash.description" approved="yes">
+        <source><![CDATA[If activated the usage of a URL hash (like #codesnippet8.5-6) for highlighting code and as anchor is available.]]></source>
+        <target state="final"><![CDATA[Hvis aktiveret vil brugen af en URL Hash (for eksempel #codesnippet8.5-6) for fremhævet kode og som anker, være tilgængelig.]]></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
