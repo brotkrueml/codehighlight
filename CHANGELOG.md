@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2020-04-01
+
 - Update Prism to version 1.19.0
 
 ## [2.0.1] - 2019-12-20
@@ -57,7 +59,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Content element "Code Snippet"
 - Syntax highlighting with Prism
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/brotkrueml/codehighlight/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/brotkrueml/codehighlight/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/brotkrueml/codehighlight/compare/v1.1.1...v2.0.0
 [1.1.1]: https://github.com/brotkrueml/codehighlight/compare/v1.1.0...v1.1.1
