@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-10-26T22:41:13Z" target-language="da">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-03-27T17:48:26Z" target-language="da">
     <body>
       <trans-unit id="abap" resname="abap" translate="no" approved="yes">
         <source><![CDATA[ABAP]]></source>
@@ -181,6 +181,14 @@
       <trans-unit id="erb" resname="erb" translate="no" approved="yes">
         <source><![CDATA[ERB]]></source>
         <target state="final"><![CDATA[ERB]]></target>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules" approved="yes">
+        <source><![CDATA[Firestore security rules]]></source>
+        <target state="final"><![CDATA[Firestore sikkerhedsregler]]></target>
+      </trans-unit>
+      <trans-unit id="ftl" resname="ftl" approved="yes">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+        <target state="final"><![CDATA[FreeMarker skabelonsprog]]></target>
       </trans-unit>
       <trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
         <source><![CDATA[Java stack trace]]></source>
