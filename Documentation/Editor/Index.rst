@@ -56,15 +56,13 @@ language the snippet is formatted:
 
    General options
 
-:aspect:`Programming language`
-
+Programming language
    Make use of the filter on the right side of the select box to find the needed
    programming language. You can only select one language at a time. Leave it
    empty if the language you want is not available or you don't want syntax
    highlighting.
 
-:aspect:`Filename`
-
+Filename
    Give a filename if it makes sense for the code snippet. It will be shown
    near the snippet.
 
@@ -84,18 +82,15 @@ adjust these settings under the :guilabel:`Line numbers` tab of the options:
    Options for showing and adjusting line numbers
 
 
-:aspect:`Show line numbers`
-
+Show line numbers
    Activate this option to display line numbers at the beginning of the each
    code line.
 
-:aspect:`Start with line number`
-
+Start with line number
    Specify a line number with which the numbering is to begin.
    The entered number will also be used for "Highlight lines" as offset value.
 
-:aspect:`Highlight lines`
-
+Highlight lines
    You can specify the lines to be highlighted in the following format:
 
    - A single number refers to the line with that number
@@ -108,7 +103,7 @@ adjust these settings under the :guilabel:`Line numbers` tab of the options:
    When using an offset in the field :guilabel:`Start with line number` the
    lines must be adjusted accordingly.
 
-.. _editor-url-hash:
+   .. _editor-url-hash:
 
    .. tip::
 
@@ -148,37 +143,32 @@ command line` switch. A prompt will be shown before a code line.
    Options for a command line snippet
 
 
-:aspect:`Display command line`
-
+Display command line
    Display a command line with a prompt and, optionally, the output/response
    from the commands.
 
    *Please note:* If you activate this option, don't select a programming
    language or the prompts are not visible!
 
-:aspect:`User`
-
+User
    Specify the user for a server command line (like Linux). The resulting prompt
    displays a ``#`` for the root user and ``$`` for all other users.
 
    *Default value:* Site configuration setting
    :guilabel:`Command Line Default User` or ``user``
 
-:aspect:`Host`
-
+Host
    Specify the host for a server command line (like Linux).
 
    *Default value:* Site configuration setting
    :guilabel:`Command Line Default Host` or ``localhost``
 
-:aspect:`Prompt`
-
+Prompt
    For any other command line, such as a Windows prompt, specify the entire
    prompt, e.g. ``PS C:\Users\Chris>``. If this field is set, the values in the
    fields :guilabel:`User` and :guilabel:`Host` are ignored.
 
-:aspect:`Output lines`
-
+Output lines
    You can specify the lines to be presented as output (no prompt and no
    highlighting) in the following format:
 
@@ -189,8 +179,7 @@ command line` switch. A prompt will be shown before a code line.
 
    *Example:* ``1-2, 5, 9-20`` (Lines 1 through 2, line 5, lines 9 through 20)
 
-:aspect:`Filter output`
-
+Filter output
    Alternative for "Output lines": Specify a prefix for lines with output, e.g.,
    ``(out)`` will treat lines beginning with (out) as output and remove the
    prefix.

@@ -50,7 +50,7 @@ Example output using the Coy theme for a shell command with prompt:
 Release Management
 ==================
 
-This extension uses `semantic versioning <https://semver.org/>`__ which
+This extension uses `semantic versioning <https://semver.org/>`_ which
 basically means for you, that
 
 - Bugfix updates (e.g. 1.0.0 => 1.0.1) just includes small bug fixes or security
