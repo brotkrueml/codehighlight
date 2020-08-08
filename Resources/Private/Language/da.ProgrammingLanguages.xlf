@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-10-26T22:41:13Z" target-language="da">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z" target-language="da">
     <body>
       <trans-unit id="abap" resname="abap" translate="no" approved="yes">
         <source><![CDATA[ABAP]]></source>
@@ -182,6 +182,22 @@
         <source><![CDATA[ERB]]></source>
         <target state="final"><![CDATA[ERB]]></target>
       </trans-unit>
+      <trans-unit id="excel-formula" resname="excel-formula" approved="yes">
+        <source><![CDATA[Excel Formula]]></source>
+        <target state="final"><![CDATA[Excel formel]]></target>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules" approved="yes">
+        <source><![CDATA[Firestore security rules]]></source>
+        <target state="final"><![CDATA[Firestore sikkerhedsregler]]></target>
+      </trans-unit>
+      <trans-unit id="ftl" resname="ftl" approved="yes">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+        <target state="final"><![CDATA[FreeMarker skabelonsprog]]></target>
+      </trans-unit>
+      <trans-unit id="iecst" resname="iecst" approved="yes">
+        <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
+        <target state="final"><![CDATA[Struktureret tekst (IEC 61131-3)]]></target>
+      </trans-unit>
       <trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
         <source><![CDATA[Java stack trace]]></source>
         <target state="final"><![CDATA[Java stack trace]]></target>
@@ -193,6 +209,10 @@
       <trans-unit id="js-templates" resname="js-templates" approved="yes">
         <source><![CDATA[JS Templates]]></source>
         <target state="final"><![CDATA[JS skabelon]]></target>
+      </trans-unit>
+      <trans-unit id="jsstacktrace" resname="jsstacktrace" approved="yes">
+        <source><![CDATA[JS stack trace]]></source>
+        <target state="final"><![CDATA[JS stack trace]]></target>
       </trans-unit>
       <trans-unit id="markup-templating" resname="markup-templating" approved="yes">
         <source><![CDATA[Markup templating]]></source>
@@ -213,6 +233,10 @@
       <trans-unit id="shell-session" resname="shell-session" approved="yes">
         <source><![CDATA[Shell session]]></source>
         <target state="final"><![CDATA[Shell session]]></target>
+      </trans-unit>
+      <trans-unit id="solution-file" resname="solution-file" approved="yes">
+        <source><![CDATA[Solution file]]></source>
+        <target state="final"><![CDATA[Løsningsfil]]></target>
       </trans-unit>
       <trans-unit id="soy" resname="soy" approved="yes">
         <source><![CDATA[Soy (Closure Template)]]></source>
