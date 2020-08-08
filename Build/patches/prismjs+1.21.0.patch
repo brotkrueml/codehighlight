@@ -1,16 +1,18 @@
 diff --git a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-index 964e767..5043efc 100644
+index b57c694..23ed575 100644
 --- a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
 +++ b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-@@ -192,21 +192,7 @@
+@@ -227,23 +227,7 @@
  
  	var script = Prism.util.currentScript();
  	if (script) {
--		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js$/i;
--		var prismFile = /[\w-]+\.(?:min\.)js$/i;
--		if (script.hasAttribute('data-autoloader-path')) {
+-		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js(?:\?[^\r\n/]*)?$/i;
+-		var prismFile = /(^|\/)[\w-]+\.(?:min\.)js(?:\?[^\r\n/]*)?$/i;
+-
+-		var autoloaderPath = script.getAttribute('data-autoloader-path');
+-		if (autoloaderPath != null) {
 -			// data-autoloader-path is set, so just use it
--			languages_path = script.getAttribute('data-autoloader-path').trim().replace(/\/?$/, '/');
+-			languages_path = autoloaderPath.trim().replace(/\/?$/, '/');
 -		} else {
 -			var src = script.src;
 -			if (autoloaderFile.test(src)) {
@@ -18,10 +20,10 @@ index 964e767..5043efc 100644
 -				languages_path = src.replace(autoloaderFile, 'components/');
 -			} else if (prismFile.test(src)) {
 -				// the script is part of a bundle like a custom prism.js from the download page
--				languages_path = src.replace(prismFile, 'components/');
+-				languages_path = src.replace(prismFile, '$1components/');
 -			}
 -		}
-+		var languages_path = '/typo3conf/ext/codehighlight/Resources/Public/Prism/components/';
++    var languages_path = '/typo3conf/ext/codehighlight/Resources/Public/Prism/components/';
  	}
  
  	var config = Prism.plugins.autoloader = {

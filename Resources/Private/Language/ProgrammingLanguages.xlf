@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-03-27T17:48:26Z">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -13,6 +13,12 @@
       </trans-unit>
       <trans-unit id="ada" resname="ada" translate="no">
         <source><![CDATA[Ada]]></source>
+      </trans-unit>
+      <trans-unit id="agda" resname="agda" translate="no">
+        <source><![CDATA[Agda]]></source>
+      </trans-unit>
+      <trans-unit id="al" resname="al" translate="no">
+        <source><![CDATA[AL]]></source>
       </trans-unit>
       <trans-unit id="antlr4" resname="antlr4" translate="no">
         <source><![CDATA[ANTLR4]]></source>
@@ -95,6 +101,9 @@
       <trans-unit id="coffeescript" resname="coffeescript" translate="no">
         <source><![CDATA[CoffeeScript]]></source>
       </trans-unit>
+      <trans-unit id="concurnas" resname="concurnas" translate="no">
+        <source><![CDATA[Concurnas]]></source>
+      </trans-unit>
       <trans-unit id="cpp" resname="cpp" translate="no">
         <source><![CDATA[C++]]></source>
       </trans-unit>
@@ -113,11 +122,20 @@
       <trans-unit id="css-extras" resname="css-extras">
         <source><![CDATA[CSS Extras]]></source>
       </trans-unit>
+      <trans-unit id="cypher" resname="cypher" translate="no">
+        <source><![CDATA[Cypher]]></source>
+      </trans-unit>
       <trans-unit id="d" resname="d" translate="no">
         <source><![CDATA[D]]></source>
       </trans-unit>
       <trans-unit id="dart" resname="dart" translate="no">
         <source><![CDATA[Dart]]></source>
+      </trans-unit>
+      <trans-unit id="dax" resname="dax" translate="no">
+        <source><![CDATA[DAX]]></source>
+      </trans-unit>
+      <trans-unit id="dhall" resname="dhall" translate="no">
+        <source><![CDATA[Dhall]]></source>
       </trans-unit>
       <trans-unit id="diff" resname="diff" translate="no">
         <source><![CDATA[Diff]]></source>
@@ -133,6 +151,9 @@
       </trans-unit>
       <trans-unit id="ebnf" resname="ebnf">
         <source><![CDATA[Extended Backus–Naur form]]></source>
+      </trans-unit>
+      <trans-unit id="editorconfig" resname="editorconfig" translate="no">
+        <source><![CDATA[EditorConfig]]></source>
       </trans-unit>
       <trans-unit id="eiffel" resname="eiffel" translate="no">
         <source><![CDATA[Eiffel]]></source>
@@ -154,6 +175,12 @@
       </trans-unit>
       <trans-unit id="etlua" resname="etlua" translate="no">
         <source><![CDATA[Embedded Lua templating]]></source>
+      </trans-unit>
+      <trans-unit id="excel-formula" resname="excel-formula">
+        <source><![CDATA[Excel Formula]]></source>
+      </trans-unit>
+      <trans-unit id="factor" resname="factor" translate="no">
+        <source><![CDATA[Factor]]></source>
       </trans-unit>
       <trans-unit id="firestore-security-rules" resname="firestore-security-rules">
         <source><![CDATA[Firestore security rules]]></source>
@@ -215,6 +242,9 @@
       <trans-unit id="hcl" resname="hcl" translate="no">
         <source><![CDATA[HCL]]></source>
       </trans-unit>
+      <trans-unit id="hlsl" resname="hlsl" translate="no">
+        <source><![CDATA[HLSL]]></source>
+      </trans-unit>
       <trans-unit id="hpkp" resname="hpkp" translate="no">
         <source><![CDATA[HTTP Public-Key-Pins]]></source>
       </trans-unit>
@@ -232,6 +262,12 @@
       </trans-unit>
       <trans-unit id="icon" resname="icon" translate="no">
         <source><![CDATA[Icon]]></source>
+      </trans-unit>
+      <trans-unit id="iecst" resname="iecst">
+        <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
+      </trans-unit>
+      <trans-unit id="ignore" resname="ignore" translate="no">
+        <source><![CDATA[.ignore + .gitignore + .hgignore + .npmignore]]></source>
       </trans-unit>
       <trans-unit id="inform7" resname="inform7" translate="no">
         <source><![CDATA[Inform 7]]></source>
@@ -284,6 +320,9 @@
       <trans-unit id="jsonp" resname="jsonp" translate="no">
         <source><![CDATA[JSONP]]></source>
       </trans-unit>
+      <trans-unit id="jsstacktrace" resname="jsstacktrace">
+        <source><![CDATA[JS stack trace]]></source>
+      </trans-unit>
       <trans-unit id="jsx" resname="jsx" translate="no">
         <source><![CDATA[React JSX]]></source>
       </trans-unit>
@@ -316,6 +355,9 @@
       </trans-unit>
       <trans-unit id="livescript" resname="livescript" translate="no">
         <source><![CDATA[LiveScript]]></source>
+      </trans-unit>
+      <trans-unit id="llvm" resname="llvm" translate="no">
+        <source><![CDATA[LLVM IR]]></source>
       </trans-unit>
       <trans-unit id="lolcode" resname="lolcode" translate="no">
         <source><![CDATA[LOLCODE]]></source>
@@ -407,6 +449,9 @@
       <trans-unit id="pcaxis" resname="pcaxis" translate="no">
         <source><![CDATA[PC-Axis]]></source>
       </trans-unit>
+      <trans-unit id="peoplecode" resname="peoplecode" translate="no">
+        <source><![CDATA[PeopleCode]]></source>
+      </trans-unit>
       <trans-unit id="perl" resname="perl" translate="no">
         <source><![CDATA[Perl]]></source>
       </trans-unit>
@@ -421,6 +466,9 @@
       </trans-unit>
       <trans-unit id="plsql" resname="plsql" translate="no">
         <source><![CDATA[PL/SQL]]></source>
+      </trans-unit>
+      <trans-unit id="powerquery" resname="powerquery" translate="no">
+        <source><![CDATA[PowerQuery]]></source>
       </trans-unit>
       <trans-unit id="powershell" resname="powershell" translate="no">
         <source><![CDATA[PowerShell]]></source>
@@ -446,6 +494,9 @@
       <trans-unit id="pure" resname="pure" translate="no">
         <source><![CDATA[Pure]]></source>
       </trans-unit>
+      <trans-unit id="purebasic" resname="purebasic" translate="no">
+        <source><![CDATA[PureBasic]]></source>
+      </trans-unit>
       <trans-unit id="python" resname="python" translate="no">
         <source><![CDATA[Python]]></source>
       </trans-unit>
@@ -460,6 +511,9 @@
       </trans-unit>
       <trans-unit id="r" resname="r" translate="no">
         <source><![CDATA[R]]></source>
+      </trans-unit>
+      <trans-unit id="racket" resname="racket" translate="no">
+        <source><![CDATA[Racket]]></source>
       </trans-unit>
       <trans-unit id="rbnf" resname="rbnf">
         <source><![CDATA[Routing Backus–Naur form]]></source>
@@ -512,6 +566,9 @@
       <trans-unit id="shell-session" resname="shell-session">
         <source><![CDATA[Shell session]]></source>
       </trans-unit>
+      <trans-unit id="smali" resname="smali" translate="no">
+        <source><![CDATA[Smali]]></source>
+      </trans-unit>
       <trans-unit id="smalltalk" resname="smalltalk" translate="no">
         <source><![CDATA[Smalltalk]]></source>
       </trans-unit>
@@ -520,6 +577,9 @@
       </trans-unit>
       <trans-unit id="solidity" resname="solidity" translate="no">
         <source><![CDATA[Solidity (Ethereum)]]></source>
+      </trans-unit>
+      <trans-unit id="solution-file" resname="solution-file">
+        <source><![CDATA[Solution file]]></source>
       </trans-unit>
       <trans-unit id="soy" resname="soy">
         <source><![CDATA[Soy (Closure Template)]]></source>
@@ -581,6 +641,9 @@
       <trans-unit id="typescript" resname="typescript" translate="no">
         <source><![CDATA[TypeScript]]></source>
       </trans-unit>
+      <trans-unit id="unrealscript" resname="unrealscript" translate="no">
+        <source><![CDATA[UnrealScript]]></source>
+      </trans-unit>
       <trans-unit id="vala" resname="vala" translate="no">
         <source><![CDATA[Vala]]></source>
       </trans-unit>
@@ -602,6 +665,9 @@
       <trans-unit id="visual-basic" resname="visual-basic" translate="no">
         <source><![CDATA[Visual Basic]]></source>
       </trans-unit>
+      <trans-unit id="warpscript" resname="warpscript" translate="no">
+        <source><![CDATA[WarpScript]]></source>
+      </trans-unit>
       <trans-unit id="wasm" resname="wasm" translate="no">
         <source><![CDATA[WebAssembly]]></source>
       </trans-unit>
@@ -614,6 +680,9 @@
       <trans-unit id="xml" resname="xml" translate="no">
         <source><![CDATA[XML]]></source>
       </trans-unit>
+      <trans-unit id="xml-doc" resname="xml-doc" translate="no">
+        <source><![CDATA[XML doc (.net)]]></source>
+      </trans-unit>
       <trans-unit id="xojo" resname="xojo" translate="no">
         <source><![CDATA[Xojo (REALbasic]]></source>
       </trans-unit>
@@ -622,6 +691,9 @@
       </trans-unit>
       <trans-unit id="yaml" resname="yaml" translate="no">
         <source><![CDATA[YAML]]></source>
+      </trans-unit>
+      <trans-unit id="yang" resname="yang" translate="no">
+        <source><![CDATA[YANG]]></source>
       </trans-unit>
       <trans-unit id="zig" resname="zig" translate="no">
         <source><![CDATA[Zig]]></source>
