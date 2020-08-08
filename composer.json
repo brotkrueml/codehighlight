@@ -28,7 +28,7 @@
         "phpunit/phpunit": "^8.5 || ^9.1"
     },
     "suggest": {
-        "typo3/cms-t3editor": "^9.5.5 || ^10.4"
+        "typo3/cms-t3editor": "Add syntax highlighting in backend form"
     },
     "autoload": {
         "psr-4": {
