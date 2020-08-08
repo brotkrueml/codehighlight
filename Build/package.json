@@ -10,9 +10,9 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-nunjucks": "^5.0.1",
-    "gulp-rename": "^1.4.0",
+    "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "patch-package": "^6.2.1",
+    "patch-package": "^6.2.2",
     "postinstall-postinstall": "^2.1.0"
   },
   "scripts": {
