@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2020-08-08
+
+- Update Prism to version 1.21.0
+
 ## [2.1.0] - 2020-04-01
 
 - Update Prism to version 1.19.0
