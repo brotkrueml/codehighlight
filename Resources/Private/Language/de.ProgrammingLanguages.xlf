@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-03-27T17:48:26Z" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z" target-language="de">
     <body>
       <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
@@ -34,6 +34,10 @@
         <source><![CDATA[Extended Backus–Naur form]]></source>
         <target state="final"><![CDATA[Erweiterte Backus-Naur-Form]]></target>
       </trans-unit>
+      <trans-unit id="excel-formula" resname="excel-formula" approved="yes">
+        <source><![CDATA[Excel Formula]]></source>
+        <target state="final"><![CDATA[Excel-Formel]]></target>
+      </trans-unit>
       <trans-unit id="firestore-security-rules" resname="firestore-security-rules" approved="yes">
         <source><![CDATA[Firestore security rules]]></source>
         <target state="final"><![CDATA[Firestore Sicherheitsregeln]]></target>
@@ -41,6 +45,10 @@
       <trans-unit id="ftl" resname="ftl" approved="yes">
         <source><![CDATA[FreeMarker Template Language]]></source>
         <target state="final"><![CDATA[FreeMarker Template-Sprache]]></target>
+      </trans-unit>
+      <trans-unit id="iecst" resname="iecst" approved="yes">
+        <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
+        <target state="final"><![CDATA[Strukturierter Text (IEC 61131-3)]]></target>
       </trans-unit>
       <trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
         <source><![CDATA[Java stack trace]]></source>
@@ -53,6 +61,10 @@
       <trans-unit id="js-templates" resname="js-templates" approved="yes">
         <source><![CDATA[JS Templates]]></source>
         <target state="final"><![CDATA[JS-Templates]]></target>
+      </trans-unit>
+      <trans-unit id="jsstacktrace" resname="jsstacktrace" approved="yes">
+        <source><![CDATA[JS stack trace]]></source>
+        <target state="final"><![CDATA[JS-Stacktrace]]></target>
       </trans-unit>
       <trans-unit id="markup-templating" resname="markup-templating" approved="yes">
         <source><![CDATA[Markup templating]]></source>
@@ -73,6 +85,10 @@
       <trans-unit id="shell-session" resname="shell-session" approved="yes">
         <source><![CDATA[Shell session]]></source>
         <target state="final"><![CDATA[Shell-Sitzung]]></target>
+      </trans-unit>
+      <trans-unit id="solution-file" resname="solution-file" approved="yes">
+        <source><![CDATA[Solution file]]></source>
+        <target state="final"><![CDATA[Solution-Datei]]></target>
       </trans-unit>
       <trans-unit id="soy" resname="soy" approved="yes">
         <source><![CDATA[Soy (Closure Template)]]></source>
