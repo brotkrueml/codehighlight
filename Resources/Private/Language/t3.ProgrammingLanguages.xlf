@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2019-10-26T22:41:13Z" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z" target-language="t3">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -18,6 +18,18 @@
         <source><![CDATA[Ada]]></source>
         <target><![CDATA[crwdns49530:0crwdne49530:0]]></target>
       </trans-unit>
+      <trans-unit id="agda" resname="agda" translate="no">
+        <source><![CDATA[Agda]]></source>
+        <target><![CDATA[crwdns110330:0crwdne110330:0]]></target>
+      </trans-unit>
+      <trans-unit id="al" resname="al" translate="no">
+        <source><![CDATA[AL]]></source>
+        <target><![CDATA[crwdns110332:0crwdne110332:0]]></target>
+      </trans-unit>
+      <trans-unit id="antlr4" resname="antlr4" translate="no">
+        <source><![CDATA[ANTLR4]]></source>
+        <target><![CDATA[crwdns85902:0crwdne85902:0]]></target>
+      </trans-unit>
       <trans-unit id="apacheconf" resname="apacheconf">
         <source><![CDATA[Apache Configuration]]></source>
         <target><![CDATA[crwdns49532:0crwdne49532:0]]></target>
@@ -29,6 +41,10 @@
       <trans-unit id="applescript" resname="applescript" translate="no">
         <source><![CDATA[AppleScript]]></source>
         <target><![CDATA[crwdns49536:0crwdne49536:0]]></target>
+      </trans-unit>
+      <trans-unit id="aql" resname="aql" translate="no">
+        <source><![CDATA[AQL]]></source>
+        <target><![CDATA[crwdns85904:0crwdne85904:0]]></target>
       </trans-unit>
       <trans-unit id="arduino" resname="arduino" translate="no">
         <source><![CDATA[Arduino]]></source>
@@ -70,6 +86,10 @@
         <source><![CDATA[Batch]]></source>
         <target><![CDATA[crwdns49556:0crwdne49556:0]]></target>
       </trans-unit>
+      <trans-unit id="bbcode" resname="bbcode" translate="no">
+        <source><![CDATA[BBcode + Shortcode]]></source>
+        <target><![CDATA[crwdns85906:0crwdne85906:0]]></target>
+      </trans-unit>
       <trans-unit id="bison" resname="bison" translate="no">
         <source><![CDATA[Bison]]></source>
         <target><![CDATA[crwdns49558:0crwdne49558:0]]></target>
@@ -81,6 +101,10 @@
       <trans-unit id="brainfuck" resname="brainfuck" translate="no">
         <source><![CDATA[Brainfuck]]></source>
         <target><![CDATA[crwdns49562:0crwdne49562:0]]></target>
+      </trans-unit>
+      <trans-unit id="brightscript" resname="brightscript" translate="no">
+        <source><![CDATA[BrightScript]]></source>
+        <target><![CDATA[crwdns85908:0crwdne85908:0]]></target>
       </trans-unit>
       <trans-unit id="bro" resname="bro" translate="no">
         <source><![CDATA[Bro]]></source>
@@ -110,6 +134,10 @@
         <source><![CDATA[CoffeeScript]]></source>
         <target><![CDATA[crwdns49576:0crwdne49576:0]]></target>
       </trans-unit>
+      <trans-unit id="concurnas" resname="concurnas" translate="no">
+        <source><![CDATA[Concurnas]]></source>
+        <target><![CDATA[crwdns110334:0crwdne110334:0]]></target>
+      </trans-unit>
       <trans-unit id="cpp" resname="cpp" translate="no">
         <source><![CDATA[C++]]></source>
         <target><![CDATA[crwdns49578:0crwdne49578:0]]></target>
@@ -134,6 +162,10 @@
         <source><![CDATA[CSS Extras]]></source>
         <target><![CDATA[crwdns49588:0crwdne49588:0]]></target>
       </trans-unit>
+      <trans-unit id="cypher" resname="cypher" translate="no">
+        <source><![CDATA[Cypher]]></source>
+        <target><![CDATA[crwdns110336:0crwdne110336:0]]></target>
+      </trans-unit>
       <trans-unit id="d" resname="d" translate="no">
         <source><![CDATA[D]]></source>
         <target><![CDATA[crwdns49590:0crwdne49590:0]]></target>
@@ -141,6 +173,14 @@
       <trans-unit id="dart" resname="dart" translate="no">
         <source><![CDATA[Dart]]></source>
         <target><![CDATA[crwdns49592:0crwdne49592:0]]></target>
+      </trans-unit>
+      <trans-unit id="dax" resname="dax" translate="no">
+        <source><![CDATA[DAX]]></source>
+        <target><![CDATA[crwdns110338:0crwdne110338:0]]></target>
+      </trans-unit>
+      <trans-unit id="dhall" resname="dhall" translate="no">
+        <source><![CDATA[Dhall]]></source>
+        <target><![CDATA[crwdns110340:0crwdne110340:0]]></target>
       </trans-unit>
       <trans-unit id="diff" resname="diff" translate="no">
         <source><![CDATA[Diff]]></source>
@@ -161,6 +201,10 @@
       <trans-unit id="ebnf" resname="ebnf">
         <source><![CDATA[Extended Backus–Naur form]]></source>
         <target><![CDATA[crwdns49602:0crwdne49602:0]]></target>
+      </trans-unit>
+      <trans-unit id="editorconfig" resname="editorconfig" translate="no">
+        <source><![CDATA[EditorConfig]]></source>
+        <target><![CDATA[crwdns110342:0crwdne110342:0]]></target>
       </trans-unit>
       <trans-unit id="eiffel" resname="eiffel" translate="no">
         <source><![CDATA[Eiffel]]></source>
@@ -186,6 +230,22 @@
         <source><![CDATA[Erlang]]></source>
         <target><![CDATA[crwdns49614:0crwdne49614:0]]></target>
       </trans-unit>
+      <trans-unit id="etlua" resname="etlua" translate="no">
+        <source><![CDATA[Embedded Lua templating]]></source>
+        <target><![CDATA[crwdns85910:0crwdne85910:0]]></target>
+      </trans-unit>
+      <trans-unit id="excel-formula" resname="excel-formula">
+        <source><![CDATA[Excel Formula]]></source>
+        <target><![CDATA[crwdns110344:0crwdne110344:0]]></target>
+      </trans-unit>
+      <trans-unit id="factor" resname="factor" translate="no">
+        <source><![CDATA[Factor]]></source>
+        <target><![CDATA[crwdns110346:0crwdne110346:0]]></target>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules">
+        <source><![CDATA[Firestore security rules]]></source>
+        <target><![CDATA[crwdns85912:0crwdne85912:0]]></target>
+      </trans-unit>
       <trans-unit id="flow" resname="flow" translate="no">
         <source><![CDATA[Flow]]></source>
         <target><![CDATA[crwdns49616:0crwdne49616:0]]></target>
@@ -198,9 +258,17 @@
         <source><![CDATA[F#]]></source>
         <target><![CDATA[crwdns49620:0crwdne49620:0]]></target>
       </trans-unit>
+      <trans-unit id="ftl" resname="ftl">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+        <target><![CDATA[crwdns85914:0crwdne85914:0]]></target>
+      </trans-unit>
       <trans-unit id="gcode" resname="gcode" translate="no">
         <source><![CDATA[G-code]]></source>
         <target><![CDATA[crwdns49622:0crwdne49622:0]]></target>
+      </trans-unit>
+      <trans-unit id="gdscript" resname="gdscript" translate="no">
+        <source><![CDATA[GDScript]]></source>
+        <target><![CDATA[crwdns85916:0crwdne85916:0]]></target>
       </trans-unit>
       <trans-unit id="gedcom" resname="gedcom" translate="no">
         <source><![CDATA[GEDCOM]]></source>
@@ -254,6 +322,10 @@
         <source><![CDATA[HCL]]></source>
         <target><![CDATA[crwdns49648:0crwdne49648:0]]></target>
       </trans-unit>
+      <trans-unit id="hlsl" resname="hlsl" translate="no">
+        <source><![CDATA[HLSL]]></source>
+        <target><![CDATA[crwdns110348:0crwdne110348:0]]></target>
+      </trans-unit>
       <trans-unit id="hpkp" resname="hpkp" translate="no">
         <source><![CDATA[HTTP Public-Key-Pins]]></source>
         <target><![CDATA[crwdns49650:0crwdne49650:0]]></target>
@@ -277,6 +349,14 @@
       <trans-unit id="icon" resname="icon" translate="no">
         <source><![CDATA[Icon]]></source>
         <target><![CDATA[crwdns49660:0crwdne49660:0]]></target>
+      </trans-unit>
+      <trans-unit id="iecst" resname="iecst">
+        <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
+        <target><![CDATA[crwdns110350:0crwdne110350:0]]></target>
+      </trans-unit>
+      <trans-unit id="ignore" resname="ignore" translate="no">
+        <source><![CDATA[.ignore + .gitignore + .hgignore + .npmignore]]></source>
+        <target><![CDATA[crwdns110352:0crwdne110352:0]]></target>
       </trans-unit>
       <trans-unit id="inform7" resname="inform7" translate="no">
         <source><![CDATA[Inform 7]]></source>
@@ -346,6 +426,10 @@
         <source><![CDATA[JSONP]]></source>
         <target><![CDATA[crwdns49694:0crwdne49694:0]]></target>
       </trans-unit>
+      <trans-unit id="jsstacktrace" resname="jsstacktrace">
+        <source><![CDATA[JS stack trace]]></source>
+        <target><![CDATA[crwdns110354:0crwdne110354:0]]></target>
+      </trans-unit>
       <trans-unit id="jsx" resname="jsx" translate="no">
         <source><![CDATA[React JSX]]></source>
         <target><![CDATA[crwdns49696:0crwdne49696:0]]></target>
@@ -366,6 +450,10 @@
         <source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
         <target><![CDATA[crwdns49704:0crwdne49704:0]]></target>
       </trans-unit>
+      <trans-unit id="latte" resname="latte" translate="no">
+        <source><![CDATA[Latte]]></source>
+        <target><![CDATA[crwdns85918:0crwdne85918:0]]></target>
+      </trans-unit>
       <trans-unit id="less" resname="less" translate="no">
         <source><![CDATA[Less]]></source>
         <target><![CDATA[crwdns49706:0crwdne49706:0]]></target>
@@ -385,6 +473,10 @@
       <trans-unit id="livescript" resname="livescript" translate="no">
         <source><![CDATA[LiveScript]]></source>
         <target><![CDATA[crwdns49714:0crwdne49714:0]]></target>
+      </trans-unit>
+      <trans-unit id="llvm" resname="llvm" translate="no">
+        <source><![CDATA[LLVM IR]]></source>
+        <target><![CDATA[crwdns110356:0crwdne110356:0]]></target>
       </trans-unit>
       <trans-unit id="lolcode" resname="lolcode" translate="no">
         <source><![CDATA[LOLCODE]]></source>
@@ -430,6 +522,10 @@
         <source><![CDATA[Monkey]]></source>
         <target><![CDATA[crwdns49736:0crwdne49736:0]]></target>
       </trans-unit>
+      <trans-unit id="moonscript" resname="moonscript" translate="no">
+        <source><![CDATA[MoonScript]]></source>
+        <target><![CDATA[crwdns85920:0crwdne85920:0]]></target>
+      </trans-unit>
       <trans-unit id="n1ql" resname="n1ql" translate="no">
         <source><![CDATA[N1QL]]></source>
         <target><![CDATA[crwdns49738:0crwdne49738:0]]></target>
@@ -445,6 +541,10 @@
       <trans-unit id="nasm" resname="nasm" translate="no">
         <source><![CDATA[NASM]]></source>
         <target><![CDATA[crwdns49744:0crwdne49744:0]]></target>
+      </trans-unit>
+      <trans-unit id="neon" resname="neon" translate="no">
+        <source><![CDATA[NEON]]></source>
+        <target><![CDATA[crwdns85922:0crwdne85922:0]]></target>
       </trans-unit>
       <trans-unit id="nginx" resname="nginx" translate="no">
         <source><![CDATA[nginx]]></source>
@@ -498,6 +598,10 @@
         <source><![CDATA[PC-Axis]]></source>
         <target><![CDATA[crwdns49770:0crwdne49770:0]]></target>
       </trans-unit>
+      <trans-unit id="peoplecode" resname="peoplecode" translate="no">
+        <source><![CDATA[PeopleCode]]></source>
+        <target><![CDATA[crwdns110358:0crwdne110358:0]]></target>
+      </trans-unit>
       <trans-unit id="perl" resname="perl" translate="no">
         <source><![CDATA[Perl]]></source>
         <target><![CDATA[crwdns49772:0crwdne49772:0]]></target>
@@ -517,6 +621,10 @@
       <trans-unit id="plsql" resname="plsql" translate="no">
         <source><![CDATA[PL/SQL]]></source>
         <target><![CDATA[crwdns49780:0crwdne49780:0]]></target>
+      </trans-unit>
+      <trans-unit id="powerquery" resname="powerquery" translate="no">
+        <source><![CDATA[PowerQuery]]></source>
+        <target><![CDATA[crwdns110360:0crwdne110360:0]]></target>
       </trans-unit>
       <trans-unit id="powershell" resname="powershell" translate="no">
         <source><![CDATA[PowerShell]]></source>
@@ -550,6 +658,10 @@
         <source><![CDATA[Pure]]></source>
         <target><![CDATA[crwdns49796:0crwdne49796:0]]></target>
       </trans-unit>
+      <trans-unit id="purebasic" resname="purebasic" translate="no">
+        <source><![CDATA[PureBasic]]></source>
+        <target><![CDATA[crwdns110362:0crwdne110362:0]]></target>
+      </trans-unit>
       <trans-unit id="python" resname="python" translate="no">
         <source><![CDATA[Python]]></source>
         <target><![CDATA[crwdns49798:0crwdne49798:0]]></target>
@@ -558,6 +670,10 @@
         <source><![CDATA[Q (kdb+ database)]]></source>
         <target><![CDATA[crwdns49800:0crwdne49800:0]]></target>
       </trans-unit>
+      <trans-unit id="qml" resname="qml" translate="no">
+        <source><![CDATA[QML]]></source>
+        <target><![CDATA[crwdns85924:0crwdne85924:0]]></target>
+      </trans-unit>
       <trans-unit id="qore" resname="qore" translate="no">
         <source><![CDATA[Qore]]></source>
         <target><![CDATA[crwdns49802:0crwdne49802:0]]></target>
@@ -565,6 +681,10 @@
       <trans-unit id="r" resname="r" translate="no">
         <source><![CDATA[R]]></source>
         <target><![CDATA[crwdns49804:0crwdne49804:0]]></target>
+      </trans-unit>
+      <trans-unit id="racket" resname="racket" translate="no">
+        <source><![CDATA[Racket]]></source>
+        <target><![CDATA[crwdns110364:0crwdne110364:0]]></target>
       </trans-unit>
       <trans-unit id="rbnf" resname="rbnf">
         <source><![CDATA[Routing Backus–Naur form]]></source>
@@ -593,6 +713,10 @@
       <trans-unit id="roboconf" resname="roboconf" translate="no">
         <source><![CDATA[Roboconf]]></source>
         <target><![CDATA[crwdns49816:0crwdne49816:0]]></target>
+      </trans-unit>
+      <trans-unit id="robotframework" resname="robotframework" translate="no">
+        <source><![CDATA[Robot Framework]]></source>
+        <target><![CDATA[crwdns85926:0crwdne85926:0]]></target>
       </trans-unit>
       <trans-unit id="ruby" resname="ruby" translate="no">
         <source><![CDATA[Ruby]]></source>
@@ -630,6 +754,10 @@
         <source><![CDATA[Shell session]]></source>
         <target><![CDATA[crwdns49832:0crwdne49832:0]]></target>
       </trans-unit>
+      <trans-unit id="smali" resname="smali" translate="no">
+        <source><![CDATA[Smali]]></source>
+        <target><![CDATA[crwdns110366:0crwdne110366:0]]></target>
+      </trans-unit>
       <trans-unit id="smalltalk" resname="smalltalk" translate="no">
         <source><![CDATA[Smalltalk]]></source>
         <target><![CDATA[crwdns49834:0crwdne49834:0]]></target>
@@ -638,13 +766,29 @@
         <source><![CDATA[Smarty]]></source>
         <target><![CDATA[crwdns49836:0crwdne49836:0]]></target>
       </trans-unit>
+      <trans-unit id="solidity" resname="solidity" translate="no">
+        <source><![CDATA[Solidity (Ethereum)]]></source>
+        <target><![CDATA[crwdns85928:0crwdne85928:0]]></target>
+      </trans-unit>
+      <trans-unit id="solution-file" resname="solution-file">
+        <source><![CDATA[Solution file]]></source>
+        <target><![CDATA[crwdns110368:0crwdne110368:0]]></target>
+      </trans-unit>
       <trans-unit id="soy" resname="soy">
         <source><![CDATA[Soy (Closure Template)]]></source>
         <target><![CDATA[crwdns49838:0crwdne49838:0]]></target>
       </trans-unit>
+      <trans-unit id="sparql" resname="sparql" translate="no">
+        <source><![CDATA[SPARQL]]></source>
+        <target><![CDATA[crwdns85930:0crwdne85930:0]]></target>
+      </trans-unit>
       <trans-unit id="splunk-spl" resname="splunk-spl" translate="no">
         <source><![CDATA[Splunk SPL]]></source>
         <target><![CDATA[crwdns49840:0crwdne49840:0]]></target>
+      </trans-unit>
+      <trans-unit id="sqf" resname="sqf" translate="no">
+        <source><![CDATA[SQF: Status Quo Function (Arma 3)]]></source>
+        <target><![CDATA[crwdns85932:0crwdne85932:0]]></target>
       </trans-unit>
       <trans-unit id="sql" resname="sql" translate="no">
         <source><![CDATA[SQL]]></source>
@@ -698,6 +842,10 @@
         <source><![CDATA[Template Toolkit 2]]></source>
         <target><![CDATA[crwdns49866:0crwdne49866:0]]></target>
       </trans-unit>
+      <trans-unit id="turtle" resname="turtle" translate="no">
+        <source><![CDATA[Turtle + TriG]]></source>
+        <target><![CDATA[crwdns85934:0crwdne85934:0]]></target>
+      </trans-unit>
       <trans-unit id="twig" resname="twig" translate="no">
         <source><![CDATA[Twig]]></source>
         <target><![CDATA[crwdns49868:0crwdne49868:0]]></target>
@@ -705,6 +853,10 @@
       <trans-unit id="typescript" resname="typescript" translate="no">
         <source><![CDATA[TypeScript]]></source>
         <target><![CDATA[crwdns49870:0crwdne49870:0]]></target>
+      </trans-unit>
+      <trans-unit id="unrealscript" resname="unrealscript" translate="no">
+        <source><![CDATA[UnrealScript]]></source>
+        <target><![CDATA[crwdns110370:0crwdne110370:0]]></target>
       </trans-unit>
       <trans-unit id="vala" resname="vala" translate="no">
         <source><![CDATA[Vala]]></source>
@@ -734,6 +886,10 @@
         <source><![CDATA[Visual Basic]]></source>
         <target><![CDATA[crwdns49884:0crwdne49884:0]]></target>
       </trans-unit>
+      <trans-unit id="warpscript" resname="warpscript" translate="no">
+        <source><![CDATA[WarpScript]]></source>
+        <target><![CDATA[crwdns110372:0crwdne110372:0]]></target>
+      </trans-unit>
       <trans-unit id="wasm" resname="wasm" translate="no">
         <source><![CDATA[WebAssembly]]></source>
         <target><![CDATA[crwdns49886:0crwdne49886:0]]></target>
@@ -750,6 +906,10 @@
         <source><![CDATA[XML]]></source>
         <target><![CDATA[crwdns49892:0crwdne49892:0]]></target>
       </trans-unit>
+      <trans-unit id="xml-doc" resname="xml-doc" translate="no">
+        <source><![CDATA[XML doc (.net)]]></source>
+        <target><![CDATA[crwdns110374:0crwdne110374:0]]></target>
+      </trans-unit>
       <trans-unit id="xojo" resname="xojo" translate="no">
         <source><![CDATA[Xojo (REALbasic]]></source>
         <target><![CDATA[crwdns49894:0crwdne49894:0]]></target>
@@ -761,6 +921,14 @@
       <trans-unit id="yaml" resname="yaml" translate="no">
         <source><![CDATA[YAML]]></source>
         <target><![CDATA[crwdns49898:0crwdne49898:0]]></target>
+      </trans-unit>
+      <trans-unit id="yang" resname="yang" translate="no">
+        <source><![CDATA[YANG]]></source>
+        <target><![CDATA[crwdns110376:0crwdne110376:0]]></target>
+      </trans-unit>
+      <trans-unit id="zig" resname="zig" translate="no">
+        <source><![CDATA[Zig]]></source>
+        <target><![CDATA[crwdns85936:0crwdne85936:0]]></target>
       </trans-unit>
     </body>
   </file>
