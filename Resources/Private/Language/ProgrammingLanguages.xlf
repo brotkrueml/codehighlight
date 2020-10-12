@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-10-12T16:05:28Z">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -68,6 +68,9 @@
       <trans-unit id="bbcode" resname="bbcode" translate="no">
         <source><![CDATA[BBcode + Shortcode]]></source>
       </trans-unit>
+      <trans-unit id="birb" resname="birb" translate="no">
+        <source><![CDATA[Birb]]></source>
+      </trans-unit>
       <trans-unit id="bison" resname="bison" translate="no">
         <source><![CDATA[Bison]]></source>
       </trans-unit>
@@ -82,6 +85,9 @@
       </trans-unit>
       <trans-unit id="bro" resname="bro" translate="no">
         <source><![CDATA[Bro]]></source>
+      </trans-unit>
+      <trans-unit id="bsl" resname="bsl" translate="no">
+        <source><![CDATA[BSL (1C:Enterprise) + OneScript]]></source>
       </trans-unit>
       <trans-unit id="c" resname="c" translate="no">
         <source><![CDATA[C]]></source>
@@ -389,6 +395,9 @@
       <trans-unit id="mizar" resname="mizar" translate="no">
         <source><![CDATA[Mizar]]></source>
       </trans-unit>
+      <trans-unit id="mongodb" resname="mongodb" translate="no">
+        <source><![CDATA[MongoDB]]></source>
+      </trans-unit>
       <trans-unit id="monkey" resname="monkey" translate="no">
         <source><![CDATA[Monkey]]></source>
       </trans-unit>
@@ -397,6 +406,9 @@
       </trans-unit>
       <trans-unit id="n1ql" resname="n1ql" translate="no">
         <source><![CDATA[N1QL]]></source>
+      </trans-unit>
+      <trans-unit id="naniscript" resname="naniscript" translate="no">
+        <source><![CDATA[Naninovel Script]]></source>
       </trans-unit>
       <trans-unit id="n4js" resname="n4js" translate="no">
         <source><![CDATA[N4JS]]></source>
@@ -497,6 +509,9 @@
       <trans-unit id="purebasic" resname="purebasic" translate="no">
         <source><![CDATA[PureBasic]]></source>
       </trans-unit>
+      <trans-unit id="purescript" resname="purescript" translate="no">
+        <source><![CDATA[PureScript]]></source>
+      </trans-unit>
       <trans-unit id="python" resname="python" translate="no">
         <source><![CDATA[Python]]></source>
       </trans-unit>
@@ -575,6 +590,9 @@
       <trans-unit id="smarty" resname="smarty" translate="no">
         <source><![CDATA[Smarty]]></source>
       </trans-unit>
+      <trans-unit id="sml" resname="sml" translate="no">
+        <source><![CDATA[SML + SML/NJ]]></source>
+      </trans-unit>
       <trans-unit id="solidity" resname="solidity" translate="no">
         <source><![CDATA[Solidity (Ethereum)]]></source>
       </trans-unit>
@@ -595,6 +613,9 @@
       </trans-unit>
       <trans-unit id="sql" resname="sql" translate="no">
         <source><![CDATA[SQL]]></source>
+      </trans-unit>
+      <trans-unit id="stan" resname="stan" translate="no">
+        <source><![CDATA[Stan]]></source>
       </trans-unit>
       <trans-unit id="stylus" resname="stylus" translate="no">
         <source><![CDATA[Stylus]]></source>
@@ -640,6 +661,9 @@
       </trans-unit>
       <trans-unit id="typescript" resname="typescript" translate="no">
         <source><![CDATA[TypeScript]]></source>
+      </trans-unit>
+      <trans-unit id="typoscript" resname="typoscript" translate="no">
+        <source><![CDATA[TypoScript + TSConfig]]></source>
       </trans-unit>
       <trans-unit id="unrealscript" resname="unrealscript" translate="no">
         <source><![CDATA[UnrealScript]]></source>

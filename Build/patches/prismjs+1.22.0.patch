@@ -1,13 +1,17 @@
 diff --git a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-index b57c694..23ed575 100644
+index 36764c4..57d0401 100644
 --- a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
 +++ b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-@@ -227,23 +227,7 @@
+@@ -233,28 +233,9 @@
+ 	var lang_data = {};
+ 
+ 	var ignored_language = 'none';
+-	var languages_path = 'components/';
  
  	var script = Prism.util.currentScript();
- 	if (script) {
--		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)js(?:\?[^\r\n/]*)?$/i;
--		var prismFile = /(^|\/)[\w-]+\.(?:min\.)js(?:\?[^\r\n/]*)?$/i;
+-	if (script) {
+-		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
+-		var prismFile = /(^|\/)[\w-]+\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
 -
 -		var autoloaderPath = script.getAttribute('data-autoloader-path');
 -		if (autoloaderPath != null) {
@@ -23,7 +27,8 @@ index b57c694..23ed575 100644
 -				languages_path = src.replace(prismFile, '$1components/');
 -			}
 -		}
-+    var languages_path = '/typo3conf/ext/codehighlight/Resources/Public/Prism/components/';
- 	}
+-	}
++  var languages_path = '/typo3conf/ext/codehighlight/Resources/Public/Prism/components/';
  
  	var config = Prism.plugins.autoloader = {
+ 		languages_path: languages_path,
