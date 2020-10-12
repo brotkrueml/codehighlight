@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-10-12T16:05:28Z" target-language="t3">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -90,6 +90,10 @@
         <source><![CDATA[BBcode + Shortcode]]></source>
         <target><![CDATA[crwdns85906:0crwdne85906:0]]></target>
       </trans-unit>
+      <trans-unit id="birb" resname="birb" translate="no">
+        <source><![CDATA[Birb]]></source>
+        <target><![CDATA[crwdns113984:0crwdne113984:0]]></target>
+      </trans-unit>
       <trans-unit id="bison" resname="bison" translate="no">
         <source><![CDATA[Bison]]></source>
         <target><![CDATA[crwdns49558:0crwdne49558:0]]></target>
@@ -109,6 +113,10 @@
       <trans-unit id="bro" resname="bro" translate="no">
         <source><![CDATA[Bro]]></source>
         <target><![CDATA[crwdns49564:0crwdne49564:0]]></target>
+      </trans-unit>
+      <trans-unit id="bsl" resname="bsl" translate="no">
+        <source><![CDATA[BSL (1C:Enterprise) + OneScript]]></source>
+        <target><![CDATA[crwdns113986:0crwdne113986:0]]></target>
       </trans-unit>
       <trans-unit id="c" resname="c" translate="no">
         <source><![CDATA[C]]></source>
@@ -518,6 +526,10 @@
         <source><![CDATA[Mizar]]></source>
         <target><![CDATA[crwdns49734:0crwdne49734:0]]></target>
       </trans-unit>
+      <trans-unit id="mongodb" resname="mongodb" translate="no">
+        <source><![CDATA[MongoDB]]></source>
+        <target><![CDATA[crwdns113988:0crwdne113988:0]]></target>
+      </trans-unit>
       <trans-unit id="monkey" resname="monkey" translate="no">
         <source><![CDATA[Monkey]]></source>
         <target><![CDATA[crwdns49736:0crwdne49736:0]]></target>
@@ -529,6 +541,10 @@
       <trans-unit id="n1ql" resname="n1ql" translate="no">
         <source><![CDATA[N1QL]]></source>
         <target><![CDATA[crwdns49738:0crwdne49738:0]]></target>
+      </trans-unit>
+      <trans-unit id="naniscript" resname="naniscript" translate="no">
+        <source><![CDATA[Naninovel Script]]></source>
+        <target><![CDATA[crwdns113990:0crwdne113990:0]]></target>
       </trans-unit>
       <trans-unit id="n4js" resname="n4js" translate="no">
         <source><![CDATA[N4JS]]></source>
@@ -662,6 +678,10 @@
         <source><![CDATA[PureBasic]]></source>
         <target><![CDATA[crwdns110362:0crwdne110362:0]]></target>
       </trans-unit>
+      <trans-unit id="purescript" resname="purescript" translate="no">
+        <source><![CDATA[PureScript]]></source>
+        <target><![CDATA[crwdns113992:0crwdne113992:0]]></target>
+      </trans-unit>
       <trans-unit id="python" resname="python" translate="no">
         <source><![CDATA[Python]]></source>
         <target><![CDATA[crwdns49798:0crwdne49798:0]]></target>
@@ -766,6 +786,10 @@
         <source><![CDATA[Smarty]]></source>
         <target><![CDATA[crwdns49836:0crwdne49836:0]]></target>
       </trans-unit>
+      <trans-unit id="sml" resname="sml" translate="no">
+        <source><![CDATA[SML + SML/NJ]]></source>
+        <target><![CDATA[crwdns113994:0crwdne113994:0]]></target>
+      </trans-unit>
       <trans-unit id="solidity" resname="solidity" translate="no">
         <source><![CDATA[Solidity (Ethereum)]]></source>
         <target><![CDATA[crwdns85928:0crwdne85928:0]]></target>
@@ -793,6 +817,10 @@
       <trans-unit id="sql" resname="sql" translate="no">
         <source><![CDATA[SQL]]></source>
         <target><![CDATA[crwdns49842:0crwdne49842:0]]></target>
+      </trans-unit>
+      <trans-unit id="stan" resname="stan" translate="no">
+        <source><![CDATA[Stan]]></source>
+        <target><![CDATA[crwdns113996:0crwdne113996:0]]></target>
       </trans-unit>
       <trans-unit id="stylus" resname="stylus" translate="no">
         <source><![CDATA[Stylus]]></source>
@@ -853,6 +881,10 @@
       <trans-unit id="typescript" resname="typescript" translate="no">
         <source><![CDATA[TypeScript]]></source>
         <target><![CDATA[crwdns49870:0crwdne49870:0]]></target>
+      </trans-unit>
+      <trans-unit id="typoscript" resname="typoscript" translate="no">
+        <source><![CDATA[TypoScript + TSConfig]]></source>
+        <target><![CDATA[crwdns113998:0crwdne113998:0]]></target>
       </trans-unit>
       <trans-unit id="unrealscript" resname="unrealscript" translate="no">
         <source><![CDATA[UnrealScript]]></source>
