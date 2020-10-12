@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updated
 - Prism to version 1.22.0
 
+### Fixed
+- Show content element in wizard in TYPO3 v10
+
 ## [2.2.0] - 2020-08-08
 
 ### Updated
