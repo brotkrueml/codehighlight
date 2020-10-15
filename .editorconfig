@@ -21,19 +21,16 @@ indent_size = 2
 indent_style = tab
 
 # ReST-Files
-[{*.rst,*.rst.txt}]
+[*.rst]
 indent_size = 3
-max_line_length = 80
 
 # YAML-Files
 [*.{yaml,yml}]
 indent_size = 2
 
 # package.json
-# .travis.yml
-[{package.json,.travis.yml}]
+[package.json]
 indent_size = 2
-indent_style = space
 
 # TypoScript
 [*.{typoscript,tsconfig}]
@@ -41,7 +38,7 @@ indent_size = 2
 
 # XLF-Files
 [*.xlf]
-indent_size = 2
+indent_style = tab
 
 # SQL-Files
 [*.sql]
@@ -51,7 +48,3 @@ indent_size = 2
 # .htaccess
 [{_.htaccess,.htaccess}]
 indent_style = tab
-
-# composer.json
-[composer.json]
-indent_style = space
