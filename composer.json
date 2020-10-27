@@ -43,6 +43,7 @@
 	},
 	"extra": {
 		"typo3/cms": {
+			"extension-key": "codehighlight",
 			"app-dir": ".Build",
 			"web-dir": ".Build/web"
 		}
