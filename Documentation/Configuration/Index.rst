@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _configuration:
@@ -19,7 +19,7 @@ Some site-wide configurations can be made in the Site Configuration. Select a
 site under :guilabel:`Site Management` > :guilabel:`Sites` and switch to the tab
 :guilabel:`Code Highlight`.
 
-.. figure:: ../Images/Configuration/site-configuration.png
+.. figure:: /Images/Configuration/site-configuration.png
    :class: with-shadow
    :alt: Site Configuration
 
@@ -89,7 +89,7 @@ Some constants can be defined in the
 
 Select the category :guilabel:`Codehighlight` and make your adjustments.
 
-.. figure:: ../Images/Configuration/constant-editor.png
+.. figure:: /Images/Configuration/constant-editor.png
    :class: with-shadow
    :alt: Constant Editor
 

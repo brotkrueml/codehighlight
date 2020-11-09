@@ -1,5 +1,4 @@
-.. include:: ../Includes.txt
-
+.. include:: /Includes.rst.txt
 
 .. _introduction:
 
@@ -30,7 +29,7 @@ PHP code snippet
 Example output using the Coy theme for a PHP code snippet with line numbers and
 line highlighting:
 
-.. figure:: ../Images/Introduction/example-php.png
+.. figure:: /Images/Introduction/example-php.png
    :class: with-shadow
    :alt: PHP code snippet with line numbers and line highlighting
 
@@ -40,7 +39,7 @@ Shell command
 
 Example output using the Coy theme for a shell command with prompt:
 
-.. figure:: ../Images/Introduction/example-shell.png
+.. figure:: /Images/Introduction/example-shell.png
    :class: with-shadow
    :alt: Shell command with prompt
 

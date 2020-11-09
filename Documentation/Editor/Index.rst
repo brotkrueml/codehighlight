@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _for-editors:
@@ -18,7 +18,7 @@ The extension is shipped with a content element :guilabel:`Code Snippet`.
 You'll find it in the content element wizard under the
 :guilabel:`Special elements` tab:
 
-.. figure:: ../Images/Editor/content-element-wizard.png
+.. figure:: /Images/Editor/content-element-wizard.png
    :class: with-shadow
    :alt: "Code Snippet" content element in the content element wizard
 
@@ -34,7 +34,7 @@ General
 
 In the :guilabel:`General` tab insert the code snippet into the according field:
 
-.. figure:: ../Images/Editor/content-element-general.png
+.. figure:: /Images/Editor/content-element-general.png
    :class: with-shadow
    :alt: The "General" tab of the content element
 
@@ -50,7 +50,7 @@ Here you'll find some settings to tune the visual representation of the code
 snippet. First of all you can select the programming language - dependent on the
 language the snippet is formatted:
 
-.. figure:: ../Images/Editor/content-element-options-general.png
+.. figure:: /Images/Editor/content-element-options-general.png
    :class: with-shadow
    :alt: General options
 
@@ -75,7 +75,7 @@ Sometimes it is desirable to add line numbers, start them at a different number
 than 1 or highlight one or more lines to point out something important. You can
 adjust these settings under the :guilabel:`Line numbers` tab of the options:
 
-.. figure:: ../Images/Editor/content-element-options-line-numbers.png
+.. figure:: /Images/Editor/content-element-options-line-numbers.png
    :class: with-shadow
    :alt: Options for showing and adjusting line numbers
 
@@ -129,14 +129,14 @@ Highlight lines
 Command line
 ~~~~~~~~~~~~
 
-.. figure:: ../Images/Introduction/example-shell.png
+.. figure:: /Images/Introduction/example-shell.png
    :class: with-shadow
    :alt: Shell command with prompt
 
 To visualise the commands on a console you can activate the :guilabel:`Display
 command line` switch. A prompt will be shown before a code line.
 
-.. figure:: ../Images/Editor/content-element-options-command-line.png
+.. figure:: /Images/Editor/content-element-options-command-line.png
    :class: with-shadow
    :alt: Options for a command line snippet
 

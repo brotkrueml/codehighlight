@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _installation:
 
@@ -77,6 +77,6 @@ The extension ships some TypoScript code which needs to be included.
 #. Select :guilabel:`Code Highlight (codehighlight)` from the available items
    at the field :guilabel:`Include static (from extensions):`
 
-.. figure:: ../Images/Installation/include-static-template.png
+.. figure:: /Images/Installation/include-static-template.png
    :class: with-shadow
    :alt: Include static TypoScript
