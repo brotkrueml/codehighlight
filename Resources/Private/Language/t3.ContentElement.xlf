@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2019-10-26T19:43:03Z" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-12T09:52:32Z" target-language="t3">
     <body>
       <trans-unit id="contentElement.title" resname="contentElement.title">
         <source><![CDATA[Code Snippet]]></source>
@@ -17,6 +17,10 @@
       <trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined">
         <source><![CDATA[No code snippet defined!]]></source>
         <target><![CDATA[crwdns49478:0crwdne49478:0]]></target>
+      </trans-unit>
+      <trans-unit id="colours" resname="colours">
+        <source><![CDATA[Colours]]></source>
+        <target><![CDATA[crwdns124696:0crwdne124696:0]]></target>
       </trans-unit>
       <trans-unit id="commandLine" resname="commandLine">
         <source><![CDATA[Command line]]></source>
@@ -81,6 +85,14 @@
       <trans-unit id="highlightLines.description" resname="highlightLines.description">
         <source><![CDATA[You can specify the lines to be highlighted in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
         <target><![CDATA[crwdns49508:0crwdne49508:0]]></target>
+      </trans-unit>
+      <trans-unit id="inlineColour" resname="inlineColour">
+        <source><![CDATA[Inline colour]]></source>
+        <target><![CDATA[crwdns124698:0crwdne124698:0]]></target>
+      </trans-unit>
+      <trans-unit id="inlineColour.description" resname="inlineColour.description">
+        <source><![CDATA[Adds a small inline preview for colours in style sheets.]]></source>
+        <target><![CDATA[crwdns124700:0crwdne124700:0]]></target>
       </trans-unit>
       <trans-unit id="lineNumbers" resname="lineNumbers">
         <source><![CDATA[Line numbers]]></source>
