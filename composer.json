@@ -23,9 +23,9 @@
 		"typo3/cms-frontend": "^9.5.5 || ^10.4"
 	},
 	"require-dev": {
-		"friendsofphp/php-cs-fixer": "^2.16",
-		"php-coveralls/php-coveralls": "^2.2",
-		"phpunit/phpunit": "^8.5 || ^9.1",
+		"friendsofphp/php-cs-fixer": "^2.17",
+		"php-coveralls/php-coveralls": "^2.4",
+		"phpunit/phpunit": "^8.5 || ^9.5",
 		"typo3/coding-standards": "^0.2"
 	},
 	"suggest": {
@@ -42,6 +42,9 @@
 		"bin-dir": ".Build/bin"
 	},
 	"extra": {
+		"branch-alias": {
+			"dev-master": "2.4.x-dev"
+		},
 		"typo3/cms": {
 			"extension-key": "codehighlight",
 			"app-dir": ".Build",
