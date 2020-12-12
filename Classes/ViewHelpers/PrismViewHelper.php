@@ -79,6 +79,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         static::handleMainAssets();
         static::handleLineNumbers();
         static::handleCommandLine();
+        static::handleInlineColour();
         static::handleProgrammingLanguage();
 
         return static::buildHtml();
@@ -157,6 +158,21 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         } elseif (static::$configuration['codehighlightCommandLineDefaultHost'] ?? false) {
             static::addToPreAttributes('host', static::$configuration['codehighlightCommandLineDefaultHost']);
         }
+    }
+
+    private static function handleInlineColour(): void
+    {
+        if (!(static::$options['inlineColour'] ?? false)) {
+            return;
+        }
+
+        if (!\in_array(static::$options['programmingLanguage'], ['css', 'html'])) {
+            return;
+        }
+
+        static::addCssFile('plugins/inline-color/prism-inline-color.css');
+        static::addJsFile('plugins/inline-color/prism-inline-color.min.js');
+        static::$codeClasses[] = 'language-css-extras';
     }
 
     private static function handleProgrammingLanguage(): void

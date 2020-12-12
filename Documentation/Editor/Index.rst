@@ -188,6 +188,26 @@ Filter output
    `plugin page <https://prismjs.com/plugins/command-line/>`__ of the Prism
    library.
 
+.. _editors-content-element-options-colours:
+
+Colours
+~~~~~~~
+
+To show a preview of a colour in CSS styles you can activate the
+:guilabel:`Inline colour` switch.
+
+.. figure:: /Images/Editor/content-element-options-colours.png
+   :class: with-shadow
+   :alt: Options for a colour preview
+
+   Options for a colour preview
+
+This adds a small square before the colour definitions:
+
+.. figure:: /Images/Introduction/example-css-inline-colours.png
+   :class: with-shadow
+   :alt: CSS snippet with inline colours
+
 
 .. _editors-content-element-access:
 

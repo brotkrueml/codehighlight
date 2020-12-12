@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Plugin "Inline colour" to show colour preview in CSS snippets
+
 ## [2.3.0] - 2020-10-12
 
 ### Updated

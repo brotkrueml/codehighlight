@@ -44,6 +44,17 @@ Example output using the Coy theme for a shell command with prompt:
    :alt: Shell command with prompt
 
 
+CSS inline colours
+------------------
+
+Example output using the Coy theme for a CSS snippet with activated
+inline colours (the coloured square before the colour definition):
+
+.. figure:: /Images/Introduction/example-css-inline-colours.png
+   :class: with-shadow
+   :alt: CSS snippet with inline colours
+
+
 .. _release-management:
 
 Release Management
