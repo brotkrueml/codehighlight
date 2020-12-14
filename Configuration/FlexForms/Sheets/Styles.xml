@@ -1,7 +1,7 @@
 <T3DataStructure>
     <ROOT>
         <TCEforms>
-            <sheetTitle>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:colours</sheetTitle>
+            <sheetTitle>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:styles</sheetTitle>
         </TCEforms>
         <type>array</type>
         <el>

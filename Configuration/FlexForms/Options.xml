@@ -6,6 +6,6 @@
         <sDEF>EXT:codehighlight/Configuration/FlexForms/Sheets/General.xml</sDEF>
         <sLineNumbes>EXT:codehighlight/Configuration/FlexForms/Sheets/LineNumbers.xml</sLineNumbes>
         <sCommandLine>EXT:codehighlight/Configuration/FlexForms/Sheets/CommandLine.xml</sCommandLine>
-        <sColour>EXT:codehighlight/Configuration/FlexForms/Sheets/Colours.xml</sColour>
+        <sStyles>EXT:codehighlight/Configuration/FlexForms/Sheets/Styles.xml</sStyles>
     </sheets>
 </T3DataStructure>
