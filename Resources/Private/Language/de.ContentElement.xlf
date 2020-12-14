@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2019-10-26T19:43:03Z" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-12T09:52:32Z" target-language="de">
     <body>
       <trans-unit id="contentElement.title" resname="contentElement.title" approved="yes">
         <source><![CDATA[Code Snippet]]></source>
@@ -17,6 +17,10 @@
       <trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined" approved="yes">
         <source><![CDATA[No code snippet defined!]]></source>
         <target state="final"><![CDATA[Kein Code-Ausschnitt definiert!]]></target>
+      </trans-unit>
+      <trans-unit id="colours" resname="colours" approved="yes">
+        <source><![CDATA[Colours]]></source>
+        <target state="final"><![CDATA[Farben]]></target>
       </trans-unit>
       <trans-unit id="commandLine" resname="commandLine" approved="yes">
         <source><![CDATA[Command line]]></source>
@@ -81,6 +85,14 @@
       <trans-unit id="highlightLines.description" resname="highlightLines.description" approved="yes">
         <source><![CDATA[You can specify the lines to be highlighted in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
         <target state="final"><![CDATA[Sie können die Zeilen, die als Ausgabe dargestellt werden sollen, im folgenden Format angeben: Eine einzelne Zahl bezieht sich auf die Zeile mit dieser Zahl / Bereiche werden durch zwei Zahlen gekennzeichnet, die durch einen Bindestrich (-) getrennt sind / Mehrere Zeilennummern oder Bereiche werden durch Kommas getrennt / Leerzeichen ist überall erlaubt und wird entfernt / Beispiel: 1-2, 5, 9-20 (Zeilen 1 bis 2, Zeile 5, Zeilen 9 bis 20)]]></target>
+      </trans-unit>
+      <trans-unit id="inlineColour" resname="inlineColour" approved="yes">
+        <source><![CDATA[Inline colour]]></source>
+        <target state="final"><![CDATA[Inline-Farbe]]></target>
+      </trans-unit>
+      <trans-unit id="inlineColour.description" resname="inlineColour.description" approved="yes">
+        <source><![CDATA[Adds a small inline preview for colours in style sheets.]]></source>
+        <target state="final"><![CDATA[Fügt eine kleine Vorschau für Farben aus Stylesheets ein.]]></target>
       </trans-unit>
       <trans-unit id="lineNumbers" resname="lineNumbers" approved="yes">
         <source><![CDATA[Line numbers]]></source>
