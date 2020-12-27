@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.0] - 2020-12-27
+
 ### Added
 - Plugin "Inline colour" to show colour preview in CSS snippets
 - Compatibility with TYPO3 v11
@@ -70,7 +72,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Syntax highlighting with Prism
 
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.3.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.4.0...HEAD
+[2.4.0]: https://github.com/brotkrueml/codehighlight/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/brotkrueml/codehighlight/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/brotkrueml/codehighlight/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/brotkrueml/codehighlight/compare/v2.0.1...v2.1.0
