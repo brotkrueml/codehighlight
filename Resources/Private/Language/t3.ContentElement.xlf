@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-12T09:52:32Z" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-14T08:18:56Z" target-language="t3">
     <body>
       <trans-unit id="contentElement.title" resname="contentElement.title">
         <source><![CDATA[Code Snippet]]></source>
@@ -17,10 +17,6 @@
       <trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined">
         <source><![CDATA[No code snippet defined!]]></source>
         <target><![CDATA[crwdns49478:0crwdne49478:0]]></target>
-      </trans-unit>
-      <trans-unit id="colours" resname="colours">
-        <source><![CDATA[Colours]]></source>
-        <target><![CDATA[crwdns124696:0crwdne124696:0]]></target>
       </trans-unit>
       <trans-unit id="commandLine" resname="commandLine">
         <source><![CDATA[Command line]]></source>
@@ -121,6 +117,10 @@
       <trans-unit id="startWithLineNumber.description" resname="startWithLineNumber.description">
         <source><![CDATA[Specify a line number with which the numbering is to begin. The number will also be used for "Highlight lines" as offset value.]]></source>
         <target><![CDATA[crwdns49522:0crwdne49522:0]]></target>
+      </trans-unit>
+      <trans-unit id="styles" resname="styles">
+        <source><![CDATA[Styles]]></source>
+        <target><![CDATA[crwdns126930:0crwdne126930:0]]></target>
       </trans-unit>
     </body>
   </file>
