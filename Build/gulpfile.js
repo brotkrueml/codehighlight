@@ -16,6 +16,7 @@ const options = {
   outputPath: '../Resources/Public/Prism/',
   availablePlugins: [
     'command-line',
+    'inline-color',
     'line-highlight',
     'line-numbers',
   ],

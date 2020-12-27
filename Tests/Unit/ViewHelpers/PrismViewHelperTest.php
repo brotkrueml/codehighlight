@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 /*
@@ -316,6 +317,50 @@ class PrismViewHelperTest extends TestCase
                 'snippet' => 'some code snippet',
             ],
             '<pre><code class="language-none">some code snippet</code></pre>',
+        ];
+
+        yield 'With activated inline colour for CSS, css-extras is added' => [
+            [
+                'options' => [
+                    'programmingLanguage' => 'css',
+                    'inlineColour' => '1',
+                ],
+                'snippet' => 'some code snippet',
+            ],
+            '<pre><code class="language-css-extras language-css">some code snippet</code></pre>',
+        ];
+
+        yield 'With activated inline colour for HTML, css-extras is added' => [
+            [
+                'options' => [
+                    'programmingLanguage' => 'html',
+                    'inlineColour' => '1',
+                ],
+                'snippet' => 'some code snippet',
+            ],
+            '<pre><code class="language-css-extras language-html">some code snippet</code></pre>',
+        ];
+
+        yield 'With activated inline colour for PHP, css-extras is not added' => [
+            [
+                'options' => [
+                    'programmingLanguage' => 'php',
+                    'inlineColour' => '1',
+                ],
+                'snippet' => 'some code snippet',
+            ],
+            '<pre><code class="language-php">some code snippet</code></pre>',
+        ];
+
+        yield 'With deactivated inline colour for CSS, css-extras is not added' => [
+            [
+                'options' => [
+                    'programmingLanguage' => 'css',
+                    'inlineColour' => '0',
+                ],
+                'snippet' => 'some code snippet',
+            ],
+            '<pre><code class="language-css">some code snippet</code></pre>',
         ];
 
         yield 'Special characters in attribute values are masked' => [

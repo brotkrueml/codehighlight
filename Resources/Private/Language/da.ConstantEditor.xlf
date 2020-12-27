@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z" target-language="da">
-    <body>
-      <trans-unit id="cssFile" resname="layoutRootPath" approved="yes">
-        <source><![CDATA[CSS File]]></source>
-        <target state="final"><![CDATA[CSS fil]]></target>
-      </trans-unit>
-      <trans-unit id="layoutRootPath" resname="layoutRootPath" approved="yes">
-        <source><![CDATA[Path to template layouts (FE)]]></source>
-        <target state="final"><![CDATA[Sti til skabelon-layouts (FE)]]></target>
-      </trans-unit>
-      <trans-unit id="partialRootPath" resname="partialRootPath" approved="yes">
-        <source><![CDATA[Path to template partials (FE)]]></source>
-        <target state="final"><![CDATA[Sti til skabelon-partials (FE)]]></target>
-      </trans-unit>
-      <trans-unit id="templateRootPath" resname="templateRootPath" approved="yes">
-        <source><![CDATA[Path to template root (FE)]]></source>
-        <target state="final"><![CDATA[Sti til skabelon root (FE)]]></target>
-      </trans-unit>
-    </body>
-  </file>
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z" target-language="da">
+		<body>
+			<trans-unit id="cssFile" resname="layoutRootPath" approved="yes">
+				<source><![CDATA[CSS File]]></source>
+				<target state="final"><![CDATA[CSS fil]]></target>
+			</trans-unit>
+			<trans-unit id="layoutRootPath" resname="layoutRootPath" approved="yes">
+				<source><![CDATA[Path to template layouts (FE)]]></source>
+				<target state="final"><![CDATA[Sti til skabelon-layouts (FE)]]></target>
+			</trans-unit>
+			<trans-unit id="partialRootPath" resname="partialRootPath" approved="yes">
+				<source><![CDATA[Path to template partials (FE)]]></source>
+				<target state="final"><![CDATA[Sti til skabelon-partials (FE)]]></target>
+			</trans-unit>
+			<trans-unit id="templateRootPath" resname="templateRootPath" approved="yes">
+				<source><![CDATA[Path to template root (FE)]]></source>
+				<target state="final"><![CDATA[Sti til skabelon root (FE)]]></target>
+			</trans-unit>
+		</body>
+	</file>
 </xliff>

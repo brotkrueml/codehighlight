@@ -1,53 +1,58 @@
 {
-    "name": "brotkrueml/codehighlight",
-    "type": "typo3-cms-extension",
-    "license": "GPL-2.0-or-later",
-    "description": "Code highlighter for various programming languages",
-    "authors": [
-        {
-            "name": "Chris Müller",
-            "role": "Developer"
-        }
-    ],
-    "keywords": [
-        "TYPO3 CMS",
-        "TYPO3 extension",
-        "Syntax highlighting",
-        "Code highlighting"
-    ],
-    "require": {
-        "typo3/cms-backend": "^9.5.5 || ^10.4",
-        "typo3/cms-core": "^9.5.5 || ^10.4",
-        "typo3/cms-fluid": "^9.5.5 || ^10.4",
-        "typo3/cms-fluid-styled-content": "^9.5.5 || ^10.4",
-        "typo3/cms-frontend": "^9.5.5 || ^10.4"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "php-coveralls/php-coveralls": "^2.2",
-        "phpunit/phpunit": "^8.5 || ^9.1"
-    },
-    "suggest": {
-        "typo3/cms-t3editor": "Add syntax highlighting in backend form"
-    },
-    "autoload": {
-        "psr-4": {
-            "Brotkrueml\\CodeHighlight\\": "Classes/"
-        }
-    },
-    "config": {
-        "sort-packages": true,
-        "vendor-dir": ".Build/vendor",
-        "bin-dir": ".Build/bin"
-    },
-    "extra": {
-        "typo3/cms": {
-            "app-dir": ".Build",
-            "web-dir": ".Build/web"
-        }
-    },
-    "scripts": {
-        "zip": "grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o \"../zip/${PWD##*/}_{version}.zip\" v{version}'",
-        "fix-cs": ".Build/bin/php-cs-fixer fix"
-    }
+	"name": "brotkrueml/codehighlight",
+	"type": "typo3-cms-extension",
+	"license": "GPL-2.0-or-later",
+	"description": "Code highlighter for various programming languages",
+	"authors": [
+		{
+			"name": "Chris Müller",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"TYPO3 CMS",
+		"TYPO3 extension",
+		"Syntax highlighting",
+		"Code highlighting"
+	],
+	"require": {
+		"typo3/cms-backend": "^9.5.5 || ^10.4 || ^11.0",
+		"typo3/cms-core": "^9.5.5 || ^10.4 || ^11.0",
+		"typo3/cms-fluid": "^9.5.5 || ^10.4 || ^11.0",
+		"typo3/cms-fluid-styled-content": "^9.5.5 || ^10.4 || ^11.0",
+		"typo3/cms-frontend": "^9.5.5 || ^10.4 || ^11.0"
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^2.17",
+		"php-coveralls/php-coveralls": "^2.4",
+		"phpunit/phpunit": "^8.5 || ^9.5",
+		"typo3/coding-standards": "^0.2"
+	},
+	"suggest": {
+		"typo3/cms-t3editor": "Add syntax highlighting in backend form"
+	},
+	"autoload": {
+		"psr-4": {
+			"Brotkrueml\\CodeHighlight\\": "Classes/"
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.4.x-dev"
+		},
+		"typo3/cms": {
+			"extension-key": "codehighlight",
+			"app-dir": ".Build",
+			"web-dir": ".Build/web"
+		}
+	},
+	"scripts": {
+		"zip": "grep -Po \"(?<='version' => ')([0-9]+\\.[0-9]+\\.[0-9]+)\" ext_emconf.php | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o \"../zip/${PWD##*/}_{version}.zip\" v{version}'",
+		"fix-cs": ".Build/bin/php-cs-fixer fix"
+	}
 }

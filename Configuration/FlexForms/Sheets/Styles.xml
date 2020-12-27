@@ -1,0 +1,26 @@
+<T3DataStructure>
+    <ROOT>
+        <TCEforms>
+            <sheetTitle>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:styles</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+            <inlineColour>
+                <TCEforms>
+                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:inlineColour</label>
+                    <description>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:inlineColour.description</description>
+                    <config>
+                        <type>check</type>
+                        <renderType>checkboxToggle</renderType>
+                        <items>
+                            <numIndex index="0" type="array">
+                                <numIndex index="0"/>
+                                <numIndex index="1"/>
+                            </numIndex>
+                        </items>
+                    </config>
+                </TCEforms>
+            </inlineColour>
+        </el>
+    </ROOT>
+</T3DataStructure>

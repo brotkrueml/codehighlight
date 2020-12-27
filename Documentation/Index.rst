@@ -1,4 +1,4 @@
-.. include:: Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _start:
 
@@ -43,19 +43,12 @@ also some formatting settings. The code highlighting is based on
 The content of this document is related to TYPO3 CMS, a GNU/GPL CMS/Framework
 available from `typo3.org <https://typo3.org/>`_.
 
-**Community Documentation**
-
-This documentation is community documentation for the TYPO3 extension
-codehighlight.
-
-It is maintained as part of this third party extension.
-
-If you find an error or something is missing, please:
-`Report a Problem <https://github.com/brotkrueml/codehighlight/issues/new>`__.
-
 **Extension Manual**
 
 This documentation is for the TYPO3 extension codehighlight.
+
+If you find an error or something is missing, please:
+`Report a Problem <https://github.com/brotkrueml/codehighlight/issues/new>`_.
 
 **For Contributors**
 

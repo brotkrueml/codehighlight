@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _installation:
 
@@ -10,7 +10,7 @@ Target group: **Administrators**
 
 .. note::
 
-   The extension supports TYPO3 v9 LTS and v10 LTS.
+   The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11.
 
 
 Some basic configuration is available which is explained in the
@@ -77,6 +77,6 @@ The extension ships some TypoScript code which needs to be included.
 #. Select :guilabel:`Code Highlight (codehighlight)` from the available items
    at the field :guilabel:`Include static (from extensions):`
 
-.. figure:: ../Images/Installation/include-static-template.png
+.. figure:: /Images/Installation/include-static-template.png
    :class: with-shadow
    :alt: Include static TypoScript

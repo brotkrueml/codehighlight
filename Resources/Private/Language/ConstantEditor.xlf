@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z">
-    <body>
-      <trans-unit id="cssFile" resname="layoutRootPath">
-        <source><![CDATA[CSS File]]></source>
-      </trans-unit>
-      <trans-unit id="layoutRootPath" resname="layoutRootPath">
-        <source><![CDATA[Path to template layouts (FE)]]></source>
-      </trans-unit>
-      <trans-unit id="partialRootPath" resname="partialRootPath">
-        <source><![CDATA[Path to template partials (FE)]]></source>
-      </trans-unit>
-      <trans-unit id="templateRootPath" resname="templateRootPath">
-        <source><![CDATA[Path to template root (FE)]]></source>
-      </trans-unit>
-    </body>
-  </file>
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z">
+		<body>
+			<trans-unit id="cssFile" resname="layoutRootPath">
+				<source><![CDATA[CSS File]]></source>
+			</trans-unit>
+			<trans-unit id="layoutRootPath" resname="layoutRootPath">
+				<source><![CDATA[Path to template layouts (FE)]]></source>
+			</trans-unit>
+			<trans-unit id="partialRootPath" resname="partialRootPath">
+				<source><![CDATA[Path to template partials (FE)]]></source>
+			</trans-unit>
+			<trans-unit id="templateRootPath" resname="templateRootPath">
+				<source><![CDATA[Path to template root (FE)]]></source>
+			</trans-unit>
+		</body>
+	</file>
 </xliff>
