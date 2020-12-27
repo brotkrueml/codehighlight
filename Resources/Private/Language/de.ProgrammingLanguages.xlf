@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-08-08T15:02:17Z" target-language="de">
-		<body>
-			<trans-unit id="abnf" resname="abnf" approved="yes">
-				<source><![CDATA[Augmented Backus–Naur form]]></source>
-				<target state="final"><![CDATA[Angereicherte Backus-Naur-Form]]></target>
-			</trans-unit>
-			<trans-unit id="apacheconf" resname="apacheconf" approved="yes">
-				<source><![CDATA[Apache Configuration]]></source>
-				<target state="final"><![CDATA[Apache-Konfiguration]]></target>
-			</trans-unit>
-			<trans-unit id="asm6502" resname="asm6502" approved="yes">
-				<source><![CDATA[6502 Assembly]]></source>
-				<target state="final"><![CDATA[6502-Assembler]]></target>
-			</trans-unit>
-			<trans-unit id="bnf" resname="bnf" approved="yes">
-				<source><![CDATA[Backus–Naur form]]></source>
-				<target state="final"><![CDATA[Backus-Naur-Form]]></target>
-			</trans-unit>
-			<trans-unit id="clike" resname="clike" approved="yes">
-				<source><![CDATA[C-like]]></source>
-				<target state="final"><![CDATA[C-ähnlich]]></target>
-			</trans-unit>
-			<trans-unit id="css-extras" resname="css-extras" approved="yes">
-				<source><![CDATA[CSS Extras]]></source>
-				<target state="final"><![CDATA[CSS-Extras]]></target>
-			</trans-unit>
-			<trans-unit id="dns-zone-file" resname="dns-zone-file" approved="yes">
-				<source><![CDATA[DNS zone file]]></source>
-				<target state="final"><![CDATA[DNS-Zonen-Datei]]></target>
-			</trans-unit>
-			<trans-unit id="ebnf" resname="ebnf" approved="yes">
-				<source><![CDATA[Extended Backus–Naur form]]></source>
-				<target state="final"><![CDATA[Erweiterte Backus-Naur-Form]]></target>
-			</trans-unit>
-			<trans-unit id="excel-formula" resname="excel-formula" approved="yes">
-				<source><![CDATA[Excel Formula]]></source>
-				<target state="final"><![CDATA[Excel-Formel]]></target>
-			</trans-unit>
-			<trans-unit id="firestore-security-rules" resname="firestore-security-rules" approved="yes">
-				<source><![CDATA[Firestore security rules]]></source>
-				<target state="final"><![CDATA[Firestore Sicherheitsregeln]]></target>
-			</trans-unit>
-			<trans-unit id="ftl" resname="ftl" approved="yes">
-				<source><![CDATA[FreeMarker Template Language]]></source>
-				<target state="final"><![CDATA[FreeMarker Template-Sprache]]></target>
-			</trans-unit>
-			<trans-unit id="iecst" resname="iecst" approved="yes">
-				<source><![CDATA[Structured Text (IEC 61131-3)]]></source>
-				<target state="final"><![CDATA[Strukturierter Text (IEC 61131-3)]]></target>
-			</trans-unit>
-			<trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
-				<source><![CDATA[Java stack trace]]></source>
-				<target state="final"><![CDATA[Java-Stacktrace]]></target>
-			</trans-unit>
-			<trans-unit id="js-extras" resname="js-extras" approved="yes">
-				<source><![CDATA[JS Extras]]></source>
-				<target state="final"><![CDATA[JS-Extras]]></target>
-			</trans-unit>
-			<trans-unit id="js-templates" resname="js-templates" approved="yes">
-				<source><![CDATA[JS Templates]]></source>
-				<target state="final"><![CDATA[JS-Templates]]></target>
-			</trans-unit>
-			<trans-unit id="jsstacktrace" resname="jsstacktrace" approved="yes">
-				<source><![CDATA[JS stack trace]]></source>
-				<target state="final"><![CDATA[JS-Stacktrace]]></target>
-			</trans-unit>
-			<trans-unit id="markup-templating" resname="markup-templating" approved="yes">
-				<source><![CDATA[Markup templating]]></source>
-				<target state="final"><![CDATA[Markup-Templating]]></target>
-			</trans-unit>
-			<trans-unit id="php-extras" resname="php-extras" approved="yes">
-				<source><![CDATA[PHP Extras]]></source>
-				<target state="final"><![CDATA[PHP-Extras]]></target>
-			</trans-unit>
-			<trans-unit id="q" resname="q" approved="yes">
-				<source><![CDATA[Q (kdb+ database)]]></source>
-				<target state="final"><![CDATA[Q (kdb+-Datenbank)]]></target>
-			</trans-unit>
-			<trans-unit id="rbnf" resname="rbnf" approved="yes">
-				<source><![CDATA[Routing Backus–Naur form]]></source>
-				<target state="final"><![CDATA[Routing-Backus-Naur-Form]]></target>
-			</trans-unit>
-			<trans-unit id="shell-session" resname="shell-session" approved="yes">
-				<source><![CDATA[Shell session]]></source>
-				<target state="final"><![CDATA[Shell-Sitzung]]></target>
-			</trans-unit>
-			<trans-unit id="solution-file" resname="solution-file" approved="yes">
-				<source><![CDATA[Solution file]]></source>
-				<target state="final"><![CDATA[Solution-Datei]]></target>
-			</trans-unit>
-			<trans-unit id="soy" resname="soy" approved="yes">
-				<source><![CDATA[Soy (Closure Template)]]></source>
-				<target state="final"><![CDATA[Soy (Closure-Template)]]></target>
-			</trans-unit>
-			<trans-unit id="t4-cs" resname="t4-cs" approved="yes">
-				<source><![CDATA[T4 Text Templates (C#)]]></source>
-				<target state="final"><![CDATA[T4-Text-Templates (C#)]]></target>
-			</trans-unit>
-			<trans-unit id="t4-templating" resname="t4-templating" approved="yes">
-				<source><![CDATA[T4 templating]]></source>
-				<target state="final"><![CDATA[T4-Templating]]></target>
-			</trans-unit>
-			<trans-unit id="t4-vb" resname="t4-vb" approved="yes">
-				<source><![CDATA[T4 Text Templates (VB)]]></source>
-				<target state="final"><![CDATA[T4-Text-Templates (VB)]]></target>
-			</trans-unit>
-			<trans-unit id="wiki" resname="wiki" approved="yes">
-				<source><![CDATA[Wiki markup]]></source>
-				<target state="final"><![CDATA[Wiki-Markup]]></target>
-			</trans-unit>
-		</body>
-	</file>
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2020-10-12T16:05:28Z" target-language="de">
+    <body>
+      <trans-unit id="abnf" resname="abnf" approved="yes">
+        <source><![CDATA[Augmented Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Angereicherte Backus-Naur-Form]]></target>
+      </trans-unit>
+      <trans-unit id="apacheconf" resname="apacheconf" approved="yes">
+        <source><![CDATA[Apache Configuration]]></source>
+        <target state="final"><![CDATA[Apache-Konfiguration]]></target>
+      </trans-unit>
+      <trans-unit id="asm6502" resname="asm6502" approved="yes">
+        <source><![CDATA[6502 Assembly]]></source>
+        <target state="final"><![CDATA[6502-Assembler]]></target>
+      </trans-unit>
+      <trans-unit id="bnf" resname="bnf" approved="yes">
+        <source><![CDATA[Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Backus-Naur-Form]]></target>
+      </trans-unit>
+      <trans-unit id="clike" resname="clike" approved="yes">
+        <source><![CDATA[C-like]]></source>
+        <target state="final"><![CDATA[C-ähnlich]]></target>
+      </trans-unit>
+      <trans-unit id="css-extras" resname="css-extras" approved="yes">
+        <source><![CDATA[CSS Extras]]></source>
+        <target state="final"><![CDATA[CSS-Extras]]></target>
+      </trans-unit>
+      <trans-unit id="dns-zone-file" resname="dns-zone-file" approved="yes">
+        <source><![CDATA[DNS zone file]]></source>
+        <target state="final"><![CDATA[DNS-Zonen-Datei]]></target>
+      </trans-unit>
+      <trans-unit id="ebnf" resname="ebnf" approved="yes">
+        <source><![CDATA[Extended Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Erweiterte Backus-Naur-Form]]></target>
+      </trans-unit>
+      <trans-unit id="excel-formula" resname="excel-formula" approved="yes">
+        <source><![CDATA[Excel Formula]]></source>
+        <target state="final"><![CDATA[Excel-Formel]]></target>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules" approved="yes">
+        <source><![CDATA[Firestore security rules]]></source>
+        <target state="final"><![CDATA[Firestore Sicherheitsregeln]]></target>
+      </trans-unit>
+      <trans-unit id="ftl" resname="ftl" approved="yes">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+        <target state="final"><![CDATA[FreeMarker Template-Sprache]]></target>
+      </trans-unit>
+      <trans-unit id="iecst" resname="iecst" approved="yes">
+        <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
+        <target state="final"><![CDATA[Strukturierter Text (IEC 61131-3)]]></target>
+      </trans-unit>
+      <trans-unit id="javastacktrace" resname="javastacktrace" approved="yes">
+        <source><![CDATA[Java stack trace]]></source>
+        <target state="final"><![CDATA[Java-Stacktrace]]></target>
+      </trans-unit>
+      <trans-unit id="js-extras" resname="js-extras" approved="yes">
+        <source><![CDATA[JS Extras]]></source>
+        <target state="final"><![CDATA[JS-Extras]]></target>
+      </trans-unit>
+      <trans-unit id="js-templates" resname="js-templates" approved="yes">
+        <source><![CDATA[JS Templates]]></source>
+        <target state="final"><![CDATA[JS-Templates]]></target>
+      </trans-unit>
+      <trans-unit id="jsstacktrace" resname="jsstacktrace" approved="yes">
+        <source><![CDATA[JS stack trace]]></source>
+        <target state="final"><![CDATA[JS-Stacktrace]]></target>
+      </trans-unit>
+      <trans-unit id="markup-templating" resname="markup-templating" approved="yes">
+        <source><![CDATA[Markup templating]]></source>
+        <target state="final"><![CDATA[Markup-Templating]]></target>
+      </trans-unit>
+      <trans-unit id="php-extras" resname="php-extras" approved="yes">
+        <source><![CDATA[PHP Extras]]></source>
+        <target state="final"><![CDATA[PHP-Extras]]></target>
+      </trans-unit>
+      <trans-unit id="q" resname="q" approved="yes">
+        <source><![CDATA[Q (kdb+ database)]]></source>
+        <target state="final"><![CDATA[Q (kdb+-Datenbank)]]></target>
+      </trans-unit>
+      <trans-unit id="rbnf" resname="rbnf" approved="yes">
+        <source><![CDATA[Routing Backus–Naur form]]></source>
+        <target state="final"><![CDATA[Routing-Backus-Naur-Form]]></target>
+      </trans-unit>
+      <trans-unit id="shell-session" resname="shell-session" approved="yes">
+        <source><![CDATA[Shell session]]></source>
+        <target state="final"><![CDATA[Shell-Sitzung]]></target>
+      </trans-unit>
+      <trans-unit id="solution-file" resname="solution-file" approved="yes">
+        <source><![CDATA[Solution file]]></source>
+        <target state="final"><![CDATA[Solution-Datei]]></target>
+      </trans-unit>
+      <trans-unit id="soy" resname="soy" approved="yes">
+        <source><![CDATA[Soy (Closure Template)]]></source>
+        <target state="final"><![CDATA[Soy (Closure-Template)]]></target>
+      </trans-unit>
+      <trans-unit id="t4-cs" resname="t4-cs" approved="yes">
+        <source><![CDATA[T4 Text Templates (C#)]]></source>
+        <target state="final"><![CDATA[T4-Text-Templates (C#)]]></target>
+      </trans-unit>
+      <trans-unit id="t4-templating" resname="t4-templating" approved="yes">
+        <source><![CDATA[T4 templating]]></source>
+        <target state="final"><![CDATA[T4-Templating]]></target>
+      </trans-unit>
+      <trans-unit id="t4-vb" resname="t4-vb" approved="yes">
+        <source><![CDATA[T4 Text Templates (VB)]]></source>
+        <target state="final"><![CDATA[T4-Text-Templates (VB)]]></target>
+      </trans-unit>
+      <trans-unit id="wiki" resname="wiki" approved="yes">
+        <source><![CDATA[Wiki markup]]></source>
+        <target state="final"><![CDATA[Wiki-Markup]]></target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
