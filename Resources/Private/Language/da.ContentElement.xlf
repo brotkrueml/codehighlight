@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-12T09:52:32Z" target-language="da">
-    <body>
-      <trans-unit id="contentElement.title" resname="contentElement.title" approved="yes">
-        <source><![CDATA[Code Snippet]]></source>
-        <target state="final"><![CDATA[Kode-snippet]]></target>
-      </trans-unit>
-      <trans-unit id="contentElement.description" resname="contentElement.description" approved="yes">
-        <source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
-        <target state="final"><![CDATA[Indsæt kode-snippets og vælg programmeringssprog for at få fremhævet koden.]]></target>
-      </trans-unit>
-      <trans-unit id="codeSnippet" resname="codeSnippet" approved="yes">
-        <source><![CDATA[Code snippet]]></source>
-        <target state="final"><![CDATA[Kode-snippet]]></target>
-      </trans-unit>
-      <trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined" approved="yes">
-        <source><![CDATA[No code snippet defined!]]></source>
-        <target state="final"><![CDATA[Ingen kode-snippet defineret!]]></target>
-      </trans-unit>
-      <trans-unit id="colours" resname="colours" approved="yes">
-        <source><![CDATA[Colours]]></source>
-        <target state="final"><![CDATA[Farver]]></target>
-      </trans-unit>
-      <trans-unit id="commandLine" resname="commandLine" approved="yes">
-        <source><![CDATA[Command line]]></source>
-        <target state="final"><![CDATA[Kommandolinje]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineOutputFilter" resname="commandLineOutputFilter" approved="yes">
-        <source><![CDATA[Filter output]]></source>
-        <target state="final"><![CDATA[Filter udtræk]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineOutputFilter.description" resname="commandLineOutputFilter.description" approved="yes">
-        <source><![CDATA[Alternative for "Output lines": Specify a prefix for lines with output, e.g., "(out)" will treat lines beginning with (out) as output and remove the prefix.]]></source>
-        <target state="final"><![CDATA[Alternativ for "output linjer": Angiv et præfiks for linjer med output, for eksempel "(out)" ve behandle linjer der begynder med (out) som output og fjerne præfikset.]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineOutputLines" resname="commandLineOutputLines" approved="yes">
-        <source><![CDATA[Output lines]]></source>
-        <target state="final"><![CDATA[Output linjer]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineOutputLines.description" resname="commandLineOutputLines.description" approved="yes">
-        <source><![CDATA[You may specify the lines to be presented as output (no prompt and no highlighting) in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
-        <target state="final"><![CDATA[Du kan angive de linjer der skal præsenteres som output (ingen prompt og ingen fremhævning) i følgende format: Et enkelt tal refererer til linjen med dette tal / Rækkevidde er angivet med to tal, separeret med bindestreg (-) / Flere linjenumre eller intervaller adskilles af kommaer / blanke tegn er tilladt hvor som helst og vil blive fjernet / Eksempel: 1- 2, 5, 9-20 (linje 1 til 2, linje 5, linje 9 til og med 20)]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineServerHost" resname="commandLineServerHost" approved="yes">
-        <source><![CDATA[Host]]></source>
-        <target state="final"><![CDATA[Vært]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineServerHost.description" resname="commandLineServerHost.description" approved="yes">
-        <source><![CDATA[Specify the host for a server command line (like Linux).]]></source>
-        <target state="final"><![CDATA[Angiv værten for en servers kommandolinje (for eksempel Linux).]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineServerPrompt" resname="commandLineServerPrompt" approved="yes">
-        <source><![CDATA[Prompt]]></source>
-        <target state="final"><![CDATA[Prompt]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineServerPrompt.description" resname="commandLineServerPrompt.description" approved="yes">
-        <source><![CDATA[For any other command line, such as a Windows prompt, specify the entire prompt, e.g. "PS C:\Users\Chris>". If this field is set, user and host are ignored.]]></source>
-        <target state="final"><![CDATA[For enhver anden kommandolinje, såsom en Windows-prompt, angives hele prompten, f.eks "PS C:\Users\Chris>". Hvis dette felt er angivet, ignoreres brugeren og værten.]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineServerUser" resname="commandLineServerUser" approved="yes">
-        <source><![CDATA[User]]></source>
-        <target state="final"><![CDATA[Bruger]]></target>
-      </trans-unit>
-      <trans-unit id="commandLineServerUser.description" resname="commandLineServerUser.description" approved="yes">
-        <source><![CDATA[Specify the user for a server command line (like Linux).]]></source>
-        <target state="final"><![CDATA[Angiv værten for en servers kommandolinje (for eksempel Linux).]]></target>
-      </trans-unit>
-      <trans-unit id="displayCommandLine" resname="displayCommandLine" approved="yes">
-        <source><![CDATA[Display command line]]></source>
-        <target state="final"><![CDATA[Vis kommandolinje]]></target>
-      </trans-unit>
-      <trans-unit id="filename" resname="filename" approved="yes">
-        <source><![CDATA[Filename]]></source>
-        <target state="final"><![CDATA[Filnavn]]></target>
-      </trans-unit>
-      <trans-unit id="displayCommandLine.description" resname="displayCommandLine.description" approved="yes">
-        <source><![CDATA[Display a command line with a prompt and, optionally, the output/response from the commands. Important: If you activate this option, don't select a programming language or the prompts are not visible!]]></source>
-        <target state="final"><![CDATA[Vis en kommandolinje med en prompt og eventuelt output/svar fra kommandoerne. Vigtigt: Hvis du aktiverer denne indstilling, skal du ikke vælge et programmeringssprog, for så vil prompterne ikke være synlige!]]></target>
-      </trans-unit>
-      <trans-unit id="highlightLines" resname="highlightLines" approved="yes">
-        <source><![CDATA[Highlight lines]]></source>
-        <target state="final"><![CDATA[Fremhæv linjer]]></target>
-      </trans-unit>
-      <trans-unit id="highlightLines.description" resname="highlightLines.description" approved="yes">
-        <source><![CDATA[You can specify the lines to be highlighted in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
-        <target state="final"><![CDATA[Du kan angive de linjer der skal fremhæves i følgende format: Et enkelt tal refererer til linjen med dette tal / Rækkevidde er angivet med to tal, separeret med bindestreg (-) / Flere linjenumre eller intervaller adskilles af kommaer / blanke tegn er tilladt hvor som helst og vil blive fjernet / Eksempel: 1- 2, 5, 9-20 (linje 1 til 2, linje 5, linje 9 til og med 20)]]></target>
-      </trans-unit>
-      <trans-unit id="inlineColour" resname="inlineColour" approved="yes">
-        <source><![CDATA[Inline colour]]></source>
-        <target state="final"><![CDATA[Inline farve]]></target>
-      </trans-unit>
-      <trans-unit id="inlineColour.description" resname="inlineColour.description" approved="yes">
-        <source><![CDATA[Adds a small inline preview for colours in style sheets.]]></source>
-        <target state="final"><![CDATA[Tilføjer en lille inline-forhåndsvisning for farver i stylesheet.]]></target>
-      </trans-unit>
-      <trans-unit id="lineNumbers" resname="lineNumbers" approved="yes">
-        <source><![CDATA[Line numbers]]></source>
-        <target state="final"><![CDATA[Linjenumre]]></target>
-      </trans-unit>
-      <trans-unit id="options" resname="options" approved="yes">
-        <source><![CDATA[Options]]></source>
-        <target state="final"><![CDATA[Muligheder]]></target>
-      </trans-unit>
-      <trans-unit id="programmingLanguage" resname="programmingLanguage" approved="yes">
-        <source><![CDATA[Programming language]]></source>
-        <target state="final"><![CDATA[Programmeringssprog]]></target>
-      </trans-unit>
-      <trans-unit id="showLineNumbers" resname="showLineNumbers" approved="yes">
-        <source><![CDATA[Show line numbers]]></source>
-        <target state="final"><![CDATA[Vis linjenumre]]></target>
-      </trans-unit>
-      <trans-unit id="showLineNumbers.description" resname="showLineNumbers.description" approved="yes">
-        <source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
-        <target state="final"><![CDATA[Aktivér denne indstilling for at vise linjenumre i begyndelsen af kodelinjerne.]]></target>
-      </trans-unit>
-      <trans-unit id="startWithLineNumber" resname="startWithLineNumber" approved="yes">
-        <source><![CDATA[Start with line number]]></source>
-        <target state="final"><![CDATA[Start med linjenummer]]></target>
-      </trans-unit>
-      <trans-unit id="startWithLineNumber.description" resname="startWithLineNumber.description" approved="yes">
-        <source><![CDATA[Specify a line number with which the numbering is to begin. The number will also be used for "Highlight lines" as offset value.]]></source>
-        <target state="final"><![CDATA[Angiv et linjenummer med hvilket nummereringen skal begynde. Nummeret vil også blive brugt til "Fremhæv linjer" som offset værdi.]]></target>
-      </trans-unit>
-    </body>
-  </file>
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-12T09:52:32Z" target-language="da">
+		<body>
+			<trans-unit id="contentElement.title" resname="contentElement.title" approved="yes">
+				<source><![CDATA[Code Snippet]]></source>
+				<target state="final"><![CDATA[Kode-snippet]]></target>
+			</trans-unit>
+			<trans-unit id="contentElement.description" resname="contentElement.description" approved="yes">
+				<source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
+				<target state="final"><![CDATA[Indsæt kode-snippets og vælg programmeringssprog for at få fremhævet koden.]]></target>
+			</trans-unit>
+			<trans-unit id="codeSnippet" resname="codeSnippet" approved="yes">
+				<source><![CDATA[Code snippet]]></source>
+				<target state="final"><![CDATA[Kode-snippet]]></target>
+			</trans-unit>
+			<trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined" approved="yes">
+				<source><![CDATA[No code snippet defined!]]></source>
+				<target state="final"><![CDATA[Ingen kode-snippet defineret!]]></target>
+			</trans-unit>
+			<trans-unit id="colours" resname="colours" approved="yes">
+				<source><![CDATA[Colours]]></source>
+				<target state="final"><![CDATA[Farver]]></target>
+			</trans-unit>
+			<trans-unit id="commandLine" resname="commandLine" approved="yes">
+				<source><![CDATA[Command line]]></source>
+				<target state="final"><![CDATA[Kommandolinje]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineOutputFilter" resname="commandLineOutputFilter" approved="yes">
+				<source><![CDATA[Filter output]]></source>
+				<target state="final"><![CDATA[Filter udtræk]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineOutputFilter.description" resname="commandLineOutputFilter.description" approved="yes">
+				<source><![CDATA[Alternative for "Output lines": Specify a prefix for lines with output, e.g., "(out)" will treat lines beginning with (out) as output and remove the prefix.]]></source>
+				<target state="final"><![CDATA[Alternativ for "output linjer": Angiv et præfiks for linjer med output, for eksempel "(out)" ve behandle linjer der begynder med (out) som output og fjerne præfikset.]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineOutputLines" resname="commandLineOutputLines" approved="yes">
+				<source><![CDATA[Output lines]]></source>
+				<target state="final"><![CDATA[Output linjer]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineOutputLines.description" resname="commandLineOutputLines.description" approved="yes">
+				<source><![CDATA[You may specify the lines to be presented as output (no prompt and no highlighting) in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
+				<target state="final"><![CDATA[Du kan angive de linjer der skal præsenteres som output (ingen prompt og ingen fremhævning) i følgende format: Et enkelt tal refererer til linjen med dette tal / Rækkevidde er angivet med to tal, separeret med bindestreg (-) / Flere linjenumre eller intervaller adskilles af kommaer / blanke tegn er tilladt hvor som helst og vil blive fjernet / Eksempel: 1- 2, 5, 9-20 (linje 1 til 2, linje 5, linje 9 til og med 20)]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineServerHost" resname="commandLineServerHost" approved="yes">
+				<source><![CDATA[Host]]></source>
+				<target state="final"><![CDATA[Vært]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineServerHost.description" resname="commandLineServerHost.description" approved="yes">
+				<source><![CDATA[Specify the host for a server command line (like Linux).]]></source>
+				<target state="final"><![CDATA[Angiv værten for en servers kommandolinje (for eksempel Linux).]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineServerPrompt" resname="commandLineServerPrompt" approved="yes">
+				<source><![CDATA[Prompt]]></source>
+				<target state="final"><![CDATA[Prompt]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineServerPrompt.description" resname="commandLineServerPrompt.description" approved="yes">
+				<source><![CDATA[For any other command line, such as a Windows prompt, specify the entire prompt, e.g. "PS C:\Users\Chris>". If this field is set, user and host are ignored.]]></source>
+				<target state="final"><![CDATA[For enhver anden kommandolinje, såsom en Windows-prompt, angives hele prompten, f.eks "PS C:\Users\Chris>". Hvis dette felt er angivet, ignoreres brugeren og værten.]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineServerUser" resname="commandLineServerUser" approved="yes">
+				<source><![CDATA[User]]></source>
+				<target state="final"><![CDATA[Bruger]]></target>
+			</trans-unit>
+			<trans-unit id="commandLineServerUser.description" resname="commandLineServerUser.description" approved="yes">
+				<source><![CDATA[Specify the user for a server command line (like Linux).]]></source>
+				<target state="final"><![CDATA[Angiv værten for en servers kommandolinje (for eksempel Linux).]]></target>
+			</trans-unit>
+			<trans-unit id="displayCommandLine" resname="displayCommandLine" approved="yes">
+				<source><![CDATA[Display command line]]></source>
+				<target state="final"><![CDATA[Vis kommandolinje]]></target>
+			</trans-unit>
+			<trans-unit id="filename" resname="filename" approved="yes">
+				<source><![CDATA[Filename]]></source>
+				<target state="final"><![CDATA[Filnavn]]></target>
+			</trans-unit>
+			<trans-unit id="displayCommandLine.description" resname="displayCommandLine.description" approved="yes">
+				<source><![CDATA[Display a command line with a prompt and, optionally, the output/response from the commands. Important: If you activate this option, don't select a programming language or the prompts are not visible!]]></source>
+				<target state="final"><![CDATA[Vis en kommandolinje med en prompt og eventuelt output/svar fra kommandoerne. Vigtigt: Hvis du aktiverer denne indstilling, skal du ikke vælge et programmeringssprog, for så vil prompterne ikke være synlige!]]></target>
+			</trans-unit>
+			<trans-unit id="highlightLines" resname="highlightLines" approved="yes">
+				<source><![CDATA[Highlight lines]]></source>
+				<target state="final"><![CDATA[Fremhæv linjer]]></target>
+			</trans-unit>
+			<trans-unit id="highlightLines.description" resname="highlightLines.description" approved="yes">
+				<source><![CDATA[You can specify the lines to be highlighted in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
+				<target state="final"><![CDATA[Du kan angive de linjer der skal fremhæves i følgende format: Et enkelt tal refererer til linjen med dette tal / Rækkevidde er angivet med to tal, separeret med bindestreg (-) / Flere linjenumre eller intervaller adskilles af kommaer / blanke tegn er tilladt hvor som helst og vil blive fjernet / Eksempel: 1- 2, 5, 9-20 (linje 1 til 2, linje 5, linje 9 til og med 20)]]></target>
+			</trans-unit>
+			<trans-unit id="inlineColour" resname="inlineColour" approved="yes">
+				<source><![CDATA[Inline colour]]></source>
+				<target state="final"><![CDATA[Inline farve]]></target>
+			</trans-unit>
+			<trans-unit id="inlineColour.description" resname="inlineColour.description" approved="yes">
+				<source><![CDATA[Adds a small inline preview for colours in style sheets.]]></source>
+				<target state="final"><![CDATA[Tilføjer en lille inline-forhåndsvisning for farver i stylesheet.]]></target>
+			</trans-unit>
+			<trans-unit id="lineNumbers" resname="lineNumbers" approved="yes">
+				<source><![CDATA[Line numbers]]></source>
+				<target state="final"><![CDATA[Linjenumre]]></target>
+			</trans-unit>
+			<trans-unit id="options" resname="options" approved="yes">
+				<source><![CDATA[Options]]></source>
+				<target state="final"><![CDATA[Muligheder]]></target>
+			</trans-unit>
+			<trans-unit id="programmingLanguage" resname="programmingLanguage" approved="yes">
+				<source><![CDATA[Programming language]]></source>
+				<target state="final"><![CDATA[Programmeringssprog]]></target>
+			</trans-unit>
+			<trans-unit id="showLineNumbers" resname="showLineNumbers" approved="yes">
+				<source><![CDATA[Show line numbers]]></source>
+				<target state="final"><![CDATA[Vis linjenumre]]></target>
+			</trans-unit>
+			<trans-unit id="showLineNumbers.description" resname="showLineNumbers.description" approved="yes">
+				<source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
+				<target state="final"><![CDATA[Aktivér denne indstilling for at vise linjenumre i begyndelsen af kodelinjerne.]]></target>
+			</trans-unit>
+			<trans-unit id="startWithLineNumber" resname="startWithLineNumber" approved="yes">
+				<source><![CDATA[Start with line number]]></source>
+				<target state="final"><![CDATA[Start med linjenummer]]></target>
+			</trans-unit>
+			<trans-unit id="startWithLineNumber.description" resname="startWithLineNumber.description" approved="yes">
+				<source><![CDATA[Specify a line number with which the numbering is to begin. The number will also be used for "Highlight lines" as offset value.]]></source>
+				<target state="final"><![CDATA[Angiv et linjenummer med hvilket nummereringen skal begynde. Nummeret vil også blive brugt til "Fremhæv linjer" som offset værdi.]]></target>
+			</trans-unit>
+		</body>
+	</file>
 </xliff>
