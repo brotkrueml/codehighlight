@@ -2,7 +2,7 @@
 	"name": "brotkrueml/codehighlight",
 	"type": "typo3-cms-extension",
 	"license": "GPL-2.0-or-later",
-	"description": "Code highlighter for various programming languages",
+	"description": "Code highlighter for various programming, markup and configuration languages",
 	"authors": [
 		{
 			"name": "Chris Müller",

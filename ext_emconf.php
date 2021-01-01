@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Code Highlight',
-    'description' => 'Code highlighter for various programming languages',
+    'description' => 'Code highlighter for various programming, markup and configuration languages',
     'category' => 'fe',
     'state' => 'stable',
     'clearCacheOnLoad' => true,
