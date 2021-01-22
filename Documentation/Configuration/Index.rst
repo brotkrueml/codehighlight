@@ -100,7 +100,7 @@ Files
 -----
 
 If you want to change the layout or template of the content element or add a
-partial you can make a copy of then and adjust the Fluid root paths.
+partial you can make a copy of them and adjust the Fluid root paths.
 
 Path to template root (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -154,7 +154,7 @@ Alternatively you can change the setting directly in the TypoScript setup:
 
 ::
 
-   tt_content.tx_codehighlight_codesnippet.layoutRootPaths {
+   tt_content.tx_codehighlight_codesnippet.cssFile {
       settings.cssFile = EXT:your_sitepackage/Resources/Public/Css/codehighlight.css
    }
 
