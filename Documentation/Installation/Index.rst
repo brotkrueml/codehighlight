@@ -56,8 +56,8 @@ the Extension Manager:
    #. **Get it from typo3.org:** You can always get the current version from
       `https://extensions.typo3.org/extension/codehighlight/
       <https://extensions.typo3.org/extension/codehighlight/>`_ by
-      downloading either the ``t3x`` or ``zip`` version. Upload the file
-      afterwards in the Extension Manager.
+      downloading the ``zip`` file. Upload the file afterwards in the Extension
+      Manager.
 
 
 .. _include-static-typoscript:
