@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-01-01T16:36:34Z">
+<?xml version="1.0" encoding="utf-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-01-01T16:36:34Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>

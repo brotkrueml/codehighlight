@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-14T08:18:56Z">
+<?xml version="1.0" encoding="utf-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-14T08:18:56Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="contentElement.title" resname="contentElement.title">
 				<source><![CDATA[Code Snippet]]></source>
