@@ -1,127 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-14T08:18:56Z" target-language="t3">
-		<body>
-			<trans-unit id="contentElement.title" resname="contentElement.title">
-				<source><![CDATA[Code Snippet]]></source>
-				<target><![CDATA[crwdns49472:0crwdne49472:0]]></target>
-			</trans-unit>
-			<trans-unit id="contentElement.description" resname="contentElement.description">
-				<source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
-				<target><![CDATA[crwdns49474:0crwdne49474:0]]></target>
-			</trans-unit>
-			<trans-unit id="codeSnippet" resname="codeSnippet">
-				<source><![CDATA[Code snippet]]></source>
-				<target><![CDATA[crwdns49476:0crwdne49476:0]]></target>
-			</trans-unit>
-			<trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined">
-				<source><![CDATA[No code snippet defined!]]></source>
-				<target><![CDATA[crwdns49478:0crwdne49478:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLine" resname="commandLine">
-				<source><![CDATA[Command line]]></source>
-				<target><![CDATA[crwdns49480:0crwdne49480:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineOutputFilter" resname="commandLineOutputFilter">
-				<source><![CDATA[Filter output]]></source>
-				<target><![CDATA[crwdns49482:0crwdne49482:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineOutputFilter.description" resname="commandLineOutputFilter.description">
-				<source><![CDATA[Alternative for "Output lines": Specify a prefix for lines with output, e.g., "(out)" will treat lines beginning with (out) as output and remove the prefix.]]></source>
-				<target><![CDATA[crwdns49484:0crwdne49484:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineOutputLines" resname="commandLineOutputLines">
-				<source><![CDATA[Output lines]]></source>
-				<target><![CDATA[crwdns49486:0crwdne49486:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineOutputLines.description" resname="commandLineOutputLines.description">
-				<source><![CDATA[You may specify the lines to be presented as output (no prompt and no highlighting) in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
-				<target><![CDATA[crwdns49488:0crwdne49488:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineServerHost" resname="commandLineServerHost">
-				<source><![CDATA[Host]]></source>
-				<target><![CDATA[crwdns49490:0crwdne49490:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineServerHost.description" resname="commandLineServerHost.description">
-				<source><![CDATA[Specify the host for a server command line (like Linux).]]></source>
-				<target><![CDATA[crwdns49904:0crwdne49904:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineServerPrompt" resname="commandLineServerPrompt">
-				<source><![CDATA[Prompt]]></source>
-				<target><![CDATA[crwdns49494:0crwdne49494:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineServerPrompt.description" resname="commandLineServerPrompt.description">
-				<source><![CDATA[For any other command line, such as a Windows prompt, specify the entire prompt, e.g. "PS C:\Users\Chris>". If this field is set, user and host are ignored.]]></source>
-				<target><![CDATA[crwdns49496:0crwdne49496:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineServerUser" resname="commandLineServerUser">
-				<source><![CDATA[User]]></source>
-				<target><![CDATA[crwdns49498:0crwdne49498:0]]></target>
-			</trans-unit>
-			<trans-unit id="commandLineServerUser.description" resname="commandLineServerUser.description">
-				<source><![CDATA[Specify the user for a server command line (like Linux).]]></source>
-				<target><![CDATA[crwdns49906:0crwdne49906:0]]></target>
-			</trans-unit>
-			<trans-unit id="displayCommandLine" resname="displayCommandLine">
-				<source><![CDATA[Display command line]]></source>
-				<target><![CDATA[crwdns49502:0crwdne49502:0]]></target>
-			</trans-unit>
-			<trans-unit id="filename" resname="filename">
-				<source><![CDATA[Filename]]></source>
-				<target><![CDATA[crwdns67282:0crwdne67282:0]]></target>
-			</trans-unit>
-			<trans-unit id="displayCommandLine.description" resname="displayCommandLine.description">
-				<source><![CDATA[Display a command line with a prompt and, optionally, the output/response from the commands. Important: If you activate this option, don't select a programming language or the prompts are not visible!]]></source>
-				<target><![CDATA[crwdns49504:0crwdne49504:0]]></target>
-			</trans-unit>
-			<trans-unit id="highlightLines" resname="highlightLines">
-				<source><![CDATA[Highlight lines]]></source>
-				<target><![CDATA[crwdns49506:0crwdne49506:0]]></target>
-			</trans-unit>
-			<trans-unit id="highlightLines.description" resname="highlightLines.description">
-				<source><![CDATA[You can specify the lines to be highlighted in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
-				<target><![CDATA[crwdns49508:0crwdne49508:0]]></target>
-			</trans-unit>
-			<trans-unit id="inlineColour" resname="inlineColour">
-				<source><![CDATA[Inline colour]]></source>
-				<target><![CDATA[crwdns124698:0crwdne124698:0]]></target>
-			</trans-unit>
-			<trans-unit id="inlineColour.description" resname="inlineColour.description">
-				<source><![CDATA[Adds a small inline preview for colours in style sheets.]]></source>
-				<target><![CDATA[crwdns124700:0crwdne124700:0]]></target>
-			</trans-unit>
-			<trans-unit id="lineNumbers" resname="lineNumbers">
-				<source><![CDATA[Line numbers]]></source>
-				<target><![CDATA[crwdns49510:0crwdne49510:0]]></target>
-			</trans-unit>
-			<trans-unit id="options" resname="options">
-				<source><![CDATA[Options]]></source>
-				<target><![CDATA[crwdns49512:0crwdne49512:0]]></target>
-			</trans-unit>
-			<trans-unit id="programmingLanguage" resname="programmingLanguage">
-				<source><![CDATA[Programming language]]></source>
-				<target><![CDATA[crwdns49514:0crwdne49514:0]]></target>
-			</trans-unit>
-			<trans-unit id="showLineNumbers" resname="showLineNumbers">
-				<source><![CDATA[Show line numbers]]></source>
-				<target><![CDATA[crwdns49516:0crwdne49516:0]]></target>
-			</trans-unit>
-			<trans-unit id="showLineNumbers.description" resname="showLineNumbers.description">
-				<source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
-				<target><![CDATA[crwdns49518:0crwdne49518:0]]></target>
-			</trans-unit>
-			<trans-unit id="startWithLineNumber" resname="startWithLineNumber">
-				<source><![CDATA[Start with line number]]></source>
-				<target><![CDATA[crwdns49520:0crwdne49520:0]]></target>
-			</trans-unit>
-			<trans-unit id="startWithLineNumber.description" resname="startWithLineNumber.description">
-				<source><![CDATA[Specify a line number with which the numbering is to begin. The number will also be used for "Highlight lines" as offset value.]]></source>
-				<target><![CDATA[crwdns49522:0crwdne49522:0]]></target>
-			</trans-unit>
-			<trans-unit id="styles" resname="styles">
-				<source><![CDATA[Styles]]></source>
-				<target><![CDATA[crwdns126930:0crwdne126930:0]]></target>
-			</trans-unit>
-		</body>
-	</file>
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-14T08:18:56Z" product-name="codehighlight" target-language="t3">
+    <body>
+      <trans-unit id="contentElement.title" resname="contentElement.title">
+        <source><![CDATA[Code Snippet]]></source>
+        <target><![CDATA[crwdns49472:0crwdne49472:0]]></target>
+      </trans-unit>
+      <trans-unit id="contentElement.description" resname="contentElement.description">
+        <source><![CDATA[Insert code snippets and select the programming language for highlighting the code.]]></source>
+        <target><![CDATA[crwdns49474:0crwdne49474:0]]></target>
+      </trans-unit>
+      <trans-unit id="codeSnippet" resname="codeSnippet">
+        <source><![CDATA[Code snippet]]></source>
+        <target><![CDATA[crwdns49476:0crwdne49476:0]]></target>
+      </trans-unit>
+      <trans-unit id="codeSnippet.notDefined" resname="codeSnippet.notDefined">
+        <source><![CDATA[No code snippet defined!]]></source>
+        <target><![CDATA[crwdns49478:0crwdne49478:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLine" resname="commandLine">
+        <source><![CDATA[Command line]]></source>
+        <target><![CDATA[crwdns49480:0crwdne49480:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineOutputFilter" resname="commandLineOutputFilter">
+        <source><![CDATA[Filter output]]></source>
+        <target><![CDATA[crwdns49482:0crwdne49482:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineOutputFilter.description" resname="commandLineOutputFilter.description">
+        <source><![CDATA[Alternative for "Output lines": Specify a prefix for lines with output, e.g., "(out)" will treat lines beginning with (out) as output and remove the prefix.]]></source>
+        <target><![CDATA[crwdns49484:0crwdne49484:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineOutputLines" resname="commandLineOutputLines">
+        <source><![CDATA[Output lines]]></source>
+        <target><![CDATA[crwdns49486:0crwdne49486:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineOutputLines.description" resname="commandLineOutputLines.description">
+        <source><![CDATA[You may specify the lines to be presented as output (no prompt and no highlighting) in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
+        <target><![CDATA[crwdns49488:0crwdne49488:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineServerHost" resname="commandLineServerHost">
+        <source><![CDATA[Host]]></source>
+        <target><![CDATA[crwdns49490:0crwdne49490:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineServerHost.description" resname="commandLineServerHost.description">
+        <source><![CDATA[Specify the host for a server command line (like Linux).]]></source>
+        <target><![CDATA[crwdns49904:0crwdne49904:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineServerPrompt" resname="commandLineServerPrompt">
+        <source><![CDATA[Prompt]]></source>
+        <target><![CDATA[crwdns49494:0crwdne49494:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineServerPrompt.description" resname="commandLineServerPrompt.description">
+        <source><![CDATA[For any other command line, such as a Windows prompt, specify the entire prompt, e.g. "PS C:\Users\Chris>". If this field is set, user and host are ignored.]]></source>
+        <target><![CDATA[crwdns49496:0crwdne49496:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineServerUser" resname="commandLineServerUser">
+        <source><![CDATA[User]]></source>
+        <target><![CDATA[crwdns49498:0crwdne49498:0]]></target>
+      </trans-unit>
+      <trans-unit id="commandLineServerUser.description" resname="commandLineServerUser.description">
+        <source><![CDATA[Specify the user for a server command line (like Linux).]]></source>
+        <target><![CDATA[crwdns49906:0crwdne49906:0]]></target>
+      </trans-unit>
+      <trans-unit id="displayCommandLine" resname="displayCommandLine">
+        <source><![CDATA[Display command line]]></source>
+        <target><![CDATA[crwdns49502:0crwdne49502:0]]></target>
+      </trans-unit>
+      <trans-unit id="filename" resname="filename">
+        <source><![CDATA[Filename]]></source>
+        <target><![CDATA[crwdns67282:0crwdne67282:0]]></target>
+      </trans-unit>
+      <trans-unit id="displayCommandLine.description" resname="displayCommandLine.description">
+        <source><![CDATA[Display a command line with a prompt and, optionally, the output/response from the commands. Important: If you activate this option, don't select a programming language or the prompts are not visible!]]></source>
+        <target><![CDATA[crwdns49504:0crwdne49504:0]]></target>
+      </trans-unit>
+      <trans-unit id="highlightLines" resname="highlightLines">
+        <source><![CDATA[Highlight lines]]></source>
+        <target><![CDATA[crwdns49506:0crwdne49506:0]]></target>
+      </trans-unit>
+      <trans-unit id="highlightLines.description" resname="highlightLines.description">
+        <source><![CDATA[You can specify the lines to be highlighted in the following format: A single number refers to the line with that number / Ranges are denoted by two numbers, separated with a hyphen (-) / Multiple line numbers or ranges are separated by commas / Whitespace is allowed anywhere and will be stripped off / Example: 1-2, 5, 9-20 (Lines 1 through 2, line 5, lines 9 through 20)]]></source>
+        <target><![CDATA[crwdns49508:0crwdne49508:0]]></target>
+      </trans-unit>
+      <trans-unit id="inlineColour" resname="inlineColour">
+        <source><![CDATA[Inline colour]]></source>
+        <target><![CDATA[crwdns124698:0crwdne124698:0]]></target>
+      </trans-unit>
+      <trans-unit id="inlineColour.description" resname="inlineColour.description">
+        <source><![CDATA[Adds a small inline preview for colours in style sheets.]]></source>
+        <target><![CDATA[crwdns124700:0crwdne124700:0]]></target>
+      </trans-unit>
+      <trans-unit id="lineNumbers" resname="lineNumbers">
+        <source><![CDATA[Line numbers]]></source>
+        <target><![CDATA[crwdns49510:0crwdne49510:0]]></target>
+      </trans-unit>
+      <trans-unit id="options" resname="options">
+        <source><![CDATA[Options]]></source>
+        <target><![CDATA[crwdns49512:0crwdne49512:0]]></target>
+      </trans-unit>
+      <trans-unit id="programmingLanguage" resname="programmingLanguage">
+        <source><![CDATA[Programming language]]></source>
+        <target><![CDATA[crwdns49514:0crwdne49514:0]]></target>
+      </trans-unit>
+      <trans-unit id="showLineNumbers" resname="showLineNumbers">
+        <source><![CDATA[Show line numbers]]></source>
+        <target><![CDATA[crwdns49516:0crwdne49516:0]]></target>
+      </trans-unit>
+      <trans-unit id="showLineNumbers.description" resname="showLineNumbers.description">
+        <source><![CDATA[Activate this option to display line numbers at the beginning of the code lines.]]></source>
+        <target><![CDATA[crwdns49518:0crwdne49518:0]]></target>
+      </trans-unit>
+      <trans-unit id="startWithLineNumber" resname="startWithLineNumber">
+        <source><![CDATA[Start with line number]]></source>
+        <target><![CDATA[crwdns49520:0crwdne49520:0]]></target>
+      </trans-unit>
+      <trans-unit id="startWithLineNumber.description" resname="startWithLineNumber.description">
+        <source><![CDATA[Specify a line number with which the numbering is to begin. The number will also be used for "Highlight lines" as offset value.]]></source>
+        <target><![CDATA[crwdns49522:0crwdne49522:0]]></target>
+      </trans-unit>
+      <trans-unit id="styles" resname="styles">
+        <source><![CDATA[Styles]]></source>
+        <target><![CDATA[crwdns126930:0crwdne126930:0]]></target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
