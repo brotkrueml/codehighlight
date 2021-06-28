@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-06-28T15:37:43Z" product-name="codehighlight" target-language="t3">
+    <body>
+      <trans-unit id="abap" resname="abap" translate="no">
+        <source><![CDATA[ABAP]]></source>
+        <target><![CDATA[crwdns49524:0crwdne49524:0]]></target>
+      </trans-unit>
+      <trans-unit id="abnf" resname="abnf">
+        <source><![CDATA[Augmented Backus–Naur form]]></source>
+        <target><![CDATA[crwdns49526:0crwdne49526:0]]></target>
+      </trans-unit>
+      <trans-unit id="actionscript" resname="actionscript" translate="no">
+        <source><![CDATA[ActionScript]]></source>
+        <target><![CDATA[crwdns49528:0crwdne49528:0]]></target>
+      </trans-unit>
+      <trans-unit id="ada" resname="ada" translate="no">
+        <source><![CDATA[Ada]]></source>
+        <target><![CDATA[crwdns49530:0crwdne49530:0]]></target>
+      </trans-unit>
+      <trans-unit id="agda" resname="agda" translate="no">
+        <source><![CDATA[Agda]]></source>
+        <target><![CDATA[crwdns110330:0crwdne110330:0]]></target>
+      </trans-unit>
+      <trans-unit id="al" resname="al" translate="no">
+        <source><![CDATA[AL]]></source>
+        <target><![CDATA[crwdns110332:0crwdne110332:0]]></target>
+      </trans-unit>
+      <trans-unit id="antlr4" resname="antlr4" translate="no">
+        <source><![CDATA[ANTLR4]]></source>
+        <target><![CDATA[crwdns85902:0crwdne85902:0]]></target>
+      </trans-unit>
+      <trans-unit id="apacheconf" resname="apacheconf">
+        <source><![CDATA[Apache Configuration]]></source>
+        <target><![CDATA[crwdns49532:0crwdne49532:0]]></target>
+      </trans-unit>
+      <trans-unit id="apex" resname="apex" translate="no">
+        <source><![CDATA[Apex]]></source>
+        <target><![CDATA[crwdns126936:0crwdne126936:0]]></target>
+      </trans-unit>
+      <trans-unit id="apl" resname="apl" translate="no">
+        <source><![CDATA[APL]]></source>
+        <target><![CDATA[crwdns49534:0crwdne49534:0]]></target>
+      </trans-unit>
+      <trans-unit id="applescript" resname="applescript" translate="no">
+        <source><![CDATA[AppleScript]]></source>
+        <target><![CDATA[crwdns49536:0crwdne49536:0]]></target>
+      </trans-unit>
+      <trans-unit id="aql" resname="aql" translate="no">
+        <source><![CDATA[AQL]]></source>
+        <target><![CDATA[crwdns85904:0crwdne85904:0]]></target>
+      </trans-unit>
+      <trans-unit id="arduino" resname="arduino" translate="no">
+        <source><![CDATA[Arduino]]></source>
+        <target><![CDATA[crwdns49538:0crwdne49538:0]]></target>
+      </trans-unit>
+      <trans-unit id="arff" resname="arff" translate="no">
+        <source><![CDATA[ARFF]]></source>
+        <target><![CDATA[crwdns49540:0crwdne49540:0]]></target>
+      </trans-unit>
+      <trans-unit id="asciidoc" resname="asciidoc" translate="no">
+        <source><![CDATA[AsciiDoc]]></source>
+        <target><![CDATA[crwdns49542:0crwdne49542:0]]></target>
+      </trans-unit>
+      <trans-unit id="asm6502" resname="asm6502">
+        <source><![CDATA[6502 Assembly]]></source>
+        <target><![CDATA[crwdns49544:0crwdne49544:0]]></target>
+      </trans-unit>
+      <trans-unit id="aspnet" resname="aspnet" translate="no">
+        <source><![CDATA[ASP.NET (C#)]]></source>
+        <target><![CDATA[crwdns49546:0crwdne49546:0]]></target>
+      </trans-unit>
+      <trans-unit id="autohotkey" resname="autohotkey" translate="no">
+        <source><![CDATA[AutoHotkey]]></source>
+        <target><![CDATA[crwdns49548:0crwdne49548:0]]></target>
+      </trans-unit>
+      <trans-unit id="autoit" resname="autoit" translate="no">
+        <source><![CDATA[AutoIt]]></source>
+        <target><![CDATA[crwdns49550:0crwdne49550:0]]></target>
+      </trans-unit>
+      <trans-unit id="bash" resname="bash" translate="no">
+        <source><![CDATA[Bash]]></source>
+        <target><![CDATA[crwdns67284:0crwdne67284:0]]></target>
+      </trans-unit>
+      <trans-unit id="basic" resname="basic" translate="no">
+        <source><![CDATA[BASIC]]></source>
+        <target><![CDATA[crwdns49554:0crwdne49554:0]]></target>
+      </trans-unit>
+      <trans-unit id="batch" resname="batch" translate="no">
+        <source><![CDATA[Batch]]></source>
+        <target><![CDATA[crwdns49556:0crwdne49556:0]]></target>
+      </trans-unit>
+      <trans-unit id="bbcode" resname="bbcode" translate="no">
+        <source><![CDATA[BBcode + Shortcode]]></source>
+        <target><![CDATA[crwdns85906:0crwdne85906:0]]></target>
+      </trans-unit>
+      <trans-unit id="birb" resname="birb" translate="no">
+        <source><![CDATA[Birb]]></source>
+        <target><![CDATA[crwdns113984:0crwdne113984:0]]></target>
+      </trans-unit>
+      <trans-unit id="bison" resname="bison" translate="no">
+        <source><![CDATA[Bison]]></source>
+        <target><![CDATA[crwdns49558:0crwdne49558:0]]></target>
+      </trans-unit>
+      <trans-unit id="bnf" resname="bnf">
+        <source><![CDATA[Backus–Naur form]]></source>
+        <target><![CDATA[crwdns67286:0crwdne67286:0]]></target>
+      </trans-unit>
+      <trans-unit id="brainfuck" resname="brainfuck" translate="no">
+        <source><![CDATA[Brainfuck]]></source>
+        <target><![CDATA[crwdns49562:0crwdne49562:0]]></target>
+      </trans-unit>
+      <trans-unit id="brightscript" resname="brightscript" translate="no">
+        <source><![CDATA[BrightScript]]></source>
+        <target><![CDATA[crwdns85908:0crwdne85908:0]]></target>
+      </trans-unit>
+      <trans-unit id="bro" resname="bro" translate="no">
+        <source><![CDATA[Bro]]></source>
+        <target><![CDATA[crwdns49564:0crwdne49564:0]]></target>
+      </trans-unit>
+      <trans-unit id="bsl" resname="bsl" translate="no">
+        <source><![CDATA[BSL (1C:Enterprise) + OneScript]]></source>
+        <target><![CDATA[crwdns113986:0crwdne113986:0]]></target>
+      </trans-unit>
+      <trans-unit id="c" resname="c" translate="no">
+        <source><![CDATA[C]]></source>
+        <target><![CDATA[crwdns49566:0crwdne49566:0]]></target>
+      </trans-unit>
+      <trans-unit id="cfscript" resname="cfscript" translate="no">
+        <source><![CDATA[CFScript]]></source>
+        <target><![CDATA[crwdns136498:0crwdne136498:0]]></target>
+      </trans-unit>
+      <trans-unit id="chaiscript" resname="chaiscript" translate="no">
+        <source><![CDATA[ChaiScript]]></source>
+        <target><![CDATA[crwdns136500:0crwdne136500:0]]></target>
+      </trans-unit>
+      <trans-unit id="cil" resname="cil" translate="no">
+        <source><![CDATA[CIL]]></source>
+        <target><![CDATA[crwdns49568:0crwdne49568:0]]></target>
+      </trans-unit>
+      <trans-unit id="clike" resname="clike">
+        <source><![CDATA[C-like]]></source>
+        <target><![CDATA[crwdns49570:0crwdne49570:0]]></target>
+      </trans-unit>
+      <trans-unit id="clojure" resname="clojure" translate="no">
+        <source><![CDATA[Clojure]]></source>
+        <target><![CDATA[crwdns49572:0crwdne49572:0]]></target>
+      </trans-unit>
+      <trans-unit id="cmake" resname="cmake" translate="no">
+        <source><![CDATA[CMake]]></source>
+        <target><![CDATA[crwdns49574:0crwdne49574:0]]></target>
+      </trans-unit>
+      <trans-unit id="cobol" resname="cobol" translate="no">
+        <source><![CDATA[COBOL]]></source>
+        <target><![CDATA[crwdns136502:0crwdne136502:0]]></target>
+      </trans-unit>
+      <trans-unit id="coffeescript" resname="coffeescript" translate="no">
+        <source><![CDATA[CoffeeScript]]></source>
+        <target><![CDATA[crwdns49576:0crwdne49576:0]]></target>
+      </trans-unit>
+      <trans-unit id="concurnas" resname="concurnas" translate="no">
+        <source><![CDATA[Concurnas]]></source>
+        <target><![CDATA[crwdns110334:0crwdne110334:0]]></target>
+      </trans-unit>
+      <trans-unit id="coq" resname="coq" translate="no">
+        <source><![CDATA[Coq]]></source>
+        <target><![CDATA[crwdns136504:0crwdne136504:0]]></target>
+      </trans-unit>
+      <trans-unit id="cpp" resname="cpp" translate="no">
+        <source><![CDATA[C++]]></source>
+        <target><![CDATA[crwdns49578:0crwdne49578:0]]></target>
+      </trans-unit>
+      <trans-unit id="crystal" resname="crystal" translate="no">
+        <source><![CDATA[Crystal]]></source>
+        <target><![CDATA[crwdns49580:0crwdne49580:0]]></target>
+      </trans-unit>
+      <trans-unit id="csharp" resname="csharp" translate="no">
+        <source><![CDATA[C#]]></source>
+        <target><![CDATA[crwdns49582:0crwdne49582:0]]></target>
+      </trans-unit>
+      <trans-unit id="csp" resname="csp" translate="no">
+        <source><![CDATA[Content-Security-Policy]]></source>
+        <target><![CDATA[crwdns49584:0crwdne49584:0]]></target>
+      </trans-unit>
+      <trans-unit id="css" resname="css" translate="no">
+        <source><![CDATA[CSS]]></source>
+        <target><![CDATA[crwdns49586:0crwdne49586:0]]></target>
+      </trans-unit>
+      <trans-unit id="css-extras" resname="css-extras">
+        <source><![CDATA[CSS Extras]]></source>
+        <target><![CDATA[crwdns49588:0crwdne49588:0]]></target>
+      </trans-unit>
+      <trans-unit id="csv" resname="csv" translate="no">
+        <source><![CDATA[CSV]]></source>
+        <target><![CDATA[crwdns136506:0crwdne136506:0]]></target>
+      </trans-unit>
+      <trans-unit id="cypher" resname="cypher" translate="no">
+        <source><![CDATA[Cypher]]></source>
+        <target><![CDATA[crwdns110336:0crwdne110336:0]]></target>
+      </trans-unit>
+      <trans-unit id="d" resname="d" translate="no">
+        <source><![CDATA[D]]></source>
+        <target><![CDATA[crwdns49590:0crwdne49590:0]]></target>
+      </trans-unit>
+      <trans-unit id="dart" resname="dart" translate="no">
+        <source><![CDATA[Dart]]></source>
+        <target><![CDATA[crwdns49592:0crwdne49592:0]]></target>
+      </trans-unit>
+      <trans-unit id="dataweave" resname="dataweave" translate="no">
+        <source><![CDATA[DataWeave]]></source>
+        <target><![CDATA[crwdns126938:0crwdne126938:0]]></target>
+      </trans-unit>
+      <trans-unit id="dax" resname="dax" translate="no">
+        <source><![CDATA[DAX]]></source>
+        <target><![CDATA[crwdns110338:0crwdne110338:0]]></target>
+      </trans-unit>
+      <trans-unit id="dhall" resname="dhall" translate="no">
+        <source><![CDATA[Dhall]]></source>
+        <target><![CDATA[crwdns110340:0crwdne110340:0]]></target>
+      </trans-unit>
+      <trans-unit id="diff" resname="diff" translate="no">
+        <source><![CDATA[Diff]]></source>
+        <target><![CDATA[crwdns49594:0crwdne49594:0]]></target>
+      </trans-unit>
+      <trans-unit id="django" resname="django" translate="no">
+        <source><![CDATA[Django/Jinja2]]></source>
+        <target><![CDATA[crwdns49596:0crwdne49596:0]]></target>
+      </trans-unit>
+      <trans-unit id="dns-zone-file" resname="dns-zone-file">
+        <source><![CDATA[DNS zone file]]></source>
+        <target><![CDATA[crwdns49598:0crwdne49598:0]]></target>
+      </trans-unit>
+      <trans-unit id="docker" resname="docker" translate="no">
+        <source><![CDATA[Docker]]></source>
+        <target><![CDATA[crwdns49600:0crwdne49600:0]]></target>
+      </trans-unit>
+      <trans-unit id="dot" resname="dot" translate="no">
+        <source><![CDATA[DOT (Graphviz)]]></source>
+        <target><![CDATA[crwdns136508:0crwdne136508:0]]></target>
+      </trans-unit>
+      <trans-unit id="ebnf" resname="ebnf">
+        <source><![CDATA[Extended Backus–Naur form]]></source>
+        <target><![CDATA[crwdns49602:0crwdne49602:0]]></target>
+      </trans-unit>
+      <trans-unit id="editorconfig" resname="editorconfig" translate="no">
+        <source><![CDATA[EditorConfig]]></source>
+        <target><![CDATA[crwdns110342:0crwdne110342:0]]></target>
+      </trans-unit>
+      <trans-unit id="eiffel" resname="eiffel" translate="no">
+        <source><![CDATA[Eiffel]]></source>
+        <target><![CDATA[crwdns49604:0crwdne49604:0]]></target>
+      </trans-unit>
+      <trans-unit id="ejs" resname="ejs" translate="no">
+        <source><![CDATA[EJS]]></source>
+        <target><![CDATA[crwdns49606:0crwdne49606:0]]></target>
+      </trans-unit>
+      <trans-unit id="elixir" resname="elixir" translate="no">
+        <source><![CDATA[Elixir]]></source>
+        <target><![CDATA[crwdns49608:0crwdne49608:0]]></target>
+      </trans-unit>
+      <trans-unit id="elm" resname="elm" translate="no">
+        <source><![CDATA[Elm]]></source>
+        <target><![CDATA[crwdns49610:0crwdne49610:0]]></target>
+      </trans-unit>
+      <trans-unit id="erb" resname="erb" translate="no">
+        <source><![CDATA[ERB]]></source>
+        <target><![CDATA[crwdns49612:0crwdne49612:0]]></target>
+      </trans-unit>
+      <trans-unit id="erlang" resname="erlang" translate="no">
+        <source><![CDATA[Erlang]]></source>
+        <target><![CDATA[crwdns49614:0crwdne49614:0]]></target>
+      </trans-unit>
+      <trans-unit id="etlua" resname="etlua" translate="no">
+        <source><![CDATA[Embedded Lua templating]]></source>
+        <target><![CDATA[crwdns85910:0crwdne85910:0]]></target>
+      </trans-unit>
+      <trans-unit id="excel-formula" resname="excel-formula">
+        <source><![CDATA[Excel Formula]]></source>
+        <target><![CDATA[crwdns110344:0crwdne110344:0]]></target>
+      </trans-unit>
+      <trans-unit id="factor" resname="factor" translate="no">
+        <source><![CDATA[Factor]]></source>
+        <target><![CDATA[crwdns110346:0crwdne110346:0]]></target>
+      </trans-unit>
+      <trans-unit id="false" resname="false" translate="no">
+        <source><![CDATA[False]]></source>
+        <target><![CDATA[crwdns136510:0crwdne136510:0]]></target>
+      </trans-unit>
+      <trans-unit id="firestore-security-rules" resname="firestore-security-rules">
+        <source><![CDATA[Firestore security rules]]></source>
+        <target><![CDATA[crwdns85912:0crwdne85912:0]]></target>
+      </trans-unit>
+      <trans-unit id="flow" resname="flow" translate="no">
+        <source><![CDATA[Flow]]></source>
+        <target><![CDATA[crwdns49616:0crwdne49616:0]]></target>
+      </trans-unit>
+      <trans-unit id="fortran" resname="fortran" translate="no">
+        <source><![CDATA[Fortran]]></source>
+        <target><![CDATA[crwdns49618:0crwdne49618:0]]></target>
+      </trans-unit>
+      <trans-unit id="fsharp" resname="fsharp" translate="no">
+        <source><![CDATA[F#]]></source>
+        <target><![CDATA[crwdns49620:0crwdne49620:0]]></target>
+      </trans-unit>
+      <trans-unit id="ftl" resname="ftl">
+        <source><![CDATA[FreeMarker Template Language]]></source>
+        <target><![CDATA[crwdns85914:0crwdne85914:0]]></target>
+      </trans-unit>
+      <trans-unit id="gcode" resname="gcode" translate="no">
+        <source><![CDATA[G-code]]></source>
+        <target><![CDATA[crwdns49622:0crwdne49622:0]]></target>
+      </trans-unit>
+      <trans-unit id="gdscript" resname="gdscript" translate="no">
+        <source><![CDATA[GDScript]]></source>
+        <target><![CDATA[crwdns85916:0crwdne85916:0]]></target>
+      </trans-unit>
+      <trans-unit id="gedcom" resname="gedcom" translate="no">
+        <source><![CDATA[GEDCOM]]></source>
+        <target><![CDATA[crwdns49624:0crwdne49624:0]]></target>
+      </trans-unit>
+      <trans-unit id="gherkin" resname="gherkin" translate="no">
+        <source><![CDATA[Gherkin]]></source>
+        <target><![CDATA[crwdns49626:0crwdne49626:0]]></target>
+      </trans-unit>
+      <trans-unit id="git" resname="git" translate="no">
+        <source><![CDATA[Git]]></source>
+        <target><![CDATA[crwdns49628:0crwdne49628:0]]></target>
+      </trans-unit>
+      <trans-unit id="glsl" resname="glsl" translate="no">
+        <source><![CDATA[GLSL]]></source>
+        <target><![CDATA[crwdns49630:0crwdne49630:0]]></target>
+      </trans-unit>
+      <trans-unit id="gml" resname="gml" translate="no">
+        <source><![CDATA[GameMaker Language]]></source>
+        <target><![CDATA[crwdns49632:0crwdne49632:0]]></target>
+      </trans-unit>
+      <trans-unit id="go" resname="go" translate="no">
+        <source><![CDATA[Go]]></source>
+        <target><![CDATA[crwdns49634:0crwdne49634:0]]></target>
+      </trans-unit>
+      <trans-unit id="graphql" resname="graphql" translate="no">
+        <source><![CDATA[GraphQL]]></source>
+        <target><![CDATA[crwdns49636:0crwdne49636:0]]></target>
+      </trans-unit>
+      <trans-unit id="groovy" resname="groovy" translate="no">
+        <source><![CDATA[Groovy]]></source>
+        <target><![CDATA[crwdns49638:0crwdne49638:0]]></target>
+      </trans-unit>
+      <trans-unit id="haml" resname="haml" translate="no">
+        <source><![CDATA[Haml]]></source>
+        <target><![CDATA[crwdns49640:0crwdne49640:0]]></target>
+      </trans-unit>
+      <trans-unit id="handlebars" resname="handlebars" translate="no">
+        <source><![CDATA[Handlebars]]></source>
+        <target><![CDATA[crwdns49642:0crwdne49642:0]]></target>
+      </trans-unit>
+      <trans-unit id="haskell" resname="haskell" translate="no">
+        <source><![CDATA[Haskell]]></source>
+        <target><![CDATA[crwdns49644:0crwdne49644:0]]></target>
+      </trans-unit>
+      <trans-unit id="haxe" resname="haxe" translate="no">
+        <source><![CDATA[Haxe]]></source>
+        <target><![CDATA[crwdns49646:0crwdne49646:0]]></target>
+      </trans-unit>
+      <trans-unit id="hcl" resname="hcl" translate="no">
+        <source><![CDATA[HCL]]></source>
+        <target><![CDATA[crwdns49648:0crwdne49648:0]]></target>
+      </trans-unit>
+      <trans-unit id="hlsl" resname="hlsl" translate="no">
+        <source><![CDATA[HLSL]]></source>
+        <target><![CDATA[crwdns110348:0crwdne110348:0]]></target>
+      </trans-unit>
+      <trans-unit id="hpkp" resname="hpkp" translate="no">
+        <source><![CDATA[HTTP Public-Key-Pins]]></source>
+        <target><![CDATA[crwdns49650:0crwdne49650:0]]></target>
+      </trans-unit>
+      <trans-unit id="hsts" resname="hsts" translate="no">
+        <source><![CDATA[HTTP Strict-Transport-Security]]></source>
+        <target><![CDATA[crwdns49652:0crwdne49652:0]]></target>
+      </trans-unit>
+      <trans-unit id="html" resname="html" translate="no">
+        <source><![CDATA[HTML]]></source>
+        <target><![CDATA[crwdns49654:0crwdne49654:0]]></target>
+      </trans-unit>
+      <trans-unit id="http" resname="http" translate="no">
+        <source><![CDATA[HTTP]]></source>
+        <target><![CDATA[crwdns49656:0crwdne49656:0]]></target>
+      </trans-unit>
+      <trans-unit id="ichigojam" resname="ichigojam" translate="no">
+        <source><![CDATA[IchigoJam]]></source>
+        <target><![CDATA[crwdns49658:0crwdne49658:0]]></target>
+      </trans-unit>
+      <trans-unit id="icon" resname="icon" translate="no">
+        <source><![CDATA[Icon]]></source>
+        <target><![CDATA[crwdns49660:0crwdne49660:0]]></target>
+      </trans-unit>
+      <trans-unit id="icu-message-format" resname="icu-message-format">
+        <source><![CDATA[ICU Message Format]]></source>
+        <target><![CDATA[crwdns136512:0crwdne136512:0]]></target>
+      </trans-unit>
+      <trans-unit id="idris" resname="idris" translate="no">
+        <source><![CDATA[Idris]]></source>
+        <target><![CDATA[crwdns136514:0crwdne136514:0]]></target>
+      </trans-unit>
+      <trans-unit id="iecst" resname="iecst">
+        <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
+        <target><![CDATA[crwdns110350:0crwdne110350:0]]></target>
+      </trans-unit>
+      <trans-unit id="ignore" resname="ignore" translate="no">
+        <source><![CDATA[.ignore + .gitignore + .hgignore + .npmignore]]></source>
+        <target><![CDATA[crwdns110352:0crwdne110352:0]]></target>
+      </trans-unit>
+      <trans-unit id="inform7" resname="inform7" translate="no">
+        <source><![CDATA[Inform 7]]></source>
+        <target><![CDATA[crwdns49662:0crwdne49662:0]]></target>
+      </trans-unit>
+      <trans-unit id="ini" resname="ini" translate="no">
+        <source><![CDATA[Ini]]></source>
+        <target><![CDATA[crwdns49664:0crwdne49664:0]]></target>
+      </trans-unit>
+      <trans-unit id="io" resname="io" translate="no">
+        <source><![CDATA[Io]]></source>
+        <target><![CDATA[crwdns49666:0crwdne49666:0]]></target>
+      </trans-unit>
+      <trans-unit id="j" resname="j" translate="no">
+        <source><![CDATA[J]]></source>
+        <target><![CDATA[crwdns49668:0crwdne49668:0]]></target>
+      </trans-unit>
+      <trans-unit id="java" resname="java" translate="no">
+        <source><![CDATA[Java]]></source>
+        <target><![CDATA[crwdns49670:0crwdne49670:0]]></target>
+      </trans-unit>
+      <trans-unit id="javadoc" resname="javadoc" translate="no">
+        <source><![CDATA[JavaDoc]]></source>
+        <target><![CDATA[crwdns49672:0crwdne49672:0]]></target>
+      </trans-unit>
+      <trans-unit id="javadoclike" resname="javadoclike" translate="no">
+        <source><![CDATA[JavaDoc-like]]></source>
+        <target><![CDATA[crwdns49674:0crwdne49674:0]]></target>
+      </trans-unit>
+      <trans-unit id="javascript" resname="javascript" translate="no">
+        <source><![CDATA[JavaScript]]></source>
+        <target><![CDATA[crwdns49676:0crwdne49676:0]]></target>
+      </trans-unit>
+      <trans-unit id="javastacktrace" resname="javastacktrace">
+        <source><![CDATA[Java stack trace]]></source>
+        <target><![CDATA[crwdns49678:0crwdne49678:0]]></target>
+      </trans-unit>
+      <trans-unit id="jexl" resname="jexl" translate="no">
+        <source><![CDATA[Jexl]]></source>
+        <target><![CDATA[crwdns136516:0crwdne136516:0]]></target>
+      </trans-unit>
+      <trans-unit id="jolie" resname="jolie" translate="no">
+        <source><![CDATA[Jolie]]></source>
+        <target><![CDATA[crwdns49680:0crwdne49680:0]]></target>
+      </trans-unit>
+      <trans-unit id="jq" resname="jq" translate="no">
+        <source><![CDATA[JQ]]></source>
+        <target><![CDATA[crwdns49682:0crwdne49682:0]]></target>
+      </trans-unit>
+      <trans-unit id="js-extras" resname="js-extras">
+        <source><![CDATA[JS Extras]]></source>
+        <target><![CDATA[crwdns49684:0crwdne49684:0]]></target>
+      </trans-unit>
+      <trans-unit id="js-templates" resname="js-templates">
+        <source><![CDATA[JS Templates]]></source>
+        <target><![CDATA[crwdns49686:0crwdne49686:0]]></target>
+      </trans-unit>
+      <trans-unit id="jsdoc" resname="jsdoc" translate="no">
+        <source><![CDATA[JSDoc]]></source>
+        <target><![CDATA[crwdns49688:0crwdne49688:0]]></target>
+      </trans-unit>
+      <trans-unit id="json" resname="json" translate="no">
+        <source><![CDATA[JSON]]></source>
+        <target><![CDATA[crwdns49690:0crwdne49690:0]]></target>
+      </trans-unit>
+      <trans-unit id="json5" resname="json5" translate="no">
+        <source><![CDATA[JSON5]]></source>
+        <target><![CDATA[crwdns49692:0crwdne49692:0]]></target>
+      </trans-unit>
+      <trans-unit id="jsonp" resname="jsonp" translate="no">
+        <source><![CDATA[JSONP]]></source>
+        <target><![CDATA[crwdns49694:0crwdne49694:0]]></target>
+      </trans-unit>
+      <trans-unit id="jsstacktrace" resname="jsstacktrace">
+        <source><![CDATA[JS stack trace]]></source>
+        <target><![CDATA[crwdns110354:0crwdne110354:0]]></target>
+      </trans-unit>
+      <trans-unit id="jsx" resname="jsx" translate="no">
+        <source><![CDATA[React JSX]]></source>
+        <target><![CDATA[crwdns49696:0crwdne49696:0]]></target>
+      </trans-unit>
+      <trans-unit id="julia" resname="julia" translate="no">
+        <source><![CDATA[Julia]]></source>
+        <target><![CDATA[crwdns49698:0crwdne49698:0]]></target>
+      </trans-unit>
+      <trans-unit id="keyman" resname="keyman" translate="no">
+        <source><![CDATA[Keyman]]></source>
+        <target><![CDATA[crwdns49700:0crwdne49700:0]]></target>
+      </trans-unit>
+      <trans-unit id="kotlin" resname="kotlin" translate="no">
+        <source><![CDATA[Kotlin]]></source>
+        <target><![CDATA[crwdns49702:0crwdne49702:0]]></target>
+      </trans-unit>
+      <trans-unit id="kumir" resname="kumir" translate="no">
+        <source><![CDATA[KuMir (КуМир)]]></source>
+        <target><![CDATA[crwdns136518:0crwdne136518:0]]></target>
+      </trans-unit>
+      <trans-unit id="latex" resname="latex" translate="no">
+        <source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
+        <target><![CDATA[crwdns49704:0crwdne49704:0]]></target>
+      </trans-unit>
+      <trans-unit id="latte" resname="latte" translate="no">
+        <source><![CDATA[Latte]]></source>
+        <target><![CDATA[crwdns85918:0crwdne85918:0]]></target>
+      </trans-unit>
+      <trans-unit id="less" resname="less" translate="no">
+        <source><![CDATA[Less]]></source>
+        <target><![CDATA[crwdns49706:0crwdne49706:0]]></target>
+      </trans-unit>
+      <trans-unit id="lilypond" resname="lilypond" translate="no">
+        <source><![CDATA[LilyPond]]></source>
+        <target><![CDATA[crwdns49708:0crwdne49708:0]]></target>
+      </trans-unit>
+      <trans-unit id="liquid" resname="liquid" translate="no">
+        <source><![CDATA[Liquid]]></source>
+        <target><![CDATA[crwdns49710:0crwdne49710:0]]></target>
+      </trans-unit>
+      <trans-unit id="lisp" resname="lisp" translate="no">
+        <source><![CDATA[Lisp]]></source>
+        <target><![CDATA[crwdns49712:0crwdne49712:0]]></target>
+      </trans-unit>
+      <trans-unit id="livescript" resname="livescript" translate="no">
+        <source><![CDATA[LiveScript]]></source>
+        <target><![CDATA[crwdns49714:0crwdne49714:0]]></target>
+      </trans-unit>
+      <trans-unit id="llvm" resname="llvm" translate="no">
+        <source><![CDATA[LLVM IR]]></source>
+        <target><![CDATA[crwdns110356:0crwdne110356:0]]></target>
+      </trans-unit>
+      <trans-unit id="log" resname="log">
+        <source><![CDATA[Log file]]></source>
+        <target><![CDATA[crwdns136520:0crwdne136520:0]]></target>
+      </trans-unit>
+      <trans-unit id="lolcode" resname="lolcode" translate="no">
+        <source><![CDATA[LOLCODE]]></source>
+        <target><![CDATA[crwdns49716:0crwdne49716:0]]></target>
+      </trans-unit>
+      <trans-unit id="lua" resname="lua" translate="no">
+        <source><![CDATA[Lua]]></source>
+        <target><![CDATA[crwdns49718:0crwdne49718:0]]></target>
+      </trans-unit>
+      <trans-unit id="makefile" resname="makefile" translate="no">
+        <source><![CDATA[Makefile]]></source>
+        <target><![CDATA[crwdns49720:0crwdne49720:0]]></target>
+      </trans-unit>
+      <trans-unit id="markdown" resname="markdown" translate="no">
+        <source><![CDATA[Markdown]]></source>
+        <target><![CDATA[crwdns49722:0crwdne49722:0]]></target>
+      </trans-unit>
+      <trans-unit id="markup" resname="markup" translate="no">
+        <source><![CDATA[Markup]]></source>
+        <target><![CDATA[crwdns49724:0crwdne49724:0]]></target>
+      </trans-unit>
+      <trans-unit id="markup-templating" resname="markup-templating">
+        <source><![CDATA[Markup templating]]></source>
+        <target><![CDATA[crwdns49726:0crwdne49726:0]]></target>
+      </trans-unit>
+      <trans-unit id="mathml" resname="mathml" translate="no">
+        <source><![CDATA[MathML]]></source>
+        <target><![CDATA[crwdns49728:0crwdne49728:0]]></target>
+      </trans-unit>
+      <trans-unit id="matlab" resname="matlab" translate="no">
+        <source><![CDATA[MATLAB]]></source>
+        <target><![CDATA[crwdns49730:0crwdne49730:0]]></target>
+      </trans-unit>
+      <trans-unit id="mel" resname="mel" translate="no">
+        <source><![CDATA[MEL]]></source>
+        <target><![CDATA[crwdns49732:0crwdne49732:0]]></target>
+      </trans-unit>
+      <trans-unit id="mizar" resname="mizar" translate="no">
+        <source><![CDATA[Mizar]]></source>
+        <target><![CDATA[crwdns49734:0crwdne49734:0]]></target>
+      </trans-unit>
+      <trans-unit id="mongodb" resname="mongodb" translate="no">
+        <source><![CDATA[MongoDB]]></source>
+        <target><![CDATA[crwdns113988:0crwdne113988:0]]></target>
+      </trans-unit>
+      <trans-unit id="monkey" resname="monkey" translate="no">
+        <source><![CDATA[Monkey]]></source>
+        <target><![CDATA[crwdns49736:0crwdne49736:0]]></target>
+      </trans-unit>
+      <trans-unit id="moonscript" resname="moonscript" translate="no">
+        <source><![CDATA[MoonScript]]></source>
+        <target><![CDATA[crwdns85920:0crwdne85920:0]]></target>
+      </trans-unit>
+      <trans-unit id="n1ql" resname="n1ql" translate="no">
+        <source><![CDATA[N1QL]]></source>
+        <target><![CDATA[crwdns49738:0crwdne49738:0]]></target>
+      </trans-unit>
+      <trans-unit id="naniscript" resname="naniscript" translate="no">
+        <source><![CDATA[Naninovel Script]]></source>
+        <target><![CDATA[crwdns113990:0crwdne113990:0]]></target>
+      </trans-unit>
+      <trans-unit id="n4js" resname="n4js" translate="no">
+        <source><![CDATA[N4JS]]></source>
+        <target><![CDATA[crwdns49740:0crwdne49740:0]]></target>
+      </trans-unit>
+      <trans-unit id="nand2tetris-hdl" resname="nand2tetris-hdl" translate="no">
+        <source><![CDATA[Nand To Tetris HDL]]></source>
+        <target><![CDATA[crwdns49742:0crwdne49742:0]]></target>
+      </trans-unit>
+      <trans-unit id="nasm" resname="nasm" translate="no">
+        <source><![CDATA[NASM]]></source>
+        <target><![CDATA[crwdns49744:0crwdne49744:0]]></target>
+      </trans-unit>
+      <trans-unit id="neon" resname="neon" translate="no">
+        <source><![CDATA[NEON]]></source>
+        <target><![CDATA[crwdns85922:0crwdne85922:0]]></target>
+      </trans-unit>
+      <trans-unit id="nevod" resname="nevod" translate="no">
+        <source><![CDATA[Nevod]]></source>
+        <target><![CDATA[crwdns136522:0crwdne136522:0]]></target>
+      </trans-unit>
+      <trans-unit id="nginx" resname="nginx" translate="no">
+        <source><![CDATA[nginx]]></source>
+        <target><![CDATA[crwdns49746:0crwdne49746:0]]></target>
+      </trans-unit>
+      <trans-unit id="nim" resname="nim" translate="no">
+        <source><![CDATA[Nim]]></source>
+        <target><![CDATA[crwdns49748:0crwdne49748:0]]></target>
+      </trans-unit>
+      <trans-unit id="nix" resname="nix" translate="no">
+        <source><![CDATA[Nix]]></source>
+        <target><![CDATA[crwdns49750:0crwdne49750:0]]></target>
+      </trans-unit>
+      <trans-unit id="nsis" resname="nsis" translate="no">
+        <source><![CDATA[NSIS]]></source>
+        <target><![CDATA[crwdns49752:0crwdne49752:0]]></target>
+      </trans-unit>
+      <trans-unit id="objectivec" resname="objectivec" translate="no">
+        <source><![CDATA[Objective-C]]></source>
+        <target><![CDATA[crwdns49754:0crwdne49754:0]]></target>
+      </trans-unit>
+      <trans-unit id="ocaml" resname="ocaml" translate="no">
+        <source><![CDATA[OCaml]]></source>
+        <target><![CDATA[crwdns49756:0crwdne49756:0]]></target>
+      </trans-unit>
+      <trans-unit id="opencl" resname="opencl" translate="no">
+        <source><![CDATA[OpenCL]]></source>
+        <target><![CDATA[crwdns49758:0crwdne49758:0]]></target>
+      </trans-unit>
+      <trans-unit id="openqasm" resname="openqasm" translate="no">
+        <source><![CDATA[OpenQasm]]></source>
+        <target><![CDATA[crwdns136524:0crwdne136524:0]]></target>
+      </trans-unit>
+      <trans-unit id="oz" resname="oz" translate="no">
+        <source><![CDATA[Oz]]></source>
+        <target><![CDATA[crwdns49760:0crwdne49760:0]]></target>
+      </trans-unit>
+      <trans-unit id="parigp" resname="parigp" translate="no">
+        <source><![CDATA[PARI/GP]]></source>
+        <target><![CDATA[crwdns49762:0crwdne49762:0]]></target>
+      </trans-unit>
+      <trans-unit id="parser" resname="parser" translate="no">
+        <source><![CDATA[Parser]]></source>
+        <target><![CDATA[crwdns49764:0crwdne49764:0]]></target>
+      </trans-unit>
+      <trans-unit id="pascal" resname="pascal" translate="no">
+        <source><![CDATA[Pascal + Object Pascal]]></source>
+        <target><![CDATA[crwdns49766:0crwdne49766:0]]></target>
+      </trans-unit>
+      <trans-unit id="pascaligo" resname="pascaligo" translate="no">
+        <source><![CDATA[Pascaligo]]></source>
+        <target><![CDATA[crwdns49768:0crwdne49768:0]]></target>
+      </trans-unit>
+      <trans-unit id="pcaxis" resname="pcaxis" translate="no">
+        <source><![CDATA[PC-Axis]]></source>
+        <target><![CDATA[crwdns49770:0crwdne49770:0]]></target>
+      </trans-unit>
+      <trans-unit id="peoplecode" resname="peoplecode" translate="no">
+        <source><![CDATA[PeopleCode]]></source>
+        <target><![CDATA[crwdns110358:0crwdne110358:0]]></target>
+      </trans-unit>
+      <trans-unit id="perl" resname="perl" translate="no">
+        <source><![CDATA[Perl]]></source>
+        <target><![CDATA[crwdns49772:0crwdne49772:0]]></target>
+      </trans-unit>
+      <trans-unit id="php" resname="php" translate="no">
+        <source><![CDATA[PHP]]></source>
+        <target><![CDATA[crwdns49774:0crwdne49774:0]]></target>
+      </trans-unit>
+      <trans-unit id="php-extras" resname="php-extras">
+        <source><![CDATA[PHP Extras]]></source>
+        <target><![CDATA[crwdns49776:0crwdne49776:0]]></target>
+      </trans-unit>
+      <trans-unit id="phpdoc" resname="phpdoc" translate="no">
+        <source><![CDATA[PHPDoc]]></source>
+        <target><![CDATA[crwdns49778:0crwdne49778:0]]></target>
+      </trans-unit>
+      <trans-unit id="plsql" resname="plsql" translate="no">
+        <source><![CDATA[PL/SQL]]></source>
+        <target><![CDATA[crwdns49780:0crwdne49780:0]]></target>
+      </trans-unit>
+      <trans-unit id="powerquery" resname="powerquery" translate="no">
+        <source><![CDATA[PowerQuery]]></source>
+        <target><![CDATA[crwdns110360:0crwdne110360:0]]></target>
+      </trans-unit>
+      <trans-unit id="powershell" resname="powershell" translate="no">
+        <source><![CDATA[PowerShell]]></source>
+        <target><![CDATA[crwdns49782:0crwdne49782:0]]></target>
+      </trans-unit>
+      <trans-unit id="processing" resname="processing" translate="no">
+        <source><![CDATA[Processing]]></source>
+        <target><![CDATA[crwdns49784:0crwdne49784:0]]></target>
+      </trans-unit>
+      <trans-unit id="prolog" resname="prolog" translate="no">
+        <source><![CDATA[Prolog]]></source>
+        <target><![CDATA[crwdns49786:0crwdne49786:0]]></target>
+      </trans-unit>
+      <trans-unit id="promql" resname="promql" translate="no">
+        <source><![CDATA[PromQL]]></source>
+        <target><![CDATA[crwdns126940:0crwdne126940:0]]></target>
+      </trans-unit>
+      <trans-unit id="properties" resname="properties" translate="no">
+        <source><![CDATA[.properties]]></source>
+        <target><![CDATA[crwdns49788:0crwdne49788:0]]></target>
+      </trans-unit>
+      <trans-unit id="protobuf" resname="protobuf" translate="no">
+        <source><![CDATA[Protocol Buffers]]></source>
+        <target><![CDATA[crwdns49790:0crwdne49790:0]]></target>
+      </trans-unit>
+      <trans-unit id="psl" resname="psl" translate="no">
+        <source><![CDATA[PATROL Scripting Language]]></source>
+        <target><![CDATA[crwdns136526:0crwdne136526:0]]></target>
+      </trans-unit>
+      <trans-unit id="pug" resname="pug" translate="no">
+        <source><![CDATA[Pug]]></source>
+        <target><![CDATA[crwdns49792:0crwdne49792:0]]></target>
+      </trans-unit>
+      <trans-unit id="puppet" resname="puppet" translate="no">
+        <source><![CDATA[Puppet]]></source>
+        <target><![CDATA[crwdns49794:0crwdne49794:0]]></target>
+      </trans-unit>
+      <trans-unit id="pure" resname="pure" translate="no">
+        <source><![CDATA[Pure]]></source>
+        <target><![CDATA[crwdns49796:0crwdne49796:0]]></target>
+      </trans-unit>
+      <trans-unit id="purebasic" resname="purebasic" translate="no">
+        <source><![CDATA[PureBasic]]></source>
+        <target><![CDATA[crwdns110362:0crwdne110362:0]]></target>
+      </trans-unit>
+      <trans-unit id="purescript" resname="purescript" translate="no">
+        <source><![CDATA[PureScript]]></source>
+        <target><![CDATA[crwdns113992:0crwdne113992:0]]></target>
+      </trans-unit>
+      <trans-unit id="python" resname="python" translate="no">
+        <source><![CDATA[Python]]></source>
+        <target><![CDATA[crwdns49798:0crwdne49798:0]]></target>
+      </trans-unit>
+      <trans-unit id="q" resname="q">
+        <source><![CDATA[Q (kdb+ database)]]></source>
+        <target><![CDATA[crwdns49800:0crwdne49800:0]]></target>
+      </trans-unit>
+      <trans-unit id="qml" resname="qml" translate="no">
+        <source><![CDATA[QML]]></source>
+        <target><![CDATA[crwdns85924:0crwdne85924:0]]></target>
+      </trans-unit>
+      <trans-unit id="qore" resname="qore" translate="no">
+        <source><![CDATA[Qore]]></source>
+        <target><![CDATA[crwdns49802:0crwdne49802:0]]></target>
+      </trans-unit>
+      <trans-unit id="qsharp" resname="qsharp" translate="no">
+        <source><![CDATA[Q#]]></source>
+        <target><![CDATA[crwdns136528:0crwdne136528:0]]></target>
+      </trans-unit>
+      <trans-unit id="r" resname="r" translate="no">
+        <source><![CDATA[R]]></source>
+        <target><![CDATA[crwdns49804:0crwdne49804:0]]></target>
+      </trans-unit>
+      <trans-unit id="racket" resname="racket" translate="no">
+        <source><![CDATA[Racket]]></source>
+        <target><![CDATA[crwdns110364:0crwdne110364:0]]></target>
+      </trans-unit>
+      <trans-unit id="rbnf" resname="rbnf">
+        <source><![CDATA[Routing Backus–Naur form]]></source>
+        <target><![CDATA[crwdns67288:0crwdne67288:0]]></target>
+      </trans-unit>
+      <trans-unit id="reason" resname="reason" translate="no">
+        <source><![CDATA[Reason]]></source>
+        <target><![CDATA[crwdns49806:0crwdne49806:0]]></target>
+      </trans-unit>
+      <trans-unit id="regex" resname="regex" translate="no">
+        <source><![CDATA[Regex]]></source>
+        <target><![CDATA[crwdns49808:0crwdne49808:0]]></target>
+      </trans-unit>
+      <trans-unit id="rego" resname="rego" translate="no">
+        <source><![CDATA[Rego]]></source>
+        <target><![CDATA[crwdns136530:0crwdne136530:0]]></target>
+      </trans-unit>
+      <trans-unit id="renpy" resname="renpy" translate="no">
+        <source><![CDATA[Ren'py]]></source>
+        <target><![CDATA[crwdns49810:0crwdne49810:0]]></target>
+      </trans-unit>
+      <trans-unit id="rest" resname="rest" translate="no">
+        <source><![CDATA[reST (reStructuredText)]]></source>
+        <target><![CDATA[crwdns49812:0crwdne49812:0]]></target>
+      </trans-unit>
+      <trans-unit id="rip" resname="rip" translate="no">
+        <source><![CDATA[Rip]]></source>
+        <target><![CDATA[crwdns49814:0crwdne49814:0]]></target>
+      </trans-unit>
+      <trans-unit id="roboconf" resname="roboconf" translate="no">
+        <source><![CDATA[Roboconf]]></source>
+        <target><![CDATA[crwdns49816:0crwdne49816:0]]></target>
+      </trans-unit>
+      <trans-unit id="robotframework" resname="robotframework" translate="no">
+        <source><![CDATA[Robot Framework]]></source>
+        <target><![CDATA[crwdns85926:0crwdne85926:0]]></target>
+      </trans-unit>
+      <trans-unit id="ruby" resname="ruby" translate="no">
+        <source><![CDATA[Ruby]]></source>
+        <target><![CDATA[crwdns49818:0crwdne49818:0]]></target>
+      </trans-unit>
+      <trans-unit id="rust" resname="rust" translate="no">
+        <source><![CDATA[Rust]]></source>
+        <target><![CDATA[crwdns49820:0crwdne49820:0]]></target>
+      </trans-unit>
+      <trans-unit id="sas" resname="sas" translate="no">
+        <source><![CDATA[SAS]]></source>
+        <target><![CDATA[crwdns49822:0crwdne49822:0]]></target>
+      </trans-unit>
+      <trans-unit id="sass" resname="sass" translate="no">
+        <source><![CDATA[Sass (Sass)]]></source>
+        <target><![CDATA[crwdns49824:0crwdne49824:0]]></target>
+      </trans-unit>
+      <trans-unit id="scala" resname="scala" translate="no">
+        <source><![CDATA[Scala]]></source>
+        <target><![CDATA[crwdns49826:0crwdne49826:0]]></target>
+      </trans-unit>
+      <trans-unit id="scheme" resname="scheme" translate="no">
+        <source><![CDATA[Scheme]]></source>
+        <target><![CDATA[crwdns49828:0crwdne49828:0]]></target>
+      </trans-unit>
+      <trans-unit id="scss" resname="scss" translate="no">
+        <source><![CDATA[Sass (Scss)]]></source>
+        <target><![CDATA[crwdns49830:0crwdne49830:0]]></target>
+      </trans-unit>
+      <trans-unit id="shell" resname="shell" translate="no">
+        <source><![CDATA[Shell]]></source>
+        <target><![CDATA[crwdns67290:0crwdne67290:0]]></target>
+      </trans-unit>
+      <trans-unit id="shell-session" resname="shell-session">
+        <source><![CDATA[Shell session]]></source>
+        <target><![CDATA[crwdns49832:0crwdne49832:0]]></target>
+      </trans-unit>
+      <trans-unit id="smali" resname="smali" translate="no">
+        <source><![CDATA[Smali]]></source>
+        <target><![CDATA[crwdns110366:0crwdne110366:0]]></target>
+      </trans-unit>
+      <trans-unit id="smalltalk" resname="smalltalk" translate="no">
+        <source><![CDATA[Smalltalk]]></source>
+        <target><![CDATA[crwdns49834:0crwdne49834:0]]></target>
+      </trans-unit>
+      <trans-unit id="smarty" resname="smarty" translate="no">
+        <source><![CDATA[Smarty]]></source>
+        <target><![CDATA[crwdns49836:0crwdne49836:0]]></target>
+      </trans-unit>
+      <trans-unit id="sml" resname="sml" translate="no">
+        <source><![CDATA[SML + SML/NJ]]></source>
+        <target><![CDATA[crwdns113994:0crwdne113994:0]]></target>
+      </trans-unit>
+      <trans-unit id="solidity" resname="solidity" translate="no">
+        <source><![CDATA[Solidity (Ethereum)]]></source>
+        <target><![CDATA[crwdns85928:0crwdne85928:0]]></target>
+      </trans-unit>
+      <trans-unit id="solution-file" resname="solution-file">
+        <source><![CDATA[Solution file]]></source>
+        <target><![CDATA[crwdns110368:0crwdne110368:0]]></target>
+      </trans-unit>
+      <trans-unit id="soy" resname="soy">
+        <source><![CDATA[Soy (Closure Template)]]></source>
+        <target><![CDATA[crwdns49838:0crwdne49838:0]]></target>
+      </trans-unit>
+      <trans-unit id="sparql" resname="sparql" translate="no">
+        <source><![CDATA[SPARQL]]></source>
+        <target><![CDATA[crwdns85930:0crwdne85930:0]]></target>
+      </trans-unit>
+      <trans-unit id="splunk-spl" resname="splunk-spl" translate="no">
+        <source><![CDATA[Splunk SPL]]></source>
+        <target><![CDATA[crwdns49840:0crwdne49840:0]]></target>
+      </trans-unit>
+      <trans-unit id="sqf" resname="sqf" translate="no">
+        <source><![CDATA[SQF: Status Quo Function (Arma 3)]]></source>
+        <target><![CDATA[crwdns85932:0crwdne85932:0]]></target>
+      </trans-unit>
+      <trans-unit id="sql" resname="sql" translate="no">
+        <source><![CDATA[SQL]]></source>
+        <target><![CDATA[crwdns49842:0crwdne49842:0]]></target>
+      </trans-unit>
+      <trans-unit id="squirrel" resname="squirrel" translate="no">
+        <source><![CDATA[Squirrel]]></source>
+        <target><![CDATA[crwdns136532:0crwdne136532:0]]></target>
+      </trans-unit>
+      <trans-unit id="stan" resname="stan" translate="no">
+        <source><![CDATA[Stan]]></source>
+        <target><![CDATA[crwdns113996:0crwdne113996:0]]></target>
+      </trans-unit>
+      <trans-unit id="stylus" resname="stylus" translate="no">
+        <source><![CDATA[Stylus]]></source>
+        <target><![CDATA[crwdns49844:0crwdne49844:0]]></target>
+      </trans-unit>
+      <trans-unit id="svg" resname="svg" translate="no">
+        <source><![CDATA[SVG]]></source>
+        <target><![CDATA[crwdns49846:0crwdne49846:0]]></target>
+      </trans-unit>
+      <trans-unit id="swift" resname="swift" translate="no">
+        <source><![CDATA[Swift]]></source>
+        <target><![CDATA[crwdns49848:0crwdne49848:0]]></target>
+      </trans-unit>
+      <trans-unit id="t4-cs" resname="t4-cs">
+        <source><![CDATA[T4 Text Templates (C#)]]></source>
+        <target><![CDATA[crwdns49850:0crwdne49850:0]]></target>
+      </trans-unit>
+      <trans-unit id="t4-templating" resname="t4-templating">
+        <source><![CDATA[T4 templating]]></source>
+        <target><![CDATA[crwdns49852:0crwdne49852:0]]></target>
+      </trans-unit>
+      <trans-unit id="t4-vb" resname="t4-vb">
+        <source><![CDATA[T4 Text Templates (VB)]]></source>
+        <target><![CDATA[crwdns49854:0crwdne49854:0]]></target>
+      </trans-unit>
+      <trans-unit id="tap" resname="tap" translate="no">
+        <source><![CDATA[TAP]]></source>
+        <target><![CDATA[crwdns49856:0crwdne49856:0]]></target>
+      </trans-unit>
+      <trans-unit id="tcl" resname="tcl" translate="no">
+        <source><![CDATA[Tcl]]></source>
+        <target><![CDATA[crwdns49858:0crwdne49858:0]]></target>
+      </trans-unit>
+      <trans-unit id="textile" resname="textile" translate="no">
+        <source><![CDATA[Textile]]></source>
+        <target><![CDATA[crwdns49860:0crwdne49860:0]]></target>
+      </trans-unit>
+      <trans-unit id="toml" resname="toml" translate="no">
+        <source><![CDATA[TOML]]></source>
+        <target><![CDATA[crwdns49862:0crwdne49862:0]]></target>
+      </trans-unit>
+      <trans-unit id="tsx" resname="tsx" translate="no">
+        <source><![CDATA[React TSX]]></source>
+        <target><![CDATA[crwdns49864:0crwdne49864:0]]></target>
+      </trans-unit>
+      <trans-unit id="tt2" resname="tt2" translate="no">
+        <source><![CDATA[Template Toolkit 2]]></source>
+        <target><![CDATA[crwdns49866:0crwdne49866:0]]></target>
+      </trans-unit>
+      <trans-unit id="turtle" resname="turtle" translate="no">
+        <source><![CDATA[Turtle + TriG]]></source>
+        <target><![CDATA[crwdns85934:0crwdne85934:0]]></target>
+      </trans-unit>
+      <trans-unit id="twig" resname="twig" translate="no">
+        <source><![CDATA[Twig]]></source>
+        <target><![CDATA[crwdns49868:0crwdne49868:0]]></target>
+      </trans-unit>
+      <trans-unit id="typescript" resname="typescript" translate="no">
+        <source><![CDATA[TypeScript]]></source>
+        <target><![CDATA[crwdns49870:0crwdne49870:0]]></target>
+      </trans-unit>
+      <trans-unit id="typoscript" resname="typoscript" translate="no">
+        <source><![CDATA[TypoScript + TSConfig]]></source>
+        <target><![CDATA[crwdns113998:0crwdne113998:0]]></target>
+      </trans-unit>
+      <trans-unit id="unrealscript" resname="unrealscript" translate="no">
+        <source><![CDATA[UnrealScript]]></source>
+        <target><![CDATA[crwdns110370:0crwdne110370:0]]></target>
+      </trans-unit>
+      <trans-unit id="uri" resname="uri" translate="no">
+        <source><![CDATA[URI + URL]]></source>
+        <target><![CDATA[crwdns136534:0crwdne136534:0]]></target>
+      </trans-unit>
+      <trans-unit id="v" resname="v" translate="no">
+        <source><![CDATA[V]]></source>
+        <target><![CDATA[crwdns136536:0crwdne136536:0]]></target>
+      </trans-unit>
+      <trans-unit id="vala" resname="vala" translate="no">
+        <source><![CDATA[Vala]]></source>
+        <target><![CDATA[crwdns49872:0crwdne49872:0]]></target>
+      </trans-unit>
+      <trans-unit id="vbnet" resname="vbnet" translate="no">
+        <source><![CDATA[VB.Net]]></source>
+        <target><![CDATA[crwdns49874:0crwdne49874:0]]></target>
+      </trans-unit>
+      <trans-unit id="velocity" resname="velocity" translate="no">
+        <source><![CDATA[Velocity]]></source>
+        <target><![CDATA[crwdns49876:0crwdne49876:0]]></target>
+      </trans-unit>
+      <trans-unit id="verilog" resname="verilog" translate="no">
+        <source><![CDATA[Verilog]]></source>
+        <target><![CDATA[crwdns49878:0crwdne49878:0]]></target>
+      </trans-unit>
+      <trans-unit id="vhdl" resname="vhdl" translate="no">
+        <source><![CDATA[VHDL]]></source>
+        <target><![CDATA[crwdns49880:0crwdne49880:0]]></target>
+      </trans-unit>
+      <trans-unit id="vim" resname="vim" translate="no">
+        <source><![CDATA[vim]]></source>
+        <target><![CDATA[crwdns49882:0crwdne49882:0]]></target>
+      </trans-unit>
+      <trans-unit id="visual-basic" resname="visual-basic" translate="no">
+        <source><![CDATA[Visual Basic]]></source>
+        <target><![CDATA[crwdns49884:0crwdne49884:0]]></target>
+      </trans-unit>
+      <trans-unit id="warpscript" resname="warpscript" translate="no">
+        <source><![CDATA[WarpScript]]></source>
+        <target><![CDATA[crwdns110372:0crwdne110372:0]]></target>
+      </trans-unit>
+      <trans-unit id="wasm" resname="wasm" translate="no">
+        <source><![CDATA[WebAssembly]]></source>
+        <target><![CDATA[crwdns49886:0crwdne49886:0]]></target>
+      </trans-unit>
+      <trans-unit id="wiki" resname="wiki">
+        <source><![CDATA[Wiki markup]]></source>
+        <target><![CDATA[crwdns49888:0crwdne49888:0]]></target>
+      </trans-unit>
+      <trans-unit id="wolfram" resname="wolfram" translate="no">
+        <source><![CDATA[Wolfram language + Mathematica + Mathematica Notebook]]></source>
+        <target><![CDATA[crwdns136538:0crwdne136538:0]]></target>
+      </trans-unit>
+      <trans-unit id="xeora" resname="xeora" translate="no">
+        <source><![CDATA[Xeora + XeoraCube]]></source>
+        <target><![CDATA[crwdns49890:0crwdne49890:0]]></target>
+      </trans-unit>
+      <trans-unit id="xml" resname="xml" translate="no">
+        <source><![CDATA[XML]]></source>
+        <target><![CDATA[crwdns49892:0crwdne49892:0]]></target>
+      </trans-unit>
+      <trans-unit id="xml-doc" resname="xml-doc" translate="no">
+        <source><![CDATA[XML doc (.net)]]></source>
+        <target><![CDATA[crwdns110374:0crwdne110374:0]]></target>
+      </trans-unit>
+      <trans-unit id="xojo" resname="xojo" translate="no">
+        <source><![CDATA[Xojo (REALbasic]]></source>
+        <target><![CDATA[crwdns49894:0crwdne49894:0]]></target>
+      </trans-unit>
+      <trans-unit id="xquery" resname="xquery" translate="no">
+        <source><![CDATA[XQuery]]></source>
+        <target><![CDATA[crwdns49896:0crwdne49896:0]]></target>
+      </trans-unit>
+      <trans-unit id="yaml" resname="yaml" translate="no">
+        <source><![CDATA[YAML]]></source>
+        <target><![CDATA[crwdns49898:0crwdne49898:0]]></target>
+      </trans-unit>
+      <trans-unit id="yang" resname="yang" translate="no">
+        <source><![CDATA[YANG]]></source>
+        <target><![CDATA[crwdns110376:0crwdne110376:0]]></target>
+      </trans-unit>
+      <trans-unit id="zig" resname="zig" translate="no">
+        <source><![CDATA[Zig]]></source>
+        <target><![CDATA[crwdns85936:0crwdne85936:0]]></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
