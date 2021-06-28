@@ -36,6 +36,11 @@
 			"Brotkrueml\\CodeHighlight\\": "Classes/"
 		}
 	},
+	"autoload-dev": {
+		"psr-4": {
+			"Brotkrueml\\CodeHighlight\\Tests\\": "Tests/"
+		}
+	},
 	"config": {
 		"sort-packages": true,
 		"vendor-dir": ".Build/vendor",

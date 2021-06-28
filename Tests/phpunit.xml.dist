@@ -19,4 +19,7 @@
         <log type="coverage-clover" target="../.Build/logs/clover.xml"/>
         <log type="junit" target="../.Build/logs/phpunit.xml"/>
     </logging>
+    <extensions>
+        <extension class="Brotkrueml\CodeHighlight\Tests\Hooks\Typo3ConstantsHook"/>
+    </extensions>
 </phpunit>
