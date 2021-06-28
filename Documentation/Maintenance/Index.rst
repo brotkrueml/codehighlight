@@ -103,7 +103,7 @@ extension for the TYPO3 Extension Repository (TER) can be done with:
 
 ::
 
-   composer zip
+   make zip
 
 This creates/replaces a file :file:`../zip/codehighlight_x.y.z.zip` which is
 ready for upload to TER. :file:`x.y.z` holds the recent version number.
