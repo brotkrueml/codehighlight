@@ -1,19 +1,19 @@
 {
 	"name": "brotkrueml/codehighlight",
 	"type": "typo3-cms-extension",
-	"license": "GPL-2.0-or-later",
 	"description": "Code highlighter for various programming, markup and configuration languages",
-	"authors": [
-		{
-			"name": "Chris Müller",
-			"role": "Developer"
-		}
-	],
 	"keywords": [
 		"TYPO3 CMS",
 		"TYPO3 extension",
 		"Syntax highlighting",
 		"Code highlighting"
+	],
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Chris Müller",
+			"role": "Developer"
+		}
 	],
 	"require": {
 		"typo3/cms-backend": "^9.5.5 || ^10.4 || ^11.0",
@@ -23,6 +23,7 @@
 		"typo3/cms-frontend": "^9.5.5 || ^10.4 || ^11.0"
 	},
 	"require-dev": {
+		"ergebnis/composer-normalize": "^2.15",
 		"friendsofphp/php-cs-fixer": "^2.19",
 		"php-coveralls/php-coveralls": "^2.4",
 		"phpunit/phpunit": "^8.5 || ^9.5",
@@ -30,6 +31,21 @@
 	},
 	"suggest": {
 		"typo3/cms-t3editor": "Add syntax highlighting in backend form"
+	},
+	"config": {
+		"bin-dir": ".Build/bin",
+		"sort-packages": true,
+		"vendor-dir": ".Build/vendor"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.6.x-dev"
+		},
+		"typo3/cms": {
+			"app-dir": ".Build",
+			"extension-key": "codehighlight",
+			"web-dir": ".Build/web"
+		}
 	},
 	"autoload": {
 		"psr-4": {
@@ -39,21 +55,6 @@
 	"autoload-dev": {
 		"psr-4": {
 			"Brotkrueml\\CodeHighlight\\Tests\\": "Tests/"
-		}
-	},
-	"config": {
-		"sort-packages": true,
-		"vendor-dir": ".Build/vendor",
-		"bin-dir": ".Build/bin"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.6.x-dev"
-		},
-		"typo3/cms": {
-			"extension-key": "codehighlight",
-			"app-dir": ".Build",
-			"web-dir": ".Build/web"
 		}
 	}
 }
