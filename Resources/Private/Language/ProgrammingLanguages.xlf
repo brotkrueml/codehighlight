@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-01-01T16:36:34Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-06-28T15:37:43Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
@@ -95,6 +95,12 @@
 			<trans-unit id="c" resname="c" translate="no">
 				<source><![CDATA[C]]></source>
 			</trans-unit>
+			<trans-unit id="cfscript" resname="cfscript" translate="no">
+				<source><![CDATA[CFScript]]></source>
+			</trans-unit>
+			<trans-unit id="chaiscript" resname="chaiscript" translate="no">
+				<source><![CDATA[ChaiScript]]></source>
+			</trans-unit>
 			<trans-unit id="cil" resname="cil" translate="no">
 				<source><![CDATA[CIL]]></source>
 			</trans-unit>
@@ -107,11 +113,17 @@
 			<trans-unit id="cmake" resname="cmake" translate="no">
 				<source><![CDATA[CMake]]></source>
 			</trans-unit>
+			<trans-unit id="cobol" resname="cobol" translate="no">
+				<source><![CDATA[COBOL]]></source>
+			</trans-unit>
 			<trans-unit id="coffeescript" resname="coffeescript" translate="no">
 				<source><![CDATA[CoffeeScript]]></source>
 			</trans-unit>
 			<trans-unit id="concurnas" resname="concurnas" translate="no">
 				<source><![CDATA[Concurnas]]></source>
+			</trans-unit>
+			<trans-unit id="coq" resname="coq" translate="no">
+				<source><![CDATA[Coq]]></source>
 			</trans-unit>
 			<trans-unit id="cpp" resname="cpp" translate="no">
 				<source><![CDATA[C++]]></source>
@@ -130,6 +142,9 @@
 			</trans-unit>
 			<trans-unit id="css-extras" resname="css-extras">
 				<source><![CDATA[CSS Extras]]></source>
+			</trans-unit>
+			<trans-unit id="csv" resname="csv" translate="no">
+				<source><![CDATA[CSV]]></source>
 			</trans-unit>
 			<trans-unit id="cypher" resname="cypher" translate="no">
 				<source><![CDATA[Cypher]]></source>
@@ -160,6 +175,9 @@
 			</trans-unit>
 			<trans-unit id="docker" resname="docker" translate="no">
 				<source><![CDATA[Docker]]></source>
+			</trans-unit>
+			<trans-unit id="dot" resname="dot" translate="no">
+				<source><![CDATA[DOT (Graphviz)]]></source>
 			</trans-unit>
 			<trans-unit id="ebnf" resname="ebnf">
 				<source><![CDATA[Extended Backus–Naur form]]></source>
@@ -193,6 +211,9 @@
 			</trans-unit>
 			<trans-unit id="factor" resname="factor" translate="no">
 				<source><![CDATA[Factor]]></source>
+			</trans-unit>
+			<trans-unit id="false" resname="false" translate="no">
+				<source><![CDATA[False]]></source>
 			</trans-unit>
 			<trans-unit id="firestore-security-rules" resname="firestore-security-rules">
 				<source><![CDATA[Firestore security rules]]></source>
@@ -275,6 +296,12 @@
 			<trans-unit id="icon" resname="icon" translate="no">
 				<source><![CDATA[Icon]]></source>
 			</trans-unit>
+			<trans-unit id="icu-message-format" resname="icu-message-format">
+				<source><![CDATA[ICU Message Format]]></source>
+			</trans-unit>
+			<trans-unit id="idris" resname="idris" translate="no">
+				<source><![CDATA[Idris]]></source>
+			</trans-unit>
 			<trans-unit id="iecst" resname="iecst">
 				<source><![CDATA[Structured Text (IEC 61131-3)]]></source>
 			</trans-unit>
@@ -307,6 +334,9 @@
 			</trans-unit>
 			<trans-unit id="javastacktrace" resname="javastacktrace">
 				<source><![CDATA[Java stack trace]]></source>
+			</trans-unit>
+			<trans-unit id="jexl" resname="jexl" translate="no">
+				<source><![CDATA[Jexl]]></source>
 			</trans-unit>
 			<trans-unit id="jolie" resname="jolie" translate="no">
 				<source><![CDATA[Jolie]]></source>
@@ -347,6 +377,9 @@
 			<trans-unit id="kotlin" resname="kotlin" translate="no">
 				<source><![CDATA[Kotlin]]></source>
 			</trans-unit>
+			<trans-unit id="kumir" resname="kumir" translate="no">
+				<source><![CDATA[KuMir (КуМир)]]></source>
+			</trans-unit>
 			<trans-unit id="latex" resname="latex" translate="no">
 				<source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
 			</trans-unit>
@@ -370,6 +403,9 @@
 			</trans-unit>
 			<trans-unit id="llvm" resname="llvm" translate="no">
 				<source><![CDATA[LLVM IR]]></source>
+			</trans-unit>
+			<trans-unit id="log" resname="log">
+				<source><![CDATA[Log file]]></source>
 			</trans-unit>
 			<trans-unit id="lolcode" resname="lolcode" translate="no">
 				<source><![CDATA[LOLCODE]]></source>
@@ -428,6 +464,9 @@
 			<trans-unit id="neon" resname="neon" translate="no">
 				<source><![CDATA[NEON]]></source>
 			</trans-unit>
+			<trans-unit id="nevod" resname="nevod" translate="no">
+				<source><![CDATA[Nevod]]></source>
+			</trans-unit>
 			<trans-unit id="nginx" resname="nginx" translate="no">
 				<source><![CDATA[nginx]]></source>
 			</trans-unit>
@@ -448,6 +487,9 @@
 			</trans-unit>
 			<trans-unit id="opencl" resname="opencl" translate="no">
 				<source><![CDATA[OpenCL]]></source>
+			</trans-unit>
+			<trans-unit id="openqasm" resname="openqasm" translate="no">
+				<source><![CDATA[OpenQasm]]></source>
 			</trans-unit>
 			<trans-unit id="oz" resname="oz" translate="no">
 				<source><![CDATA[Oz]]></source>
@@ -506,6 +548,9 @@
 			<trans-unit id="protobuf" resname="protobuf" translate="no">
 				<source><![CDATA[Protocol Buffers]]></source>
 			</trans-unit>
+			<trans-unit id="psl" resname="psl" translate="no">
+				<source><![CDATA[PATROL Scripting Language]]></source>
+			</trans-unit>
 			<trans-unit id="pug" resname="pug" translate="no">
 				<source><![CDATA[Pug]]></source>
 			</trans-unit>
@@ -533,6 +578,9 @@
 			<trans-unit id="qore" resname="qore" translate="no">
 				<source><![CDATA[Qore]]></source>
 			</trans-unit>
+			<trans-unit id="qsharp" resname="qsharp" translate="no">
+				<source><![CDATA[Q#]]></source>
+			</trans-unit>
 			<trans-unit id="r" resname="r" translate="no">
 				<source><![CDATA[R]]></source>
 			</trans-unit>
@@ -547,6 +595,9 @@
 			</trans-unit>
 			<trans-unit id="regex" resname="regex" translate="no">
 				<source><![CDATA[Regex]]></source>
+			</trans-unit>
+			<trans-unit id="rego" resname="rego" translate="no">
+				<source><![CDATA[Rego]]></source>
 			</trans-unit>
 			<trans-unit id="renpy" resname="renpy" translate="no">
 				<source><![CDATA[Ren'py]]></source>
@@ -623,6 +674,9 @@
 			<trans-unit id="sql" resname="sql" translate="no">
 				<source><![CDATA[SQL]]></source>
 			</trans-unit>
+			<trans-unit id="squirrel" resname="squirrel" translate="no">
+				<source><![CDATA[Squirrel]]></source>
+			</trans-unit>
 			<trans-unit id="stan" resname="stan" translate="no">
 				<source><![CDATA[Stan]]></source>
 			</trans-unit>
@@ -677,6 +731,12 @@
 			<trans-unit id="unrealscript" resname="unrealscript" translate="no">
 				<source><![CDATA[UnrealScript]]></source>
 			</trans-unit>
+			<trans-unit id="uri" resname="uri" translate="no">
+				<source><![CDATA[URI + URL]]></source>
+			</trans-unit>
+			<trans-unit id="v" resname="v" translate="no">
+				<source><![CDATA[V]]></source>
+			</trans-unit>
 			<trans-unit id="vala" resname="vala" translate="no">
 				<source><![CDATA[Vala]]></source>
 			</trans-unit>
@@ -706,6 +766,9 @@
 			</trans-unit>
 			<trans-unit id="wiki" resname="wiki">
 				<source><![CDATA[Wiki markup]]></source>
+			</trans-unit>
+			<trans-unit id="wolfram" resname="wolfram" translate="no">
+				<source><![CDATA[Wolfram language + Mathematica + Mathematica Notebook]]></source>
 			</trans-unit>
 			<trans-unit id="xeora" resname="xeora" translate="no">
 				<source><![CDATA[Xeora + XeoraCube]]></source>
