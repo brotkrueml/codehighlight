@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-01-01T16:36:34Z" product-name="codehighlight" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-06-28T15:37:43Z" product-name="codehighlight" target-language="de">
     <body>
       <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
@@ -46,6 +46,10 @@
         <source><![CDATA[FreeMarker Template Language]]></source>
         <target state="final"><![CDATA[FreeMarker Template-Sprache]]></target>
       </trans-unit>
+      <trans-unit id="icu-message-format" resname="icu-message-format" approved="yes">
+        <source><![CDATA[ICU Message Format]]></source>
+        <target state="final"><![CDATA[ICU-Nachrichtenformat]]></target>
+      </trans-unit>
       <trans-unit id="iecst" resname="iecst" approved="yes">
         <source><![CDATA[Structured Text (IEC 61131-3)]]></source>
         <target state="final"><![CDATA[Strukturierter Text (IEC 61131-3)]]></target>
@@ -65,6 +69,10 @@
       <trans-unit id="jsstacktrace" resname="jsstacktrace" approved="yes">
         <source><![CDATA[JS stack trace]]></source>
         <target state="final"><![CDATA[JS-Stacktrace]]></target>
+      </trans-unit>
+      <trans-unit id="log" resname="log" approved="yes">
+        <source><![CDATA[Log file]]></source>
+        <target state="final"><![CDATA[Log-Datei]]></target>
       </trans-unit>
       <trans-unit id="markup-templating" resname="markup-templating" approved="yes">
         <source><![CDATA[Markup templating]]></source>
