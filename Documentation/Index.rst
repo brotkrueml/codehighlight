@@ -64,6 +64,7 @@ button on the top right to submit your change request.
    Editor/Index
    Installation/Index
    Configuration/Index
+   Translation/Index
    Migration/Index
    Maintenance/Index
    Sitemap
