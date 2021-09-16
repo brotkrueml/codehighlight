@@ -4,6 +4,7 @@
     failOnRisky="true"
     failOnWarning="true"
     testdox="true"
+    executionOrder="random"
 >
     <testsuites>
         <testsuite name="unit">
