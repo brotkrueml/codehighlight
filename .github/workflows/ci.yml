@@ -2,13 +2,15 @@ name: CI
 
 on:
   push:
-    paths-ignore:
-      - 'Documentation/**'
-      - '**.md'
+    paths:
+      - 'composer.json'
+      - '.github/workflows/ci.yml'
+      - '**.php'
   pull_request:
-    paths-ignore:
-      - 'Documentation/**'
-      - '**.md'
+    paths:
+      - 'composer.json'
+      - '.github/workflows/ci.yml'
+      - '**.php'
 
 jobs:
   build:
@@ -17,15 +19,19 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php-versions: ['7.4']
-        typo3-versions: ['^9', '^10', '^11']
+        php-versions:
+          - '7.4'
+        typo3-versions:
+          - '^9'
+          - '^10'
+          - '^11'
         include:
-          - php-versions: 7.2
-            typo3-versions: ^9
-          - php-versions: 7.2
-            typo3-versions: ^10
-          - php-versions: 8.0
-            typo3-versions: ^11
+          - php-versions: '7.2'
+            typo3-versions: '^9'
+          - php-versions: '7.2'
+            typo3-versions: '^10'
+          - php-versions: '8.0'
+            typo3-versions: '^11'
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
@@ -68,20 +74,3 @@ jobs:
         env:
           COVERALLS_RUN_LOCALLY: 1
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-  xliff-validation:
-    name: XLIFF validation
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 1
-      - name: Install package
-        run: |
-          sudo apt-get -y install libxml2-utils
-      - name: Download XSD
-        run: |
-          curl --no-progress-meter -O https://docs.oasis-open.org/xliff/v1.2/cs02/xliff-core-1.2-strict.xsd
-      - name: Validate XLIFF files
-        run: |
-          xmllint --schema xliff-core-1.2-strict.xsd --noout Resources/Private/Language/*.xlf
