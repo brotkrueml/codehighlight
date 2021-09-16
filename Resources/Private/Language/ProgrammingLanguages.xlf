@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-06-28T15:37:43Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-09-16T17:55:37Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
@@ -59,6 +59,12 @@
 			<trans-unit id="autoit" resname="autoit" translate="no">
 				<source><![CDATA[AutoIt]]></source>
 			</trans-unit>
+			<trans-unit id="avisynth" resname="avisynth" translate="no">
+				<source><![CDATA[AviSynth]]></source>
+			</trans-unit>
+			<trans-unit id="avro-idl" resname="avro-idl" translate="no">
+				<source><![CDATA[Avro IDL]]></source>
+			</trans-unit>
 			<trans-unit id="bash" resname="bash" translate="no">
 				<source><![CDATA[Bash]]></source>
 			</trans-unit>
@@ -70,6 +76,9 @@
 			</trans-unit>
 			<trans-unit id="bbcode" resname="bbcode" translate="no">
 				<source><![CDATA[BBcode + Shortcode]]></source>
+			</trans-unit>
+			<trans-unit id="bicep" resname="bicep" translate="no">
+				<source><![CDATA[Bicep]]></source>
 			</trans-unit>
 			<trans-unit id="birb" resname="birb" translate="no">
 				<source><![CDATA[Birb]]></source>
@@ -133,6 +142,9 @@
 			</trans-unit>
 			<trans-unit id="csharp" resname="csharp" translate="no">
 				<source><![CDATA[C#]]></source>
+			</trans-unit>
+			<trans-unit id="cshtml" resname="cshtml" translate="no">
+				<source><![CDATA[Razor C#]]></source>
 			</trans-unit>
 			<trans-unit id="csp" resname="csp" translate="no">
 				<source><![CDATA[Content-Security-Policy]]></source>
@@ -230,6 +242,9 @@
 			<trans-unit id="ftl" resname="ftl">
 				<source><![CDATA[FreeMarker Template Language]]></source>
 			</trans-unit>
+			<trans-unit id="gap" resname="gap" translate="no">
+				<source><![CDATA[GAP (CAS)]]></source>
+			</trans-unit>
 			<trans-unit id="gcode" resname="gcode" translate="no">
 				<source><![CDATA[G-code]]></source>
 			</trans-unit>
@@ -250,6 +265,9 @@
 			</trans-unit>
 			<trans-unit id="gml" resname="gml" translate="no">
 				<source><![CDATA[GameMaker Language]]></source>
+			</trans-unit>
+			<trans-unit id="gn" resname="gn" translate="no">
+				<source><![CDATA[GN]]></source>
 			</trans-unit>
 			<trans-unit id="go" resname="go" translate="no">
 				<source><![CDATA[Go]]></source>
@@ -280,6 +298,9 @@
 			</trans-unit>
 			<trans-unit id="hpkp" resname="hpkp" translate="no">
 				<source><![CDATA[HTTP Public-Key-Pins]]></source>
+			</trans-unit>
+			<trans-unit id="hoon" resname="hoon" translate="no">
+				<source><![CDATA[Hoon]]></source>
 			</trans-unit>
 			<trans-unit id="hsts" resname="hsts" translate="no">
 				<source><![CDATA[HTTP Strict-Transport-Security]]></source>
@@ -380,6 +401,9 @@
 			<trans-unit id="kumir" resname="kumir" translate="no">
 				<source><![CDATA[KuMir (КуМир)]]></source>
 			</trans-unit>
+			<trans-unit id="kusto" resname="kusto" translate="no">
+				<source><![CDATA[Kusto]]></source>
+			</trans-unit>
 			<trans-unit id="latex" resname="latex" translate="no">
 				<source><![CDATA[LaTeX + TeX + ConTeXt]]></source>
 			</trans-unit>
@@ -413,6 +437,9 @@
 			<trans-unit id="lua" resname="lua" translate="no">
 				<source><![CDATA[Lua]]></source>
 			</trans-unit>
+			<trans-unit id="magma" resname="magma" translate="no">
+				<source><![CDATA[Magma (CAS)]]></source>
+			</trans-unit>
 			<trans-unit id="makefile" resname="makefile" translate="no">
 				<source><![CDATA[Makefile]]></source>
 			</trans-unit>
@@ -431,8 +458,14 @@
 			<trans-unit id="matlab" resname="matlab" translate="no">
 				<source><![CDATA[MATLAB]]></source>
 			</trans-unit>
+			<trans-unit id="maxscript" resname="maxscript" translate="no">
+				<source><![CDATA[MAXScript]]></source>
+			</trans-unit>
 			<trans-unit id="mel" resname="mel" translate="no">
 				<source><![CDATA[MEL]]></source>
+			</trans-unit>
+			<trans-unit id="mermaid" resname="mermaid" translate="no">
+				<source><![CDATA[Mermaid]]></source>
 			</trans-unit>
 			<trans-unit id="mizar" resname="mizar" translate="no">
 				<source><![CDATA[Mizar]]></source>
@@ -689,6 +722,9 @@
 			<trans-unit id="swift" resname="swift" translate="no">
 				<source><![CDATA[Swift]]></source>
 			</trans-unit>
+			<trans-unit id="systemd" resname="systemd">
+				<source><![CDATA[Systemd configuration file]]></source>
+			</trans-unit>
 			<trans-unit id="t4-cs" resname="t4-cs">
 				<source><![CDATA[T4 Text Templates (C#)]]></source>
 			</trans-unit>
@@ -769,6 +805,9 @@
 			</trans-unit>
 			<trans-unit id="wolfram" resname="wolfram" translate="no">
 				<source><![CDATA[Wolfram language + Mathematica + Mathematica Notebook]]></source>
+			</trans-unit>
+			<trans-unit id="wren" resname="wren" translate="no">
+				<source><![CDATA[Wren]]></source>
 			</trans-unit>
 			<trans-unit id="xeora" resname="xeora" translate="no">
 				<source><![CDATA[Xeora + XeoraCube]]></source>
