@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-06-28T15:37:43Z" product-name="codehighlight" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-09-16T17:55:37Z" product-name="codehighlight" target-language="de">
     <body>
       <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
@@ -101,6 +101,10 @@
       <trans-unit id="soy" resname="soy" approved="yes">
         <source><![CDATA[Soy (Closure Template)]]></source>
         <target state="final"><![CDATA[Soy (Closure-Template)]]></target>
+      </trans-unit>
+      <trans-unit id="systemd" resname="systemd" approved="yes">
+        <source><![CDATA[Systemd configuration file]]></source>
+        <target state="final"><![CDATA[Systemd-Konfigurationsdatei]]></target>
       </trans-unit>
       <trans-unit id="t4-cs" resname="t4-cs" approved="yes">
         <source><![CDATA[T4 Text Templates (C#)]]></source>
