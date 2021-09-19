@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.0] - 2021-09-19
+
 ### Security
 - Update Prism to version 1.25.0
 
@@ -90,7 +92,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Syntax highlighting with Prism
 
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.6.1...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.7.0...HEAD
+[2.7.0]: https://github.com/brotkrueml/codehighlight/compare/v2.6.1...v2.7.0
 [2.6.1]: https://github.com/brotkrueml/codehighlight/compare/v2.6.0...v2.6.1
 [2.6.0]: https://github.com/brotkrueml/codehighlight/compare/v2.5.0...v2.6.0
 [2.5.0]: https://github.com/brotkrueml/codehighlight/compare/v2.4.0...v2.5.0
