@@ -16,9 +16,11 @@ const options = {
   outputPath: '../Resources/Public/Prism/',
   availablePlugins: [
     'command-line',
+    'copy-to-clipboard',
     'inline-color',
     'line-highlight',
     'line-numbers',
+    'toolbar',
   ],
 };
 

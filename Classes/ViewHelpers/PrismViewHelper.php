@@ -11,6 +11,8 @@ declare(strict_types=1);
 
 namespace Brotkrueml\CodeHighlight\ViewHelpers;
 
+use Brotkrueml\CodeHighlight\Extension;
+use Brotkrueml\CodeHighlight\Service\TranslationService;
 use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
@@ -32,14 +34,17 @@ use TYPO3Fluid\Fluid\Core\ViewHelper;
  */
 class PrismViewHelper extends ViewHelper\AbstractViewHelper
 {
-    private const PRISM_PATH = 'EXT:codehighlight/Resources/Public/Prism/';
-
     protected $escapeOutput = false;
 
     /**
      * @var PageRenderer
      */
     private static $pageRenderer;
+
+    /**
+     * @var TranslationService
+     */
+    private static $translationService;
 
     private static $configuration;
     private static $options;
@@ -70,7 +75,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         static::$id = $arguments['id'] ?? '';
         static::$snippet = $arguments['snippet'] ?? '';
 
-        if (empty(static::$snippet)) {
+        if (static::$snippet === '') {
             return '';
         }
 
@@ -82,6 +87,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         static::handleLineNumbers();
         static::handleCommandLine();
         static::handleInlineColour();
+        static::handleCopyToClipboard();
         static::handleProgrammingLanguage();
 
         return static::buildHtml();
@@ -177,6 +183,30 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         static::$codeClasses[] = 'language-css-extras';
     }
 
+    private static function handleCopyToClipboard(): void
+    {
+        if (! (static::$configuration['codehighlightToolbarCopyToClipboard'] ?? false)) {
+            return;
+        }
+
+        static::addCssFile('plugins/toolbar/prism-toolbar.css');
+        static::addJsFile('plugins/toolbar/prism-toolbar.min.js');
+        static::addJsFile('plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js');
+
+        static::addToPreAttributes('prismjs-copy', static::translate('toolbar.copy'));
+        static::addToPreAttributes('prismjs-copy-error', static::translate('toolbar.copyError'));
+        static::addToPreAttributes('prismjs-copy-success', static::translate('toolbar.copySuccess'));
+    }
+
+    private static function translate(string $key): string
+    {
+        if (static::$translationService === null) {
+            static::$translationService = new TranslationService();
+        }
+
+        return static::$translationService->translate($key);
+    }
+
     private static function handleProgrammingLanguage(): void
     {
         $programmingLanguage = static::$options['programmingLanguage'] ?? '';
@@ -189,7 +219,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     private static function buildHtml(): string
     {
-        if (! empty(static::$preClasses)) {
+        if (static::$preClasses !== []) {
             static::$preAttributes[] = \sprintf(
                 'class="%s"',
                 \implode(' ', static::$preClasses)
@@ -199,7 +229,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         $preAttributes = \implode(' ', static::$preAttributes);
 
         $codeAttributes = '';
-        if (! empty(static::$codeClasses)) {
+        if (static::$codeClasses !== []) {
             $codeAttributes = \sprintf(
                 'class="%s"',
                 \implode(' ', static::$codeClasses)
@@ -227,7 +257,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
     private static function addCssFile(string $file, bool $prependPrismPath = true): void
     {
         if ($prependPrismPath) {
-            static::$pageRenderer->addCssFile(static::PRISM_PATH . $file);
+            static::$pageRenderer->addCssFile(Extension::PRISM_BASE_PATH . $file);
         } else {
             static::$pageRenderer->addCssFile($file);
         }
@@ -235,7 +265,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     private static function addJsFile(string $file): void
     {
-        static::$pageRenderer->addJsFooterFile(static::PRISM_PATH . $file);
+        static::$pageRenderer->addJsFooterFile(Extension::PRISM_BASE_PATH . $file);
     }
 
     private static function addToPreAttributes(string $dataName, string $dataValue): void
@@ -253,5 +283,13 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
     public static function setPageRenderer(PageRenderer $pageRenderer): void
     {
         static::$pageRenderer = $pageRenderer;
+    }
+
+    /**
+     * For testing purposes only!
+     */
+    public static function setTranslationService(TranslationService $translationService): void
+    {
+        static::$translationService = $translationService;
     }
 }

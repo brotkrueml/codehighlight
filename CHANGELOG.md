@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Button "Copy" to copy a code snippet to the clipboard (#27)
+
 ### Fixed
 - Move content element to group "special" in type select box (TYPO3 v10+)
 

@@ -22,5 +22,6 @@ final class Extension
     public const LANGUAGE_PATH_PROGRAMMING_LANGUAGES = 'LLL:EXT:' . self::KEY . '/Resources/Private/Language/ProgrammingLanguages.xlf';
     public const LANGUAGE_PATH_SITE_CONFIGURATION = 'LLL:EXT:' . self::KEY . '/Resources/Private/Language/SiteConfiguration.xlf';
 
-    public const THEMES_PATH = 'EXT:' . self::KEY . '/Resources/Public/Prism/themes/';
+    public const PRISM_BASE_PATH = 'EXT:' . self::KEY . '/Resources/Public/Prism/';
+    public const PRISM_THEMES_PATH = self::PRISM_BASE_PATH . 'themes/';
 }

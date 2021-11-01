@@ -54,7 +54,7 @@ As the theme is assigned to a site, different sites can have different themes.
 Usage of a URL Hash
 -------------------
 
-If the option is activated, the usage of a URL hash (like ``#codesnippet8.5-6``)
+If the option is enabled, the usage of a URL hash (like ``#codesnippet8.5-6``)
 for highlighting code and as anchor is available. You can find more information
 in the :ref:`chapter for editors <editor-url-hash>`.
 
@@ -77,6 +77,15 @@ Command line: Default User
 Defines the default user for the command line, if none is given in the options
 of the content element. If a value is neither in the configuration nor in the
 content element given, ``user`` is used as last fallback.
+
+
+.. _configuration-toolbar-copy:
+
+Toolbar: Display Button "Copy to Clipboard"
+-------------------------------------------
+
+If the option is enabled, a :guilabel:`Copy` button is displayed in the upper
+right corner when the user moves the mouse pointer over a code snippet.
 
 
 .. _constant-editor:

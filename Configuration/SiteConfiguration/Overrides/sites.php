@@ -17,14 +17,14 @@ $GLOBALS['SiteConfiguration']['site']['columns'] += [
             'eval' => 'trim',
             'valuePicker' => [
                 'items' => [
-                    [Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_SITE_CONFIGURATION . ':codehighlightTheme.valuePicker.default', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism.css'],
-                    ['Coy', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-coy.css'],
-                    ['Dark', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-dark.css'],
-                    ['Funky', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-funky.css'],
-                    ['Okaidia', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-okaidia.css'],
-                    ['Solarized Light', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-solarizedlight.css'],
-                    ['Tomorrow Night', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-tomorrow.css'],
-                    ['Twilight', Brotkrueml\CodeHighlight\Extension::THEMES_PATH . 'prism-twilight.css'],
+                    [Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_SITE_CONFIGURATION . ':codehighlightTheme.valuePicker.default', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism.css'],
+                    ['Coy', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-coy.css'],
+                    ['Dark', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-dark.css'],
+                    ['Funky', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-funky.css'],
+                    ['Okaidia', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-okaidia.css'],
+                    ['Solarized Light', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-solarizedlight.css'],
+                    ['Tomorrow Night', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-tomorrow.css'],
+                    ['Twilight', Brotkrueml\CodeHighlight\Extension::PRISM_THEMES_PATH . 'prism-twilight.css'],
                 ],
             ],
         ],
@@ -57,6 +57,19 @@ $GLOBALS['SiteConfiguration']['site']['columns'] += [
             'eval' => 'trim',
         ],
     ],
+    'codehighlightToolbarCopyToClipboard' => [
+        'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_SITE_CONFIGURATION . ':codehighlightToolbarCopyToClipboard',
+        'config' => [
+            'type' => 'check',
+            'renderType' => 'checkboxToggle',
+            'items' => [
+                [
+                    0 => '',
+                    1 => '',
+                ],
+            ],
+        ],
+    ],
 ];
 
 $GLOBALS['SiteConfiguration']['site']['types']['0']['showitem'] .= '
@@ -65,10 +78,14 @@ $GLOBALS['SiteConfiguration']['site']['types']['0']['showitem'] .= '
         codehighlightTheme,
         codehighlightUseUrlHash,
         --palette--;' . Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_SITE_CONFIGURATION . ':codehighlightCommandLine;codehighlightCommandLine,
+        --palette--;' . Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_SITE_CONFIGURATION . ':codehighlightToolbar;codehighlightToolbar,
 ';
 
 $GLOBALS['SiteConfiguration']['site']['palettes'] += [
     'codehighlightCommandLine' => [
         'showitem' => 'codehighlightCommandLineDefaultHost,codehighlightCommandLineDefaultUser',
+    ],
+    'codehighlightToolbar' => [
+        'showitem' => 'codehighlightToolbarCopyToClipboard',
     ],
 ];

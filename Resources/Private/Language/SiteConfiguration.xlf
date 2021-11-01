@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2019-09-25T23:10:53Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2021-11-02T09:42:18Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="codehighlightCommandLine" resname="codehighlightCommandLine">
 				<source><![CDATA[Command Line]]></source>
@@ -16,6 +16,12 @@
 			</trans-unit>
 			<trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default">
 				<source><![CDATA[Default]]></source>
+			</trans-unit>
+			<trans-unit id="codehighlightToolbar" resname="codehighlightToolbar">
+				<source><![CDATA[Toolbar]]></source>
+			</trans-unit>
+			<trans-unit id="codehighlightToolbarCopyToClipboard" resname="codehighlightToolbarCopyToClipboard">
+				<source><![CDATA[Copy to Clipboard]]></source>
 			</trans-unit>
 			<trans-unit id="codehighlightUseUrlHash" resname="codehighlightUseUrlHash">
 				<source><![CDATA[Usage of a URL Hash]]></source>

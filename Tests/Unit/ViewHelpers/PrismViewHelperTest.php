@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\CodeHighlight\Tests\Unit\ViewHelpers;
 
+use Brotkrueml\CodeHighlight\Service\TranslationService;
 use Brotkrueml\CodeHighlight\ViewHelpers\PrismViewHelper;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
@@ -38,8 +39,15 @@ class PrismViewHelperTest extends TestCase
     {
         $this->renderingContextMock = $this->createMock(RenderingContext::class);
         $this->pageRendererMock = $this->createMock(PageRenderer::class);
+        $translationService = $this->createStub(TranslationService::class);
+        $translationService
+            ->method('translate')
+            ->willReturnCallback(static function ($key): string {
+                return $key;
+            });
         $this->subject = new PrismViewHelper();
         $this->subject->setPageRenderer($this->pageRendererMock);
+        $this->subject->setTranslationService($translationService);
     }
 
     /**
@@ -367,6 +375,16 @@ class PrismViewHelperTest extends TestCase
             '<pre><code class="language-css">some code snippet</code></pre>',
         ];
 
+        yield 'With activated copy to clipboard plugin' => [
+            [
+                'configuration' => [
+                    'codehighlightToolbarCopyToClipboard' => true,
+                ],
+                'snippet' => 'some code snippet',
+            ],
+            '<pre data-prismjs-copy="toolbar.copy" data-prismjs-copy-error="toolbar.copyError" data-prismjs-copy-success="toolbar.copySuccess"><code class="language-none">some code snippet</code></pre>',
+        ];
+
         yield 'Special characters in attribute values are masked' => [
             [
                 'options' => [
@@ -514,7 +532,7 @@ class PrismViewHelperTest extends TestCase
      * @test
      * @dataProvider dataProviderForAssets
      */
-    public function lineNumberAssetsAreAddedCorrectly(array $arguments, string $addedCss, string $addedJs): void
+    public function assetsAreAddedCorrectly(array $arguments, string $addedCss, string $addedJs): void
     {
         $this->pageRendererMock
             ->expects(self::exactly(2))
@@ -525,7 +543,7 @@ class PrismViewHelperTest extends TestCase
             );
 
         $this->pageRendererMock
-            ->expects(self::exactly(3))
+            ->expects(self::atLeast(3))
             ->method('addJsFooterFile')
             ->withConsecutive(
                 [self::anything()],
@@ -585,6 +603,18 @@ class PrismViewHelperTest extends TestCase
             ],
             $this->buildAssetPath('plugins/command-line/prism-command-line.css'),
             $this->buildAssetPath('plugins/command-line/prism-command-line.min.js'),
+        ];
+
+        yield 'Configuration for toolbar "Copy to Clipboard" is activated' => [
+            [
+                'configuration' => [
+                    'codehighlightToolbarCopyToClipboard' => true,
+                ],
+                'snippet' => 'some code snippet',
+            ],
+            $this->buildAssetPath('plugins/toolbar/prism-toolbar.css'),
+            $this->buildAssetPath('plugins/toolbar/prism-toolbar.min.js'),
+            $this->buildAssetPath('plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js'),
         ];
     }
 }
