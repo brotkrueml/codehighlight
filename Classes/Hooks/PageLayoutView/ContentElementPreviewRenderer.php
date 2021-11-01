@@ -51,7 +51,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
         $content = $this->getHeader();
 
         if ($this->row['bodytext']) {
-            $content .= '<pre><code>' . $this->renderText($this->row['bodytext']) . '</code></pre>';
+            $content .= '<pre><code style="margin-left:0;">' . $this->renderText($this->row['bodytext']) . '</code></pre>';
         } else {
             $content .= $this->generateWarning(
                 $this->languageService->sL(Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet.notDefined')
