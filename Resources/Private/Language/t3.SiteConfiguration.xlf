@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2021-11-02T09:42:18Z" product-name="codehighlight" target-language="t3">
+    <body>
+      <trans-unit id="codehighlightCommandLine" resname="codehighlightCommandLine">
+        <source><![CDATA[Command Line]]></source>
+        <target><![CDATA[crwdns67272:0crwdne67272:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightCommandLineDefaultHost" resname="codehighlightCommandLineDefaultHost">
+        <source><![CDATA[Default Host]]></source>
+        <target><![CDATA[crwdns67274:0crwdne67274:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightCommandLineDefaultUser" resname="codehighlightCommandLineDefaultUser">
+        <source><![CDATA[Default User]]></source>
+        <target><![CDATA[crwdns67276:0crwdne67276:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightTheme" resname="codehighlightTheme">
+        <source><![CDATA[CSS File for Theme]]></source>
+        <target><![CDATA[crwdns49900:0crwdne49900:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default">
+        <source><![CDATA[Default]]></source>
+        <target><![CDATA[crwdns49902:0crwdne49902:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightToolbar" resname="codehighlightToolbar">
+        <source><![CDATA[Toolbar]]></source>
+        <target><![CDATA[crwdns142079:0crwdne142079:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightToolbarCopyToClipboard" resname="codehighlightToolbarCopyToClipboard">
+        <source><![CDATA[Copy to Clipboard]]></source>
+        <target><![CDATA[crwdns142081:0crwdne142081:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightUseUrlHash" resname="codehighlightUseUrlHash">
+        <source><![CDATA[Usage of a URL Hash]]></source>
+        <target><![CDATA[crwdns67278:0crwdne67278:0]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightUseUrlHash.description" resname="codehighlightUseUrlHash.description">
+        <source><![CDATA[If activated the usage of a URL hash (like #codesnippet8.5-6) for highlighting code and as anchor is available.]]></source>
+        <target><![CDATA[crwdns67270:0crwdne67270:0]]></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
