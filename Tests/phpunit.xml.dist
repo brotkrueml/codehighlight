@@ -4,6 +4,7 @@
     failOnRisky="true"
     failOnWarning="true"
     testdox="true"
+    cacheResult="false"
     executionOrder="random"
 >
     <testsuites>
