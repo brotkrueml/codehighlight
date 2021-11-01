@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\CodeHighlight\Hooks\PageLayoutView;
 
+use Brotkrueml\CodeHighlight\Extension;
 use TYPO3\CMS\Backend\View\PageLayoutView;
 use TYPO3\CMS\Backend\View\PageLayoutViewDrawItemHookInterface;
 use TYPO3\CMS\Core\Localization\LanguageService;
@@ -21,9 +22,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
  */
 final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookInterface
 {
-    private const LL_PREFIX_CE = 'LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:';
-    private const LL_PREFIX_LANG = 'LLL:EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf:';
-
     private $flexFormData;
     private $row;
 
@@ -56,7 +54,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
             $content .= '<pre><code>' . $this->renderText($this->row['bodytext']) . '</code></pre>';
         } else {
             $content .= $this->generateWarning(
-                $this->languageService->sL(static::LL_PREFIX_CE . 'codeSnippet.notDefined')
+                $this->languageService->sL(Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet.notDefined')
             );
         }
 
@@ -65,7 +63,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
 
     private function getHeader(): string
     {
-        $header = $this->languageService->sL(static::LL_PREFIX_CE . 'contentElement.title');
+        $header = $this->languageService->sL(Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title');
 
         $language = $this->getValueFromFlexform('programmingLanguage');
         $filename = $this->getValueFromFlexform('filename');
@@ -73,7 +71,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
         $additionalHeaderInfo = [];
 
         if ($language) {
-            $additionalHeaderInfo[] = $this->languageService->sL(static::LL_PREFIX_LANG . $language) ?: $language;
+            $additionalHeaderInfo[] = $this->languageService->sL(Extension::LANGUAGE_PATH_PROGRAMMING_LANGUAGES . ':' . $language) ?: $language;
         }
 
         if ($filename) {

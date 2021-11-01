@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Brotkrueml\CodeHighlight\Service;
 
+use Brotkrueml\CodeHighlight\Extension;
 use TYPO3\CMS\Core\Localization\LanguageService;
 
 /**
@@ -18,8 +19,6 @@ use TYPO3\CMS\Core\Localization\LanguageService;
  */
 final class ProgrammingLanguages
 {
-    private const LL_PREFIX = 'LLL:EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf:';
-
     private $languageService;
 
     public function __construct(LanguageService $languageService = null)
@@ -37,7 +36,7 @@ final class ProgrammingLanguages
 
         foreach ($availableLanguages as $language) {
             $config['items'][] = [
-                $this->languageService->sL(static::LL_PREFIX . $language) ?: $language,
+                $this->languageService->sL(Extension::LANGUAGE_PATH_PROGRAMMING_LANGUAGES . ':' . $language) ?: $language,
                 $language,
             ];
         }
