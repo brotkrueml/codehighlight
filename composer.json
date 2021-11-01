@@ -16,11 +16,11 @@
 		}
 	],
 	"require": {
-		"typo3/cms-backend": "^9.5.5 || ^10.4 || ^11.5",
-		"typo3/cms-core": "^9.5.5 || ^10.4 || ^11.5",
-		"typo3/cms-fluid": "^9.5.5 || ^10.4 || ^11.5",
-		"typo3/cms-fluid-styled-content": "^9.5.5 || ^10.4 || ^11.5",
-		"typo3/cms-frontend": "^9.5.5 || ^10.4 || ^11.5"
+		"typo3/cms-backend": "^9.5.16 || ^10.4 || ^11.5",
+		"typo3/cms-core": "^9.5.16 || ^10.4 || ^11.5",
+		"typo3/cms-fluid": "^9.5.16 || ^10.4 || ^11.5",
+		"typo3/cms-fluid-styled-content": "^9.5.16 || ^10.4 || ^11.5",
+		"typo3/cms-frontend": "^9.5.16 || ^10.4 || ^11.5"
 	},
 	"require-dev": {
 		"brotkrueml/coding-standards": "~1.1.0",
