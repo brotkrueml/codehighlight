@@ -10,7 +10,7 @@ Target group: **Administrators**
 
 .. note::
 
-   The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11.
+   The extension in version |release| supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11 LTS.
 
 
 Some basic configuration is available which is explained in the

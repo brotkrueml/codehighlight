@@ -5,8 +5,8 @@
 [![Crowdin](https://badges.crowdin.net/typo3-extension-codehighlight/localized.svg)](https://crowdin.com/project/typo3-extension-codehighlight)
 [![Latest Stable Version](https://poser.pugx.org/brotkrueml/codehighlight/v/stable)](https://packagist.org/packages/brotkrueml/codehighlight)
 
-The extension supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11.
+The extension in the current version supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11 LTS.
 
 [Documentation](https://docs.typo3.org/p/brotkrueml/codehighlight/master/en-us/) |
 [Translation](https://crowdin.com/project/typo3-extension-codehighlight) |
-[Extension in TER](https://extensions.typo3.org/extension/codehighlight/)
+[Extension in TER](https://extensions.typo3.org/extension/codehighlight)
