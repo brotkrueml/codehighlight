@@ -39,7 +39,9 @@ if (\class_exists(\TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor::class)) 
      */
     class FlexFormProcessor implements DataProcessorInterface
     {
-        /** @var FlexFormService */
+        /**
+         * @var FlexFormService
+         */
         private $flexFormService;
 
         public function __construct(FlexFormService $flexFormService = null)
@@ -53,7 +55,7 @@ if (\class_exists(\TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor::class)) 
             array $processorConfiguration,
             array $processedData
         ): array {
-            if (isset($processorConfiguration['if.']) && !$contentObjectRenderer->checkIf($processorConfiguration['if.'])) {
+            if (isset($processorConfiguration['if.']) && ! $contentObjectRenderer->checkIf($processorConfiguration['if.'])) {
                 return $processedData;
             }
 

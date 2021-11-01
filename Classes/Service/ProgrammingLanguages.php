@@ -38,11 +38,11 @@ final class ProgrammingLanguages
         foreach ($availableLanguages as $language) {
             $config['items'][] = [
                 $this->languageService->sL(static::LL_PREFIX . $language) ?: $language,
-                $language
+                $language,
             ];
         }
 
-        \usort($config['items'], function (array $a, array $b): int {
+        \usort($config['items'], static function (array $a, array $b): int {
             $aci = \str_replace('.', '', \strtolower($a[0]));
             $bci = \str_replace('.', '', \strtolower($b[0]));
 

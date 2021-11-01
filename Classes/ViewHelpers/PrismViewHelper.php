@@ -36,7 +36,9 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     protected $escapeOutput = false;
 
-    /** @var PageRenderer */
+    /**
+     * @var PageRenderer
+     */
     private static $pageRenderer;
 
     private static $configuration;
@@ -126,7 +128,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     private static function handleCommandLine(): void
     {
-        if (!(static::$options['displayCommandLine'] ?? false)) {
+        if (! (static::$options['displayCommandLine'] ?? false)) {
             return;
         }
 
@@ -162,11 +164,11 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     private static function handleInlineColour(): void
     {
-        if (!(static::$options['inlineColour'] ?? false)) {
+        if (! (static::$options['inlineColour'] ?? false)) {
             return;
         }
 
-        if (!\in_array(static::$options['programmingLanguage'], ['css', 'html'])) {
+        if (! \in_array(static::$options['programmingLanguage'], ['css', 'html'], true)) {
             return;
         }
 
@@ -187,7 +189,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     private static function buildHtml(): string
     {
-        if (!empty(static::$preClasses)) {
+        if (! empty(static::$preClasses)) {
             static::$preAttributes[] = \sprintf(
                 'class="%s"',
                 \implode(' ', static::$preClasses)
@@ -197,7 +199,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         $preAttributes = \implode(' ', static::$preAttributes);
 
         $codeAttributes = '';
-        if (!empty(static::$codeClasses)) {
+        if (! empty(static::$codeClasses)) {
             $codeAttributes = \sprintf(
                 'class="%s"',
                 \implode(' ', static::$codeClasses)
@@ -247,7 +249,6 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
 
     /**
      * For testing purposes only!
-     * @param PageRenderer $pageRenderer
      */
     public static function setPageRenderer(PageRenderer $pageRenderer): void
     {

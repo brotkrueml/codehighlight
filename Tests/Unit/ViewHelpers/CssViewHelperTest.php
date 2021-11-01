@@ -19,13 +19,19 @@ use TYPO3Fluid\Fluid\Core\Rendering\RenderingContext;
 
 class CssViewHelperTest extends TestCase
 {
-    /** @var MockObject|RenderingContext */
+    /**
+     * @var MockObject|RenderingContext
+     */
     private $renderingContextMock;
 
-    /** @var MockObject|PageRenderer */
+    /**
+     * @var MockObject|PageRenderer
+     */
     private $pageRendererMock;
 
-    /** @var CssViewHelper */
+    /**
+     * @var CssViewHelper
+     */
     private $subject;
 
     protected function setUp(): void
@@ -65,8 +71,10 @@ class CssViewHelperTest extends TestCase
             ->method('addCssFile');
 
         $this->subject->renderStatic(
-            ['path' => ''],
-            function () {
+            [
+                'path' => '',
+            ],
+            static function () {
             },
             $this->renderingContextMock
         );
@@ -83,8 +91,10 @@ class CssViewHelperTest extends TestCase
             ->with('some_styles.css');
 
         $this->subject->renderStatic(
-            ['path' => 'some_styles.css'],
-            function () {
+            [
+                'path' => 'some_styles.css',
+            ],
+            static function () {
             },
             $this->renderingContextMock
         );

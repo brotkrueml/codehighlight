@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the "codehighlight" extension for TYPO3 CMS.
  *
@@ -7,7 +9,7 @@
  * LICENSE.txt file that was distributed with this source code.
  */
 
-(function ($extensionKey) {
+(static function ($extensionKey) {
     $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/SiteConfiguration.xlf:';
     $themePath = 'EXT:' . $extensionKey . '/Resources/Public/Prism/themes/';
 
@@ -41,7 +43,7 @@
                     [
                         0 => '',
                         1 => '',
-                    ]
+                    ],
                 ],
             ],
         ],

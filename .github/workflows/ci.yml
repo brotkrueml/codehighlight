@@ -51,8 +51,8 @@ jobs:
       - name: Run unit tests
         run: |
           make tests
-  code-coverage:
-    name: Code Coverage
+  code-quality:
+    name: Code Quality
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -63,10 +63,28 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: 7.4
+          coverage: xdebug
+          extensions: mbstring
+      - name: Get Composer Cache Directory
+        id: composer-cache
+        run: |
+          echo "::set-output name=dir::$(composer config cache-files-dir)"
+      - name: Cache composer dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
+          restore-keys: ${{ runner.os }}-composer-
       - name: Install composer dependencies
         run: |
-          composer install
-      - name: Generate code coverage report
+          composer update --no-progress --prefer-dist --optimize-autoloader
+      - name: Normalize composer.json
+        run: |
+          composer normalize --dry-run
+      - name: Check coding standards
+        run: |
+          .Build/bin/ecs check --no-progress-bar
+      - name: Generate code coverage
         run: |
           make code-coverage
       - name: Send code coverage report to coveralls.io

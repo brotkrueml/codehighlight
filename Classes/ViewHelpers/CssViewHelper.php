@@ -18,7 +18,9 @@ use TYPO3Fluid\Fluid\Core\ViewHelper;
 
 class CssViewHelper extends ViewHelper\AbstractViewHelper
 {
-    /** @var PageRenderer */
+    /**
+     * @var PageRenderer
+     */
     private static $pageRenderer;
 
     public function initializeArguments(): void
@@ -50,7 +52,6 @@ class CssViewHelper extends ViewHelper\AbstractViewHelper
 
     /**
      * For testing purposes only!
-     * @param PageRenderer $pageRenderer
      */
     public static function setPageRenderer(PageRenderer $pageRenderer): void
     {

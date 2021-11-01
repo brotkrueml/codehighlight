@@ -9,7 +9,7 @@
 
 defined('TYPO3_MODE') or die();
 
-(function ($extensionKey='codehighlight', $contentType='tx_codehighlight_codesnippet') {
+(static function ($extensionKey = 'codehighlight', $contentType = 'tx_codehighlight_codesnippet') {
     $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/ContentElement.xlf:';
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
@@ -42,7 +42,7 @@ defined('TYPO3_MODE') or die();
                 ],
                 'pi_flexform' => [
                     'label' => $llPrefix . 'options',
-                ]
+                ],
             ],
             'showitem' => '
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
