@@ -9,23 +9,23 @@
 
 defined('TYPO3_MODE') or die();
 
-(static function ($extensionKey = 'codehighlight', $contentType = 'tx_codehighlight_codesnippet') {
-    $llPrefix = 'LLL:EXT:' . $extensionKey . '/Resources/Private/Language/ContentElement.xlf:';
+(static function () {
+    $contentType = 'tx_codehighlight_codesnippet';
 
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
+    TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
         [
-            $llPrefix . 'contentElement.title',
+            Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title',
             $contentType,
-            'EXT:' . $extensionKey . '/Resources/Public/Icons/content-codehighlight.svg',
+            'EXT:' . Brotkrueml\CodeHighlight\Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
         ],
-        'CType',
-        $extensionKey
+        TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
+        Brotkrueml\CodeHighlight\Extension::KEY
     );
 
     $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentType] = 'pi_flexform';
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+    TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
         '*',
-        'FILE:EXT:' . $extensionKey . '/Configuration/FlexForms/Options.xml',
+        'FILE:EXT:' . Brotkrueml\CodeHighlight\Extension::KEY . '/Configuration/FlexForms/Options.xml',
         $contentType
     );
 
@@ -33,7 +33,7 @@ defined('TYPO3_MODE') or die();
         $contentType => [
             'columnsOverrides' => [
                 'bodytext' => [
-                    'label' => $llPrefix . 'codeSnippet',
+                    'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
                     'config' => [
                         'enableTabulator' => true,
                         'fixedFont' => true,
@@ -41,7 +41,7 @@ defined('TYPO3_MODE') or die();
                     ],
                 ],
                 'pi_flexform' => [
-                    'label' => $llPrefix . 'options',
+                    'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options',
                 ],
             ],
             'showitem' => '
@@ -49,7 +49,7 @@ defined('TYPO3_MODE') or die();
                     --palette--;;general,
                     --palette--;;headers,
                     bodytext,
-                --div--;' . $llPrefix . 'options,
+                --div--;' . Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options,
                     pi_flexform,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                     --palette--;;frames,
@@ -64,7 +64,7 @@ defined('TYPO3_MODE') or die();
         ],
     ];
 
-    if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3editor')) {
+    if (TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3editor')) {
         $tempTypes[$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
     }
 

@@ -17,4 +17,6 @@ namespace Brotkrueml\CodeHighlight;
 final class Extension
 {
     public const KEY = 'codehighlight';
+
+    public const LANGUAGE_PATH_CONTENT_ELEMENT = 'LLL:EXT:' . self::KEY . '/Resources/Private/Language/ContentElement.xlf';
 }

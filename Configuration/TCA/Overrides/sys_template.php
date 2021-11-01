@@ -9,9 +9,9 @@
 
 defined('TYPO3_MODE') or die();
 
-(static function ($extensionKey = 'codehighlight') {
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-        $extensionKey,
+(static function () {
+    TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+        Brotkrueml\CodeHighlight\Extension::KEY,
         'Configuration/TypoScript/',
         'Code Highlight'
     );
