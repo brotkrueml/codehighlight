@@ -2,7 +2,7 @@
 defined('TYPO3_MODE') or die();
 
 (static function() {
-    if ((new TYPO3\CMS\Core\Information\Typo3Version())->getMajorVersion() < 11) {
+    if (! (new Brotkrueml\CodeHighlight\Compatibility\Compatibility())->hasIconsConfigurationFile()) {
         $iconRegistry = TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
             TYPO3\CMS\Core\Imaging\IconRegistry::class
         );

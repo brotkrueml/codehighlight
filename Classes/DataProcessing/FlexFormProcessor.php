@@ -11,13 +11,13 @@ declare(strict_types=1);
 
 namespace Brotkrueml\CodeHighlight\DataProcessing;
 
+use Brotkrueml\CodeHighlight\Compatibility\Compatibility;
 use TYPO3\CMS\Core\Service\FlexFormService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
 
-if (\class_exists(\TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor::class)) {
-    // since TYPO3 v11.1
+if ((new Compatibility())->hasFlexFormProcessor()) {
     class FlexFormProcessor extends \TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
     {
     }
