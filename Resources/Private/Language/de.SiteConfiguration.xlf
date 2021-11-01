@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2019-09-25T23:10:53Z" product-name="codehighlight" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2021-11-02T09:42:18Z" product-name="codehighlight" target-language="de">
     <body>
       <trans-unit id="codehighlightCommandLine" resname="codehighlightCommandLine" approved="yes">
         <source><![CDATA[Command Line]]></source>
@@ -21,6 +21,14 @@
       <trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default" approved="yes">
         <source><![CDATA[Default]]></source>
         <target state="final"><![CDATA[Standard]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightToolbar" resname="codehighlightToolbar" approved="yes">
+        <source><![CDATA[Toolbar]]></source>
+        <target state="final"><![CDATA[Symbolleiste]]></target>
+      </trans-unit>
+      <trans-unit id="codehighlightToolbarCopyToClipboard" resname="codehighlightToolbarCopyToClipboard" approved="yes">
+        <source><![CDATA[Copy to Clipboard]]></source>
+        <target state="final"><![CDATA[In Zwischenablage kopieren]]></target>
       </trans-unit>
       <trans-unit id="codehighlightUseUrlHash" resname="codehighlightUseUrlHash" approved="yes">
         <source><![CDATA[Usage of a URL Hash]]></source>
