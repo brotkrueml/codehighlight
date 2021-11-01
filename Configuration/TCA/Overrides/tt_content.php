@@ -17,6 +17,7 @@ defined('TYPO3_MODE') or die();
             Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title',
             $contentType,
             'EXT:' . Brotkrueml\CodeHighlight\Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
+            'special',
         ],
         TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
         Brotkrueml\CodeHighlight\Extension::KEY

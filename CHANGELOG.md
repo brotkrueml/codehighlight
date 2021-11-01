@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Move content element to group "special" in type select box (TYPO3 v10+)
+
 ## [2.7.0] - 2021-09-19
 
 ### Security
