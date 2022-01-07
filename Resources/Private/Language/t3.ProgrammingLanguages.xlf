@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-09-16T17:55:37Z" product-name="codehighlight" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-01-07T13:38:41Z" product-name="codehighlight" target-language="t3">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -65,6 +65,10 @@
       <trans-unit id="asm6502" resname="asm6502">
         <source><![CDATA[6502 Assembly]]></source>
         <target><![CDATA[crwdns49544:0crwdne49544:0]]></target>
+      </trans-unit>
+      <trans-unit id="asmatmel" resname="asmatmel">
+        <source><![CDATA[Atmel AVR Assembly]]></source>
+        <target><![CDATA[crwdns147941:0crwdne147941:0]]></target>
       </trans-unit>
       <trans-unit id="aspnet" resname="aspnet" translate="no">
         <source><![CDATA[ASP.NET (C#)]]></source>
@@ -362,6 +366,10 @@
         <source><![CDATA[Go]]></source>
         <target><![CDATA[crwdns49634:0crwdne49634:0]]></target>
       </trans-unit>
+      <trans-unit id="go-module" resname="go-module">
+        <source><![CDATA[Go module]]></source>
+        <target><![CDATA[crwdns147943:0crwdne147943:0]]></target>
+      </trans-unit>
       <trans-unit id="graphql" resname="graphql" translate="no">
         <source><![CDATA[GraphQL]]></source>
         <target><![CDATA[crwdns49636:0crwdne49636:0]]></target>
@@ -521,6 +529,10 @@
       <trans-unit id="julia" resname="julia" translate="no">
         <source><![CDATA[Julia]]></source>
         <target><![CDATA[crwdns49698:0crwdne49698:0]]></target>
+      </trans-unit>
+      <trans-unit id="keepalived" resname="keepalived">
+        <source><![CDATA[Keepalived Configure]]></source>
+        <target><![CDATA[crwdns147945:0crwdne147945:0]]></target>
       </trans-unit>
       <trans-unit id="keyman" resname="keyman" translate="no">
         <source><![CDATA[Keyman]]></source>
@@ -994,6 +1006,10 @@
         <source><![CDATA[TOML]]></source>
         <target><![CDATA[crwdns49862:0crwdne49862:0]]></target>
       </trans-unit>
+      <trans-unit id="tremor" resname="tremor" translate="no">
+        <source><![CDATA[Tremor + trickle + troy]]></source>
+        <target><![CDATA[crwdns147947:0crwdne147947:0]]></target>
+      </trans-unit>
       <trans-unit id="tsx" resname="tsx" translate="no">
         <source><![CDATA[React TSX]]></source>
         <target><![CDATA[crwdns49864:0crwdne49864:0]]></target>
@@ -1065,6 +1081,10 @@
       <trans-unit id="wasm" resname="wasm" translate="no">
         <source><![CDATA[WebAssembly]]></source>
         <target><![CDATA[crwdns49886:0crwdne49886:0]]></target>
+      </trans-unit>
+      <trans-unit id="web-idl" resname="web-idl" translate="no">
+        <source><![CDATA[Web IDL]]></source>
+        <target><![CDATA[crwdns147949:0crwdne147949:0]]></target>
       </trans-unit>
       <trans-unit id="wiki" resname="wiki">
         <source><![CDATA[Wiki markup]]></source>
