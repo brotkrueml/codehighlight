@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-09-16T17:55:37Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-01-07T13:38:41Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
@@ -49,6 +49,9 @@
 			</trans-unit>
 			<trans-unit id="asm6502" resname="asm6502">
 				<source><![CDATA[6502 Assembly]]></source>
+			</trans-unit>
+			<trans-unit id="asmatmel" resname="asmatmel">
+				<source><![CDATA[Atmel AVR Assembly]]></source>
 			</trans-unit>
 			<trans-unit id="aspnet" resname="aspnet" translate="no">
 				<source><![CDATA[ASP.NET (C#)]]></source>
@@ -272,6 +275,9 @@
 			<trans-unit id="go" resname="go" translate="no">
 				<source><![CDATA[Go]]></source>
 			</trans-unit>
+			<trans-unit id="go-module" resname="go-module">
+				<source><![CDATA[Go module]]></source>
+			</trans-unit>
 			<trans-unit id="graphql" resname="graphql" translate="no">
 				<source><![CDATA[GraphQL]]></source>
 			</trans-unit>
@@ -391,6 +397,9 @@
 			</trans-unit>
 			<trans-unit id="julia" resname="julia" translate="no">
 				<source><![CDATA[Julia]]></source>
+			</trans-unit>
+			<trans-unit id="keepalived" resname="keepalived">
+				<source><![CDATA[Keepalived Configure]]></source>
 			</trans-unit>
 			<trans-unit id="keyman" resname="keyman" translate="no">
 				<source><![CDATA[Keyman]]></source>
@@ -746,6 +755,9 @@
 			<trans-unit id="toml" resname="toml" translate="no">
 				<source><![CDATA[TOML]]></source>
 			</trans-unit>
+			<trans-unit id="tremor" resname="tremor" translate="no">
+				<source><![CDATA[Tremor + trickle + troy]]></source>
+			</trans-unit>
 			<trans-unit id="tsx" resname="tsx" translate="no">
 				<source><![CDATA[React TSX]]></source>
 			</trans-unit>
@@ -799,6 +811,9 @@
 			</trans-unit>
 			<trans-unit id="wasm" resname="wasm" translate="no">
 				<source><![CDATA[WebAssembly]]></source>
+			</trans-unit>
+			<trans-unit id="web-idl" resname="web-idl" translate="no">
+				<source><![CDATA[Web IDL]]></source>
 			</trans-unit>
 			<trans-unit id="wiki" resname="wiki">
 				<source><![CDATA[Wiki markup]]></source>

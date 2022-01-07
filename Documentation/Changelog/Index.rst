@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/codehighlight/compare/v2.8.0...HEAD>`_
 -------------------------------------------------------------------------------------
 
+Updated
+^^^^^^^
+
+
+* Prism to version 1.26.0
+
 `2.8.0 <https://github.com/brotkrueml/codehighlight/compare/v2.7.0...v2.8.0>`_ - 2021-11-01
 -----------------------------------------------------------------------------------------------
 
