@@ -11,6 +11,9 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/codehighlight/compare/v2.8.0...HEAD>`_
 -------------------------------------------------------------------------------------
 
+[2.9.0] - 2022-01-07
+--------------------
+
 Updated
 ^^^^^^^
 
