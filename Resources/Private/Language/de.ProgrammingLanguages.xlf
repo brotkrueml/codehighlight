@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2021-09-16T17:55:37Z" product-name="codehighlight" target-language="de">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-01-07T13:38:41Z" product-name="codehighlight" target-language="de">
     <body>
       <trans-unit id="abnf" resname="abnf" approved="yes">
         <source><![CDATA[Augmented Backus–Naur form]]></source>
@@ -13,6 +13,10 @@
       <trans-unit id="asm6502" resname="asm6502" approved="yes">
         <source><![CDATA[6502 Assembly]]></source>
         <target state="final"><![CDATA[6502-Assembler]]></target>
+      </trans-unit>
+      <trans-unit id="asmatmel" resname="asmatmel" approved="yes">
+        <source><![CDATA[Atmel AVR Assembly]]></source>
+        <target state="final"><![CDATA[Atmel AVR-Assembler]]></target>
       </trans-unit>
       <trans-unit id="bnf" resname="bnf" approved="yes">
         <source><![CDATA[Backus–Naur form]]></source>
@@ -46,6 +50,10 @@
         <source><![CDATA[FreeMarker Template Language]]></source>
         <target state="final"><![CDATA[FreeMarker Template-Sprache]]></target>
       </trans-unit>
+      <trans-unit id="go-module" resname="go-module" approved="yes">
+        <source><![CDATA[Go module]]></source>
+        <target state="final"><![CDATA[Go-Modul]]></target>
+      </trans-unit>
       <trans-unit id="icu-message-format" resname="icu-message-format" approved="yes">
         <source><![CDATA[ICU Message Format]]></source>
         <target state="final"><![CDATA[ICU-Nachrichtenformat]]></target>
@@ -69,6 +77,10 @@
       <trans-unit id="jsstacktrace" resname="jsstacktrace" approved="yes">
         <source><![CDATA[JS stack trace]]></source>
         <target state="final"><![CDATA[JS-Stacktrace]]></target>
+      </trans-unit>
+      <trans-unit id="keepalived" resname="keepalived" approved="yes">
+        <source><![CDATA[Keepalived Configure]]></source>
+        <target state="final"><![CDATA[Keepalived-Konfiguration]]></target>
       </trans-unit>
       <trans-unit id="log" resname="log" approved="yes">
         <source><![CDATA[Log file]]></source>
