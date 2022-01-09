@@ -200,7 +200,7 @@
       </trans-unit>
       <trans-unit id="go-module" resname="go-module" approved="yes">
         <source><![CDATA[Go module]]></source>
-        <target state="final"><![CDATA[Gå til modul]]></target>
+        <target state="final"><![CDATA[Go modul]]></target>
       </trans-unit>
       <trans-unit id="icu-message-format" resname="icu-message-format" approved="yes">
         <source><![CDATA[ICU Message Format]]></source>
