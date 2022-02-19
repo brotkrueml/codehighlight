@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-01-07T13:38:41Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-02-19T17:02:25Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
@@ -778,6 +778,9 @@
 			</trans-unit>
 			<trans-unit id="unrealscript" resname="unrealscript" translate="no">
 				<source><![CDATA[UnrealScript]]></source>
+			</trans-unit>
+			<trans-unit id="uorazor" resname="uorazor" translate="no">
+				<source><![CDATA[UO Razor Script]]></source>
 			</trans-unit>
 			<trans-unit id="uri" resname="uri" translate="no">
 				<source><![CDATA[URI + URL]]></source>

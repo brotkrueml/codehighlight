@@ -254,6 +254,7 @@ return [
     'typescript',
     'typoscript',
     'unrealscript',
+    'uorazor',
     'uri',
     'v',
     'vala',

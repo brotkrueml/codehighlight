@@ -2,12 +2,12 @@ diff --git a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js b/node_
 index ae93dc1..8dc4590 100644
 --- a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
 +++ b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-@@ -266,28 +266,10 @@
+@@ -271,28 +271,10 @@
  	var lang_data = {};
- 
+
  	var ignored_language = 'none';
 -	var languages_path = 'components/';
- 
+
  	var script = Prism.util.currentScript();
 -	if (script) {
 -		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
@@ -30,6 +30,6 @@ index ae93dc1..8dc4590 100644
 -	}
 +
 +  var languages_path = '/typo3conf/ext/codehighlight/Resources/Public/Prism/components/';
- 
+
  	var config = Prism.plugins.autoloader = {
  		languages_path: languages_path,
