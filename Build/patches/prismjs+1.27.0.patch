@@ -1,35 +1,13 @@
 diff --git a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-index ae93dc1..8dc4590 100644
+index 69bfa53..c21134a 100644
 --- a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
 +++ b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-@@ -271,28 +271,10 @@
- 	var lang_data = {};
-
- 	var ignored_language = 'none';
--	var languages_path = 'components/';
-
+@@ -275,7 +275,7 @@
+ 
  	var script = Prism.util.currentScript();
--	if (script) {
+ 	if (script) {
 -		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
--		var prismFile = /(^|\/)[\w-]+\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
--
--		var autoloaderPath = script.getAttribute('data-autoloader-path');
--		if (autoloaderPath != null) {
--			// data-autoloader-path is set, so just use it
--			languages_path = autoloaderPath.trim().replace(/\/?$/, '/');
--		} else {
--			var src = script.src;
--			if (autoloaderFile.test(src)) {
--				// the script is the original autoloader script in the usual Prism project structure
--				languages_path = src.replace(autoloaderFile, 'components/');
--			} else if (prismFile.test(src)) {
--				// the script is part of a bundle like a custom prism.js from the download page
--				languages_path = src.replace(prismFile, '$1components/');
--			}
--		}
--	}
-+
-+  var languages_path = '/typo3conf/ext/codehighlight/Resources/Public/Prism/components/';
-
- 	var config = Prism.plugins.autoloader = {
- 		languages_path: languages_path,
++		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)?(?:[0-9]+\.)?js(?:\?[^\r\n/]*)?$/i;
+ 		var prismFile = /(^|\/)[\w-]+\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
+ 
+ 		var autoloaderPath = script.getAttribute('data-autoloader-path');

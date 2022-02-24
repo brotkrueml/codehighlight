@@ -103,7 +103,7 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         }
 
         static::addJsFile('components/prism-core.min.js');
-        static::addJsFile('plugins/autoloader/prism-autoloader.min.js');
+        static::addJsFile('plugins/autoloader/prism-autoloader.min.js', false);
     }
 
     private static function handleLineNumbers(): void
@@ -263,9 +263,21 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         }
     }
 
-    private static function addJsFile(string $file): void
+    private static function addJsFile(string $file, bool $allowConcatenation = true): void
     {
-        static::$pageRenderer->addJsFooterFile(Extension::PRISM_BASE_PATH . $file);
+        if ($allowConcatenation) {
+            static::$pageRenderer->addJsFooterFile(Extension::PRISM_BASE_PATH . $file);
+            return;
+        }
+
+        static::$pageRenderer->addJsFooterFile(
+            Extension::PRISM_BASE_PATH . $file,
+            '',
+            false,
+            false,
+            '',
+            true
+        );
     }
 
     private static function addToPreAttributes(string $dataName, string $dataValue): void

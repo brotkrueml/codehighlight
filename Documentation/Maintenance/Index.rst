@@ -76,12 +76,11 @@ these to the translation file
 
 .. note::
 
-   Due to the variants JavaScript files can be integrated into the page (as
-   configured, last modification timestamp is embedded into the filename,
-   :ref:`concatenated <t3tsref:setup-config-concatenatejs>`) the script
+   Due to the variants JavaScript files can be integrated into the page (like
+   last modification timestamp is embedded into the filename), the script
    :file:`Build/node_modules/prismjs/plugins/autoloader/prism-autoloader.js`
-   was patched: The variable :js:`language_path` has to be set to
-   :js:`/typo3conf/ext/codehighlight/Resources/Public/Prism/components/`.
+   was patched: The variable :js:`autoloaderFile` regex has to be set to
+   adjusted to consider a possibly available timestamp in the filename.
    When updating the Prism library, the patch under
    :file:`Build/patches/prismjs+1.xx.x.patch` has to be adjusted eventually.
    The package `patch-package <https://github.com/ds300/patch-package#readme>`__

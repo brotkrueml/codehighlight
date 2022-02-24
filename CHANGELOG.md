@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Compatibility with typo3/cms-composer-installers v4 (#33)
+
+### Changed
+- The Prism autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
+
 ## [2.10.0] - 2022-02-19
 
 ### Updated

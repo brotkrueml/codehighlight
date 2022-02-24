@@ -185,4 +185,6 @@ and :php:`addJsFooterFile()`. This means, that they adhere to the configuration
 setting :php:`$GLOBALS['TYPO3_CONF_VARS']['FE']['versionNumberInFilename']`
 and the TypoScript settings
 :ref:`config.concatenateJs <t3tsref:setup-config-concatenatejs>` and
-:ref:`config.concatenateCss <t3tsref:setup-config-concatenatecss>`.
+:ref:`config.concatenateCss <t3tsref:setup-config-concatenatecss>`. One
+exception from concatenation is the Prism autoloader JavaScript which is used to
+load the necessary language files.
