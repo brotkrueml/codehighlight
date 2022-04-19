@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.11.0] - 2022-04-19
+
 ### Added
 - Compatibility with typo3/cms-composer-installers v4 (#33)
 
@@ -119,7 +121,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Syntax highlighting with PrismJS
 
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.10.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.11.0...HEAD
+[2.11.0]: https://github.com/brotkrueml/codehighlight/compare/v2.10.0...v2.11.0
 [2.10.0]: https://github.com/brotkrueml/codehighlight/compare/v2.9.0...v2.10.0
 [2.9.0]: https://github.com/brotkrueml/codehighlight/compare/v2.8.0...v2.9.0
 [2.8.0]: https://github.com/brotkrueml/codehighlight/compare/v2.7.0...v2.8.0
