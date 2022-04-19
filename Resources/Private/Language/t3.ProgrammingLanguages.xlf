@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-02-19T17:02:25Z" product-name="codehighlight" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-04-19T16:43:56Z" product-name="codehighlight" target-language="t3">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -58,6 +58,14 @@
         <source><![CDATA[ARFF]]></source>
         <target><![CDATA[crwdns49540:0crwdne49540:0]]></target>
       </trans-unit>
+      <trans-unit id="armasm" resname="armasm">
+        <source><![CDATA[ARM Assembly]]></source>
+        <target><![CDATA[crwdns166572:0crwdne166572:0]]></target>
+      </trans-unit>
+      <trans-unit id="arturo" resname="arturo" translate="no">
+        <source><![CDATA[Arturo]]></source>
+        <target><![CDATA[crwdns166574:0crwdne166574:0]]></target>
+      </trans-unit>
       <trans-unit id="asciidoc" resname="asciidoc" translate="no">
         <source><![CDATA[AsciiDoc]]></source>
         <target><![CDATA[crwdns49542:0crwdne49542:0]]></target>
@@ -89,6 +97,10 @@
       <trans-unit id="avro-idl" resname="avro-idl" translate="no">
         <source><![CDATA[Avro IDL]]></source>
         <target><![CDATA[crwdns138479:0crwdne138479:0]]></target>
+      </trans-unit>
+      <trans-unit id="awk" resname="awk" translate="no">
+        <source><![CDATA[AWK + GAWK]]></source>
+        <target><![CDATA[crwdns166576:0crwdne166576:0]]></target>
       </trans-unit>
       <trans-unit id="bash" resname="bash" translate="no">
         <source><![CDATA[Bash]]></source>
@@ -178,6 +190,10 @@
         <source><![CDATA[Concurnas]]></source>
         <target><![CDATA[crwdns110334:0crwdne110334:0]]></target>
       </trans-unit>
+      <trans-unit id="cooklang" resname="cooklang" translate="no">
+        <source><![CDATA[Cooklang]]></source>
+        <target><![CDATA[crwdns166578:0crwdne166578:0]]></target>
+      </trans-unit>
       <trans-unit id="coq" resname="coq" translate="no">
         <source><![CDATA[Coq]]></source>
         <target><![CDATA[crwdns136504:0crwdne136504:0]]></target>
@@ -213,6 +229,10 @@
       <trans-unit id="csv" resname="csv" translate="no">
         <source><![CDATA[CSV]]></source>
         <target><![CDATA[crwdns136506:0crwdne136506:0]]></target>
+      </trans-unit>
+      <trans-unit id="cue" resname="cue" translate="no">
+        <source><![CDATA[CUE]]></source>
+        <target><![CDATA[crwdns166580:0crwdne166580:0]]></target>
       </trans-unit>
       <trans-unit id="cypher" resname="cypher" translate="no">
         <source><![CDATA[Cypher]]></source>
@@ -341,6 +361,10 @@
       <trans-unit id="gedcom" resname="gedcom" translate="no">
         <source><![CDATA[GEDCOM]]></source>
         <target><![CDATA[crwdns49624:0crwdne49624:0]]></target>
+      </trans-unit>
+      <trans-unit id="gettext" resname="gettext" translate="no">
+        <source><![CDATA[gettext]]></source>
+        <target><![CDATA[crwdns166582:0crwdne166582:0]]></target>
       </trans-unit>
       <trans-unit id="gherkin" resname="gherkin" translate="no">
         <source><![CDATA[Gherkin]]></source>
@@ -566,6 +590,10 @@
         <source><![CDATA[LilyPond]]></source>
         <target><![CDATA[crwdns49708:0crwdne49708:0]]></target>
       </trans-unit>
+      <trans-unit id="linker-script" resname="linker-script">
+        <source><![CDATA[GNU Linker Script]]></source>
+        <target><![CDATA[crwdns166584:0crwdne166584:0]]></target>
+      </trans-unit>
       <trans-unit id="liquid" resname="liquid" translate="no">
         <source><![CDATA[Liquid]]></source>
         <target><![CDATA[crwdns49710:0crwdne49710:0]]></target>
@@ -613,6 +641,10 @@
       <trans-unit id="markup-templating" resname="markup-templating">
         <source><![CDATA[Markup templating]]></source>
         <target><![CDATA[crwdns49726:0crwdne49726:0]]></target>
+      </trans-unit>
+      <trans-unit id="mata" resname="mata" translate="no">
+        <source><![CDATA[Mata]]></source>
+        <target><![CDATA[crwdns166586:0crwdne166586:0]]></target>
       </trans-unit>
       <trans-unit id="mathml" resname="mathml" translate="no">
         <source><![CDATA[MathML]]></source>
@@ -702,6 +734,10 @@
         <source><![CDATA[OCaml]]></source>
         <target><![CDATA[crwdns49756:0crwdne49756:0]]></target>
       </trans-unit>
+      <trans-unit id="odin" resname="odin" translate="no">
+        <source><![CDATA[Odin]]></source>
+        <target><![CDATA[crwdns166588:0crwdne166588:0]]></target>
+      </trans-unit>
       <trans-unit id="opencl" resname="opencl" translate="no">
         <source><![CDATA[OpenCL]]></source>
         <target><![CDATA[crwdns49758:0crwdne49758:0]]></target>
@@ -753,6 +789,10 @@
       <trans-unit id="phpdoc" resname="phpdoc" translate="no">
         <source><![CDATA[PHPDoc]]></source>
         <target><![CDATA[crwdns49778:0crwdne49778:0]]></target>
+      </trans-unit>
+      <trans-unit id="plant-uml" resname="plant-uml" translate="no">
+        <source><![CDATA[PlantUML]]></source>
+        <target><![CDATA[crwdns166590:0crwdne166590:0]]></target>
       </trans-unit>
       <trans-unit id="plsql" resname="plsql" translate="no">
         <source><![CDATA[PL/SQL]]></source>
@@ -858,6 +898,10 @@
         <source><![CDATA[Ren'py]]></source>
         <target><![CDATA[crwdns49810:0crwdne49810:0]]></target>
       </trans-unit>
+      <trans-unit id="rescript" resname="rescript" translate="no">
+        <source><![CDATA[ReScript]]></source>
+        <target><![CDATA[crwdns166592:0crwdne166592:0]]></target>
+      </trans-unit>
       <trans-unit id="rest" resname="rest" translate="no">
         <source><![CDATA[reST (reStructuredText)]]></source>
         <target><![CDATA[crwdns49812:0crwdne49812:0]]></target>
@@ -962,9 +1006,17 @@
         <source><![CDATA[Stan]]></source>
         <target><![CDATA[crwdns113996:0crwdne113996:0]]></target>
       </trans-unit>
+      <trans-unit id="stata" resname="stata" translate="no">
+        <source><![CDATA[Stata Ado]]></source>
+        <target><![CDATA[crwdns166594:0crwdne166594:0]]></target>
+      </trans-unit>
       <trans-unit id="stylus" resname="stylus" translate="no">
         <source><![CDATA[Stylus]]></source>
         <target><![CDATA[crwdns49844:0crwdne49844:0]]></target>
+      </trans-unit>
+      <trans-unit id="supercollider" resname="supercollider" translate="no">
+        <source><![CDATA[SuperCollider]]></source>
+        <target><![CDATA[crwdns166596:0crwdne166596:0]]></target>
       </trans-unit>
       <trans-unit id="svg" resname="svg" translate="no">
         <source><![CDATA[SVG]]></source>
