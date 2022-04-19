@@ -14,8 +14,8 @@ From version 1.1 to 2.0
 
 The TypoScript settings
 
-* :ts:`tt_content.tx_codehighlight_codesnippet.settings.commandLine.defaultServerHost` and
-* :ts:`tt_content.tx_codehighlight_codesnippet.settings.commandLine.defaultServerUser`
+* :typoscript:`tt_content.tx_codehighlight_codesnippet.settings.commandLine.defaultServerHost` and
+* :typoscript:`tt_content.tx_codehighlight_codesnippet.settings.commandLine.defaultServerUser`
 
 respectively the Constant Editor settings for defining a default host and
 default user on the command line are moved into the

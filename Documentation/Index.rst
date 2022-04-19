@@ -2,9 +2,15 @@
 
 .. _start:
 
-=============================================================
+==============
 Code Highlight
-=============================================================
+==============
+
+:Extension key:
+   codehighlight
+
+:Package name:
+   brotkrueml/codehighlight
 
 :Version:
    |release|
@@ -12,53 +18,28 @@ Code Highlight
 :Language:
    en
 
-:Authors:
+:Author:
    Chris Müller
 
-:Email:
-   typo3 (at) krue (dot) ml
-
-:Slack:
-   chris on `typo3.slack.com <https://typo3.slack.com>`_
-
-:Twitter:
-   `@brotkrueml <https://twitter.com/brotkrueml>`_
-
 :License:
-   This extension documentation is published under the
-   `CC BY-NC-SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_
-   (Creative Commons) license
+   This document is published under the `Creative Commons BY 4.0`_ license.
+
+:Rendered:
+   |today|
+
+----
 
 The extension provides a content element for code snippets. The code is
 highlighted for better readability. Various programming languages can be chosen,
-also some formatting settings. The code highlighting is based on
-`Prism <https://prismjs.com/>`_.
+also some formatting settings. The code highlighting is based on `PrismJS`_.
 
-.. rst-class:: horizbuttons-tip-xxl
+----
 
-- :ref:`Sitemap`
-
-**TYPO3**
-
-The content of this document is related to TYPO3 CMS, a GNU/GPL CMS/Framework
-available from `typo3.org <https://typo3.org/>`_.
-
-**Extension Manual**
-
-This documentation is for the TYPO3 extension codehighlight.
-
-If you find an error or something is missing, please:
-`Report a Problem <https://github.com/brotkrueml/codehighlight/issues/new>`_.
-
-**For Contributors**
-
-You are welcome to help improve this guide. Just click the "Edit on GitHub"
-button on the top right to submit your change request.
+**Table of Contents:**
 
 .. toctree::
-   :maxdepth: 3
-   :hidden:
-
+   :maxdepth: 2
+   :titlesonly:
 
    Introduction/Index
    Editor/Index
@@ -68,4 +49,14 @@ button on the top right to submit your change request.
    Changelog/Index
    Migration/Index
    Maintenance/Index
+
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
    Sitemap
+
+
+.. _Creative Commons BY 4.0: https://creativecommons.org/licenses/by/4.0/
+.. _PrismJS: https://prismjs.com/

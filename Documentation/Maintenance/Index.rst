@@ -1,6 +1,6 @@
 .. include:: /Includes.rst.txt
 
-.. highlight:: shell
+.. highlight:: bash
 
 .. _maintenance:
 
@@ -34,10 +34,10 @@ create it.
 
 .. _maintenance-prism:
 
-Prism Library
-=============
+PrismJS Library
+===============
 
-For syntax highlighting `Prism <https://prismjs.com/>`__ is used. The JavaScript
+For syntax highlighting `PrismJS <https://prismjs.com/>`_ is used. The JavaScript
 library and its dependencies are managed with :file:`yarn` and build with
 :file:`gulp`:
 
@@ -81,7 +81,7 @@ these to the translation file
    :file:`Build/node_modules/prismjs/plugins/autoloader/prism-autoloader.js`
    was patched: The variable :js:`autoloaderFile` regex has to be set to
    adjusted to consider a possibly available timestamp in the filename.
-   When updating the Prism library, the patch under
+   When updating the PrismJS library, the patch under
    :file:`Build/patches/prismjs+1.xx.x.patch` has to be adjusted eventually.
    The package `patch-package <https://github.com/ds300/patch-package#readme>`__
    is used for that.

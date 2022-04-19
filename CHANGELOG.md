@@ -116,7 +116,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Content element "Code Snippet"
-- Syntax highlighting with Prism
+- Syntax highlighting with PrismJS
 
 
 [Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.10.0...HEAD

@@ -21,7 +21,7 @@ Changed
 ^^^^^^^
 
 
-* The Prism autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
+* The PrismJS autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
 
 Updated
 ^^^^^^^
@@ -210,4 +210,4 @@ Added
 
 
 * Content element "Code Snippet"
-* Syntax highlighting with Prism
+* Syntax highlighting with PrismJS

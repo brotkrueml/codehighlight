@@ -32,7 +32,7 @@ CSS File for Theme
 ------------------
 
 In the value picker you have the choice between several themes for using on a
-website. As the extension uses `Prism <https://prismjs.com/>`_ for the code
+website. As the extension uses `PrismJS <https://prismjs.com/>`_ for the code
 highlighting you can have a look at their website to see the differences
 between the themes.
 
@@ -179,12 +179,12 @@ Alternatively you can change the setting directly in the TypoScript setup:
 Assets embedding
 ================
 
-The required CSS and JavaScript files from the Prism library and the extension's
+The required CSS and JavaScript files from the PrismJS library and the extension's
 CSS file are embedded with the :php:`PageRenderer` methods :php:`addCssFile()`
 and :php:`addJsFooterFile()`. This means, that they adhere to the configuration
 setting :php:`$GLOBALS['TYPO3_CONF_VARS']['FE']['versionNumberInFilename']`
 and the TypoScript settings
 :ref:`config.concatenateJs <t3tsref:setup-config-concatenatejs>` and
 :ref:`config.concatenateCss <t3tsref:setup-config-concatenatecss>`. One
-exception from concatenation is the Prism autoloader JavaScript which is used to
+exception from concatenation is the PrismJS autoloader JavaScript which is used to
 load the necessary language files.
