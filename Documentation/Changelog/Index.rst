@@ -27,7 +27,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.28.0
+* PrismJS to version `1.28.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1280-2022-04-17>`_
 
 `2.10.0 <https://github.com/brotkrueml/codehighlight/compare/v2.9.0...v2.10.0>`_ - 2022-02-19
 -------------------------------------------------------------------------------------------------
@@ -36,7 +36,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.27.0
+* PrismJS to version `1.27.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1270-2022-02-17>`_
 
 `2.9.0 <https://github.com/brotkrueml/codehighlight/compare/v2.8.0...v2.9.0>`_ - 2022-01-07
 -----------------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.26.0
+* PrismJS to version `1.26.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1260-2022-01-06>`_
 
 `2.8.0 <https://github.com/brotkrueml/codehighlight/compare/v2.7.0...v2.8.0>`_ - 2021-11-01
 -----------------------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ Security
 ^^^^^^^^
 
 
-* Update Prism to version 1.25.0
+* Update PrismJS to version `1.25.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1250-2021-09-16>`_
 
 `2.6.1 <https://github.com/brotkrueml/codehighlight/compare/v2.6.0...v2.6.1>`_ - 2021-07-04
 -----------------------------------------------------------------------------------------------
@@ -78,7 +78,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.24.1
+* PrismJS to version `1.24.1 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1241-2021-07-03>`_
 
 `2.6.0 <https://github.com/brotkrueml/codehighlight/compare/v2.5.0...v2.6.0>`_ - 2021-06-28
 -----------------------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.24.0
+* PrismJS to version `1.24.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1240-2021-06-27>`_
 
 `2.5.0 <https://github.com/brotkrueml/codehighlight/compare/v2.4.0...v2.5.0>`_ - 2021-01-06
 -----------------------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ Security
 ^^^^^^^^
 
 
-* Update Prism to version 1.23.0
+* Update PrismJS to version `1.23.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1230-2020-12-31>`_
 
 `2.4.0 <https://github.com/brotkrueml/codehighlight/compare/v2.3.0...v2.4.0>`_ - 2020-12-27
 -----------------------------------------------------------------------------------------------
@@ -115,7 +115,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.22.0
+* PrismJS to version `1.22.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1220-2020-10-10>`_
 
 Fixed
 ^^^^^
@@ -130,7 +130,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.21.0
+* PrismJS to version `1.21.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1210-2020-08-06>`_
 
 `2.1.0 <https://github.com/brotkrueml/codehighlight/compare/v2.0.1...v2.1.0>`_ - 2020-04-01
 -----------------------------------------------------------------------------------------------
@@ -139,7 +139,7 @@ Updated
 ^^^^^^^
 
 
-* Prism to version 1.19.0
+* PrismJS to version `1.19.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1190-2020-01-13>`_
 
 `2.0.1 <https://github.com/brotkrueml/codehighlight/compare/v2.0.0...v2.0.1>`_ - 2019-12-20
 -----------------------------------------------------------------------------------------------

@@ -10,20 +10,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Compatibility with typo3/cms-composer-installers v4 (#33)
 
 ### Changed
-- The Prism autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
+- The PrismJS autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
 
 ### Updated
-- Prism to version 1.28.0
+- PrismJS to version [1.28.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1280-2022-04-17)
 
 ## [2.10.0] - 2022-02-19
 
 ### Updated
-- Prism to version 1.27.0
+- PrismJS to version [1.27.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1270-2022-02-17)
 
 ## [2.9.0] - 2022-01-07
 
 ### Updated
-- Prism to version 1.26.0
+- PrismJS to version [1.26.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1260-2022-01-06)
 
 ## [2.8.0] - 2021-11-01
 
@@ -36,22 +36,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.7.0] - 2021-09-19
 
 ### Security
-- Update Prism to version 1.25.0
+- Update PrismJS to version [1.25.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1250-2021-09-16)
 
 ## [2.6.1] - 2021-07-04
 
 ### Updated
-- Prism to version 1.24.1
+- PrismJS to version [1.24.1](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1241-2021-07-03)
 
 ## [2.6.0] - 2021-06-28
 
 ### Updated
-- Prism to version 1.24.0
+- PrismJS to version [1.24.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1240-2021-06-27)
 
 ## [2.5.0] - 2021-01-06
 
 ### Security
-- Update Prism to version 1.23.0
+- Update PrismJS to version [1.23.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1230-2020-12-31)
 
 ## [2.4.0] - 2020-12-27
 
@@ -62,7 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.3.0] - 2020-10-12
 
 ### Updated
-- Prism to version 1.22.0
+- PrismJS to version [1.22.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1220-2020-10-10)
 
 ### Fixed
 - Show content element in wizard in TYPO3 v10
@@ -70,12 +70,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.2.0] - 2020-08-08
 
 ### Updated
-- Prism to version 1.21.0
+- PrismJS to version [1.21.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1210-2020-08-06)
 
 ## [2.1.0] - 2020-04-01
 
 ### Updated
-- Prism to version 1.19.0
+- PrismJS to version [1.19.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1190-2020-01-13)
 
 ## [2.0.1] - 2019-12-20
 
