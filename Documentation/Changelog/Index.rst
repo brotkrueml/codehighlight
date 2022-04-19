@@ -23,6 +23,12 @@ Changed
 
 * The Prism autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
 
+Updated
+^^^^^^^
+
+
+* Prism to version 1.28.0
+
 `2.10.0 <https://github.com/brotkrueml/codehighlight/compare/v2.9.0...v2.10.0>`_ - 2022-02-19
 -------------------------------------------------------------------------------------------------
 

@@ -2,12 +2,12 @@ diff --git a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js b/node_
 index 69bfa53..c21134a 100644
 --- a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
 +++ b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-@@ -275,7 +275,7 @@
- 
+@@ -289,7 +289,7 @@
+
  	var script = Prism.util.currentScript();
  	if (script) {
 -		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
 +		var autoloaderFile = /\bplugins\/autoloader\/prism-autoloader\.(?:min\.)?(?:[0-9]+\.)?js(?:\?[^\r\n/]*)?$/i;
  		var prismFile = /(^|\/)[\w-]+\.(?:min\.)?js(?:\?[^\r\n/]*)?$/i;
- 
+
  		var autoloaderPath = script.getAttribute('data-autoloader-path');

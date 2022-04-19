@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-02-19T17:02:25Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-04-19T16:43:56Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
@@ -44,6 +44,12 @@
 			<trans-unit id="arff" resname="arff" translate="no">
 				<source><![CDATA[ARFF]]></source>
 			</trans-unit>
+			<trans-unit id="armasm" resname="armasm">
+				<source><![CDATA[ARM Assembly]]></source>
+			</trans-unit>
+			<trans-unit id="arturo" resname="arturo" translate="no">
+				<source><![CDATA[Arturo]]></source>
+			</trans-unit>
 			<trans-unit id="asciidoc" resname="asciidoc" translate="no">
 				<source><![CDATA[AsciiDoc]]></source>
 			</trans-unit>
@@ -67,6 +73,9 @@
 			</trans-unit>
 			<trans-unit id="avro-idl" resname="avro-idl" translate="no">
 				<source><![CDATA[Avro IDL]]></source>
+			</trans-unit>
+			<trans-unit id="awk" resname="awk" translate="no">
+				<source><![CDATA[AWK + GAWK]]></source>
 			</trans-unit>
 			<trans-unit id="bash" resname="bash" translate="no">
 				<source><![CDATA[Bash]]></source>
@@ -134,6 +143,9 @@
 			<trans-unit id="concurnas" resname="concurnas" translate="no">
 				<source><![CDATA[Concurnas]]></source>
 			</trans-unit>
+			<trans-unit id="cooklang" resname="cooklang" translate="no">
+				<source><![CDATA[Cooklang]]></source>
+			</trans-unit>
 			<trans-unit id="coq" resname="coq" translate="no">
 				<source><![CDATA[Coq]]></source>
 			</trans-unit>
@@ -160,6 +172,9 @@
 			</trans-unit>
 			<trans-unit id="csv" resname="csv" translate="no">
 				<source><![CDATA[CSV]]></source>
+			</trans-unit>
+			<trans-unit id="cue" resname="cue" translate="no">
+				<source><![CDATA[CUE]]></source>
 			</trans-unit>
 			<trans-unit id="cypher" resname="cypher" translate="no">
 				<source><![CDATA[Cypher]]></source>
@@ -256,6 +271,9 @@
 			</trans-unit>
 			<trans-unit id="gedcom" resname="gedcom" translate="no">
 				<source><![CDATA[GEDCOM]]></source>
+			</trans-unit>
+			<trans-unit id="gettext" resname="gettext" translate="no">
+				<source><![CDATA[gettext]]></source>
 			</trans-unit>
 			<trans-unit id="gherkin" resname="gherkin" translate="no">
 				<source><![CDATA[Gherkin]]></source>
@@ -425,6 +443,9 @@
 			<trans-unit id="lilypond" resname="lilypond" translate="no">
 				<source><![CDATA[LilyPond]]></source>
 			</trans-unit>
+			<trans-unit id="linker-script" resname="linker-script">
+				<source><![CDATA[GNU Linker Script]]></source>
+			</trans-unit>
 			<trans-unit id="liquid" resname="liquid" translate="no">
 				<source><![CDATA[Liquid]]></source>
 			</trans-unit>
@@ -460,6 +481,9 @@
 			</trans-unit>
 			<trans-unit id="markup-templating" resname="markup-templating">
 				<source><![CDATA[Markup templating]]></source>
+			</trans-unit>
+			<trans-unit id="mata" resname="mata" translate="no">
+				<source><![CDATA[Mata]]></source>
 			</trans-unit>
 			<trans-unit id="mathml" resname="mathml" translate="no">
 				<source><![CDATA[MathML]]></source>
@@ -527,6 +551,9 @@
 			<trans-unit id="ocaml" resname="ocaml" translate="no">
 				<source><![CDATA[OCaml]]></source>
 			</trans-unit>
+			<trans-unit id="odin" resname="odin" translate="no">
+				<source><![CDATA[Odin]]></source>
+			</trans-unit>
 			<trans-unit id="opencl" resname="opencl" translate="no">
 				<source><![CDATA[OpenCL]]></source>
 			</trans-unit>
@@ -565,6 +592,9 @@
 			</trans-unit>
 			<trans-unit id="phpdoc" resname="phpdoc" translate="no">
 				<source><![CDATA[PHPDoc]]></source>
+			</trans-unit>
+			<trans-unit id="plant-uml" resname="plant-uml" translate="no">
+				<source><![CDATA[PlantUML]]></source>
 			</trans-unit>
 			<trans-unit id="plsql" resname="plsql" translate="no">
 				<source><![CDATA[PL/SQL]]></source>
@@ -644,6 +674,9 @@
 			<trans-unit id="renpy" resname="renpy" translate="no">
 				<source><![CDATA[Ren'py]]></source>
 			</trans-unit>
+			<trans-unit id="rescript" resname="rescript" translate="no">
+				<source><![CDATA[ReScript]]></source>
+			</trans-unit>
 			<trans-unit id="rest" resname="rest" translate="no">
 				<source><![CDATA[reST (reStructuredText)]]></source>
 			</trans-unit>
@@ -722,8 +755,14 @@
 			<trans-unit id="stan" resname="stan" translate="no">
 				<source><![CDATA[Stan]]></source>
 			</trans-unit>
+			<trans-unit id="stata" resname="stata" translate="no">
+				<source><![CDATA[Stata Ado]]></source>
+			</trans-unit>
 			<trans-unit id="stylus" resname="stylus" translate="no">
 				<source><![CDATA[Stylus]]></source>
+			</trans-unit>
+			<trans-unit id="supercollider" resname="supercollider" translate="no">
+				<source><![CDATA[SuperCollider]]></source>
 			</trans-unit>
 			<trans-unit id="svg" resname="svg" translate="no">
 				<source><![CDATA[SVG]]></source>

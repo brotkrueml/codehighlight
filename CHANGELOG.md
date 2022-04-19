@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - The Prism autoloader JavaScript can't be concatenated anymore with other JavaScript files (#33)
 
+### Updated
+- Prism to version 1.28.0
+
 ## [2.10.0] - 2022-02-19
 
 ### Updated
