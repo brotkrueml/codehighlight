@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-02-19T17:02:25Z" product-name="codehighlight" target-language="da">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-04-19T16:43:56Z" product-name="codehighlight" target-language="da">
     <body>
       <trans-unit id="abap" resname="abap" translate="no" approved="yes">
         <source><![CDATA[ABAP]]></source>
@@ -37,6 +37,10 @@
       <trans-unit id="arff" resname="arff" translate="no" approved="yes">
         <source><![CDATA[ARFF]]></source>
         <target state="final"><![CDATA[ARFF]]></target>
+      </trans-unit>
+      <trans-unit id="armasm" resname="armasm" approved="yes">
+        <source><![CDATA[ARM Assembly]]></source>
+        <target state="final"><![CDATA[ARM Assembly]]></target>
       </trans-unit>
       <trans-unit id="asciidoc" resname="asciidoc" translate="no" approved="yes">
         <source><![CDATA[AsciiDoc]]></source>
@@ -229,6 +233,10 @@
       <trans-unit id="keepalived" resname="keepalived" approved="yes">
         <source><![CDATA[Keepalived Configure]]></source>
         <target state="final"><![CDATA[Keepalived konfiguration]]></target>
+      </trans-unit>
+      <trans-unit id="linker-script" resname="linker-script" approved="yes">
+        <source><![CDATA[GNU Linker Script]]></source>
+        <target state="final"><![CDATA[GNU Linker Script]]></target>
       </trans-unit>
       <trans-unit id="log" resname="log" approved="yes">
         <source><![CDATA[Log file]]></source>
