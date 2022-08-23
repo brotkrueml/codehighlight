@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-04-19T16:43:56Z" product-name="codehighlight" target-language="t3">
+  <file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-08-23T18:02:31Z" product-name="codehighlight" target-language="t3">
     <body>
       <trans-unit id="abap" resname="abap" translate="no">
         <source><![CDATA[ABAP]]></source>
@@ -118,6 +118,10 @@
         <source><![CDATA[BBcode + Shortcode]]></source>
         <target><![CDATA[crwdns85906:0crwdne85906:0]]></target>
       </trans-unit>
+      <trans-unit id="bbj" resname="bbj" translate="no">
+        <source><![CDATA[BBj]]></source>
+        <target><![CDATA[crwdns210452:0crwdne210452:0]]></target>
+      </trans-unit>
       <trans-unit id="bicep" resname="bicep" translate="no">
         <source><![CDATA[Bicep]]></source>
         <target><![CDATA[crwdns138481:0crwdne138481:0]]></target>
@@ -133,6 +137,10 @@
       <trans-unit id="bnf" resname="bnf">
         <source><![CDATA[Backus–Naur form]]></source>
         <target><![CDATA[crwdns67286:0crwdne67286:0]]></target>
+      </trans-unit>
+      <trans-unit id="bqn" resname="bqn" translate="no">
+        <source><![CDATA[BQN]]></source>
+        <target><![CDATA[crwdns210454:0crwdne210454:0]]></target>
       </trans-unit>
       <trans-unit id="brainfuck" resname="brainfuck" translate="no">
         <source><![CDATA[Brainfuck]]></source>
@@ -165,6 +173,14 @@
       <trans-unit id="cil" resname="cil" translate="no">
         <source><![CDATA[CIL]]></source>
         <target><![CDATA[crwdns49568:0crwdne49568:0]]></target>
+      </trans-unit>
+      <trans-unit id="cilkc" resname="cilkc" translate="no">
+        <source><![CDATA[Cilk/C]]></source>
+        <target><![CDATA[crwdns210456:0crwdne210456:0]]></target>
+      </trans-unit>
+      <trans-unit id="cilkcpp" resname="cilkcpp" translate="no">
+        <source><![CDATA[Cilk/C++]]></source>
+        <target><![CDATA[crwdns210458:0crwdne210458:0]]></target>
       </trans-unit>
       <trans-unit id="clike" resname="clike">
         <source><![CDATA[C-like]]></source>
@@ -393,6 +409,10 @@
       <trans-unit id="go-module" resname="go-module">
         <source><![CDATA[Go module]]></source>
         <target><![CDATA[crwdns147943:0crwdne147943:0]]></target>
+      </trans-unit>
+      <trans-unit id="gradle" resname="gradle" translate="no">
+        <source><![CDATA[Gradle]]></source>
+        <target><![CDATA[crwdns210460:0crwdne210460:0]]></target>
       </trans-unit>
       <trans-unit id="graphql" resname="graphql" translate="no">
         <source><![CDATA[GraphQL]]></source>
@@ -665,6 +685,10 @@
       <trans-unit id="mermaid" resname="mermaid" translate="no">
         <source><![CDATA[Mermaid]]></source>
         <target><![CDATA[crwdns138497:0crwdne138497:0]]></target>
+      </trans-unit>
+      <trans-unit id="metafont" resname="metafont" translate="no">
+        <source><![CDATA[METAFONT]]></source>
+        <target><![CDATA[crwdns210462:0crwdne210462:0]]></target>
       </trans-unit>
       <trans-unit id="mizar" resname="mizar" translate="no">
         <source><![CDATA[Mizar]]></source>
@@ -1141,6 +1165,10 @@
       <trans-unit id="web-idl" resname="web-idl" translate="no">
         <source><![CDATA[Web IDL]]></source>
         <target><![CDATA[crwdns147949:0crwdne147949:0]]></target>
+      </trans-unit>
+      <trans-unit id="wgsl" resname="wgsl" translate="no">
+        <source><![CDATA[WGSL]]></source>
+        <target><![CDATA[crwdns210464:0crwdne210464:0]]></target>
       </trans-unit>
       <trans-unit id="wiki" resname="wiki">
         <source><![CDATA[Wiki markup]]></source>
