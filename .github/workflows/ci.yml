@@ -45,7 +45,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-versions }}
-          extension-csv: mbstring
+          extensions: mbstring
       - name: Install composer dependencies
         run: |
           composer require typo3/cms-core=${{ matrix.typo3-versions }}
