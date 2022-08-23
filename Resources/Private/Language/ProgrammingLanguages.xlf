@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-04-19T16:43:56Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ProgrammingLanguages.xlf" date="2022-08-23T18:02:31Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="abap" resname="abap" translate="no">
 				<source><![CDATA[ABAP]]></source>
@@ -89,6 +89,9 @@
 			<trans-unit id="bbcode" resname="bbcode" translate="no">
 				<source><![CDATA[BBcode + Shortcode]]></source>
 			</trans-unit>
+			<trans-unit id="bbj" resname="bbj" translate="no">
+				<source><![CDATA[BBj]]></source>
+			</trans-unit>
 			<trans-unit id="bicep" resname="bicep" translate="no">
 				<source><![CDATA[Bicep]]></source>
 			</trans-unit>
@@ -100,6 +103,9 @@
 			</trans-unit>
 			<trans-unit id="bnf" resname="bnf">
 				<source><![CDATA[Backus–Naur form]]></source>
+			</trans-unit>
+			<trans-unit id="bqn" resname="bqn" translate="no">
+				<source><![CDATA[BQN]]></source>
 			</trans-unit>
 			<trans-unit id="brainfuck" resname="brainfuck" translate="no">
 				<source><![CDATA[Brainfuck]]></source>
@@ -124,6 +130,12 @@
 			</trans-unit>
 			<trans-unit id="cil" resname="cil" translate="no">
 				<source><![CDATA[CIL]]></source>
+			</trans-unit>
+			<trans-unit id="cilkc" resname="cilkc" translate="no">
+				<source><![CDATA[Cilk/C]]></source>
+			</trans-unit>
+			<trans-unit id="cilkcpp" resname="cilkcpp" translate="no">
+				<source><![CDATA[Cilk/C++]]></source>
 			</trans-unit>
 			<trans-unit id="clike" resname="clike">
 				<source><![CDATA[C-like]]></source>
@@ -295,6 +307,9 @@
 			</trans-unit>
 			<trans-unit id="go-module" resname="go-module">
 				<source><![CDATA[Go module]]></source>
+			</trans-unit>
+			<trans-unit id="gradle" resname="gradle" translate="no">
+				<source><![CDATA[Gradle]]></source>
 			</trans-unit>
 			<trans-unit id="graphql" resname="graphql" translate="no">
 				<source><![CDATA[GraphQL]]></source>
@@ -499,6 +514,9 @@
 			</trans-unit>
 			<trans-unit id="mermaid" resname="mermaid" translate="no">
 				<source><![CDATA[Mermaid]]></source>
+			</trans-unit>
+			<trans-unit id="metafont" resname="metafont" translate="no">
+				<source><![CDATA[METAFONT]]></source>
 			</trans-unit>
 			<trans-unit id="mizar" resname="mizar" translate="no">
 				<source><![CDATA[Mizar]]></source>
@@ -856,6 +874,9 @@
 			</trans-unit>
 			<trans-unit id="web-idl" resname="web-idl" translate="no">
 				<source><![CDATA[Web IDL]]></source>
+			</trans-unit>
+			<trans-unit id="wgsl" resname="wgsl" translate="no">
+				<source><![CDATA[WGSL]]></source>
 			</trans-unit>
 			<trans-unit id="wiki" resname="wiki">
 				<source><![CDATA[Wiki markup]]></source>

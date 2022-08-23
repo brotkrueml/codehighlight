@@ -1,8 +1,8 @@
 diff --git a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-index 69bfa53..c21134a 100644
+index 2881b2d..bd39a2a 100644
 --- a/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
 +++ b/node_modules/prismjs/plugins/autoloader/prism-autoloader.js
-@@ -289,7 +289,7 @@
+@@ -296,7 +296,7 @@
 
  	var script = Prism.util.currentScript();
  	if (script) {

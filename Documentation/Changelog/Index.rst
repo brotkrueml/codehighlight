@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/codehighlight/compare/v2.11.0...HEAD>`_
 --------------------------------------------------------------------------------------
 
+Updated
+^^^^^^^
+
+
+* PrismJS to version `1.29.0 <https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1290-2022-08-23>`_
+
 `2.11.0 <https://github.com/brotkrueml/codehighlight/compare/v2.10.0...v2.11.0>`_ - 2022-04-19
 --------------------------------------------------------------------------------------------------
 

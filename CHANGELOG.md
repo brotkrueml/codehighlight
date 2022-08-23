@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updated
+- PrismJS to version [1.29.0](https://github.com/PrismJS/prism/blob/master/CHANGELOG.md#1290-2022-08-23)
+
 ## [2.11.0] - 2022-04-19
 
 ### Added
