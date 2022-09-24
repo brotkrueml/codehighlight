@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Code Highlight',
-    'description' => 'Code highlighter for various programming, markup and configuration languages',
+    'description' => 'Code highlighter for various programming, markup and configuration languages based on PrismJS',
     'category' => 'fe',
     'state' => 'stable',
     'clearCacheOnLoad' => true,

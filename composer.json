@@ -1,6 +1,6 @@
 {
 	"name": "brotkrueml/codehighlight",
-	"description": "Code highlighter for various programming, markup and configuration languages",
+	"description": "Code highlighter for various programming, markup and configuration languages based on PrismJS",
 	"license": "GPL-2.0-or-later",
 	"type": "typo3-cms-extension",
 	"keywords": [
