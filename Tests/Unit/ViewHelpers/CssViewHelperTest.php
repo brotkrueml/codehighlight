@@ -20,12 +20,12 @@ use TYPO3Fluid\Fluid\Core\Rendering\RenderingContext;
 class CssViewHelperTest extends TestCase
 {
     /**
-     * @var MockObject|RenderingContext
+     * @var MockObject&RenderingContext
      */
     private $renderingContextMock;
 
     /**
-     * @var MockObject|PageRenderer
+     * @var MockObject&PageRenderer
      */
     private $pageRendererMock;
 
@@ -74,7 +74,7 @@ class CssViewHelperTest extends TestCase
             [
                 'path' => '',
             ],
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );
@@ -94,7 +94,7 @@ class CssViewHelperTest extends TestCase
             [
                 'path' => 'some_styles.css',
             ],
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );

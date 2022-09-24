@@ -1,5 +1,5 @@
 .PHONY: qa
-qa: cs tests phpstan yaml-lint changelog
+qa: cs tests phpstan rector-dry yaml-lint changelog
 
 .PHONY: code-coverage
 code-coverage: vendor
@@ -13,13 +13,21 @@ changelog:
 	mv /tmp/CHANGELOG.rst Documentation/Changelog/Index.rst && \
 	rm CHANGELOG.rst
 
+.PHONY: cs
+cs: vendor
+	.Build/bin/ecs --fix
+
 .PHONY: phpstan
 phpstan: vendor
 	.Build/bin/phpstan analyse
 
-.PHONY: cs
-cs: vendor
-	.Build/bin/ecs --fix
+.PHONY: rector
+rector: vendor
+	.Build/bin/rector
+
+.PHONY: rector-dry
+rector-dry: vendor
+	.Build/bin/rector --dry-run
 
 .PHONY: tests
 tests: vendor

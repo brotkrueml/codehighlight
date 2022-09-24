@@ -34,25 +34,50 @@ use TYPO3Fluid\Fluid\Core\ViewHelper;
  */
 class PrismViewHelper extends ViewHelper\AbstractViewHelper
 {
+    /**
+     * @var bool
+     */
     protected $escapeOutput = false;
 
     /**
-     * @var PageRenderer
+     * @var PageRenderer|null
+     * @noRector TypedPropertyFromAssignsRector
      */
     private static $pageRenderer;
 
     /**
-     * @var TranslationService
+     * @var TranslationService|null
      */
     private static $translationService;
 
+    /**
+     * @var mixed|mixed[]|null
+     */
     private static $configuration;
+    /**
+     * @var mixed|mixed[]|null
+     */
     private static $options;
+    /**
+     * @var mixed|string|null
+     */
     private static $id;
+    /**
+     * @var mixed|string|null
+     */
     private static $snippet;
 
+    /**
+     * @var mixed[]|string[]|null
+     */
     private static $preAttributes;
+    /**
+     * @var mixed[]|string[]|null
+     */
     private static $preClasses;
+    /**
+     * @var mixed[]|string[]|null
+     */
     private static $codeClasses;
 
     public function initializeArguments(): void
@@ -241,8 +266,8 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
         return \sprintf(
             '<pre%s%s><code%s>%s</code></pre>',
             $id,
-            $preAttributes ? ' ' . $preAttributes : '',
-            $codeAttributes ? ' ' . $codeAttributes : '',
+            $preAttributes !== '' ? ' ' . $preAttributes : '',
+            $codeAttributes !== '' ? ' ' . $codeAttributes : '',
             \htmlspecialchars(static::$snippet)
         );
     }

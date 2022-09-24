@@ -19,6 +19,10 @@ use TYPO3\CMS\Core\Localization\LanguageService;
  */
 final class ProgrammingLanguages
 {
+    /**
+     * @var LanguageService
+     * @noRector TypedPropertyFromAssignsRector
+     */
     private $languageService;
 
     public function __construct(LanguageService $languageService = null)
@@ -49,6 +53,9 @@ final class ProgrammingLanguages
         });
     }
 
+    /**
+     * @return list<string>
+     */
     private function getAvailableProgrammingLanguages(): array
     {
         $path = __DIR__ . '/../../Resources/Private/PHP/AvailableProgrammingLanguages.php';

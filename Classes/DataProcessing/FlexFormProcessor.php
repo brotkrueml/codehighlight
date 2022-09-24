@@ -40,7 +40,8 @@ if ((new Compatibility())->hasFlexFormProcessor()) {
     class FlexFormProcessor implements DataProcessorInterface
     {
         /**
-         * @var FlexFormService
+         * @var FlexFormService|null
+         * @noRector TypedPropertyFromAssignsRector
          */
         private $flexFormService;
 
@@ -49,6 +50,9 @@ if ((new Compatibility())->hasFlexFormProcessor()) {
             $this->flexFormService = $flexFormService ?? GeneralUtility::makeInstance(FlexFormService::class);
         }
 
+        /**
+         * @return array<string, string|int|null>
+         */
         public function process(
             ContentObjectRenderer $contentObjectRenderer,
             array $contentObjectConfiguration,

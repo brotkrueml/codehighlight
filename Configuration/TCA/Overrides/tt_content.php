@@ -7,7 +7,7 @@
  * LICENSE.txt file that was distributed with this source code.
  */
 
-defined('TYPO3') or die();
+defined('TYPO3') || die();
 
 (static function () {
     $contentType = 'tx_codehighlight_codesnippet';

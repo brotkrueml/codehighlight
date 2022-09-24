@@ -21,12 +21,12 @@ use TYPO3Fluid\Fluid\Core\Rendering\RenderingContext;
 class PrismViewHelperTest extends TestCase
 {
     /**
-     * @var MockObject|RenderingContext
+     * @var MockObject&RenderingContext
      */
     private $renderingContextMock;
 
     /**
-     * @var MockObject|PageRenderer
+     * @var MockObject&PageRenderer
      */
     private $pageRendererMock;
 
@@ -77,12 +77,13 @@ class PrismViewHelperTest extends TestCase
     /**
      * @test
      * @dataProvider dataProviderForArgumentsReturningResultSets
+     * @param array<string, string|array> $arguments
      */
     public function argumentResultSetIsReturnedCorrectly(array $arguments, string $expected): void
     {
         $actual = $this->subject->renderStatic(
             $arguments,
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );
@@ -451,7 +452,7 @@ class PrismViewHelperTest extends TestCase
 
         $this->subject->renderStatic(
             [],
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );
@@ -471,7 +472,7 @@ class PrismViewHelperTest extends TestCase
             [
                 'snippet' => 'some code snippet',
             ],
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );
@@ -499,7 +500,7 @@ class PrismViewHelperTest extends TestCase
                     'codehighlightTheme' => '/some-theme.css',
                 ],
             ],
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );
@@ -522,7 +523,7 @@ class PrismViewHelperTest extends TestCase
             [
                 'snippet' => 'some code snippet',
             ],
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );
@@ -531,6 +532,7 @@ class PrismViewHelperTest extends TestCase
     /**
      * @test
      * @dataProvider dataProviderForAssets
+     * @param array<string, mixed[]> $arguments
      */
     public function assetsAreAddedCorrectly(array $arguments, string $addedCss, string $addedJs): void
     {
@@ -553,7 +555,7 @@ class PrismViewHelperTest extends TestCase
 
         $this->subject->renderStatic(
             $arguments,
-            static function () {
+            static function (): void {
             },
             $this->renderingContextMock
         );

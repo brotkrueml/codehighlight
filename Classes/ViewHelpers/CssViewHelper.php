@@ -19,7 +19,7 @@ use TYPO3Fluid\Fluid\Core\ViewHelper;
 class CssViewHelper extends ViewHelper\AbstractViewHelper
 {
     /**
-     * @var PageRenderer
+     * @var PageRenderer|null
      */
     private static $pageRenderer;
 

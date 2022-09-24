@@ -22,9 +22,20 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
  */
 final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookInterface
 {
+    /**
+     * @var array<string, array|string|int|null>|null
+     * @noRector TypedPropertyFromAssignsRector
+     */
     private $flexFormData;
+    /**
+     * @var array<string, string|int|null>|null
+     * @noRector TypedPropertyFromAssignsRector
+     */
     private $row;
-
+    /**
+     * @var LanguageService
+     * @noRector TypedPropertyFromAssignsRector
+     */
     private $languageService;
 
     public function __construct(LanguageService $languageService = null)
@@ -32,7 +43,7 @@ final class ContentElementPreviewRenderer implements PageLayoutViewDrawItemHookI
         $this->languageService = $languageService ?? $GLOBALS['LANG'];
     }
 
-    public function preProcess(PageLayoutView &$parentObject, &$drawItem, &$headerContent, &$itemContent, array &$row)
+    public function preProcess(PageLayoutView &$parentObject, &$drawItem, &$headerContent, &$itemContent, array &$row): void
     {
         if ($row['CType'] !== 'tx_codehighlight_codesnippet') {
             return;
