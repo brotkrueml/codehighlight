@@ -9,6 +9,8 @@
 /Documentation/ export-ignore
 /ecs.php export-ignore
 /Makefile export-ignore
+/phpstan* export-ignore
 /README.md export-ignore
+/rector.php export-ignore
 /Tests/ export-ignore
 *.xsd export-ignore
