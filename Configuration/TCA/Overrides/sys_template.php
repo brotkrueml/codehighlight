@@ -7,12 +7,10 @@
  * LICENSE.txt file that was distributed with this source code.
  */
 
-defined('TYPO3_MODE') or die();
+defined('TYPO3') or die();
 
-(static function () {
-    TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
-        Brotkrueml\CodeHighlight\Extension::KEY,
-        'Configuration/TypoScript/',
-        'Code Highlight'
-    );
-})();
+TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+    Brotkrueml\CodeHighlight\Extension::KEY,
+    'Configuration/TypoScript/',
+    'Code Highlight'
+);
