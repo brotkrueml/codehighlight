@@ -1,5 +1,5 @@
 .PHONY: qa
-qa: cs tests yaml-lint changelog
+qa: cs tests phpstan yaml-lint changelog
 
 .PHONY: code-coverage
 code-coverage: vendor
@@ -12,6 +12,10 @@ changelog:
 	echo ".. _changelog:" | cat - CHANGELOG.rst > /tmp/CHANGELOG.rst && \
 	mv /tmp/CHANGELOG.rst Documentation/Changelog/Index.rst && \
 	rm CHANGELOG.rst
+
+.PHONY: phpstan
+phpstan: vendor
+	.Build/bin/phpstan analyse
 
 .PHONY: cs
 cs: vendor

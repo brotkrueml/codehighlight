@@ -85,6 +85,9 @@ jobs:
       - name: Check coding standards
         run: |
           .Build/bin/ecs check --no-progress-bar
+      - name: Run phpstan
+        run: |
+          make phpstan
       - name: Generate code coverage
         run: |
           make code-coverage
