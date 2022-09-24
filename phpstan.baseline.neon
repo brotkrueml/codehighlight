@@ -61,11 +61,6 @@ parameters:
 			path: Classes/Service/ProgrammingLanguages.php
 
 		-
-			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Service\\\\TranslationService\\:\\:translate\\(\\) should return string but returns string\\|null\\.$#"
-			count: 1
-			path: Classes/Service/TranslationService.php
-
-		-
 			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\ViewHelpers\\\\CssViewHelper\\:\\:getPageRenderer\\(\\) should return TYPO3\\\\CMS\\\\Core\\\\Page\\\\PageRenderer but returns object\\.$#"
 			count: 1
 			path: Classes/ViewHelpers/CssViewHelper.php

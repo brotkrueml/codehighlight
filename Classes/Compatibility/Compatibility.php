@@ -18,10 +18,7 @@ use TYPO3\CMS\Core\Information\Typo3Version;
  */
 final class Compatibility
 {
-    /**
-     * @var int
-     */
-    private $majorVersion;
+    private int $majorVersion;
 
     /**
      * @param int|null $majorVersion For testing purposes only!

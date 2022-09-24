@@ -22,17 +22,12 @@ class CssViewHelperTest extends TestCase
     /**
      * @var MockObject&RenderingContext
      */
-    private $renderingContextMock;
-
+    private MockObject $renderingContextMock;
     /**
      * @var MockObject&PageRenderer
      */
-    private $pageRendererMock;
-
-    /**
-     * @var CssViewHelper
-     */
-    private $subject;
+    private MockObject $pageRendererMock;
+    private CssViewHelper $subject;
 
     protected function setUp(): void
     {

@@ -21,6 +21,6 @@ class TranslationService
 {
     public function translate(string $key): string
     {
-        return LocalizationUtility::translate($key, Extension::KEY);
+        return (string)LocalizationUtility::translate($key, Extension::KEY);
     }
 }

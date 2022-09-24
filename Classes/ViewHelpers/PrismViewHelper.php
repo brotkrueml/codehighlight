@@ -39,16 +39,8 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
      */
     protected $escapeOutput = false;
 
-    /**
-     * @var PageRenderer|null
-     * @noRector TypedPropertyFromAssignsRector
-     */
-    private static $pageRenderer;
-
-    /**
-     * @var TranslationService|null
-     */
-    private static $translationService;
+    private static ?PageRenderer $pageRenderer = null;
+    private static ?TranslationService $translationService = null;
 
     /**
      * @var mixed|mixed[]|null
@@ -70,15 +62,15 @@ class PrismViewHelper extends ViewHelper\AbstractViewHelper
     /**
      * @var mixed[]|string[]|null
      */
-    private static $preAttributes;
+    private static ?array $preAttributes = null;
     /**
      * @var mixed[]|string[]|null
      */
-    private static $preClasses;
+    private static ?array $preClasses = null;
     /**
      * @var mixed[]|string[]|null
      */
-    private static $codeClasses;
+    private static ?array $codeClasses = null;
 
     public function initializeArguments(): void
     {

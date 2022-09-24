@@ -23,17 +23,12 @@ class PrismViewHelperTest extends TestCase
     /**
      * @var MockObject&RenderingContext
      */
-    private $renderingContextMock;
-
+    private MockObject $renderingContextMock;
     /**
      * @var MockObject&PageRenderer
      */
-    private $pageRendererMock;
-
-    /**
-     * @var PrismViewHelper
-     */
-    private $subject;
+    private MockObject $pageRendererMock;
+    private PrismViewHelper $subject;
 
     protected function setUp(): void
     {
@@ -42,9 +37,7 @@ class PrismViewHelperTest extends TestCase
         $translationService = $this->createStub(TranslationService::class);
         $translationService
             ->method('translate')
-            ->willReturnCallback(static function ($key): string {
-                return $key;
-            });
+            ->willReturnCallback(static fn ($key): string => $key);
         $this->subject = new PrismViewHelper();
         $this->subject->setPageRenderer($this->pageRendererMock);
         $this->subject->setTranslationService($translationService);

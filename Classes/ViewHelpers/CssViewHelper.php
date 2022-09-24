@@ -18,10 +18,7 @@ use TYPO3Fluid\Fluid\Core\ViewHelper;
 
 class CssViewHelper extends ViewHelper\AbstractViewHelper
 {
-    /**
-     * @var PageRenderer|null
-     */
-    private static $pageRenderer;
+    private static ?PageRenderer $pageRenderer = null;
 
     public function initializeArguments(): void
     {
