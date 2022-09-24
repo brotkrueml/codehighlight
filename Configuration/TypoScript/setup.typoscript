@@ -16,7 +16,7 @@ tt_content.tx_codehighlight_codesnippet {
   }
 
   dataProcessing {
-    10 = Brotkrueml\CodeHighlight\DataProcessing\FlexFormProcessor
+    10 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
     10 {
       as = options
     }

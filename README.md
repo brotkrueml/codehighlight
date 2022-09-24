@@ -7,7 +7,13 @@
 
 Code highlighter for various programming, markup and configuration languages based on PrismJS
 
-The extension in the current version supports TYPO3 v9 LTS, TYPO3 v10 LTS and TYPO3 v11 LTS.
+## Versions and support
+
+| Latest release | TYPO3      | PHP   | Updates will contain                              |
+|----------------|------------|-------|---------------------------------------------------|
+| 3.x            | 11.5       | ≥ 7.4 | (In development)                                  |
+| 2.x            | 9.5 - 11.5 | ≥ 7.2 | Features, PrismJS updates, security and bug fixes |
+| 1.x            | 9.5 - 10.4 | ≥ 7.2 | EOL                                               |
 
 [Documentation](https://docs.typo3.org/p/brotkrueml/codehighlight/main/en-us/) |
 [Translation](https://crowdin.com/project/typo3-extension-codehighlight) |
