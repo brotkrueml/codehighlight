@@ -5,7 +5,7 @@
 [![Crowdin](https://badges.crowdin.net/typo3-extension-codehighlight/localized.svg)](https://crowdin.com/project/typo3-extension-codehighlight)
 [![Latest Stable Version](https://poser.pugx.org/brotkrueml/codehighlight/v/stable)](https://packagist.org/packages/brotkrueml/codehighlight)
 
-Code highlighter for various programming, markup and configuration languages based on PrismJS
+Code highlighter for various programming, markup and configuration languages based on [PrismJS](https://prismjs.com/).
 
 ## Versions and support
 
