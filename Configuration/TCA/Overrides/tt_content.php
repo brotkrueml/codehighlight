@@ -32,6 +32,7 @@ defined('TYPO3') || die();
 
     $tempTypes = [
         $contentType => [
+            'previewRenderer' => Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer::class,
             'columnsOverrides' => [
                 'bodytext' => [
                     'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',

@@ -1,29 +1,9 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Cannot access offset string on array\\|int\\|string\\.$#"
+			message: "#^Property Brotkrueml\\\\CodeHighlight\\\\Preview\\\\ContentPreviewRenderer\\:\\:\\$flexFormService \\(TYPO3\\\\CMS\\\\Core\\\\Service\\\\FlexFormService\\) does not accept object\\.$#"
 			count: 1
-			path: Classes/Hooks/PageLayoutView/ContentElementPreviewRenderer.php
-
-		-
-			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Hooks\\\\PageLayoutView\\\\ContentElementPreviewRenderer\\:\\:preProcess\\(\\) has parameter \\$row with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: Classes/Hooks/PageLayoutView/ContentElementPreviewRenderer.php
-
-		-
-			message: "#^Offset 'bodytext' does not exist on array\\<string, int\\|string\\|null\\>\\|null\\.$#"
-			count: 1
-			path: Classes/Hooks/PageLayoutView/ContentElementPreviewRenderer.php
-
-		-
-			message: "#^Parameter \\#1 \\$input of method Brotkrueml\\\\CodeHighlight\\\\Hooks\\\\PageLayoutView\\\\ContentElementPreviewRenderer\\:\\:renderText\\(\\) expects string, int\\<min, \\-1\\>\\|int\\<1, max\\>\\|string given\\.$#"
-			count: 1
-			path: Classes/Hooks/PageLayoutView/ContentElementPreviewRenderer.php
-
-		-
-			message: "#^Property Brotkrueml\\\\CodeHighlight\\\\Hooks\\\\PageLayoutView\\\\ContentElementPreviewRenderer\\:\\:\\$flexFormData type has no value type specified in iterable type array\\.$#"
-			count: 1
-			path: Classes/Hooks/PageLayoutView/ContentElementPreviewRenderer.php
+			path: Classes/Preview/ContentPreviewRenderer.php
 
 		-
 			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Service\\\\ProgrammingLanguages\\:\\:getAliases\\(\\) return type has no value type specified in iterable type array\\.$#"
