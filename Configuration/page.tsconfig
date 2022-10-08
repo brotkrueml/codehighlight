@@ -1,1 +1,1 @@
-@import "EXT:codehighlight/Configuration/TSconfig/Page/*.tsconfig"
+@import "EXT:codehighlight/Configuration/TsConfig/Page/*.tsconfig"
