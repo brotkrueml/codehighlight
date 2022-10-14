@@ -7,5 +7,38 @@ services:
   Brotkrueml\CodeHighlight\:
     resource: '../Classes/*'
 
+  Brotkrueml\CodeHighlight\UserFunctions\CodeSnippetGenerator:
+    public: true
+
+  Brotkrueml\CodeHighlight\EventListener\CommandLine:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/command-line'
+
+  Brotkrueml\CodeHighlight\EventListener\CopyToClipboard:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/copy-to-clipboard'
+
+  Brotkrueml\CodeHighlight\EventListener\HighlightLines:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/highlight-lines'
+
+  Brotkrueml\CodeHighlight\EventListener\InlineColour:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/inline-colour'
+
+  Brotkrueml\CodeHighlight\EventListener\Language:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/language'
+
+  Brotkrueml\CodeHighlight\EventListener\LineNumbers:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/line-numbers'
+
   Brotkrueml\CodeHighlight\Service\ProgrammingLanguages:
     public: true

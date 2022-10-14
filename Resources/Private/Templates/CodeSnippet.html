@@ -1,31 +1,22 @@
-<html
-    xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
-    xmlns:codeHighlight="https://typo3.org/ns/Brotkrueml/CodeHighlight/ViewHelpers"
-    data-namespace-typo3-fluid="true"
->
+<html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
 <f:layout name="Default"/>
 
 <f:section name="Main">
-    <f:if condition="{options.filename}">
-        <f:then>
-            <f:asset.css identifier="codehighlight" href="{settings.cssFile}"/>
-            <figure class="codehighlight-container">
-                <f:render section="CodeSnippet" arguments="{_all}"/>
-                <figcaption class="codehighlight-caption">{options.filename}</figcaption>
-            </figure>
-        </f:then>
-        <f:else>
-            <f:render section="CodeSnippet" arguments="{_all}"/>
-        </f:else>
+    <f:if condition="{snippet}">
+        <f:if condition="{options.filename}">
+            <f:then>
+                <f:asset.css identifier="codehighlight" href="{settings.cssFile}"/>
+                <figure class="codehighlight-container">
+                    {snippet -> f:format.raw()}
+                    <figcaption class="codehighlight-caption">{options.filename}</figcaption>
+                </figure>
+            </f:then>
+            <f:else>
+                {snippet -> f:format.raw()}
+            </f:else>
+        </f:if>
     </f:if>
 </f:section>
 
-<f:section name="CodeSnippet">
-    <codeHighlight:prism
-        configuration="{site.configuration}"
-        options="{options}"
-        id="codesnippet{data.uid}"
-        snippet="{data.bodytext}"
-    />
-</f:section>
 </html>

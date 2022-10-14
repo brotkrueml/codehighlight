@@ -17,6 +17,12 @@ Added
 
 * Compatibility with TYPO3 v12 (#35)
 
+Changed
+^^^^^^^
+
+
+* Fluid template of code snippet content element
+
 Removed
 ^^^^^^^
 
