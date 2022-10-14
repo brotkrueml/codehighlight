@@ -30,7 +30,7 @@
 		"php-coveralls/php-coveralls": "^2.4",
 		"phpstan/phpstan": "1.8.9",
 		"phpunit/phpunit": "^9.5.23",
-		"rector/rector": "0.14.3",
+		"rector/rector": "0.14.5",
 		"symfony/yaml": "^5.4 || ^6.1"
 	},
 	"suggest": {
