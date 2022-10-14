@@ -8,7 +8,7 @@
 <f:section name="Main">
     <f:if condition="{options.filename}">
         <f:then>
-            <codeHighlight:css path="{settings.cssFile}"/>
+            <f:asset.css identifier="codehighlight" href="{settings.cssFile}"/>
             <figure class="codehighlight-container">
                 <f:render section="CodeSnippet" arguments="{_all}"/>
                 <figcaption class="codehighlight-caption">{options.filename}</figcaption>
