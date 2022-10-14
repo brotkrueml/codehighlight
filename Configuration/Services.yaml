@@ -7,11 +7,5 @@ services:
   Brotkrueml\CodeHighlight\:
     resource: '../Classes/*'
 
-  Brotkrueml\CodeHighlight\DataProcessing\FlexFormProcessor:
-    public: true
-
-  Brotkrueml\CodeHighlight\Hooks\PageLayoutView\ContentElementPreviewRenderer:
-    public: true
-
   Brotkrueml\CodeHighlight\Service\ProgrammingLanguages:
     public: true
