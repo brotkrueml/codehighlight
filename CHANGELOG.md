@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- TCA configuration of content element is missing in TYPO3 v11.5.18 (#37)
+
 ## [2.12.0] - 2022-08-23
 
 ### Updated
