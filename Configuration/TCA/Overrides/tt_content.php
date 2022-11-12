@@ -30,23 +30,22 @@ defined('TYPO3') || die();
         $contentType
     );
 
-    $tempTypes = [
-        $contentType => [
-            'previewRenderer' => Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer::class,
-            'columnsOverrides' => [
-                'bodytext' => [
-                    'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
-                    'config' => [
-                        'enableTabulator' => true,
-                        'fixedFont' => true,
-                        'wrap' => 'off',
-                    ],
-                ],
-                'pi_flexform' => [
-                    'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options',
+    $GLOBALS['TCA']['tt_content']['types'][$contentType] = [
+        'previewRenderer' => Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer::class,
+        'columnsOverrides' => [
+            'bodytext' => [
+                'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
+                'config' => [
+                    'enableTabulator' => true,
+                    'fixedFont' => true,
+                    'wrap' => 'off',
                 ],
             ],
-            'showitem' => '
+            'pi_flexform' => [
+                'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options',
+            ],
+        ],
+        'showitem' => '
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                     --palette--;;general,
                     --palette--;;headers,
@@ -63,14 +62,11 @@ defined('TYPO3') || die();
                     --palette--;;access,
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended
             ',
-        ],
     ];
 
     if (TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3editor')) {
-        $tempTypes[$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
+        $GLOBALS['TCA']['tt_content']['types'][$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
     }
-
-    $GLOBALS['TCA']['tt_content']['types'] += $tempTypes;
 
     $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'content-codehighlight';
 })();
