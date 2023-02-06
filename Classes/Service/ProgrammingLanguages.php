@@ -21,7 +21,6 @@ final class ProgrammingLanguages
 {
     /**
      * @var LanguageService
-     * @noRector TypedPropertyFromAssignsRector
      */
     private $languageService;
 

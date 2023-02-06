@@ -9,7 +9,7 @@
 
 defined('TYPO3') || die();
 
-(static function () {
+(static function (): void {
     $contentType = 'tx_codehighlight_codesnippet';
 
     TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
