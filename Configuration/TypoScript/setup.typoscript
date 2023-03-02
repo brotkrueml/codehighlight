@@ -15,6 +15,11 @@ tt_content.tx_codehighlight_codesnippet {
     10 = {$tt_content.tx_codehighlight_codesnippet.layoutRootPath}
   }
 
+  dataProcessing {
+    10 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
+    10.as = options
+  }
+
   variables {
     snippet = USER
     snippet.userFunc = Brotkrueml\CodeHighlight\UserFunctions\CodeSnippetGenerator->generate
