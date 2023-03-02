@@ -16,7 +16,6 @@ use TYPO3\CMS\Backend\Preview\StandardContentPreviewRenderer;
 use TYPO3\CMS\Backend\View\BackendLayout\Grid\GridColumnItem;
 use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Service\FlexFormService;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * @internal
@@ -27,9 +26,9 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
 
     private FlexFormService $flexFormService;
 
-    public function __construct()
+    public function __construct(FlexFormService $flexFormService)
     {
-        $this->flexFormService = GeneralUtility::makeInstance(FlexFormService::class);
+        $this->flexFormService = $flexFormService;
     }
 
     public function renderPageModulePreviewContent(GridColumnItem $item): string

@@ -40,5 +40,8 @@ services:
       - name: event.listener
         identifier: 'codehighlight/line-numbers'
 
+  Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer:
+    public: true
+
   Brotkrueml\CodeHighlight\Service\ProgrammingLanguages:
     public: true

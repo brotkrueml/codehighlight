@@ -22,7 +22,6 @@ use Psr\Http\Message\ServerRequestInterface;
 use TYPO3\CMS\Core\EventDispatcher\EventDispatcher;
 use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Service\FlexFormService;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
 /**
@@ -36,14 +35,16 @@ final class CodeSnippetGenerator
     private EventDispatcher $eventDispatcher;
     private FlexFormService $flexFormService;
     private ContentObjectRenderer $cObj;
-    private ?PageRenderer $pageRenderer = null;
+    private PageRenderer $pageRenderer;
 
     public function __construct(
         EventDispatcher $eventDispatcher,
-        FlexFormService $flexFormService
+        FlexFormService $flexFormService,
+        PageRenderer $pageRenderer
     ) {
         $this->eventDispatcher = $eventDispatcher;
         $this->flexFormService = $flexFormService;
+        $this->pageRenderer = $pageRenderer;
     }
 
     public function setContentObjectRenderer(ContentObjectRenderer $cObj): void
@@ -114,17 +115,17 @@ final class CodeSnippetGenerator
 
     private function addCssFile(string $file): void
     {
-        $this->getPageRenderer()->addCssFile($file);
+        $this->pageRenderer->addCssFile($file);
     }
 
     private function addJsFile(string $file, bool $allowConcatenation = true): void
     {
         if ($allowConcatenation) {
-            $this->getPageRenderer()->addJsFooterFile($file);
+            $this->pageRenderer->addJsFooterFile($file);
             return;
         }
 
-        $this->getPageRenderer()->addJsFooterFile(
+        $this->pageRenderer->addJsFooterFile(
             $file,
             '',
             false,
@@ -132,14 +133,5 @@ final class CodeSnippetGenerator
             '',
             true
         );
-    }
-
-    private function getPageRenderer(): PageRenderer
-    {
-        if ($this->pageRenderer === null) {
-            $this->pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
-        }
-
-        return $this->pageRenderer;
     }
 }

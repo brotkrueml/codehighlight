@@ -1,11 +1,6 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Property Brotkrueml\\\\CodeHighlight\\\\Preview\\\\ContentPreviewRenderer\\:\\:\\$flexFormService \\(TYPO3\\\\CMS\\\\Core\\\\Service\\\\FlexFormService\\) does not accept object\\.$#"
-			count: 1
-			path: Classes/Preview/ContentPreviewRenderer.php
-
-		-
 			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Service\\\\ProgrammingLanguages\\:\\:getAliases\\(\\) return type has no value type specified in iterable type array\\.$#"
 			count: 1
 			path: Classes/Service/ProgrammingLanguages.php
@@ -14,13 +9,3 @@ parameters:
 			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Service\\\\ProgrammingLanguages\\:\\:getTcaItems\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: Classes/Service/ProgrammingLanguages.php
-
-		-
-			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\UserFunctions\\\\CodeSnippetGenerator\\:\\:getPageRenderer\\(\\) should return TYPO3\\\\CMS\\\\Core\\\\Page\\\\PageRenderer but returns object\\.$#"
-			count: 1
-			path: Classes/UserFunctions/CodeSnippetGenerator.php
-
-		-
-			message: "#^Property Brotkrueml\\\\CodeHighlight\\\\UserFunctions\\\\CodeSnippetGenerator\\:\\:\\$pageRenderer \\(TYPO3\\\\CMS\\\\Core\\\\Page\\\\PageRenderer\\|null\\) does not accept object\\.$#"
-			count: 1
-			path: Classes/UserFunctions/CodeSnippetGenerator.php
