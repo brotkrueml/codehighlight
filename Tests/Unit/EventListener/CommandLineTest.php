@@ -80,7 +80,7 @@ final class CommandLineTest extends TestCase
                 'commandLineOutputLines' => '1-2, 5, 9-20',
             ],
             'siteConfiguration' => [],
-            'expectedPreAttributes' => 'output="1-2, 5, 9-20"',
+            'expectedPreAttributes' => 'data-output="1-2, 5, 9-20"',
         ];
 
         yield 'commandLineOutputFilter is given' => [
@@ -89,7 +89,7 @@ final class CommandLineTest extends TestCase
                 'commandLineOutputFilter' => '(out)',
             ],
             'siteConfiguration' => [],
-            'expectedPreAttributes' => 'filter-output="(out)"',
+            'expectedPreAttributes' => 'data-filter-output="(out)"',
         ];
 
         yield 'commandLineServerPrompt is given' => [
@@ -98,7 +98,7 @@ final class CommandLineTest extends TestCase
                 'commandLineServerPrompt' => 'PS C:\Users\Chris>',
             ],
             'siteConfiguration' => [],
-            'expectedPreAttributes' => 'prompt="PS C:\Users\Chris&gt;"',
+            'expectedPreAttributes' => 'data-prompt="PS C:\Users\Chris&gt;"',
         ];
 
         yield 'commandLineServerUser is given' => [
@@ -107,7 +107,7 @@ final class CommandLineTest extends TestCase
                 'commandLineServerUser' => 'chris',
             ],
             'siteConfiguration' => [],
-            'expectedPreAttributes' => 'user="chris"',
+            'expectedPreAttributes' => 'data-user="chris"',
         ];
 
         yield 'commandLineServerHost is given' => [
@@ -116,7 +116,7 @@ final class CommandLineTest extends TestCase
                 'commandLineServerHost' => 'earth',
             ],
             'siteConfiguration' => [],
-            'expectedPreAttributes' => 'host="earth"',
+            'expectedPreAttributes' => 'data-host="earth"',
         ];
 
         yield 'commandLineDefaultUser is given' => [
@@ -126,7 +126,7 @@ final class CommandLineTest extends TestCase
             'siteConfiguration' => [
                 'codehighlightCommandLineDefaultUser' => 'chris_default',
             ],
-            'expectedPreAttributes' => 'user="chris_default"',
+            'expectedPreAttributes' => 'data-user="chris_default"',
         ];
 
         yield 'commandLineDefaultHost is given' => [
@@ -136,7 +136,7 @@ final class CommandLineTest extends TestCase
             'siteConfiguration' => [
                 'codehighlightCommandLineDefaultHost' => 'earth_default',
             ],
-            'expectedPreAttributes' => 'host="earth_default"',
+            'expectedPreAttributes' => 'data-host="earth_default"',
         ];
 
         yield 'commandLineServerUser and commandLineDefaultUser are given' => [
@@ -147,7 +147,7 @@ final class CommandLineTest extends TestCase
             'siteConfiguration' => [
                 'codehighlightCommandLineDefaultUser' => 'chris_default',
             ],
-            'expectedPreAttributes' => 'user="chris"',
+            'expectedPreAttributes' => 'data-user="chris"',
         ];
 
         yield 'commandLineServerHost amd commandLineDefaultHost are given' => [
@@ -158,7 +158,7 @@ final class CommandLineTest extends TestCase
             'siteConfiguration' => [
                 'codehighlightCommandLineDefaultHost' => 'earth_default',
             ],
-            'expectedPreAttributes' => 'host="earth"',
+            'expectedPreAttributes' => 'data-host="earth"',
         ];
     }
 }

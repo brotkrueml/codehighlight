@@ -32,29 +32,29 @@ final class CommandLine
         $preAttributesCollector = $event->preAttributesCollector;
 
         if ($event->options->commandLineOutputLines !== '') {
-            $preAttributesCollector->setAttribute('output', $event->options->commandLineOutputLines);
+            $preAttributesCollector->setAttribute('data-output', $event->options->commandLineOutputLines);
         }
 
         if ($event->options->commandLineOutputFilter !== '') {
-            $preAttributesCollector->setAttribute('filter-output', $event->options->commandLineOutputFilter);
+            $preAttributesCollector->setAttribute('data-filter-output', $event->options->commandLineOutputFilter);
         }
 
         if ($event->options->commandLineServerPrompt !== '') {
-            $preAttributesCollector->setAttribute('prompt', $event->options->commandLineServerPrompt);
+            $preAttributesCollector->setAttribute('data-prompt', $event->options->commandLineServerPrompt);
         }
 
         $commandLineUser = $event->options->commandLineServerUser !== ''
             ? $event->options->commandLineServerUser
             : $event->siteConfiguration->commandLineDefaultUser;
         if ($commandLineUser !== '') {
-            $preAttributesCollector->setAttribute('user', $commandLineUser);
+            $preAttributesCollector->setAttribute('data-user', $commandLineUser);
         }
 
         $commandLineHost = $event->options->commandLineServerHost !== ''
             ? $event->options->commandLineServerHost
             : $event->siteConfiguration->commandLineDefaultHost;
         if ($commandLineHost !== '') {
-            $preAttributesCollector->setAttribute('host', $commandLineHost);
+            $preAttributesCollector->setAttribute('data-host', $commandLineHost);
         }
     }
 }
