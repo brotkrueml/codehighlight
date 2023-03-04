@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2023-03-04
+
 ### Added
 - Compatibility with TYPO3 v12 (#35)
 
@@ -140,7 +142,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Syntax highlighting with PrismJS
 
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v2.12.1...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/brotkrueml/codehighlight/compare/v2.12.1...v3.0.0
 [2.12.1]: https://github.com/brotkrueml/codehighlight/compare/v2.12.0...v2.12.1
 [2.12.0]: https://github.com/brotkrueml/codehighlight/compare/v2.11.0...v2.12.0
 [2.11.0]: https://github.com/brotkrueml/codehighlight/compare/v2.10.0...v2.11.0
