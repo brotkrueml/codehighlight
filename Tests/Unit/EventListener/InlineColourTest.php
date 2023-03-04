@@ -66,9 +66,10 @@ final class InlineColourTest extends TestCase
 
         self::assertCount(1, $event->stylesCollector->getPaths());
         self::assertSame('EXT:codehighlight/Resources/Public/Prism/plugins/inline-color/prism-inline-color.css', $event->stylesCollector->getPaths()[0]);
-        self::assertCount(2, $event->scriptsCollector->getPaths());
-        self::assertSame('EXT:codehighlight/Resources/Public/Prism/components/prism-css-extras.min.js', $event->scriptsCollector->getPaths()[0]);
-        self::assertSame('EXT:codehighlight/Resources/Public/Prism/plugins/inline-color/prism-inline-color.min.js', $event->scriptsCollector->getPaths()[1]);
+        self::assertCount(3, $event->scriptsCollector->getPaths());
+        self::assertSame('EXT:codehighlight/Resources/Public/Prism/components/prism-css.min.js', $event->scriptsCollector->getPaths()[0]);
+        self::assertSame('EXT:codehighlight/Resources/Public/Prism/components/prism-css-extras.min.js', $event->scriptsCollector->getPaths()[1]);
+        self::assertSame('EXT:codehighlight/Resources/Public/Prism/plugins/inline-color/prism-inline-color.min.js', $event->scriptsCollector->getPaths()[2]);
         self::assertSame('', $event->preAttributesCollector->__toString());
         self::assertSame('', $event->preClassesCollector->__toString());
         self::assertSame('', $event->codeAttributesCollector->__toString());
@@ -93,7 +94,7 @@ final class InlineColourTest extends TestCase
         $subject($event);
 
         self::assertCount(1, $event->stylesCollector->getPaths());
-        self::assertCount(2, $event->scriptsCollector->getPaths());
+        self::assertCount(3, $event->scriptsCollector->getPaths());
         self::assertSame('', $event->preAttributesCollector->__toString());
         self::assertSame('', $event->preClassesCollector->__toString());
         self::assertSame('', $event->codeAttributesCollector->__toString());

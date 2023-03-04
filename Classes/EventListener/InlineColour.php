@@ -30,6 +30,7 @@ final class InlineColour
         }
 
         $event->stylesCollector->addPath(Extension::PRISM_BASE_PATH . 'plugins/inline-color/prism-inline-color.css');
+        $event->scriptsCollector->addPath(Extension::PRISM_BASE_PATH . 'components/prism-css.min.js');
         $event->scriptsCollector->addPath(Extension::PRISM_BASE_PATH . 'components/prism-css-extras.min.js');
         $event->scriptsCollector->addPath(Extension::PRISM_BASE_PATH . 'plugins/inline-color/prism-inline-color.min.js');
     }
