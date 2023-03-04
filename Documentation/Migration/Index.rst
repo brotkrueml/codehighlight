@@ -9,6 +9,14 @@ Migration
 Target group: **Integrators,Developers**
 
 
+From version 2.x to 3.0
+=======================
+
+The template of the content element changed. If you copied and adjusted it,
+please have a look into the new template shipped by the extension and adjust
+your custom one accordingly.
+
+
 From version 1.1 to 2.0
 =======================
 
