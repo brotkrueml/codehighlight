@@ -12,20 +12,22 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\EventListener;
 
 use Brotkrueml\CodeHighlight\Event\EnrichCodeSnippetEvent;
+use Brotkrueml\CodeHighlight\Extension;
 
 /**
  * @internal
  */
-final class Language
+final class Treeview
 {
     public function __invoke(EnrichCodeSnippetEvent $event): void
     {
-        if ($event->hasSpecialLanguage) {
+        if (! $event->options->treeview) {
             return;
         }
 
-        $language = $event->options->programmingLanguage ?: 'none';
-
-        $event->codeClassesCollector->addValue('language-' . $language);
+        $event->hasSpecialLanguage = true;
+        $event->codeClassesCollector->addValue('language-treeview');
+        $event->stylesCollector->addPath(Extension::PRISM_BASE_PATH . 'plugins/treeview/prism-treeview.css');
+        $event->scriptsCollector->addPath(Extension::PRISM_BASE_PATH . 'plugins/treeview/prism-treeview.min.js');
     }
 }

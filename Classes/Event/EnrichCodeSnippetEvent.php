@@ -59,6 +59,7 @@ final class EnrichCodeSnippetEvent
      * @readonly
      */
     public ServerRequestInterface $request;
+    public bool $hasSpecialLanguage = false;
 
     public function __construct(
         SiteConfiguration $siteConfiguration,

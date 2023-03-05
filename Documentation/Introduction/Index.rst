@@ -54,6 +54,15 @@ inline colours (the coloured square before the colour definition):
    :class: with-shadow
    :alt: CSS snippet with inline colours
 
+Treeview
+--------
+
+Example for a treeview to highlight file system tree structures:
+
+.. figure:: /Images/Introduction/example-treeview.png
+   :class: with-shadow
+   :alt: Treeview
+
 
 .. _release-management:
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2020-12-14T08:18:56Z" product-name="codehighlight">
+	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ContentElement.xlf" date="2023-03-04T19:20:41Z" product-name="codehighlight">
 		<body>
 			<trans-unit id="contentElement.title" resname="contentElement.title">
 				<source><![CDATA[Code Snippet]]></source>
@@ -91,6 +91,12 @@
 			</trans-unit>
 			<trans-unit id="styles" resname="styles">
 				<source><![CDATA[Styles]]></source>
+			</trans-unit>
+			<trans-unit id="treeview" resname="treeview">
+				<source><![CDATA[Treeview]]></source>
+			</trans-unit>
+			<trans-unit id="treeview.description" resname="treeview.description">
+				<source><![CDATA[Highlight file system tree structures. You may use "tree -F" to get a compatible text structure.]]></source>
 			</trans-unit>
 		</body>
 	</file>

@@ -7,5 +7,6 @@
         <sLineNumbes>EXT:codehighlight/Configuration/FlexForms/Sheets/LineNumbers.xml</sLineNumbes>
         <sCommandLine>EXT:codehighlight/Configuration/FlexForms/Sheets/CommandLine.xml</sCommandLine>
         <sStyles>EXT:codehighlight/Configuration/FlexForms/Sheets/Styles.xml</sStyles>
+        <sTreeview>EXT:codehighlight/Configuration/FlexForms/Sheets/Treeview.xml</sTreeview>
     </sheets>
 </T3DataStructure>

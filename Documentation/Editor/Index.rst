@@ -188,15 +188,15 @@ Filter output
    `plugin page <https://prismjs.com/plugins/command-line/>`__ of the Prism
    library.
 
-.. _editors-content-element-options-colours:
+.. _editors-content-element-options-styles:
 
-Colours
-~~~~~~~
+Styles
+~~~~~~
 
 To show a preview of a colour in CSS styles you can activate the
 :guilabel:`Inline colour` switch.
 
-.. figure:: /Images/Editor/content-element-options-colours.png
+.. figure:: /Images/Editor/content-element-options-styles.png
    :class: with-shadow
    :alt: Options for a colour preview
 
@@ -208,6 +208,60 @@ This adds a small square before the colour definitions:
    :class: with-shadow
    :alt: CSS snippet with inline colours
 
+.. _editors-content-element-options-treeview:
+
+Treeview
+~~~~~~~~
+
+To highlight file system tree structures the :guilabel:`Treeview` switch can be
+activated.
+
+.. figure:: /Images/Editor/content-element-options-treeview.png
+   :class: with-shadow
+   :alt: Options for a treeview
+
+   Options for a treeview
+
+This adds icons for folders and files:
+
+.. figure:: /Images/Introduction/example-treeview.png
+   :class: with-shadow
+   :alt: Example for a treeview
+
+The treeview may be generated on Unix systems with `tree -F`.
+
+Examples for a tree structure in the :guilabel:`Code snippet` field:
+
+.. code-block:: none
+
+   root_folder/
+   |-- a first folder/
+   |   |-- holidays.mov
+   |   |-- javascript-file.js
+   |   `-- some_picture.jpg
+   |-- documents/
+   |   |-- spreadsheet.xls
+   |   |-- manual.pdf
+   |   |-- document.docx
+   |   `-- presentation.ppt
+   |       `-- test
+   |-- empty_folder/
+   `-- README.md
+
+or:
+
+.. code-block:: none
+
+   ├── a first folder/
+   |   ├── holidays.mov
+   |   ├── javascript-file.js
+   |   └── some_picture.jpg
+   ├── documents/
+   |   ├── spreadsheet.xls
+   |   ├── manual.pdf
+   |   ├── document.docx
+   |   └── presentation.ppt
+   └── etc.
 
 .. _editors-content-element-access:
 

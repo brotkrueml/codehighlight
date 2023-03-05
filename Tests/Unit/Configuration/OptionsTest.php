@@ -35,6 +35,7 @@ final class OptionsTest extends TestCase
         self::assertSame('', $subject->commandLineOutputLines);
         self::assertSame('', $subject->commandLineOutputFilter);
         self::assertFalse($subject->inlineColour);
+        self::assertFalse($subject->treeview);
     }
 
     /**
@@ -99,5 +100,17 @@ final class OptionsTest extends TestCase
         ]);
 
         self::assertTrue($subject->inlineColour);
+    }
+
+    /**
+     * @test
+     */
+    public function treeviewSetToTrue(): void
+    {
+        $subject = new Options([
+            'treeview' => '1',
+        ]);
+
+        self::assertTrue($subject->treeview);
     }
 }

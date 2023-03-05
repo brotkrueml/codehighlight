@@ -66,6 +66,10 @@ final class Options
      * @readonly
      */
     public bool $inlineColour;
+    /**
+     * @readonly
+     */
+    public bool $treeview;
 
     /**
      * @param array<string, string> $options
@@ -84,5 +88,6 @@ final class Options
         $this->commandLineOutputLines = $options['commandLineOutputLines'] ?? '';
         $this->commandLineOutputFilter = $options['commandLineOutputFilter'] ?? '';
         $this->inlineColour = (bool)($options['inlineColour'] ?? false);
+        $this->treeview = (bool)($options['treeview'] ?? false);
     }
 }

@@ -21,6 +21,7 @@ const options = {
     'line-highlight',
     'line-numbers',
     'toolbar',
+    'treeview',
   ],
 };
 

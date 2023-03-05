@@ -40,6 +40,12 @@ services:
       - name: event.listener
         identifier: 'codehighlight/line-numbers'
 
+  Brotkrueml\CodeHighlight\EventListener\Treeview:
+    tags:
+      - name: event.listener
+        identifier: 'codehighlight/treeview'
+        before: 'codehighlight/language'
+
   Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer:
     public: true
 
