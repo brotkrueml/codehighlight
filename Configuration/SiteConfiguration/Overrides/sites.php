@@ -39,6 +39,8 @@ $GLOBALS['SiteConfiguration']['site']['columns'] += [
                 [
                     0 => '',
                     1 => '',
+                    'label' => '',
+                    'value' => '',
                 ],
             ],
         ],
@@ -66,6 +68,8 @@ $GLOBALS['SiteConfiguration']['site']['columns'] += [
                 [
                     0 => '',
                     1 => '',
+                    'label' => '',
+                    'value' => '',
                 ],
             ],
         ],

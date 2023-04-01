@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/codehighlight/compare/v3.1.0...HEAD>`_
 -------------------------------------------------------------------------------------
 
+Fixed
+^^^^^
+
+
+* Error when opening a site configuration in TYPO3 v12.3
+
 `3.1.0 <https://github.com/brotkrueml/codehighlight/compare/v3.0.0...v3.1.0>`_ - 2023-04-01
 -----------------------------------------------------------------------------------------------
 
