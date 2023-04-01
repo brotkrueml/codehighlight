@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1] - 2023-04-01
+
 ### Fixed
 - Error when opening a site configuration in TYPO3 v12.3
 
@@ -150,7 +152,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Syntax highlighting with PrismJS
 
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v3.1.1...HEAD
+[3.1.1]: https://github.com/brotkrueml/codehighlight/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/brotkrueml/codehighlight/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/brotkrueml/codehighlight/compare/v2.12.1...v3.0.0
 [2.12.1]: https://github.com/brotkrueml/codehighlight/compare/v2.12.0...v2.12.1
