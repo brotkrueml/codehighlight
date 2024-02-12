@@ -15,19 +15,17 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\HighlightLines;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
-/**
- * @covers \Brotkrueml\CodeHighlight\EventListener\HighlightLines
- */
+#[CoversClass(HighlightLines::class)]
 final class HighlightLinesTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function highlightLinesIsSetAndUseUrlHashIsDeactivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -47,9 +45,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function highlightLinesIsSet(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -73,9 +69,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function highlightLinesIsSetAndStartWithLineNumberIsGreater1(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -98,9 +92,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function highlightLinesIsSetAndStartWithLineNumberIs1(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -123,9 +115,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function highlightLinesIsNotSetAndStartWithLineNumberIsGreater0(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -148,9 +138,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function useUrlHashIsActivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -174,9 +162,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function useUrlHashIsActivatedAndStartWithLineNumberIsGreater1(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(

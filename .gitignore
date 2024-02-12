@@ -1,5 +1,6 @@
 .Build
 .idea
+.phpunit.cache
 composer.lock
 node_modules
 yarn-error.log

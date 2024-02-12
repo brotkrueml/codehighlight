@@ -15,6 +15,8 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\CopyToClipboard;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\MockObject\Stub;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
@@ -23,9 +25,7 @@ use TYPO3\CMS\Core\Localization\LanguageService;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
 use TYPO3\CMS\Core\Site\Entity\SiteLanguage;
 
-/**
- * @covers \Brotkrueml\CodeHighlight\EventListener\CopyToClipboard
- */
+#[CoversClass(CopyToClipboard::class)]
 final class CopyToClipboardTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
@@ -48,9 +48,7 @@ final class CopyToClipboardTest extends TestCase
             ->willReturn($languageServiceStub);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function copyToClipboardIsDeactivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -70,9 +68,7 @@ final class CopyToClipboardTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function copyToClipboardIsActivated(): void
     {
         $requestStub = $this->createStub(ServerRequestInterface::class);

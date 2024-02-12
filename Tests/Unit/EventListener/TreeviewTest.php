@@ -15,6 +15,7 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\Treeview;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
@@ -22,9 +23,7 @@ final class TreeviewTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionTreeviewIsDeactivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -44,9 +43,7 @@ final class TreeviewTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionTreeviewIsActivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(

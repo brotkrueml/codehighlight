@@ -15,19 +15,17 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\InlineColour;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
-/**
- * @covers \Brotkrueml\CodeHighlight\EventListener\InlineColour
- */
+#[CoversClass(InlineColour::class)]
 final class InlineColourTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function inlineColourIsDeactivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -47,9 +45,7 @@ final class InlineColourTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function inlineColourIsActivatedAndLanguageIsCss(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -76,9 +72,7 @@ final class InlineColourTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function inlineColourIsActivatedAndLanguageIsHtml(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -101,9 +95,7 @@ final class InlineColourTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function inlineColourIsActivatedAndLanguageIsPhp(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -126,9 +118,7 @@ final class InlineColourTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function inlineColourIsDeactivatedAndLanguageIsCss(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(

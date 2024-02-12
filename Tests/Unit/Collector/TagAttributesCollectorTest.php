@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\Tests\Unit\Collector;
 
 use Brotkrueml\CodeHighlight\Collector\TagAttributesCollector;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -19,9 +20,7 @@ use PHPUnit\Framework\TestCase;
  */
 final class TagAttributesCollectorTest extends TestCase
 {
-    /**
-     * @test
-     */
+    #[Test]
     public function toStringReturnsEmptyStringAfterInstantiation(): void
     {
         $subject = new TagAttributesCollector();
@@ -29,9 +28,7 @@ final class TagAttributesCollectorTest extends TestCase
         self::assertSame('', $subject->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function toStringReturnsOneAttributeCorrectly(): void
     {
         $subject = new TagAttributesCollector();
@@ -41,9 +38,7 @@ final class TagAttributesCollectorTest extends TestCase
         self::assertSame('some-attribute="some-value"', $subject->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function toStringReturnsTwoAttributesCorrectly(): void
     {
         $subject = new TagAttributesCollector();
@@ -54,9 +49,7 @@ final class TagAttributesCollectorTest extends TestCase
         self::assertSame('some-attribute="some-value" another-attribute="another-value"', $subject->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function attributesAreMaskedCorrectly(): void
     {
         $subject = new TagAttributesCollector();

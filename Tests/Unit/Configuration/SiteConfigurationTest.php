@@ -12,13 +12,12 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\Tests\Unit\Configuration;
 
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 final class SiteConfigurationTest extends TestCase
 {
-    /**
-     * @test
-     */
+    #[Test]
     public function fallbackValuesAreAssignedWhenConfigurationIsNotAvailable(): void
     {
         $subject = new SiteConfiguration([]);
@@ -30,9 +29,7 @@ final class SiteConfigurationTest extends TestCase
         self::assertFalse($subject->useUrlHash);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function stringValuesAreCorrectlyAssigned(): void
     {
         $subject = new SiteConfiguration([
@@ -46,9 +43,7 @@ final class SiteConfigurationTest extends TestCase
         self::assertSame('some-user', $subject->commandLineDefaultUser);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function toolbarCopyToClipboardSetToTrue(): void
     {
         $subject = new SiteConfiguration([
@@ -58,9 +53,7 @@ final class SiteConfigurationTest extends TestCase
         self::assertTrue($subject->toolbarCopyToClipboard);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function codehighlightUseUrlHash(): void
     {
         $subject = new SiteConfiguration([

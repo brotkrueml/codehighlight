@@ -15,19 +15,17 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\LineNumbers;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
-/**
- * @covers \Brotkrueml\CodeHighlight\EventListener\LineNumbers
- */
+#[CoversClass(LineNumbers::class)]
 final class LineNumbersTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionShowLineNumbersIsDeactivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -47,9 +45,7 @@ final class LineNumbersTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionShowLineNumberIsActivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -73,9 +69,7 @@ final class LineNumbersTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionShowLineNumberIsActivatedAndStartWithLineNumberGreater1(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -98,9 +92,7 @@ final class LineNumbersTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionShowLineNumberIsActivatedAndStartWithLineNumberIs1(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -123,9 +115,7 @@ final class LineNumbersTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function optionShowLineNumberIsActivatedAndStartWithLineNumberIsGreater1(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(

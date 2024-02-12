@@ -12,13 +12,12 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\Tests\Unit\Configuration;
 
 use Brotkrueml\CodeHighlight\Configuration\Options;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 final class OptionsTest extends TestCase
 {
-    /**
-     * @test
-     */
+    #[Test]
     public function fallbackValuesAreAssignedWhenOptionIsNotAvailable(): void
     {
         $subject = new Options([]);
@@ -38,9 +37,7 @@ final class OptionsTest extends TestCase
         self::assertFalse($subject->treeview);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function stringAndIntValuesAreCorrectlyAssigned(): void
     {
         $subject = new Options([
@@ -66,9 +63,7 @@ final class OptionsTest extends TestCase
         self::assertSame('(filter)', $subject->commandLineOutputFilter);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function showLineNumbersSetToTrue(): void
     {
         $subject = new Options([
@@ -78,9 +73,7 @@ final class OptionsTest extends TestCase
         self::assertTrue($subject->showLineNumbers);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function showDisplayCommandLineSetToTrue(): void
     {
         $subject = new Options([
@@ -90,9 +83,7 @@ final class OptionsTest extends TestCase
         self::assertTrue($subject->displayCommandLine);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function inlineColourSetToTrue(): void
     {
         $subject = new Options([
@@ -102,9 +93,7 @@ final class OptionsTest extends TestCase
         self::assertTrue($subject->inlineColour);
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function treeviewSetToTrue(): void
     {
         $subject = new Options([

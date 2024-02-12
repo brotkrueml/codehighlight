@@ -1,27 +1,30 @@
+<?xml version="1.0"?>
 <phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../.Build/vendor/phpunit/phpunit/phpunit.xsd"
     beStrictAboutOutputDuringTests="true"
-    beStrictAboutTodoAnnotatedTests="true"
-    failOnRisky="true"
-    failOnWarning="true"
-    testdox="true"
+    cacheDirectory=".phpunit.cache"
     cacheResult="false"
     executionOrder="random"
+    failOnRisky="true"
+    failOnWarning="true"
 >
+    <coverage>
+        <report>
+            <clover outputFile="../.Build/logs/clover.xml"/>
+        </report>
+    </coverage>
     <testsuites>
         <testsuite name="unit">
             <directory>Unit/</directory>
         </testsuite>
     </testsuites>
-    <filter>
-        <whitelist>
-            <directory>../Classes/</directory>
-        </whitelist>
-    </filter>
     <logging>
-        <log type="coverage-clover" target="../.Build/logs/clover.xml"/>
-        <log type="junit" target="../.Build/logs/phpunit.xml"/>
+        <junit outputFile="../.Build/logs/phpunit.xml"/>
     </logging>
-    <extensions>
-        <extension class="Brotkrueml\CodeHighlight\Tests\Hooks\Typo3ConstantsHook"/>
-    </extensions>
+    <source>
+        <include>
+            <directory>../Classes/</directory>
+        </include>
+    </source>
 </phpunit>

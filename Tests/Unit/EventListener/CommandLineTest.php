@@ -15,19 +15,18 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\CommandLine;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
-/**
- * @covers \Brotkrueml\CodeHighlight\EventListener\CommandLine
- */
+#[CoversClass(CommandLine::class)]
 final class CommandLineTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function commandLineIsDeactivated(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -47,10 +46,8 @@ final class CommandLineTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     * @dataProvider provider
-     */
+    #[Test]
+    #[DataProvider('provider')]
     public function commandLineIsActivated(array $options, array $siteConfiguration, string $expectedPreAttributes): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -72,7 +69,7 @@ final class CommandLineTest extends TestCase
         self::assertSame('', $event->codeClassesCollector->__toString());
     }
 
-    public function provider(): iterable
+    public static function provider(): iterable
     {
         yield 'commandLineOutputLines is given' => [
             'options' => [

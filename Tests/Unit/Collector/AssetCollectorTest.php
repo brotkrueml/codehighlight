@@ -12,13 +12,12 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\Tests\Unit\Collector;
 
 use Brotkrueml\CodeHighlight\Collector\AssetCollector;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 final class AssetCollectorTest extends TestCase
 {
-    /**
-     * @test
-     */
+    #[Test]
     public function getPathsIsEmptyAfterInstantiation(): void
     {
         $subject = new AssetCollector();
@@ -26,9 +25,7 @@ final class AssetCollectorTest extends TestCase
         self::assertSame([], $subject->getPaths());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function addPathAndGetPaths(): void
     {
         $subject = new AssetCollector();

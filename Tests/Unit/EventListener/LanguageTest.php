@@ -15,19 +15,17 @@ use Brotkrueml\CodeHighlight\Configuration\Options;
 use Brotkrueml\CodeHighlight\Configuration\SiteConfiguration;
 use Brotkrueml\CodeHighlight\EventListener\Language;
 use Brotkrueml\CodeHighlight\Tests\Traits\CreateEnrichCodeSnippetEventTrait;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
-/**
- * @covers \Brotkrueml\CodeHighlight\EventListener\Language
- */
+#[CoversClass(Language::class)]
 final class LanguageTest extends TestCase
 {
     use CreateEnrichCodeSnippetEventTrait;
 
-    /**
-     * @test
-     */
+    #[Test]
     public function languageIsNotSet(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -47,9 +45,7 @@ final class LanguageTest extends TestCase
         self::assertSame('language-none', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function languageIsSet(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
@@ -71,9 +67,7 @@ final class LanguageTest extends TestCase
         self::assertSame('language-php', $event->codeClassesCollector->__toString());
     }
 
-    /**
-     * @test
-     */
+    #[Test]
     public function hasSpecialLanguageIsEnabled(): void
     {
         $event = $this->createEnrichCodeSnippetEvent(
