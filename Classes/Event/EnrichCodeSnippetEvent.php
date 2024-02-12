@@ -35,6 +35,5 @@ final class EnrichCodeSnippetEvent
         public readonly TagAttributesCollector $codeAttributesCollector,
         public readonly TagAttributeValuesCollector $codeClassesCollector,
         public readonly ServerRequestInterface $request,
-    ) {
-    }
+    ) {}
 }

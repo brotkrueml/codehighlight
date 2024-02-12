@@ -33,7 +33,7 @@ final class LanguageTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new Language();
@@ -57,7 +57,7 @@ final class LanguageTest extends TestCase
             new Options([
                 'programmingLanguage' => 'php',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new Language();
@@ -79,7 +79,7 @@ final class LanguageTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
         $event->hasSpecialLanguage = true;
 

@@ -24,7 +24,7 @@ trait CreateEnrichCodeSnippetEventTrait
     private function createEnrichCodeSnippetEvent(
         SiteConfiguration $siteConfiguration,
         Options $options,
-        ServerRequestInterface $request
+        ServerRequestInterface $request,
     ): EnrichCodeSnippetEvent {
         return new EnrichCodeSnippetEvent(
             $siteConfiguration,
@@ -35,7 +35,7 @@ trait CreateEnrichCodeSnippetEventTrait
             new TagAttributeValuesCollector(),
             new TagAttributesCollector(),
             new TagAttributeValuesCollector(),
-            $request
+            $request,
         );
     }
 }

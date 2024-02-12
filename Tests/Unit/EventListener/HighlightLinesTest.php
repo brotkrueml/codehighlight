@@ -33,7 +33,7 @@ final class HighlightLinesTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();
@@ -57,7 +57,7 @@ final class HighlightLinesTest extends TestCase
             new Options([
                 'highlightLines' => '3-5',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();
@@ -84,7 +84,7 @@ final class HighlightLinesTest extends TestCase
                 'highlightLines' => '3-5',
                 'startWithLineNumber' => '2',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();
@@ -109,7 +109,7 @@ final class HighlightLinesTest extends TestCase
                 'highlightLines' => '3-5',
                 'startWithLineNumber' => '1',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();
@@ -134,7 +134,7 @@ final class HighlightLinesTest extends TestCase
                 'highlightLines' => '',
                 'startWithLineNumber' => '2',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();
@@ -158,7 +158,7 @@ final class HighlightLinesTest extends TestCase
                 'codehighlightUseUrlHash' => true,
             ]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();
@@ -186,7 +186,7 @@ final class HighlightLinesTest extends TestCase
             new Options([
                 'startWithLineNumber' => 2,
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new HighlightLines();

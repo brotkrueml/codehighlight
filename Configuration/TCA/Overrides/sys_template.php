@@ -15,5 +15,5 @@ defined('TYPO3') || die();
 ExtensionManagementUtility::addStaticFile(
     Extension::KEY,
     'Configuration/TypoScript/',
-    'Code Highlight'
+    'Code Highlight',
 );

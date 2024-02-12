@@ -33,7 +33,7 @@ final class LineNumbersTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new LineNumbers();
@@ -57,7 +57,7 @@ final class LineNumbersTest extends TestCase
             new Options([
                 'showLineNumbers' => '1',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new LineNumbers();
@@ -84,7 +84,7 @@ final class LineNumbersTest extends TestCase
                 'showLineNumbers' => '1',
                 'startWithLineNumber' => '2',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new LineNumbers();
@@ -109,7 +109,7 @@ final class LineNumbersTest extends TestCase
                 'showLineNumbers' => '1',
                 'startWithLineNumber' => '1',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new LineNumbers();
@@ -134,7 +134,7 @@ final class LineNumbersTest extends TestCase
                 'showLineNumbers' => '0',
                 'startWithLineNumber' => '2',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new LineNumbers();

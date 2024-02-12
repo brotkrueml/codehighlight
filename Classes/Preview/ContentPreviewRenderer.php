@@ -25,8 +25,7 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
 
     public function __construct(
         private readonly FlexFormService $flexFormService,
-    ) {
-    }
+    ) {}
 
     public function renderPageModulePreviewContent(GridColumnItem $item): string
     {
@@ -36,7 +35,7 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
             $content .= '<pre><code style="margin-left:0;">' . $this->renderSnippet($record['bodytext']) . '</code></pre>';
         } else {
             $content .= $this->buildWarning(
-                $this->getLanguageService()->sL(Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet.notDefined')
+                $this->getLanguageService()->sL(Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet.notDefined'),
             );
         }
 
@@ -78,7 +77,7 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
 
     private function treatSpecialChars(string $input): string
     {
-        return \htmlspecialchars(\trim($input), ENT_QUOTES, 'UTF-8', false);
+        return \htmlspecialchars(\trim($input), \ENT_QUOTES, 'UTF-8', false);
     }
 
     private function buildWarning(string $text): string

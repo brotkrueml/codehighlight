@@ -22,8 +22,7 @@ final class CopyToClipboard
 {
     public function __construct(
         private readonly LanguageServiceFactory $languageServiceFactory,
-    ) {
-    }
+    ) {}
 
     public function __invoke(EnrichCodeSnippetEvent $event): void
     {
@@ -36,7 +35,7 @@ final class CopyToClipboard
         $event->scriptsCollector->addPath(Extension::PRISM_BASE_PATH . 'plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js');
 
         $languageService = $this->languageServiceFactory->createFromSiteLanguage(
-            $event->request->getAttribute('language') ?? $event->request->getAttribute('site')->getDefaultLanguage()
+            $event->request->getAttribute('language') ?? $event->request->getAttribute('site')->getDefaultLanguage(),
         );
 
         $event->preAttributesCollector->setAttribute('prismjs-copy', $languageService->sL('toolbar.copy'));

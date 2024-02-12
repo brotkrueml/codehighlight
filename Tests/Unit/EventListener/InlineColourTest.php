@@ -33,7 +33,7 @@ final class InlineColourTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new InlineColour();
@@ -58,7 +58,7 @@ final class InlineColourTest extends TestCase
                 'inlineColour' => '1',
                 'programmingLanguage' => 'css',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new InlineColour();
@@ -87,7 +87,7 @@ final class InlineColourTest extends TestCase
                 'inlineColour' => '1',
                 'programmingLanguage' => 'html',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new InlineColour();
@@ -112,7 +112,7 @@ final class InlineColourTest extends TestCase
                 'inlineColour' => '1',
                 'programmingLanguage' => 'php',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new InlineColour();
@@ -137,7 +137,7 @@ final class InlineColourTest extends TestCase
                 'inlineColour' => '0',
                 'programmingLanguage' => 'css',
             ]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new InlineColour();

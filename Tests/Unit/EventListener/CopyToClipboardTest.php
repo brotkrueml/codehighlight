@@ -40,7 +40,7 @@ final class CopyToClipboardTest extends TestCase
         $languageServiceStub = $this->createStub(LanguageService::class);
         $languageServiceStub
             ->method('sL')
-            ->willReturnCallback(static fn ($input): string => $input);
+            ->willReturnCallback(static fn($input): string => $input);
 
         $this->languageServiceFactoryStub = $this->createStub(LanguageServiceFactory::class);
         $this->languageServiceFactoryStub
@@ -56,7 +56,7 @@ final class CopyToClipboardTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class)
+            $this->createStub(ServerRequestInterface::class),
         );
 
         $subject = new CopyToClipboard($this->languageServiceFactoryStub);
@@ -85,7 +85,7 @@ final class CopyToClipboardTest extends TestCase
                 'codehighlightToolbarCopyToClipboard' => true,
             ]),
             new Options([]),
-            $requestStub
+            $requestStub,
         );
 
         $subject = new CopyToClipboard($this->languageServiceFactoryStub);

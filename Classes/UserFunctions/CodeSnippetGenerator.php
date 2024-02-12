@@ -38,8 +38,7 @@ final class CodeSnippetGenerator
         private readonly EventDispatcher $eventDispatcher,
         private readonly FlexFormService $flexFormService,
         private readonly PageRenderer $pageRenderer,
-    ) {
-    }
+    ) {}
 
     public function setContentObjectRenderer(ContentObjectRenderer $cObj): void
     {
@@ -52,7 +51,7 @@ final class CodeSnippetGenerator
     public function generate(
         string $content,
         array $conf,
-        ServerRequestInterface $request
+        ServerRequestInterface $request,
     ): string {
         $snippet = $this->cObj->data['bodytext'] ?? '';
         if ($snippet === '') {
@@ -76,7 +75,7 @@ final class CodeSnippetGenerator
             new TagAttributeValuesCollector(),
             new TagAttributesCollector(),
             new TagAttributeValuesCollector(),
-            $request
+            $request,
         );
         $event->preAttributesCollector->setAttribute('id', self::PRE_ID_PREFIX . $this->cObj->data['uid']);
 
@@ -125,7 +124,7 @@ final class CodeSnippetGenerator
             false,
             false,
             '',
-            true
+            true,
         );
     }
 }
