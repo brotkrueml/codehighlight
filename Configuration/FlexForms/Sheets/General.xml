@@ -1,28 +1,24 @@
 <T3DataStructure>
     <ROOT>
-        <TCEforms><sheetTitle>LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general</sheetTitle></TCEforms>
+        <sheetTitle>LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general</sheetTitle>
         <type>array</type>
         <el>
             <programmingLanguage>
-                <TCEforms>
-                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage</label>
-                    <config>
-                        <type>select</type>
-                        <renderType>selectMultipleSideBySide</renderType>
-                        <enableMultiSelectFilterTextfield>1</enableMultiSelectFilterTextfield>
-                        <maxitems>1</maxitems>
-                        <itemsProcFunc>Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems</itemsProcFunc>
-                    </config>
-                </TCEforms>
+                <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:programmingLanguage</label>
+                <config>
+                    <type>select</type>
+                    <renderType>selectMultipleSideBySide</renderType>
+                    <enableMultiSelectFilterTextfield>1</enableMultiSelectFilterTextfield>
+                    <maxitems>1</maxitems>
+                    <itemsProcFunc>Brotkrueml\CodeHighlight\Service\ProgrammingLanguages->getTcaItems</itemsProcFunc>
+                </config>
             </programmingLanguage>
             <filename>
-                <TCEforms>
-                    <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:filename</label>
-                    <config>
-                        <type>input</type>
-                        <eval>trim</eval>
-                    </config>
-                </TCEforms>
+                <label>LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:filename</label>
+                <config>
+                    <type>input</type>
+                    <eval>trim</eval>
+                </config>
             </filename>
         </el>
     </ROOT>

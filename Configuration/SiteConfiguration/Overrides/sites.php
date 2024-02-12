@@ -39,8 +39,6 @@ $GLOBALS['SiteConfiguration']['site']['columns'] += [
             'renderType' => 'checkboxToggle',
             'items' => [
                 [
-                    0 => '',
-                    1 => '',
                     'label' => '',
                     'value' => '',
                 ],
@@ -68,8 +66,6 @@ $GLOBALS['SiteConfiguration']['site']['columns'] += [
             'renderType' => 'checkboxToggle',
             'items' => [
                 [
-                    0 => '',
-                    1 => '',
                     'label' => '',
                     'value' => '',
                 ],

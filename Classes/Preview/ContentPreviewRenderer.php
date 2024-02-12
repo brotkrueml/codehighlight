@@ -14,7 +14,6 @@ namespace Brotkrueml\CodeHighlight\Preview;
 use Brotkrueml\CodeHighlight\Extension;
 use TYPO3\CMS\Backend\Preview\StandardContentPreviewRenderer;
 use TYPO3\CMS\Backend\View\BackendLayout\Grid\GridColumnItem;
-use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Service\FlexFormService;
 
 /**
@@ -32,13 +31,6 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
     public function renderPageModulePreviewContent(GridColumnItem $item): string
     {
         $content = '';
-        if ((new Typo3Version())->getMajorVersion() < 12) {
-            $content = '<strong>'
-                . $this->renderText($this->getLanguageService()->sL(Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title'))
-                . '</strong>'
-                . '<br>';
-        }
-
         $record = $item->getRecord();
         if ($record['bodytext']) {
             $content .= '<pre><code style="margin-left:0;">' . $this->renderSnippet($record['bodytext']) . '</code></pre>';
