@@ -20,11 +20,9 @@ use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
  */
 final class CopyToClipboard
 {
-    private LanguageServiceFactory $languageServiceFactory;
-
-    public function __construct(LanguageServiceFactory $languageServiceFactory)
-    {
-        $this->languageServiceFactory = $languageServiceFactory;
+    public function __construct(
+        private readonly LanguageServiceFactory $languageServiceFactory,
+    ) {
     }
 
     public function __invoke(EnrichCodeSnippetEvent $event): void

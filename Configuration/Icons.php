@@ -9,9 +9,12 @@ declare(strict_types=1);
  * LICENSE.txt file that was distributed with this source code.
  */
 
+use Brotkrueml\CodeHighlight\Extension;
+use TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider;
+
 return [
     'content-codehighlight' => [
-        'provider' => TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-        'source' => 'EXT:' . Brotkrueml\CodeHighlight\Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
+        'provider' => SvgIconProvider::class,
+        'source' => 'EXT:' . Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
     ],
 ];

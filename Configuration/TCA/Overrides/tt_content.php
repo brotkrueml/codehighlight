@@ -7,34 +7,39 @@
  * LICENSE.txt file that was distributed with this source code.
  */
 
+use Brotkrueml\CodeHighlight\Extension;
+use Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
+
 defined('TYPO3') || die();
 
 (static function (): void {
     $contentType = 'tx_codehighlight_codesnippet';
 
-    TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin(
+    ExtensionManagementUtility::addPlugin(
         [
-            Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title',
+            Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title',
             $contentType,
-            'EXT:' . Brotkrueml\CodeHighlight\Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
+            'EXT:' . Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
             'special',
         ],
-        TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
-        Brotkrueml\CodeHighlight\Extension::KEY
+        ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
+        Extension::KEY
     );
 
     $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentType] = 'pi_flexform';
-    TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
+    ExtensionManagementUtility::addPiFlexFormValue(
         '*',
-        'FILE:EXT:' . Brotkrueml\CodeHighlight\Extension::KEY . '/Configuration/FlexForms/Options.xml',
+        'FILE:EXT:' . Extension::KEY . '/Configuration/FlexForms/Options.xml',
         $contentType
     );
 
     $GLOBALS['TCA']['tt_content']['types'][$contentType] = [
-        'previewRenderer' => Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer::class,
+        'previewRenderer' => ContentPreviewRenderer::class,
         'columnsOverrides' => [
             'bodytext' => [
-                'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
+                'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
                 'config' => [
                     'enableTabulator' => true,
                     'fixedFont' => true,
@@ -42,7 +47,7 @@ defined('TYPO3') || die();
                 ],
             ],
             'pi_flexform' => [
-                'label' => Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options',
+                'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options',
             ],
         ],
         'showitem' => '
@@ -50,7 +55,7 @@ defined('TYPO3') || die();
                     --palette--;;general,
                     --palette--;;headers,
                     bodytext,
-                --div--;' . Brotkrueml\CodeHighlight\Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options,
+                --div--;' . Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options,
                     pi_flexform,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                     --palette--;;frames,
@@ -64,7 +69,7 @@ defined('TYPO3') || die();
             ',
     ];
 
-    if (TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('t3editor')) {
+    if (ExtensionManagementUtility::isLoaded('t3editor')) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
     }
 

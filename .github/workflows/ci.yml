@@ -20,10 +20,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - php-versions: 7.4
-            typo3-versions: ^11
-          - php-versions: 8.0
-            typo3-versions: ^11
           - php-versions: 8.1
             typo3-versions: ^11
           - php-versions: 8.1
@@ -66,7 +62,7 @@ jobs:
       - name: Setup PHP version
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 7.4
+          php-version: 8.1
           coverage: xdebug
           extensions: mbstring
       - name: Get Composer Cache Directory

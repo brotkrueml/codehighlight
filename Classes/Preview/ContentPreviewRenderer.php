@@ -24,11 +24,9 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
 {
     private const MAX_CODE_SNIPPET_LINES = 20;
 
-    private FlexFormService $flexFormService;
-
-    public function __construct(FlexFormService $flexFormService)
-    {
-        $this->flexFormService = $flexFormService;
+    public function __construct(
+        private readonly FlexFormService $flexFormService,
+    ) {
     }
 
     public function renderPageModulePreviewContent(GridColumnItem $item): string

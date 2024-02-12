@@ -32,19 +32,13 @@ final class CodeSnippetGenerator
     private const PRE_ID_PREFIX = 'codesnippet';
     private const DEFAULT_THEME = Extension::PRISM_BASE_PATH . 'themes/prism.css';
 
-    private EventDispatcher $eventDispatcher;
-    private FlexFormService $flexFormService;
     private ContentObjectRenderer $cObj;
-    private PageRenderer $pageRenderer;
 
     public function __construct(
-        EventDispatcher $eventDispatcher,
-        FlexFormService $flexFormService,
-        PageRenderer $pageRenderer
+        private readonly EventDispatcher $eventDispatcher,
+        private readonly FlexFormService $flexFormService,
+        private readonly PageRenderer $pageRenderer,
     ) {
-        $this->eventDispatcher = $eventDispatcher;
-        $this->flexFormService = $flexFormService;
-        $this->pageRenderer = $pageRenderer;
     }
 
     public function setContentObjectRenderer(ContentObjectRenderer $cObj): void
@@ -108,7 +102,7 @@ final class CodeSnippetGenerator
 
         return '<pre ' . $event->preAttributesCollector . '>'
             . '<code ' . $event->codeAttributesCollector . '>'
-            . \htmlspecialchars($snippet)
+            . \htmlspecialchars((string)$snippet)
             . '</code>'
             . '</pre>';
     }

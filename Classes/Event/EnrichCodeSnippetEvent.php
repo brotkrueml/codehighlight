@@ -23,63 +23,18 @@ use Psr\Http\Message\ServerRequestInterface;
  */
 final class EnrichCodeSnippetEvent
 {
-    /**
-     * @readonly
-     */
-    public SiteConfiguration $siteConfiguration;
-    /**
-     * @readonly
-     */
-    public Options $options;
-    /**
-     * @readonly
-     */
-    public AssetCollector $stylesCollector;
-    /**
-     * @readonly
-     */
-    public AssetCollector $scriptsCollector;
-    /**
-     * @readonly
-     */
-    public TagAttributesCollector $preAttributesCollector;
-    /**
-     * @readonly
-     */
-    public TagAttributeValuesCollector $preClassesCollector;
-    /**
-     * @readonly
-     */
-    public TagAttributesCollector $codeAttributesCollector;
-    /**
-     * @readonly
-     */
-    public TagAttributeValuesCollector $codeClassesCollector;
-    /**
-     * @readonly
-     */
-    public ServerRequestInterface $request;
     public bool $hasSpecialLanguage = false;
 
     public function __construct(
-        SiteConfiguration $siteConfiguration,
-        Options $options,
-        AssetCollector $stylesCollector,
-        AssetCollector $scriptsCollector,
-        TagAttributesCollector $preAttributesCollector,
-        TagAttributeValuesCollector $preClassesCollector,
-        TagAttributesCollector $codeAttributesCollector,
-        TagAttributeValuesCollector $codeClassesCollector,
-        ServerRequestInterface $request
+        public readonly SiteConfiguration $siteConfiguration,
+        public readonly Options $options,
+        public readonly AssetCollector $stylesCollector,
+        public readonly AssetCollector $scriptsCollector,
+        public readonly TagAttributesCollector $preAttributesCollector,
+        public readonly TagAttributeValuesCollector $preClassesCollector,
+        public readonly TagAttributesCollector $codeAttributesCollector,
+        public readonly TagAttributeValuesCollector $codeClassesCollector,
+        public readonly ServerRequestInterface $request,
     ) {
-        $this->siteConfiguration = $siteConfiguration;
-        $this->options = $options;
-        $this->stylesCollector = $stylesCollector;
-        $this->scriptsCollector = $scriptsCollector;
-        $this->preAttributesCollector = $preAttributesCollector;
-        $this->preClassesCollector = $preClassesCollector;
-        $this->codeAttributesCollector = $codeAttributesCollector;
-        $this->codeClassesCollector = $codeClassesCollector;
-        $this->request = $request;
     }
 }

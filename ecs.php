@@ -2,6 +2,8 @@
 
 declare (strict_types=1);
 
+use PhpCsFixer\Fixer\Comment\HeaderCommentFixer;
+use PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer;
 use Symplify\EasyCodingStandard\Config\ECSConfig;
 
 return static function (ECSConfig $config): void {
@@ -19,13 +21,13 @@ HEADER;
         __DIR__ . '/Configuration',
         __DIR__ . '/Tests',
     ]);
-    $config->ruleWithConfiguration(\PhpCsFixer\Fixer\Comment\HeaderCommentFixer::class, [
+    $config->ruleWithConfiguration(HeaderCommentFixer::class, [
         'comment_type' => 'comment',
         'header' => $header,
         'separate' => 'both',
     ]);
     $config->skip([
-        \PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer::class => [
+        DeclareStrictTypesFixer::class => [
             __DIR__ . '/Configuration/TCA/*',
         ],
     ]);
