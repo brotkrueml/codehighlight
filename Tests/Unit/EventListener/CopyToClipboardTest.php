@@ -33,7 +33,7 @@ final class CopyToClipboardTest extends TestCase
     /**
      * @var LanguageServiceFactory&Stub
      */
-    private $languageServiceFactoryStub;
+    private Stub $languageServiceFactoryStub;
 
     protected function setUp(): void
     {
