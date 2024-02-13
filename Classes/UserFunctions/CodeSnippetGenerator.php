@@ -64,7 +64,7 @@ final class CodeSnippetGenerator
         $this->addJsFile(Extension::PRISM_BASE_PATH . 'components/prism-core.min.js');
         $this->addJsFile(Extension::PRISM_BASE_PATH . 'plugins/autoloader/prism-autoloader.min.js', false);
 
-        $options = new Options($this->flexFormService->convertFlexFormContentToArray($this->cObj->data['pi_flexform']));
+        $options = new Options($this->flexFormService->convertFlexFormContentToArray($this->cObj->data['pi_flexform'] ?? ''));
 
         $event = new EnrichCodeSnippetEvent(
             $siteConfiguration,

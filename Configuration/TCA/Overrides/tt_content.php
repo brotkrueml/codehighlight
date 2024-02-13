@@ -9,8 +9,8 @@
 
 use Brotkrueml\CodeHighlight\Extension;
 use Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer;
+use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
-use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 
 defined('TYPO3') || die();
 
@@ -24,7 +24,7 @@ defined('TYPO3') || die();
             'EXT:' . Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
             'special',
         ],
-        ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
+        'CType',
         Extension::KEY,
     );
 
@@ -70,7 +70,12 @@ defined('TYPO3') || die();
     ];
 
     if (ExtensionManagementUtility::isLoaded('t3editor')) {
+        // @todo Remove when compatibility with TYPO3 v12 is dropped
         $GLOBALS['TCA']['tt_content']['types'][$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
+    }
+    if ((new Typo3Version())->getMajorVersion() >= 13) {
+        // @todo Always assign the renderType when compatibility with TYPO3 v12 is dropped
+        $GLOBALS['TCA']['tt_content']['types'][$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 'codeEditor';
     }
 
     $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'content-codehighlight';

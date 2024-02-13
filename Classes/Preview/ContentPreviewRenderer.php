@@ -45,7 +45,7 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
     public function renderPageModulePreviewFooter(GridColumnItem $item): string
     {
         $record = $item->getRecord();
-        $settings = $this->getFlexFormSettings($record['pi_flexform']);
+        $settings = $this->getFlexFormSettings($record['pi_flexform'] ?? '');
 
         $footer = [];
         if (($settings['programmingLanguage'] ?? '') !== '') {

@@ -9,7 +9,7 @@ Installation
 Target group: **Administrators**
 
 .. note::
-   The extension in version |version| supports TYPO3 v12 LTS.
+   The extension in version |version| supports TYPO3 v12 LTS and TYPO3 v13.
    Use version 3.x for support of TYPO3 v11.
    Use version 2.x for support of TYPO3 v9 LTS and TYPO3 v10 LTS.
 
@@ -18,8 +18,9 @@ Some basic configuration is available which is explained in the
 :ref:`Configuration <configuration>` section.
 
 .. tip::
-
-   Install the TYPO3 system extension "t3editor" to use the features of this editor in the backend content element.
+   Install the TYPO3 system extension "t3editor" on TYPO3 v12 to use the
+   features of this editor in the backend content element. In TYPO3 v13 the
+   code editor is always available.
 
 
 .. _installation-composer:
