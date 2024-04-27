@@ -4,6 +4,7 @@
 /.gitattributes export-ignore
 /.github export-ignore
 /.gitignore export-ignore
+/.noai export-ignore
 /Build/ export-ignore
 /CHANGELOG.md export-ignore
 /Documentation/ export-ignore
