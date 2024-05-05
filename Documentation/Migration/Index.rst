@@ -8,6 +8,11 @@ Migration
 
 Target group: **Integrators,Developers**
 
+From version 3.x to 4.0
+=======================
+
+No migrations necessary.
+
 
 From version 2.x to 3.0
 =======================
