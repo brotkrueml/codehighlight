@@ -95,7 +95,7 @@ Packaging of extension for TER
 Set the new version in the files
 
 - :file:`ext_emconf.php`
-- :file:`Documentation/Settings.cfg`,
+- :file:`Documentation/guides.xml`,
 
 adjust the :file:`CHANGELOG.md` and tag the release. The packaging of the
 extension for the TYPO3 Extension Repository (TER) can be done with:
