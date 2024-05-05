@@ -228,7 +228,7 @@ The treeview may be generated on Unix systems with `tree -F`.
 
 Examples for a tree structure in the :guilabel:`Code snippet` field:
 
-.. code-block:: none
+.. code-block:: plaintext
 
    root_folder/
    |-- a first folder/
@@ -246,7 +246,7 @@ Examples for a tree structure in the :guilabel:`Code snippet` field:
 
 or:
 
-.. code-block:: none
+.. code-block:: plaintext
 
    ├── a first folder/
    |   ├── holidays.mov
