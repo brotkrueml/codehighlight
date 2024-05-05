@@ -20,7 +20,6 @@ site under :guilabel:`Site Management` > :guilabel:`Sites` and switch to the tab
 :guilabel:`Code Highlight`.
 
 .. figure:: /Images/Configuration/site-configuration.png
-   :class: with-shadow
    :alt: Site Configuration
 
    Site Configuration
@@ -99,7 +98,6 @@ Some constants can be defined in the
 Select the category :guilabel:`Codehighlight` and make your adjustments.
 
 .. figure:: /Images/Configuration/constant-editor.png
-   :class: with-shadow
    :alt: Constant Editor
 
    Constant Editor

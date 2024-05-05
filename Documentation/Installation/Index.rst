@@ -65,5 +65,4 @@ The extension ships some TypoScript code which needs to be included.
    at the field :guilabel:`Include static (from extensions):`
 
 .. figure:: /Images/Installation/include-static-template.png
-   :class: with-shadow
    :alt: Include static TypoScript

@@ -19,7 +19,6 @@ You'll find it in the content element wizard under the
 :guilabel:`Special elements` tab:
 
 .. figure:: /Images/Editor/content-element-wizard.png
-   :class: with-shadow
    :alt: "Code Snippet" content element in the content element wizard
 
    "Code Snippet" content element in the content element wizard
@@ -35,7 +34,6 @@ General
 In the :guilabel:`General` tab insert the code snippet into the according field:
 
 .. figure:: /Images/Editor/content-element-general.png
-   :class: with-shadow
    :alt: The "General" tab of the content element
 
    The "General" tab of the content element
@@ -51,7 +49,6 @@ snippet. First of all you can select the programming language - dependent on the
 language the snippet is formatted:
 
 .. figure:: /Images/Editor/content-element-options-general.png
-   :class: with-shadow
    :alt: General options
 
    General options
@@ -76,7 +73,6 @@ than 1 or highlight one or more lines to point out something important. You can
 adjust these settings under the :guilabel:`Line numbers` tab of the options:
 
 .. figure:: /Images/Editor/content-element-options-line-numbers.png
-   :class: with-shadow
    :alt: Options for showing and adjusting line numbers
 
    Options for showing and adjusting line numbers
@@ -130,14 +126,12 @@ Command line
 ~~~~~~~~~~~~
 
 .. figure:: /Images/Introduction/example-shell.png
-   :class: with-shadow
    :alt: Shell command with prompt
 
 To visualise the commands on a console you can activate the :guilabel:`Display
 command line` switch. A prompt will be shown before a code line.
 
 .. figure:: /Images/Editor/content-element-options-command-line.png
-   :class: with-shadow
    :alt: Options for a command line snippet
 
    Options for a command line snippet
@@ -197,7 +191,6 @@ To show a preview of a colour in CSS styles you can activate the
 :guilabel:`Inline colour` switch.
 
 .. figure:: /Images/Editor/content-element-options-styles.png
-   :class: with-shadow
    :alt: Options for a colour preview
 
    Options for a colour preview
@@ -205,7 +198,6 @@ To show a preview of a colour in CSS styles you can activate the
 This adds a small square before the colour definitions:
 
 .. figure:: /Images/Introduction/example-css-inline-colours.png
-   :class: with-shadow
    :alt: CSS snippet with inline colours
 
 .. _editors-content-element-options-treeview:
@@ -217,7 +209,6 @@ To highlight file system tree structures the :guilabel:`Treeview` switch can be
 activated.
 
 .. figure:: /Images/Editor/content-element-options-treeview.png
-   :class: with-shadow
    :alt: Options for a treeview
 
    Options for a treeview
@@ -225,7 +216,6 @@ activated.
 This adds icons for folders and files:
 
 .. figure:: /Images/Introduction/example-treeview.png
-   :class: with-shadow
    :alt: Example for a treeview
 
 The treeview may be generated on Unix systems with `tree -F`.

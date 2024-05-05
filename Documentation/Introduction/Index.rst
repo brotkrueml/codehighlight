@@ -30,7 +30,6 @@ Example output using the Coy theme for a PHP code snippet with line numbers and
 line highlighting:
 
 .. figure:: /Images/Introduction/example-php.png
-   :class: with-shadow
    :alt: PHP code snippet with line numbers and line highlighting
 
 
@@ -40,7 +39,6 @@ Shell command
 Example output using the Coy theme for a shell command with prompt:
 
 .. figure:: /Images/Introduction/example-shell.png
-   :class: with-shadow
    :alt: Shell command with prompt
 
 
@@ -51,7 +49,6 @@ Example output using the Coy theme for a CSS snippet with activated
 inline colours (the coloured square before the colour definition):
 
 .. figure:: /Images/Introduction/example-css-inline-colours.png
-   :class: with-shadow
    :alt: CSS snippet with inline colours
 
 Treeview
@@ -60,7 +57,6 @@ Treeview
 Example for a treeview to highlight file system tree structures:
 
 .. figure:: /Images/Introduction/example-treeview.png
-   :class: with-shadow
    :alt: Treeview
 
 
