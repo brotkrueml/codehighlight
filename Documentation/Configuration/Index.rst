@@ -15,8 +15,9 @@ Target group: **Developers, Integrators**
 Site Configuration
 ==================
 
-Some site-wide configurations can be made in the Site Configuration. Select a
-site under :guilabel:`Site Management` > :guilabel:`Sites` and switch to the tab
+Some site-wide configurations can be made in the
+:ref:`site configuration <t3coreapi:sitehandling>`. Select a site under
+:guilabel:`Site Management` > :guilabel:`Sites` and switch to the tab
 :guilabel:`Code Highlight`.
 
 .. figure:: /Images/Configuration/site-configuration.png
