@@ -66,3 +66,5 @@ The extension ships some TypoScript code which needs to be included.
 
 .. figure:: /Images/Installation/include-static-template.png
    :alt: Include static TypoScript
+
+   Include static TypoScript

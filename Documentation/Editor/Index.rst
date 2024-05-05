@@ -128,6 +128,8 @@ Command line
 .. figure:: /Images/Introduction/example-shell.png
    :alt: Shell command with prompt
 
+   Shell command with prompt
+
 To visualise the commands on a console you can activate the :guilabel:`Display
 command line` switch. A prompt will be shown before a code line.
 
@@ -200,6 +202,8 @@ This adds a small square before the colour definitions:
 .. figure:: /Images/Introduction/example-css-inline-colours.png
    :alt: CSS snippet with inline colours
 
+   CSS snippet with inline colours
+
 .. _editors-content-element-options-treeview:
 
 Treeview
@@ -217,6 +221,8 @@ This adds icons for folders and files:
 
 .. figure:: /Images/Introduction/example-treeview.png
    :alt: Example for a treeview
+
+   Example for a treeview
 
 The treeview may be generated on Unix systems with `tree -F`.
 

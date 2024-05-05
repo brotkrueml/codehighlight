@@ -32,6 +32,7 @@ line highlighting:
 .. figure:: /Images/Introduction/example-php.png
    :alt: PHP code snippet with line numbers and line highlighting
 
+   PHP code snippet with line numbers and line highlighting
 
 Shell command
 -------------
@@ -41,6 +42,7 @@ Example output using the Coy theme for a shell command with prompt:
 .. figure:: /Images/Introduction/example-shell.png
    :alt: Shell command with prompt
 
+   Shell command with prompt
 
 CSS inline colours
 ------------------
@@ -51,6 +53,8 @@ inline colours (the coloured square before the colour definition):
 .. figure:: /Images/Introduction/example-css-inline-colours.png
    :alt: CSS snippet with inline colours
 
+   CSS snippet with inline colours
+
 Treeview
 --------
 
@@ -59,6 +63,7 @@ Example for a treeview to highlight file system tree structures:
 .. figure:: /Images/Introduction/example-treeview.png
    :alt: Treeview
 
+   Treeview
 
 .. _release-management:
 
