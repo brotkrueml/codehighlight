@@ -12,7 +12,7 @@ Target group: **Developers, Integrators**
 
 .. _site-configuration:
 
-Site Configuration
+Site configuration
 ==================
 
 Some site-wide configurations can be made in the
@@ -21,14 +21,14 @@ Some site-wide configurations can be made in the
 :guilabel:`Code Highlight`.
 
 .. figure:: /Images/Configuration/site-configuration.png
-   :alt: Site Configuration
+   :alt: Site configuration
 
-   Site Configuration
+   Site configuration
 
 
 .. _configuration-theme:
 
-CSS File for Theme
+CSS file for theme
 ------------------
 
 In the value picker you have the choice between several themes for using on a
@@ -51,7 +51,7 @@ As the theme is assigned to a site, different sites can have different themes.
 
 .. _configuration-url-hash:
 
-Usage of a URL Hash
+Usage of a URL hash
 -------------------
 
 If the option is enabled, the usage of a URL hash (like ``#codesnippet8.5-6``)
@@ -61,7 +61,7 @@ in the :ref:`chapter for editors <editor-url-hash>`.
 
 .. _configuration-command-line-default-host:
 
-Command Line: Default Host
+Command line: default host
 --------------------------
 
 Defines the default host for the command line, if none is given in the options
@@ -71,7 +71,7 @@ content element given, ``localhost`` is used as last fallback.
 
 .. _configuration-command-line-default-user:
 
-Command line: Default User
+Command line: default user
 --------------------------
 
 Defines the default user for the command line, if none is given in the options
@@ -81,7 +81,7 @@ content element given, ``user`` is used as last fallback.
 
 .. _configuration-toolbar-copy:
 
-Toolbar: Display Button "Copy to Clipboard"
+Toolbar: display button "Copy to clipboard"
 -------------------------------------------
 
 If the option is enabled, a :guilabel:`Copy` button is displayed in the upper
@@ -90,18 +90,18 @@ right corner when the user moves the mouse pointer over a code snippet.
 
 .. _constant-editor:
 
-Constant Editor
+Constant editor
 ===============
 
 Some constants can be defined in the
-:ref:`Constant Editor <t3tsref:typoscript-syntax-constant-editor>`.
+:ref:`constant editor <t3tsref:typoscript-syntax-constant-editor>`.
 
 Select the category :guilabel:`Codehighlight` and make your adjustments.
 
 .. figure:: /Images/Configuration/constant-editor.png
    :alt: Constant Editor
 
-   Constant Editor
+   Constant editor
 
 
 Files
@@ -152,7 +152,7 @@ Alternatively you can change the setting directly in the TypoScript setup:
       10 = EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/
    }
 
-CSS File
+CSS file
 ~~~~~~~~
 
 The extension comes with a default CSS file. If you don't want to include it

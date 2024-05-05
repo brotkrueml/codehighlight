@@ -25,7 +25,7 @@ Some basic configuration is available which is explained in the
 
 .. _installation-composer:
 
-Installation via composer
+Installation via Composer
 =========================
 
 The recommended way to install this extension is by using Composer. In your
@@ -39,7 +39,7 @@ and the recent stable version will be installed.
 
 .. _installation-extension-manager:
 
-Installation in Extension Manager
+Installation in extension manager
 =================================
 
 You can also install the extension from the `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/extension/codehighlight>`_.

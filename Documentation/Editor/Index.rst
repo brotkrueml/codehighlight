@@ -4,7 +4,7 @@
 .. _for-editors:
 
 ===========
-For Editors
+For editors
 ===========
 
 Target group: **Editors**

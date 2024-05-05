@@ -34,7 +34,7 @@ create it.
 
 .. _maintenance-prism:
 
-PrismJS Library
+PrismJS library
 ===============
 
 For syntax highlighting `PrismJS <https://prismjs.com/>`_ is used. The JavaScript

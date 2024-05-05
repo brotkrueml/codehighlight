@@ -62,7 +62,7 @@ Example for a treeview to highlight file system tree structures:
 
 .. _release-management:
 
-Release Management
+Release management
 ==================
 
 This extension uses `semantic versioning <https://semver.org/>`_ which
