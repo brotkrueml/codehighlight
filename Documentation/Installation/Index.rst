@@ -31,7 +31,7 @@ Installation via Composer
 The recommended way to install this extension is by using Composer. In your
 Composer-based TYPO3 project root, just type:
 
-.. code-block:: bash
+.. code-block:: shell
 
    composer req brotkrueml/codehighlight
 
