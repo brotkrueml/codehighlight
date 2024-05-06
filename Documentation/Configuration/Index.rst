@@ -9,6 +9,8 @@ Configuration
 
 Target group: **Developers, Integrators**
 
+.. contents::
+   :local:
 
 .. _site-configuration:
 
