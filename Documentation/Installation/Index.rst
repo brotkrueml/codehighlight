@@ -54,6 +54,10 @@ Preparation: Include static TypoScript
 
 The extension ships some TypoScript code which needs to be included.
 
+.. note::
+   This needs only to be done, if **not** using TYPO3 v13 with
+   :ref:`site sets <site-sets>`.
+
 #. Switch to the root page of your site.
 
 #. Switch to the :guilabel:`Template module` and select :guilabel:`Info/Modify`.

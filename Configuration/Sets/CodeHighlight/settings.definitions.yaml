@@ -1,0 +1,17 @@
+settings:
+  tt_content.tx_codehighlight_codesnippet.templateRootPath:
+    label: 'LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:templateRootPath'
+    type: string
+    default: ''
+  tt_content.tx_codehighlight_codesnippet.partialRootPath:
+    label: 'LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:partialRootPath'
+    type: string
+    default: ''
+  tt_content.tx_codehighlight_codesnippet.layoutRootPath:
+    label: 'LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:partialRootPath'
+    type: string
+    default: ''
+  tt_content.tx_codehighlight_codesnippet.cssFile:
+    label: 'LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:cssFile'
+    type: string
+    default: 'EXT:codehighlight/Resources/Public/Css/codehighlight.css'

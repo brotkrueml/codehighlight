@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/codehighlight/compare/v4.0.0...HEAD>`_
 -------------------------------------------------------------------------------------
 
+Added
+^^^^^
+
+
+* Support for site sets in TYPO3 v13
+
 `4.0.0 <https://github.com/brotkrueml/codehighlight/compare/v3.1.1...v4.0.0>`_ - 2024-02-14
 -----------------------------------------------------------------------------------------------
 

@@ -90,13 +90,111 @@ If the option is enabled, a :guilabel:`Copy` button is displayed in the upper
 right corner when the user moves the mouse pointer over a code snippet.
 
 
+.. _site-sets:
+
+Site sets (TYPO3 v13)
+=====================
+
+.. todo: Change reference from changelog to official manual once available.
+
+This extension provides support for
+:ref:`site sets <changelog:feature-103437-1712062105>` introduced with TYPO3
+v13.1.
+
+Add :yaml:`brotkrueml/codehighlight` as dependency to the configuration of
+your site package:
+
+.. code-block:: yaml
+   :caption: EXT:your_sitepackage/Configuration/Sets/<your-set>/config.yaml
+   :emphasize-lines: 7
+
+   name: your-vendor/your-sitepackage
+   label: Sitepackage
+
+   dependencies:
+     # ... some other dependencies
+
+     - brotkrueml/codehighlight
+
+Settings
+--------
+
+If you want to change the layout or template of the content element or add a
+partial you can make a copy of them and adjust the Fluid root paths.
+
+Path to template root
+~~~~~~~~~~~~~~~~~~~~~
+
+Define the additional template root path, for example,
+:file:`EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/`.
+
+.. code-block:: yaml
+   :caption: EXT:your_sitepackage/Configuration/Sets/<your-set>/settings.yaml
+   :emphasize-lines: 3-5
+
+   # ... some other settings
+
+   tt_content:
+      tx_codehighlight_codesnippet:
+         templateRootPath: 'EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/'
+
+Path to template partials
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Define the additional partial root path, for example,
+:file:`EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/`.
+
+.. code-block:: yaml
+   :caption: EXT:your_sitepackage/Configuration/Sets/<your-set>/settings.yaml
+   :emphasize-lines: 3-5
+
+   # ... some other settings
+
+   tt_content:
+      tx_codehighlight_codesnippet:
+         partialRootPath: 'EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/'
+
+Path to template layouts
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Define the additional layout root path, for example,
+:file:`EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/`.
+
+.. code-block:: yaml
+   :caption: EXT:your_sitepackage/Configuration/Sets/<your-set>/settings.yaml
+   :emphasize-lines: 3-5
+
+   # ... some other settings
+
+   tt_content:
+      tx_codehighlight_codesnippet:
+         layoutRootPath: 'EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/'
+
+CSS file
+~~~~~~~~
+
+The extension comes with a default CSS file. If you don't want to include it or
+want to use an own CSS file you can empty the field or change the path.
+
+.. code-block:: yaml
+   :caption: EXT:your_sitepackage/Configuration/Sets/<your-set>/settings.yaml
+   :emphasize-lines: 3-5
+
+   # ... some other settings
+
+   tt_content:
+      tx_codehighlight_codesnippet:
+         cssFile: 'EXT:your_sitepackage/Resources/Public/Css/codehighlight.css'
+
+
 .. _constant-editor:
 
-Constant editor
-===============
+Constant editor (TYPO3 v12, and v13 without site sets)
+======================================================
 
 Some constants can be defined in the
-:ref:`constant editor <t3tsref:typoscript-syntax-constant-editor>`.
+:ref:`constant editor <t3tsref:typoscript-syntax-constant-editor>`. For TYPO3
+v13 it is recommended to use :ref:`site sets <site-sets>` instead.
 
 Select the category :guilabel:`Codehighlight` and make your adjustments.
 

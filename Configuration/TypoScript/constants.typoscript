@@ -1,13 +1,1 @@
-tt_content.tx_codehighlight_codesnippet {
-  # cat=codehighlight/file/p1; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:templateRootPath
-  templateRootPath =
-
-  # cat=codehighlight/file/p2; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:partialRootPath
-  partialRootPath =
-
-  # cat=codehighlight/file/p3; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:layoutRootPath
-  layoutRootPath =
-
-  # cat=codehighlight/file/p4; type=string; label=LLL:EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf:cssFile
-  cssFile = EXT:codehighlight/Resources/Public/Css/codehighlight.css
-}
+@import "EXT:codehighlight/Configuration/Sets/CodeHighlight/constants.typoscript"
