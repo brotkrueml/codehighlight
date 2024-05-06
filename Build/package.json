@@ -12,7 +12,7 @@
     "gulp-nunjucks": "^5.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "patch-package": "^6.5.1",
+    "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0"
   },
   "scripts": {
