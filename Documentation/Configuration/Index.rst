@@ -115,7 +115,7 @@ partial you can make a copy of them and adjust the Fluid root paths.
 Path to template root (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enter the additional template root path, e.g.
+Enter the additional template root path, for example,
 :file:`EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/`.
 
 Alternatively you can change the setting directly in the TypoScript setup:
@@ -129,7 +129,7 @@ Alternatively you can change the setting directly in the TypoScript setup:
 Path to template partials (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enter the additional partial root path, e.g.
+Enter the additional partial root path, for example,
 :file:`EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/`.
 
 Alternatively you can change the setting directly in the TypoScript setup:
@@ -143,7 +143,7 @@ Alternatively you can change the setting directly in the TypoScript setup:
 Path to template layouts (FE)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Enter the additional layout root path, e.g.
+Enter the additional layout root path, for example,
 :file:`EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/`.
 
 Alternatively you can change the setting directly in the TypoScript setup:

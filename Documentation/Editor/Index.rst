@@ -161,8 +161,8 @@ Host
 
 Prompt
    For any other command line, such as a Windows prompt, specify the entire
-   prompt, e.g. ``PS C:\Users\Chris>``. If this field is set, the values in the
-   fields :guilabel:`User` and :guilabel:`Host` are ignored.
+   prompt, for example, ``PS C:\Users\Chris>``. If this field is set, the values
+   in the fields :guilabel:`User` and :guilabel:`Host` are ignored.
 
 Output lines
    You can specify the lines to be presented as output (no prompt and no
@@ -176,9 +176,9 @@ Output lines
    *Example:* ``1-2, 5, 9-20`` (Lines 1 through 2, line 5, lines 9 through 20)
 
 Filter output
-   Alternative for "Output lines": Specify a prefix for lines with output, e.g.,
-   ``(out)`` will treat lines beginning with (out) as output and remove the
-   prefix.
+   Alternative for "Output lines": Specify a prefix for lines with output, for
+   example, ``(out)`` will treat lines beginning with (out) as output and remove
+   the prefix.
 
    You can see some examples for the rendering of the command line on the
    `plugin page <https://prismjs.com/plugins/command-line/>`__ of the Prism
