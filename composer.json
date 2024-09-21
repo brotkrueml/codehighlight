@@ -25,11 +25,11 @@
 	},
 	"require-dev": {
 		"brotkrueml/coding-standards": "~5.1.0",
-		"ergebnis/composer-normalize": "~2.42.0",
+		"ergebnis/composer-normalize": "~2.43.0",
 		"php-coveralls/php-coveralls": "^2.7",
-		"phpstan/phpstan": "1.10.67",
+		"phpstan/phpstan": "1.12.4",
 		"phpunit/phpunit": "^10.5",
-		"rector/rector": "1.0.4",
+		"rector/rector": "1.2.5",
 		"symfony/yaml": "^6.4 || ^7.0"
 	},
 	"suggest": {

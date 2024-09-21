@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
-use Rector\Php74\Rector\LNumber\AddLiteralSeparatorToNumberRector;
 use Rector\PHPUnit\Set\PHPUnitSetList;
 
 return RectorConfig::configure()
@@ -29,7 +28,4 @@ return RectorConfig::configure()
     ->withSets([
         PHPUnitSetList::PHPUNIT_100,
     ])
-    ->withRootFiles()
-    ->withSkip([
-        AddLiteralSeparatorToNumberRector::class,
-    ]);
+    ->withRootFiles();
