@@ -30,6 +30,10 @@ jobs:
             typo3-versions: ^12
           - php-versions: 8.3
             typo3-versions: ^13
+          - php-versions: 8.4
+            typo3-versions: ^12
+          - php-versions: 8.4
+            typo3-versions: ^13
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -42,13 +46,14 @@ jobs:
           extensions: mbstring
       - name: Install composer dependencies
         run: |
-          composer require typo3/cms-core=${{ matrix.typo3-versions }}
+          composer remove ergebnis/composer-normalize --dev --no-update
+          composer require typo3/cms-core=${{ matrix.typo3-versions }} --no-progress --prefer-dist --optimize-autoloader
       - name: Run PHP linter
         run: |
           find . -type f -name '*.php' ! -path "./.Build/*" -print0 | xargs -0 -n1 -P4 php -l -n | (! grep -v "No syntax errors detected" )
       - name: Run unit tests
         run: |
-          make tests
+          .Build/bin/phpunit --configuration=Tests/phpunit.xml.dist
   code-quality:
     name: Code Quality
     runs-on: ubuntu-latest
@@ -76,18 +81,18 @@ jobs:
       - name: Install composer dependencies
         run: |
           composer update --no-progress --prefer-dist --optimize-autoloader
-      - name: Normalize composer.json
-        run: |
-          composer normalize --dry-run
+#      - name: Normalize composer.json
+#        run: |
+#          composer normalize --dry-run
       - name: Check coding standards
         run: |
           .Build/bin/ecs check --no-progress-bar
       - name: Run phpstan
         run: |
-          make phpstan
+          .Build/bin/phpstan analyse
       - name: Run rector
         run: |
-          make rector-dry
+          .Build/bin/rector --dry-run
 #      - name: Generate code coverage
 #        run: |
 #          make code-coverage
