@@ -17,7 +17,6 @@
   },
   "scripts": {
     "postinstall": "patch-package",
-    "build": "gulp build",
-    "update:deps": "yarn upgrade-interactive --latest && yarn upgrade"
+    "build": "gulp build"
   }
 }

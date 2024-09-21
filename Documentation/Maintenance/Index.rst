@@ -36,17 +36,16 @@ PrismJS library
 ===============
 
 For syntax highlighting `PrismJS <https://prismjs.com/>`_ is used. The JavaScript
-library and its dependencies are managed with :file:`yarn` and build with
-:file:`gulp`:
+library and its dependencies are managed with npm and build with gulp:
 
 .. code-block:: shell
 
    cd Build
-   yarn install
-   yarn build
+   npm ci
+   npm run build
 
-The :file:`yarn build` command runs the according gulp task and copies the Prism
-components (aka languages), plugins and themes to the
+The :shell:`npm run build` command runs the according gulp task and copies the
+Prism components (aka languages), plugins and themes to the
 :file:`Resources/Public/Vendor/PrismJs/` folder. Also a PHP file
 :file:`Resources/Private/PHP/AvailableProgrammingLanguages.php` is generated
 with the available languages. It will be used for the select box of programming
@@ -64,8 +63,8 @@ To update the library to the recent version just call on the console:
 .. code-block:: shell
 
    cd Build
-   yarn upgrade prismjs
-   yarn build
+   npm update prismjs
+   npm run build
 
 The copied artifacts can now be committed (along with the :file:`package.json`
 file to the repository. Don't forget to add new files to the commit and add
