@@ -46,7 +46,7 @@ final class SiteConfiguration
         $this->theme = $fullConfiguration['codehighlightTheme'] ?? '';
         $this->commandLineDefaultHost = $fullConfiguration['codehighlightCommandLineDefaultHost'] ?? '';
         $this->commandLineDefaultUser = $fullConfiguration['codehighlightCommandLineDefaultUser'] ?? '';
-        $this->toolbarCopyToClipboard = (bool)($fullConfiguration['codehighlightToolbarCopyToClipboard'] ?? false);
-        $this->useUrlHash = (bool)($fullConfiguration['codehighlightUseUrlHash'] ?? false);
+        $this->toolbarCopyToClipboard = (bool) ($fullConfiguration['codehighlightToolbarCopyToClipboard'] ?? false);
+        $this->useUrlHash = (bool) ($fullConfiguration['codehighlightUseUrlHash'] ?? false);
     }
 }

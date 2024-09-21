@@ -89,19 +89,19 @@ final class CodeSnippetGenerator
             $this->addJsFile($path);
         }
 
-        $preClasses = (string)$event->preClassesCollector;
+        $preClasses = (string) $event->preClassesCollector;
         if ($preClasses !== '') {
             $event->preAttributesCollector->setAttribute('class', $preClasses);
         }
 
-        $codeClasses = (string)$event->codeClassesCollector;
+        $codeClasses = (string) $event->codeClassesCollector;
         if ($codeClasses !== '') {
             $event->codeAttributesCollector->setAttribute('class', $codeClasses);
         }
 
         return '<pre ' . $event->preAttributesCollector . '>'
             . '<code ' . $event->codeAttributesCollector . '>'
-            . \htmlspecialchars((string)$snippet)
+            . \htmlspecialchars((string) $snippet)
             . '</code>'
             . '</pre>';
     }

@@ -61,7 +61,7 @@ final class ContentPreviewRenderer extends StandardContentPreviewRenderer
 
     private function renderSnippet(string $input): string
     {
-        $lines = \preg_split("/\R/", $input);
+        $lines = \preg_split('/\R/', $input);
         if ($lines === false) {
             return $this->treatSpecialChars($input);
         }

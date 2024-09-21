@@ -24,7 +24,7 @@
 		"typo3/cms-frontend": "^12.4 || ^13.3"
 	},
 	"require-dev": {
-		"brotkrueml/coding-standards": "~5.1.0",
+		"brotkrueml/coding-standards": "~6.0.0",
 		"ergebnis/composer-normalize": "~2.43.0",
 		"phpstan/phpstan": "1.12.4",
 		"phpunit/phpunit": "^10.5 || ^11.3",

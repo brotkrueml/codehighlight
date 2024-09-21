@@ -30,7 +30,7 @@ final class HighlightLines
             $event->preAttributesCollector->setAttribute('line', $event->options->highlightLines);
 
             if ($event->options->startWithLineNumber > 1) {
-                $event->preAttributesCollector->setAttribute('line-offset', (string)($event->options->startWithLineNumber - 1));
+                $event->preAttributesCollector->setAttribute('line-offset', (string) ($event->options->startWithLineNumber - 1));
             }
         }
     }

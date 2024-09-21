@@ -30,7 +30,7 @@ final class LineNumbers
         $event->scriptsCollector->addPath(Extension::PRISM_BASE_PATH . 'plugins/line-numbers/prism-line-numbers.min.js');
 
         if ($event->options->startWithLineNumber > 1) {
-            $event->preAttributesCollector->setAttribute('start', (string)$event->options->startWithLineNumber);
+            $event->preAttributesCollector->setAttribute('start', (string) $event->options->startWithLineNumber);
         }
     }
 }

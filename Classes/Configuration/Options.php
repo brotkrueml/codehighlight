@@ -78,16 +78,16 @@ final class Options
     {
         $this->programmingLanguage = $options['programmingLanguage'] ?? '';
         $this->filename = $options['filename'] ?? '';
-        $this->showLineNumbers = (bool)($options['showLineNumbers'] ?? false);
-        $this->startWithLineNumber = (int)($options['startWithLineNumber'] ?? 0);
+        $this->showLineNumbers = (bool) ($options['showLineNumbers'] ?? false);
+        $this->startWithLineNumber = (int) ($options['startWithLineNumber'] ?? 0);
         $this->highlightLines = $options['highlightLines'] ?? '';
-        $this->displayCommandLine = (bool)($options['displayCommandLine'] ?? false);
+        $this->displayCommandLine = (bool) ($options['displayCommandLine'] ?? false);
         $this->commandLineServerUser = $options['commandLineServerUser'] ?? '';
         $this->commandLineServerHost = $options['commandLineServerHost'] ?? '';
         $this->commandLineServerPrompt = $options['commandLineServerPrompt'] ?? '';
         $this->commandLineOutputLines = $options['commandLineOutputLines'] ?? '';
         $this->commandLineOutputFilter = $options['commandLineOutputFilter'] ?? '';
-        $this->inlineColour = (bool)($options['inlineColour'] ?? false);
-        $this->treeview = (bool)($options['treeview'] ?? false);
+        $this->inlineColour = (bool) ($options['inlineColour'] ?? false);
+        $this->treeview = (bool) ($options['treeview'] ?? false);
     }
 }

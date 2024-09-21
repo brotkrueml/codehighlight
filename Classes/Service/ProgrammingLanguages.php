@@ -24,7 +24,7 @@ final class ProgrammingLanguages
      */
     private $languageService;
 
-    public function __construct(LanguageService $languageService = null)
+    public function __construct(?LanguageService $languageService = null)
     {
         $this->languageService = $languageService ?? $GLOBALS['LANG'];
     }
