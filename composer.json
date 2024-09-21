@@ -27,7 +27,7 @@
 		"brotkrueml/coding-standards": "~5.1.0",
 		"ergebnis/composer-normalize": "~2.43.0",
 		"phpstan/phpstan": "1.12.4",
-		"phpunit/phpunit": "^10.5",
+		"phpunit/phpunit": "^10.5 || ^11.3",
 		"rector/rector": "1.2.5",
 		"symfony/yaml": "^6.4 || ^7.0"
 	},
