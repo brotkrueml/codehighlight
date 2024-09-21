@@ -95,11 +95,10 @@ right corner when the user moves the mouse pointer over a code snippet.
 Site sets (TYPO3 v13)
 =====================
 
-.. todo: Change reference from changelog to official manual once available.
+.. todo: Change reference to stable version of manual once available.
 
-This extension provides support for
-:ref:`site sets <changelog:feature-103437-1712062105>` introduced with TYPO3
-v13.1.
+This extension provides support for :ref:`site sets <t3coreapi_main:site-sets>`
+introduced with TYPO3 v13.1.
 
 Add :yaml:`brotkrueml/codehighlight` as dependency to the configuration of
 your site package:
