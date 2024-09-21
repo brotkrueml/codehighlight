@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Invalid Fluid namespace definition with Fluid 4
+
 ## [4.1.0] - 2024-05-06
 
 ### Added
