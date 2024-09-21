@@ -8,7 +8,9 @@ code-coverage: vendor
 # See: https://github.com/crossnox/m2r2
 .PHONY: changelog
 changelog:
-	m2r2 CHANGELOG.md && \
+	python3 -m venv .Build/changelog
+	.Build/changelog/bin/pip install setuptools m2r2
+	.Build/changelog/bin/m2r2 CHANGELOG.md && \
 	echo ".. _changelog:" | cat - CHANGELOG.rst > /tmp/CHANGELOG.rst && \
 	mv /tmp/CHANGELOG.rst Documentation/Changelog/Index.rst && \
 	rm CHANGELOG.rst
