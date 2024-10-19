@@ -11,12 +11,12 @@ Code highlighter for various programming, markup and configuration languages bas
 
 ## Versions and support
 
-| Latest release | TYPO3       | PHP   | Updates will contain                              |
-|----------------|-------------|-------|---------------------------------------------------|
-| 4.x            | 12.4 - 13.4 | ≥ 8.1 | Features, PrismJS updates, security and bug fixes |
-| 3.x            | 11.5 - 12.4 | ≥ 7.4 | End of life                                       |
-| 2.x            | 9.5 - 11.5  | ≥ 7.2 | End of life                                       |
-| 1.x            | 9.5 - 10.4  | ≥ 7.2 | End of life                                       |
+| Latest release | TYPO3             | PHP   | Updates will contain                              |
+|----------------|-------------------|-------|---------------------------------------------------|
+| 4.x            | 12.4 / 13.4       | ≥ 8.1 | Features, PrismJS updates, security and bug fixes |
+| 3.x            | 11.5 / 12.4       | ≥ 7.4 | End of life                                       |
+| 2.x            | 9.5 / 10.4 / 11.5 | ≥ 7.2 | End of life                                       |
+| 1.x            | 9.5 / 10.4        | ≥ 7.2 | End of life                                       |
 
 [Documentation](https://docs.typo3.org/p/brotkrueml/codehighlight/main/en-us/) |
 [Translation](https://crowdin.com/project/typo3-extension-codehighlight) |
