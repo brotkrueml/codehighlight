@@ -1,11 +1,19 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Service\\\\ProgrammingLanguages\\:\\:getAliases\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: '#^Method Brotkrueml\\CodeHighlight\\Service\\ProgrammingLanguages\:\:getAliases\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
 			count: 1
 			path: Classes/Service/ProgrammingLanguages.php
 
 		-
-			message: "#^Method Brotkrueml\\\\CodeHighlight\\\\Service\\\\ProgrammingLanguages\\:\\:getTcaItems\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: '#^Method Brotkrueml\\CodeHighlight\\Service\\ProgrammingLanguages\:\:getAvailableProgrammingLanguages\(\) should return list\<string\> but returns array\.$#'
+			identifier: return.type
+			count: 1
+			path: Classes/Service/ProgrammingLanguages.php
+
+		-
+			message: '#^Method Brotkrueml\\CodeHighlight\\Service\\ProgrammingLanguages\:\:getTcaItems\(\) has parameter \$config with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
 			count: 1
 			path: Classes/Service/ProgrammingLanguages.php
