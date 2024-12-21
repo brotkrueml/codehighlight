@@ -135,7 +135,7 @@ Define the additional template root path, for example,
 
    tt_content:
       tx_codehighlight_codesnippet:
-         templateRootPath: 'EXT:your_sitepackage/Resources/Private/Templates/Codehighlight/'
+         templateRootPath: 'EXT:your_sitepackage/Resources/Private/Extensions/Codehighlight/Templates/'
 
 Path to template partials
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -151,7 +151,7 @@ Define the additional partial root path, for example,
 
    tt_content:
       tx_codehighlight_codesnippet:
-         partialRootPath: 'EXT:your_sitepackage/Resources/Private/Partials/Codehighlight/'
+         partialRootPath: 'EXT:your_sitepackage/Resources/Private/Extensions/Codehighlight/Partials/'
 
 Path to template layouts
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -167,7 +167,7 @@ Define the additional layout root path, for example,
 
    tt_content:
       tx_codehighlight_codesnippet:
-         layoutRootPath: 'EXT:your_sitepackage/Resources/Private/Layouts/Codehighlight/'
+         layoutRootPath: 'EXT:your_sitepackage/Resources/Private/Extensions/Codehighlight/Layouts/'
 
 CSS file
 ~~~~~~~~
