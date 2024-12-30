@@ -2,16 +2,16 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
 	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/ConstantEditor.xlf" date="2019-10-26T20:21:48Z" product-name="codehighlight">
 		<body>
-			<trans-unit id="cssFile" resname="layoutRootPath">
+			<trans-unit id="cssFile">
 				<source><![CDATA[CSS File]]></source>
 			</trans-unit>
-			<trans-unit id="layoutRootPath" resname="layoutRootPath">
+			<trans-unit id="layoutRootPath">
 				<source><![CDATA[Path to template layouts (FE)]]></source>
 			</trans-unit>
-			<trans-unit id="partialRootPath" resname="partialRootPath">
+			<trans-unit id="partialRootPath">
 				<source><![CDATA[Path to template partials (FE)]]></source>
 			</trans-unit>
-			<trans-unit id="templateRootPath" resname="templateRootPath">
+			<trans-unit id="templateRootPath">
 				<source><![CDATA[Path to template root (FE)]]></source>
 			</trans-unit>
 		</body>

@@ -2,13 +2,13 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
 	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/locallang.xlf" date="2021-11-02T10:36:22Z" product-name="codehighlight">
 		<body>
-			<trans-unit id="toolbar.copy" resname="toolbar.copy">
+			<trans-unit id="toolbar.copy">
 				<source><![CDATA[Copy]]></source>
 			</trans-unit>
-			<trans-unit id="toolbar.copyError" resname="toolbar.copyError">
+			<trans-unit id="toolbar.copyError">
 				<source><![CDATA[Press Ctrl+C to copy]]></source>
 			</trans-unit>
-			<trans-unit id="toolbar.copySuccess" resname="toolbar.copySuccess">
+			<trans-unit id="toolbar.copySuccess">
 				<source><![CDATA[Copied!]]></source>
 			</trans-unit>
 		</body>

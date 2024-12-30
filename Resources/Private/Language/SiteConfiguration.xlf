@@ -2,31 +2,31 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
 	<file source-language="en" datatype="plaintext" original="EXT:codehighlight/Resources/Private/Language/SiteConfiguration.xlf" date="2021-11-02T09:42:18Z" product-name="codehighlight">
 		<body>
-			<trans-unit id="codehighlightCommandLine" resname="codehighlightCommandLine">
+			<trans-unit id="codehighlightCommandLine">
 				<source><![CDATA[Command Line]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightCommandLineDefaultHost" resname="codehighlightCommandLineDefaultHost">
+			<trans-unit id="codehighlightCommandLineDefaultHost">
 				<source><![CDATA[Default Host]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightCommandLineDefaultUser" resname="codehighlightCommandLineDefaultUser">
+			<trans-unit id="codehighlightCommandLineDefaultUser">
 				<source><![CDATA[Default User]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightTheme" resname="codehighlightTheme">
+			<trans-unit id="codehighlightTheme">
 				<source><![CDATA[CSS File for Theme]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightTheme.valuePicker.default" resname="codehighlightTheme.valuePicker.default">
+			<trans-unit id="codehighlightTheme.valuePicker.default">
 				<source><![CDATA[Default]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightToolbar" resname="codehighlightToolbar">
+			<trans-unit id="codehighlightToolbar">
 				<source><![CDATA[Toolbar]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightToolbarCopyToClipboard" resname="codehighlightToolbarCopyToClipboard">
+			<trans-unit id="codehighlightToolbarCopyToClipboard">
 				<source><![CDATA[Copy to Clipboard]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightUseUrlHash" resname="codehighlightUseUrlHash">
+			<trans-unit id="codehighlightUseUrlHash">
 				<source><![CDATA[Usage of a URL Hash]]></source>
 			</trans-unit>
-			<trans-unit id="codehighlightUseUrlHash.description" resname="codehighlightUseUrlHash.description">
+			<trans-unit id="codehighlightUseUrlHash.description">
 				<source><![CDATA[If activated the usage of a URL hash (like #codesnippet8.5-6) for highlighting code and as anchor is available.]]></source>
 			</trans-unit>
 		</body>
