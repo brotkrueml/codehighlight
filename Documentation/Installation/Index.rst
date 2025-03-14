@@ -9,9 +9,7 @@ Installation
 Target group: **Administrators**
 
 .. note::
-   The extension in version |version| supports TYPO3 v12 LTS and TYPO3 v13.
-   Use version 3.x for support of TYPO3 v11.
-   Use version 2.x for support of TYPO3 v9 LTS and TYPO3 v10 LTS.
+   The extension in version |version| supports TYPO3 v12 LTS and TYPO3 v13 LTS.
 
 
 Some basic configuration is available which is explained in the
