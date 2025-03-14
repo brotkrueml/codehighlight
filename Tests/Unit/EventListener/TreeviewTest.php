@@ -29,7 +29,7 @@ final class TreeviewTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class),
+            self::createStub(ServerRequestInterface::class),
         );
 
         $subject = new Treeview();
@@ -51,7 +51,7 @@ final class TreeviewTest extends TestCase
             new Options([
                 'treeview' => '1',
             ]),
-            $this->createStub(ServerRequestInterface::class),
+            self::createStub(ServerRequestInterface::class),
         );
 
         $subject = new Treeview();

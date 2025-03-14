@@ -32,7 +32,7 @@ final class CommandLineTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration([]),
             new Options([]),
-            $this->createStub(ServerRequestInterface::class),
+            self::createStub(ServerRequestInterface::class),
         );
 
         $subject = new CommandLine();
@@ -53,7 +53,7 @@ final class CommandLineTest extends TestCase
         $event = $this->createEnrichCodeSnippetEvent(
             new SiteConfiguration($siteConfiguration),
             new Options($options),
-            $this->createStub(ServerRequestInterface::class),
+            self::createStub(ServerRequestInterface::class),
         );
 
         $subject = new CommandLine();
