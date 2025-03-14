@@ -42,9 +42,8 @@ and the recent stable version will be installed.
 Installation in extension manager
 =================================
 
-You can also install the extension from the `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/extension/codehighlight>`_.
-See :ref:`t3start:extensions_legacy_management` for a manual how to install an
-extension.
+In a legacy installation, you can also install the extension from the
+`TYPO3 Extension Repository (TER) <https://extensions.typo3.org/extension/codehighlight>`_.
 
 
 .. _include-static-typoscript:
