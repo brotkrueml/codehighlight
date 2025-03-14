@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.2.0] - 2025-03-14
+
 ### Updated
 - PrismJS to version 1.30.0
 
@@ -173,7 +175,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Syntax highlighting with PrismJS
 
 
-[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v4.1.1...HEAD
+[Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v4.2.0...HEAD
+[4.2.0]: https://github.com/brotkrueml/codehighlight/compare/v4.1.1...v4.2.0
 [4.1.1]: https://github.com/brotkrueml/codehighlight/compare/v4.1.0...v4.1.1
 [4.1.0]: https://github.com/brotkrueml/codehighlight/compare/v4.0.0...v4.1.0
 [4.0.0]: https://github.com/brotkrueml/codehighlight/compare/v3.1.1...v4.0.0
