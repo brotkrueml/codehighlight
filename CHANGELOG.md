@@ -6,8 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.2.1] - 2025-10-17
+
 ### Fixed
-- Line number settings are not used by PrismJS (#39)
+- Line number settings are not used by PrismJS (#39, thanks to Sebastian Klein)
 
 ## [4.2.0] - 2025-03-14
 
@@ -179,6 +181,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 [Unreleased]: https://github.com/brotkrueml/codehighlight/compare/v4.2.0...HEAD
+[4.2.1]: https://github.com/brotkrueml/codehighlight/compare/v4.2.0...v4.2.1
 [4.2.0]: https://github.com/brotkrueml/codehighlight/compare/v4.1.1...v4.2.0
 [4.1.1]: https://github.com/brotkrueml/codehighlight/compare/v4.1.0...v4.1.1
 [4.1.0]: https://github.com/brotkrueml/codehighlight/compare/v4.0.0...v4.1.0
