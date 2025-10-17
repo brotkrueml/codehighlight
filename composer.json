@@ -24,11 +24,11 @@
 		"typo3/cms-frontend": "^12.4 || ^13.4"
 	},
 	"require-dev": {
-		"brotkrueml/coding-standards": "~6.1.0",
+		"brotkrueml/coding-standards": "~6.2.0",
 		"ergebnis/composer-normalize": "~2.48.2",
-		"phpstan/phpstan": "2.1.28",
-		"phpunit/phpunit": "^10.5 || ^11.5 || ^12.3",
-		"rector/rector": "2.1.7",
+		"phpstan/phpstan": "2.1.31",
+		"phpunit/phpunit": "^10.5 || ^11.5 || ^12.4",
+		"rector/rector": "2.2.3",
 		"symfony/yaml": "^6.4 || ^7.3"
 	},
 	"suggest": {
