@@ -27,10 +27,10 @@ final class HighlightLines
         }
 
         if ($event->options->highlightLines !== '') {
-            $event->preAttributesCollector->setAttribute('line', $event->options->highlightLines);
+            $event->preAttributesCollector->setAttribute('data-line', $event->options->highlightLines);
 
             if ($event->options->startWithLineNumber > 1) {
-                $event->preAttributesCollector->setAttribute('line-offset', (string) ($event->options->startWithLineNumber - 1));
+                $event->preAttributesCollector->setAttribute('data-line-offset', (string) ($event->options->startWithLineNumber - 1));
             }
         }
     }
