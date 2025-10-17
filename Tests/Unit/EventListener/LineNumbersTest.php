@@ -86,7 +86,7 @@ final class LineNumbersTest extends TestCase
 
         self::assertCount(1, $event->stylesCollector->getPaths());
         self::assertCount(1, $event->scriptsCollector->getPaths());
-        self::assertSame('start="2"', $event->preAttributesCollector->__toString());
+        self::assertSame('data-start="2"', $event->preAttributesCollector->__toString());
         self::assertSame('line-numbers', $event->preClassesCollector->__toString());
         self::assertSame('', $event->codeAttributesCollector->__toString());
         self::assertSame('', $event->codeClassesCollector->__toString());

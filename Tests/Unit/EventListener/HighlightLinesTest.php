@@ -63,7 +63,7 @@ final class HighlightLinesTest extends TestCase
         self::assertSame('EXT:codehighlight/Resources/Public/Prism/plugins/line-highlight/prism-line-highlight.css', $event->stylesCollector->getPaths()[0]);
         self::assertCount(1, $event->scriptsCollector->getPaths());
         self::assertSame('EXT:codehighlight/Resources/Public/Prism/plugins/line-highlight/prism-line-highlight.min.js', $event->scriptsCollector->getPaths()[0]);
-        self::assertSame('line="3-5"', $event->preAttributesCollector->__toString());
+        self::assertSame('data-line="3-5"', $event->preAttributesCollector->__toString());
         self::assertSame('', $event->preClassesCollector->__toString());
         self::assertSame('', $event->codeAttributesCollector->__toString());
         self::assertSame('', $event->codeClassesCollector->__toString());
@@ -86,7 +86,7 @@ final class HighlightLinesTest extends TestCase
 
         self::assertCount(1, $event->stylesCollector->getPaths());
         self::assertCount(1, $event->scriptsCollector->getPaths());
-        self::assertSame('line="3-5" line-offset="1"', $event->preAttributesCollector->__toString());
+        self::assertSame('data-line="3-5" data-line-offset="1"', $event->preAttributesCollector->__toString());
         self::assertSame('', $event->preClassesCollector->__toString());
         self::assertSame('', $event->codeAttributesCollector->__toString());
         self::assertSame('', $event->codeClassesCollector->__toString());
@@ -109,7 +109,7 @@ final class HighlightLinesTest extends TestCase
 
         self::assertCount(1, $event->stylesCollector->getPaths());
         self::assertCount(1, $event->scriptsCollector->getPaths());
-        self::assertSame('line="3-5"', $event->preAttributesCollector->__toString());
+        self::assertSame('data-line="3-5"', $event->preAttributesCollector->__toString());
         self::assertSame('', $event->preClassesCollector->__toString());
         self::assertSame('', $event->codeAttributesCollector->__toString());
         self::assertSame('', $event->codeClassesCollector->__toString());
