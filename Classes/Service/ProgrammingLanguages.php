@@ -14,21 +14,19 @@ namespace Brotkrueml\CodeHighlight\Service;
 use Brotkrueml\CodeHighlight\Extension;
 use Symfony\Component\DependencyInjection\Attribute\Autoconfigure;
 use TYPO3\CMS\Core\Localization\LanguageService;
+use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
 
 /**
  * @internal
  */
 #[Autoconfigure(public: true)]
-final class ProgrammingLanguages
+final readonly class ProgrammingLanguages
 {
-    /**
-     * @var LanguageService
-     */
-    private $languageService;
+    private LanguageService $languageService;
 
-    public function __construct(?LanguageService $languageService = null)
+    public function __construct(LanguageServiceFactory $languageServiceFactory)
     {
-        $this->languageService = $languageService ?? $GLOBALS['LANG'];
+        $this->languageService = $languageServiceFactory->createFromUserPreferences($GLOBALS['BE_USER']);
     }
 
     public function getTcaItems(array &$config): void
