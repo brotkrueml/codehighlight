@@ -92,13 +92,10 @@ right corner when the user moves the mouse pointer over a code snippet.
 
 .. _site-sets:
 
-Site sets (TYPO3 v13)
-=====================
+Site sets (TYPO3 v13+)
+======================
 
-.. todo: Change reference to stable version of manual once available.
-
-This extension provides support for :ref:`site sets <t3coreapi_main:site-sets>`
-introduced with TYPO3 v13.1.
+This extension provides support for :ref:`site sets <t3coreapi:site-sets>`.
 
 Add :yaml:`brotkrueml/codehighlight` as dependency to the configuration of
 your site package:
@@ -188,12 +185,12 @@ want to use an own CSS file you can empty the field or change the path.
 
 .. _constant-editor:
 
-Constant editor (TYPO3 v12, and v13 without site sets)
-======================================================
+Constant editor (without site sets)
+===================================
 
 Some constants can be defined in the
-:ref:`constant editor <t3tsref:typoscript-syntax-constant-editor>`. For TYPO3
-v13 it is recommended to use :ref:`site sets <site-sets>` instead.
+:ref:`constant editor <t3tsref:typoscript-syntax-constant-editor>`. It is
+recommended to use :ref:`site sets <site-sets>` instead.
 
 Select the category :guilabel:`Codehighlight` and make your adjustments.
 
@@ -283,6 +280,6 @@ and :php:`addJsFooterFile()`. This means, that they adhere to the configuration
 setting :php:`$GLOBALS['TYPO3_CONF_VARS']['FE']['versionNumberInFilename']`
 and the TypoScript settings
 :ref:`config.concatenateJs <t3tsref:setup-config-concatenatejs>` and
-:ref:`config.concatenateCss <t3tsref:setup-config-concatenatecss>`. One
-exception from concatenation is the PrismJS autoloader JavaScript which is used to
-load the necessary language files.
+:ref:`config.concatenateCss <t3tsref:setup-config-concatenatecss>` (only
+available in TYPO3 v13). One exception from concatenation is the PrismJS
+autoloader JavaScript which is used to load the necessary language files.
