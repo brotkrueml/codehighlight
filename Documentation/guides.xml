@@ -16,8 +16,8 @@
     <project
         title="Code Highlight"
         copyright="since 2019 by Chris Müller"
-        version="4.2"
-        release="4.2.1"
+        version="5.0"
+        release="5.0.0-dev"
     />
     <inventory
         id="t3coreapi_main"
