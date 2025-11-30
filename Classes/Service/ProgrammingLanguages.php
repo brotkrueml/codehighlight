@@ -12,11 +12,13 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\Service;
 
 use Brotkrueml\CodeHighlight\Extension;
+use Symfony\Component\DependencyInjection\Attribute\Autoconfigure;
 use TYPO3\CMS\Core\Localization\LanguageService;
 
 /**
  * @internal
  */
+#[Autoconfigure(public: true)]
 final class ProgrammingLanguages
 {
     /**

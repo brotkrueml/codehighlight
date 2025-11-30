@@ -12,6 +12,7 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\Preview;
 
 use Brotkrueml\CodeHighlight\Extension;
+use Symfony\Component\DependencyInjection\Attribute\Autoconfigure;
 use TYPO3\CMS\Backend\Preview\StandardContentPreviewRenderer;
 use TYPO3\CMS\Backend\View\BackendLayout\Grid\GridColumnItem;
 use TYPO3\CMS\Core\Service\FlexFormService;
@@ -19,6 +20,7 @@ use TYPO3\CMS\Core\Service\FlexFormService;
 /**
  * @internal
  */
+#[Autoconfigure(public: true)]
 final class ContentPreviewRenderer extends StandardContentPreviewRenderer
 {
     private const MAX_CODE_SNIPPET_LINES = 20;
