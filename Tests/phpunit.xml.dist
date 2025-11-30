@@ -9,11 +9,6 @@
     failOnRisky="true"
     failOnWarning="true"
 >
-    <coverage>
-        <report>
-            <clover outputFile="../.Build/logs/clover.xml"/>
-        </report>
-    </coverage>
     <testsuites>
         <testsuite name="unit">
             <directory>Unit/</directory>
