@@ -18,6 +18,7 @@ ExtensionManagementUtility::addRecordType(
         'description' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.description',
         'value' => Extension::CE_TYPE,
         'icon' => 'content-codehighlight',
+        'group' => 'special',
     ],
     '
         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
