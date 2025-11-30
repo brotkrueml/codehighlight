@@ -1,9 +1,10 @@
-.PHONY: qa
-qa: cs tests phpstan rector-dry yaml-lint changelog
+.PHONY: $(filter-out vendor,$(MAKECMDGOALS))
 
-.PHONY: code-coverage
-code-coverage: vendor
-	XDEBUG_MODE=coverage .Build/bin/phpunit -c Tests/phpunit.xml.dist --log-junit .Build/logs/phpunit.xml --coverage-text --coverage-clover .Build/logs/clover.xml
+help:
+	@printf "\033[33mUsage:\033[0m\n  make [target] [arg=\"val\"...]\n\n\033[33mTargets:\033[0m\n"
+	@grep -E '^[-a-zA-Z0-9_\.\/]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[32m%-15s\033[0m %s\n", $$1, $$2}'
+
+qa: lint cs tests stan rector-check ## Run all relevant code checks
 
 # See: https://github.com/crossnox/m2r2
 .PHONY: changelog
@@ -15,42 +16,54 @@ changelog:
 	mv /tmp/CHANGELOG.rst Documentation/Changelog/Index.rst && \
 	rm CHANGELOG.rst
 
-.PHONY: cs
-cs: vendor
-	.Build/bin/ecs --fix
+composer: composer-check composer-norm ## Validate and normalize composer.json
 
-.PHONY: docs
-docs:
-	docker run --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
-
-.PHONY: phpstan
-phpstan: vendor
-	.Build/bin/phpstan analyse
-
-.PHONY: rector
-rector: vendor
-	.Build/bin/rector
-
-.PHONY: rector-dry
-rector-dry: vendor
-	.Build/bin/rector --dry-run
-
-.PHONY: tests
-tests: vendor
-	.Build/bin/phpunit --configuration=Tests/phpunit.xml.dist
-
-vendor: composer.json composer.lock
+composer-check: ## Validate composer.json
 	composer validate
-	composer install
+
+composer-norm: vendor ## Normalize composer.json
 	composer normalize
 
-.PHONY: xlf-lint
-xlf-lint:
+cs: cs-php ## Check and fix coding standards
+
+cs-check: cs-php-check ## Only check coding standards
+
+cs-php: vendor ## Check and fix PHP coding standards
+	.Build/bin/ecs check --fix
+
+cs-php-check: vendor ## Only check PHP coding standards
+	.Build/bin/ecs check
+
+docs-check: ## Check documentation renders without warnings
+	docker run --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --fail-on-log
+
+lint: lint-php lint-xlf lint-yaml ## Lint files
+
+lint-php: ## Lint PHP files
+	find . -type f -name '*.php' ! -path "./.Build/*" -print0 | xargs -0 -n1 -P4 php -l -n | (! grep -v "No syntax errors detected" )
+
+lint-xlf: ## Lint XLIFF files
 	xmllint --schema Resources/Private/Language/xliff-core-1.2-strict.xsd --noout Resources/Private/Language/*.xlf
 
-.PHONY: yaml-lint
-yaml-lint: vendor
+lint-yaml: vendor ## Lint YAML files
 	find -regex '.*\.ya?ml' ! -path "./.Build/*" ! -path "./Build/*" -exec .Build/bin/yaml-lint -v {} \;
+
+rector: vendor ## Apply rector rules
+	.Build/bin/rector
+
+rector-check: vendor ## Only check against rector rules
+	.Build/bin/rector --dry-run
+
+stan: vendor ## Run static analysis
+	.Build/bin/phpstan analyse
+
+tests: tests-php ## Run all tests
+
+tests-php: vendor ## Run PHP tests
+	.Build/bin/phpunit --configuration=Tests/phpunit.xml.dist
+
+vendor: composer.json $(wildcard composer.lock) ## Install PHP dependencies
+	composer install
 
 .PHONY: zip
 zip:
