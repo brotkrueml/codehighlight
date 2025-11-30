@@ -34,6 +34,9 @@ cs-php: vendor ## Check and fix PHP coding standards
 cs-php-check: vendor ## Only check PHP coding standards
 	.Build/bin/ecs check
 
+docs: ## Render documentation
+	docker run --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
+
 docs-check: ## Check documentation renders without warnings
 	docker run --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --fail-on-log
 
