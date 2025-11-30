@@ -20,6 +20,7 @@ use Brotkrueml\CodeHighlight\Event\EnrichCodeSnippetEvent;
 use Brotkrueml\CodeHighlight\Extension;
 use Psr\Http\Message\ServerRequestInterface;
 use Symfony\Component\DependencyInjection\Attribute\Autoconfigure;
+use TYPO3\CMS\Core\Attribute\AsAllowedCallable;
 use TYPO3\CMS\Core\EventDispatcher\EventDispatcher;
 use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Service\FlexFormService;
@@ -50,6 +51,7 @@ final class CodeSnippetGenerator
     /**
      * @param array{} $conf
      */
+    #[AsAllowedCallable]
     public function generate(
         string $content,
         array $conf,
