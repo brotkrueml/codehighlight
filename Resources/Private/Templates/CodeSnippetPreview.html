@@ -1,0 +1,32 @@
+<html
+    data-namespace-typo3-fluid="true"
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    lang="en"
+>
+
+<f:if condition="{record.bodytext}">
+    <f:then>
+        <pre><code>{record.bodytext -> codeHighlight:format.cropLines()}</code></pre>
+    </f:then>
+    <f:else>
+        <br>
+        <div class="alert alert-warning">
+            <f:translate key="LLL:EXT:codehighlight/Resources/Private/Language/ContentElement.xlf:codeSnippet.notDefined"/>
+        </div>
+    </f:else>
+</f:if>
+
+<f:if condition="{record.pi_flexform.programmingLanguage} || {record.pi_flexform.filename}">
+    <div class="t3-page-ce-footer" style="margin-inline:-20px;margin-block-end:-20px;">
+        <div class="t3-page-ce-info">
+            <f:if condition="{record.pi_flexform.programmingLanguage}">
+                <strong>{record.pi_flexform.programmingLanguage.0 -> f:format.case()}</strong>
+            </f:if>
+            <f:if condition="{record.pi_flexform.filename}">
+                {record.pi_flexform.filename}
+            </f:if>
+        </div>
+    </div>
+</f:if>
+
+</html>

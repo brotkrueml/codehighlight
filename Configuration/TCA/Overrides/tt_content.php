@@ -8,7 +8,6 @@
  */
 
 use Brotkrueml\CodeHighlight\Extension;
-use Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') || die();
@@ -35,7 +34,6 @@ defined('TYPO3') || die();
     );
 
     $GLOBALS['TCA']['tt_content']['types'][$contentType] = [
-        'previewRenderer' => ContentPreviewRenderer::class,
         'columnsOverrides' => [
             'bodytext' => [
                 'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',

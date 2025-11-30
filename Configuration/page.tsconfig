@@ -1,1 +1,5 @@
 @import "EXT:codehighlight/Configuration/TsConfig/Page/*.tsconfig"
+
+mod.web_layout.tt_content.preview {
+  tx_codehighlight_codesnippet = EXT:codehighlight/Resources/Private/Templates/Preview/CodeSnippetPreview.html
+}
