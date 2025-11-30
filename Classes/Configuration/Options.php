@@ -16,59 +16,20 @@ namespace Brotkrueml\CodeHighlight\Configuration;
  * of a code snippet content element
  * @internal
  */
-final class Options
+final readonly class Options
 {
-    /**
-     * @readonly
-     */
     public string $programmingLanguage;
-    /**
-     * @readonly
-     */
     public string $filename;
-    /**
-     * @readonly
-     */
     public bool $showLineNumbers;
-    /**
-     * @readonly
-     */
     public int $startWithLineNumber;
-    /**
-     * @readonly
-     */
     public string $highlightLines;
-    /**
-     * @readonly
-     */
     public bool $displayCommandLine;
-    /**
-     * @readonly
-     */
     public string $commandLineServerUser;
-    /**
-     * @readonly
-     */
     public string $commandLineServerHost;
-    /**
-     * @readonly
-     */
     public string $commandLineServerPrompt;
-    /**
-     * @readonly
-     */
     public string $commandLineOutputLines;
-    /**
-     * @readonly
-     */
     public string $commandLineOutputFilter;
-    /**
-     * @readonly
-     */
     public bool $inlineColour;
-    /**
-     * @readonly
-     */
     public bool $treeview;
 
     /**
