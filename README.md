@@ -10,7 +10,7 @@ Code highlighter for various programming, markup and configuration languages bas
 
 | Latest release | TYPO3             | PHP   | Updates will contain                           |
 |----------------|-------------------|-------|------------------------------------------------|
-| 5.x            | 12.4 / 13.4       | ≥ 8.1 | (In development)                               |
+| 5.x            | 13.4              | ≥ 8.2 | (In development)                               |
 | 4.x            | 12.4 / 13.4       | ≥ 8.1 | Security and bug fixes (EOL expected Apr 2026) |
 | 3.x            | 11.5 / 12.4       | ≥ 7.4 | End of life (since Oct 2024)                   |
 | 2.x            | 9.5 / 10.4 / 11.5 | ≥ 7.2 | End of life (since Feb 2024)                   |

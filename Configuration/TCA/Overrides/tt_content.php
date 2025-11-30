@@ -9,7 +9,6 @@
 
 use Brotkrueml\CodeHighlight\Extension;
 use Brotkrueml\CodeHighlight\Preview\ContentPreviewRenderer;
-use TYPO3\CMS\Core\Information\Typo3Version;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') || die();
@@ -41,6 +40,7 @@ defined('TYPO3') || die();
             'bodytext' => [
                 'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
                 'config' => [
+                    'renderType' => 'codeEditor',
                     'enableTabulator' => true,
                     'fixedFont' => true,
                     'wrap' => 'off',
@@ -68,15 +68,6 @@ defined('TYPO3') || die();
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended
             ',
     ];
-
-    if (ExtensionManagementUtility::isLoaded('t3editor')) {
-        // @todo Remove when compatibility with TYPO3 v12 is dropped
-        $GLOBALS['TCA']['tt_content']['types'][$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 't3editor';
-    }
-    if ((new Typo3Version())->getMajorVersion() >= 13) {
-        // @todo Always assign the renderType when compatibility with TYPO3 v12 is dropped
-        $GLOBALS['TCA']['tt_content']['types'][$contentType]['columnsOverrides']['bodytext']['config']['renderType'] = 'codeEditor';
-    }
 
     $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'content-codehighlight';
 })();

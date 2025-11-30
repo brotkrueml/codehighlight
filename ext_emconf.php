@@ -11,11 +11,8 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '5.0.0-dev',
     'constraints' => [
         'depends' => [
-            'typo3' => '12.4.0-13.4.99',
-            'fluid_styled_content' => '12.4.0-13.4.99',
-        ],
-        'suggests' => [
-            't3editor' => '',
+            'typo3' => '13.4.0-13.4.99',
+            'fluid_styled_content' => '13.4.0-13.4.99',
         ],
     ],
     'autoload' => [
