@@ -15,11 +15,6 @@ Target group: **Administrators**
 Some basic configuration is available which is explained in the
 :ref:`Configuration <configuration>` section.
 
-.. tip::
-   Install the TYPO3 system extension "t3editor" on TYPO3 v12 to use the
-   features of this editor in the backend content element. In TYPO3 v13 the
-   code editor is always available.
-
 
 .. _installation-composer:
 
