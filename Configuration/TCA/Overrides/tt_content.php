@@ -12,28 +12,31 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') || die();
 
-(static function (): void {
-    $contentType = 'tx_codehighlight_codesnippet';
-
-    ExtensionManagementUtility::addPlugin(
-        [
-            Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title',
-            $contentType,
-            'EXT:' . Extension::KEY . '/Resources/Public/Icons/content-codehighlight.svg',
-            'special',
-        ],
-        'CType',
-        Extension::KEY,
-    );
-
-    $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$contentType] = 'pi_flexform';
-    ExtensionManagementUtility::addPiFlexFormValue(
-        '*',
-        'FILE:EXT:' . Extension::KEY . '/Configuration/FlexForms/Options.xml',
-        $contentType,
-    );
-
-    $GLOBALS['TCA']['tt_content']['types'][$contentType] = [
+ExtensionManagementUtility::addRecordType(
+    [
+        'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.title',
+        'description' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':contentElement.description',
+        'value' => Extension::CE_TYPE,
+        'icon' => 'content-codehighlight',
+    ],
+    '
+        --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
+            --palette--;;general,
+            --palette--;;headers,
+            bodytext,
+        --div--;' . Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options,
+            pi_flexform,
+        --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
+            --palette--;;frames,
+            --palette--;;appearanceLinks,
+        --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
+            --palette--;;language,
+        --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
+            --palette--;;hidden,
+            --palette--;;access,
+        --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended
+    ',
+    [
         'columnsOverrides' => [
             'bodytext' => [
                 'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':codeSnippet',
@@ -48,24 +51,12 @@ defined('TYPO3') || die();
                 'label' => Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options',
             ],
         ],
-        'showitem' => '
-                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-                    --palette--;;general,
-                    --palette--;;headers,
-                    bodytext,
-                --div--;' . Extension::LANGUAGE_PATH_CONTENT_ELEMENT . ':options,
-                    pi_flexform,
-                --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
-                    --palette--;;frames,
-                    --palette--;;appearanceLinks,
-                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
-                    --palette--;;language,
-                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
-                    --palette--;;hidden,
-                    --palette--;;access,
-                --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:extended
-            ',
-    ];
+    ],
+);
 
-    $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'content-codehighlight';
-})();
+$GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][Extension::CE_TYPE] = 'pi_flexform';
+ExtensionManagementUtility::addPiFlexFormValue(
+    '*',
+    'FILE:EXT:' . Extension::KEY . '/Configuration/FlexForms/Options.xml',
+    Extension::CE_TYPE,
+);

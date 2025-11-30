@@ -18,6 +18,8 @@ final class Extension
 {
     public const KEY = 'codehighlight';
 
+    public const CE_TYPE = 'tx_codehighlight_codesnippet';
+
     public const LANGUAGE_PATH_CONTENT_ELEMENT = 'LLL:EXT:' . self::KEY . '/Resources/Private/Language/ContentElement.xlf';
     public const LANGUAGE_PATH_PROGRAMMING_LANGUAGES = 'LLL:EXT:' . self::KEY . '/Resources/Private/Language/ProgrammingLanguages.xlf';
     public const LANGUAGE_PATH_SITE_CONFIGURATION = 'LLL:EXT:' . self::KEY . '/Resources/Private/Language/SiteConfiguration.xlf';
