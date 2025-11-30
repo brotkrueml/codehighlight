@@ -13,11 +13,15 @@ namespace Brotkrueml\CodeHighlight\EventListener;
 
 use Brotkrueml\CodeHighlight\Event\EnrichCodeSnippetEvent;
 use Brotkrueml\CodeHighlight\Extension;
+use TYPO3\CMS\Core\Attribute\AsEventListener;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
 
 /**
  * @internal
  */
+#[AsEventListener(
+    identifier: 'codehighlight/copy-to-clipboard',
+)]
 final readonly class CopyToClipboard
 {
     public function __construct(

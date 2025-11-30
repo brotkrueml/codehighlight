@@ -12,11 +12,15 @@ declare(strict_types=1);
 namespace Brotkrueml\CodeHighlight\EventListener;
 
 use Brotkrueml\CodeHighlight\Event\EnrichCodeSnippetEvent;
+use TYPO3\CMS\Core\Attribute\AsEventListener;
 
 /**
  * @internal
  */
-final class Language
+#[AsEventListener(
+    identifier: 'codehighlight/language',
+)]
+final readonly class Language
 {
     public function __invoke(EnrichCodeSnippetEvent $event): void
     {

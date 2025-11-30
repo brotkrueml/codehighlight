@@ -13,11 +13,15 @@ namespace Brotkrueml\CodeHighlight\EventListener;
 
 use Brotkrueml\CodeHighlight\Event\EnrichCodeSnippetEvent;
 use Brotkrueml\CodeHighlight\Extension;
+use TYPO3\CMS\Core\Attribute\AsEventListener;
 
 /**
  * @internal
  */
-final class CommandLine
+#[AsEventListener(
+    identifier: 'codehighlight/command-line',
+)]
+final readonly class CommandLine
 {
     public function __invoke(EnrichCodeSnippetEvent $event): void
     {

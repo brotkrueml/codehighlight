@@ -13,11 +13,15 @@ namespace Brotkrueml\CodeHighlight\EventListener;
 
 use Brotkrueml\CodeHighlight\Event\EnrichCodeSnippetEvent;
 use Brotkrueml\CodeHighlight\Extension;
+use TYPO3\CMS\Core\Attribute\AsEventListener;
 
 /**
  * @internal
  */
-final class HighlightLines
+#[AsEventListener(
+    identifier: 'codehighlight/highlight-lines',
+)]
+final readonly class HighlightLines
 {
     public function __invoke(EnrichCodeSnippetEvent $event): void
     {
