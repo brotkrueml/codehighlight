@@ -15,27 +15,12 @@ namespace Brotkrueml\CodeHighlight\Configuration;
  * The data transfer object is derived from the site configuration
  * @internal
  */
-final class SiteConfiguration
+final readonly class SiteConfiguration
 {
-    /**
-     * @readonly
-     */
     public string $commandLineDefaultHost;
-    /**
-     * @readonly
-     */
     public string $commandLineDefaultUser;
-    /**
-     * @readonly
-     */
     public string $theme;
-    /**
-     * @readonly
-     */
     public bool $toolbarCopyToClipboard;
-    /**
-     * @readonly
-     */
     public bool $useUrlHash;
 
     /**
