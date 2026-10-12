@@ -38,6 +38,10 @@ jobs:
             typo3-versions: 13
           - php-versions: 8.5
             typo3-versions: 14
+          - php-versions: 8.6
+            typo3-versions: 13
+          - php-versions: 8.6
+            typo3-versions: 14
     env:
       PHP_VERSION: ${{ matrix.php-versions }}
       TYPO3_VERSION: ${{ matrix.typo3-versions }}
