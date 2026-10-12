@@ -68,6 +68,5 @@ tests-php: vendor ## Run PHP tests
 vendor: composer.json $(wildcard composer.lock) ## Install PHP dependencies
 	composer install
 
-.PHONY: zip
-zip:
-	grep -Po "(?<='version' => ')([0-9]+\.[0-9]+\.[0-9]+)" ext_emconf.php | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o "../zip/$(shell basename $(CURDIR))_{version}.zip" v{version}'
+zip: ## Build ZIP file for upload on extensions.typo3.org
+	grep -Po '(?<="version": ")([0-9]+\.[0-9]+\.[0-9]+)' composer.json | xargs -I {version} sh -c 'mkdir -p ../zip; git archive -v -o "../zip/$(shell basename $(CURDIR))_{version}.zip" v{version}'
