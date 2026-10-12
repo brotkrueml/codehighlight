@@ -3,5 +3,6 @@
 .phpunit.cache
 composer.lock
 node_modules
+var
 yarn-error.log
 *GENERATED*
