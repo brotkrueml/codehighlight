@@ -6,13 +6,13 @@
   },
   "devDependencies": {
     "del": "^6.0.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-nunjucks": "^5.1.0",
-    "gulp-rename": "^2.0.0",
+    "gulp-rename": "^2.1.0",
     "gulp-uglify": "^3.0.2",
-    "patch-package": "^8.0.0",
+    "patch-package": "^8.0.1",
     "postinstall-postinstall": "^2.1.0"
   },
   "scripts": {
