@@ -60,7 +60,7 @@
 				"providesPackages": {}
 			},
 			"extension-key": "codehighlight",
-			"version": "5.0.1-dev",
+			"version": "5.0.1",
 			"web-dir": ".Build/web"
 		}
 	}
