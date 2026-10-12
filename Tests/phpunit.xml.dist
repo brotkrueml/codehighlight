@@ -4,7 +4,6 @@
     xsi:noNamespaceSchemaLocation="../.Build/vendor/phpunit/phpunit/phpunit.xsd"
     beStrictAboutOutputDuringTests="true"
     cacheDirectory=".phpunit.cache"
-    cacheResult="false"
     executionOrder="random"
     failOnRisky="true"
     failOnWarning="true"

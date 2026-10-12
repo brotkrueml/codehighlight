@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
-use Rector\PHPUnit\Set\PHPUnitSetList;
+use Rector\TypeDeclaration\Rector\StmtsAwareInterface\SafeDeclareStrictTypesRector;
 
 return RectorConfig::configure()
     ->withPaths([
@@ -25,7 +25,13 @@ return RectorConfig::configure()
         typeDeclarations: true,
         earlyReturn: true,
     )
-    ->withSets([
-        PHPUnitSetList::PHPUNIT_100,
-    ])
-    ->withRootFiles();
+    ->withComposerBased(
+        phpunit: true,
+    )
+    ->withRootFiles()
+    ->withSkip([
+        SafeDeclareStrictTypesRector::class => [
+            __DIR__ . '/ext_emconf.php',
+        ]
+    ]);
+
