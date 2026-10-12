@@ -11,6 +11,12 @@ and this project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0
 `Unreleased <https://github.com/brotkrueml/codehighlight/compare/v5.0.0...HEAD>`_
 -------------------------------------------------------------------------------------
 
+Fixed
+^^^^^
+
+
+* Deprecation about ext_emconf.php in classic mode with TYPO3 v14
+
 `5.0.0 <https://github.com/brotkrueml/codehighlight/compare/v4.2.1...v5.0.0>`_ - 2025-11-30
 -----------------------------------------------------------------------------------------------
 
